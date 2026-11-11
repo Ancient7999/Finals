@@ -1,0 +1,323 @@
+/**
+ * Formula practice screen (port of the Med Physics Finals site's formula mode).
+ * A material opts in with "formulas": { "gen": "FinalsFormulaGen", "key": "medphys/finals", "draft": true, "title": "..." }
+ * in data/catalog.json. The sets then shows a "Formulas" section with one card.
+ * Flow (same as Finals): generated multiple-choice item; a wrong answer greys that option and
+ * shows the formula, then more working on each further wrong answer; "Show formula" reveals
+ * it on request. Next generates a question from the least-answered formula; Back
+ * reviews this session. Relevant solved questions reveal an interactive ray sketch.
+ * Counts are kept per material in localStorage (fp_count:<key>, fp_family:<key>).
+ */
+(function () {
+  'use strict';
+  let cfg = null, gen = null, q = null, keys = [], curKey = '', wrong = 0, hintLevel = 0, locked = false;
+  let bankQueue = [], bankKeys = [], clock = null, started = 0, diagram = null, history = [], historyIndex = -1;
+
+  const $ = id => document.getElementById(id);
+  function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+  function countKey() { return 'fp_count:' + cfg.key; }
+  function familyKey() { return 'fp_family:' + cfg.key; }
+  function total() { const n = parseInt(ls(countKey()) || '0', 10); return n > 0 ? n : 0; }
+  function families() { try { return JSON.parse(ls(familyKey()) || '{}') || {}; } catch (e) { return {}; } }
+  function famCount(k) { const m = families(); return (m[k] && m[k].total) || 0; }
+  function famTitle(k) { const md = (gen && gen.FORMULA_METADATA[k]) || bankNames()[k]; return (md && md.name) || k || 'Formulas'; }
+  /* Calculation questions from the bank, registered per chapter with "formula": {chapter, key}. */
+  function bankSource() { return (window.StudyQuiz && typeof StudyQuiz.formulaBank === 'function') ? StudyQuiz.formulaBank() : { questions: [], names: {} }; }
+  function bankNames() { return bankSource().names || {}; }
+  function bankFor(chId) { return chId ? bankSource().questions.filter(b => b.formula && b.formula.chapter === chId) : []; }
+  /* formulas on a chapter card: generated ones plus bank-only ones */
+  function formulaCount(ch) { const ks = ch.keys.slice(); bankFor(ch.id).forEach(b => { if (ks.indexOf(b.formula.key) < 0) ks.push(b.formula.key); }); return ks.length; }
+  function fromBank(b) {
+    const key = b.formula.key, md = (gen && gen.FORMULA_METADATA[key]) || bankNames()[key] || {};
+    const order = b.options.map((_, i) => i).sort(() => Math.random() - 0.5);
+    return { id: b.__id || b.id, bankId: b.id, q: b.q, options: order.map(i => b.options[i]), correct: order.indexOf(b.correct),
+      explain: b.explain || '', formulaKey: key, formulaEq: md.description || '', _formulaVariant: 'bank',
+      formulaWorked: b.formula.worked || null,
+      // registered optics givens: the same drawing task as generated questions
+      formulaDiagram: b.formula.diagram ? { kind: b.formula.diagram.kind, values: Object.assign({}, b.formula.diagram.values), target: b.formula.diagram.target, precision: b.formula.diagram.precision } : undefined,
+      answerValue: b.formula.diagram ? b.formula.diagram.answerValue : undefined };
+  }
+  function bump(k, variant) {
+    const m = families(); if (!m[k]) m[k] = { total: 0, byVariant: {} };
+    m[k].total++; const vk = String(variant == null ? 0 : variant); m[k].byVariant[vk] = (m[k].byVariant[vk] || 0) + 1;
+    ls(familyKey(), JSON.stringify(m)); ls(countKey(), String(total() + 1));
+  }
+  /* Next: the least-solved formula of this section first (solved = credited, so a shown, wrong or
+     Back-reviewed question does not count). A family can be picked while it has a generator or a bank
+     question not yet served this session; its bank questions come first, each once, then generated ones.
+     Ties are broken at random. */
+  function eligibleFamilies() {
+    const out = keys.filter(k => gen && gen.QUESTION_GENERATORS && gen.QUESTION_GENERATORS[k]);
+    bankQueue.forEach(b => { if (out.indexOf(b.formula.key) < 0) out.push(b.formula.key); });
+    return out;
+  }
+  function pickFamily(random) {
+    const fams = eligibleFamilies(); if (!fams.length) return keys[0];
+    if (random) return fams[Math.floor(Math.random() * fams.length)];
+    let min = Infinity; fams.forEach(k => { const c = famCount(k); if (c < min) min = c; });
+    const c = fams.filter(k => famCount(k) === min);
+    return c[Math.floor(Math.random() * c.length)];
+  }
+  function configFor(mat) { return mat && mat.formulas && window[mat.formulas.gen] ? mat.formulas : null; }
+
+  /* —— set cards — one per Finals chapter (draft) —— */
+const FINALS_CHAPTERS = [
+  { id: 'ch7', title: 'Chapter 7', subtitle: 'Atomic and nuclear physics (draft)',
+    keys: ['photonEnergy','deBroglie','nuclearRadius','halfLife','activity','absorbedDose','doseEquivalent'], draft: true }
+];
+
+function appendSetsSection(host) {
+  const mat = window.__activeMaterial; const c = mat && mat.formulas;
+  if (!c) return;
+  cfg = c; gen = window[c.gen] || null;
+  const header = document.createElement('div');
+  header.style.cssText = 'display:flex;align-items:baseline;gap:12px;margin-bottom:8px';
+  const h = document.createElement('div'); h.className = 'section-h'; h.textContent = 'Formulas';
+  const desc = document.createElement('div'); desc.className = 'card-desc-formula'; desc.textContent = 'Unlimited practice with formula hints';
+  desc.style.margin = '0';
+  header.appendChild(h);
+  header.appendChild(desc);
+  host.appendChild(header);
+  const grid = document.createElement('div'); grid.className = 'grid';
+
+  if (!gen) {
+    const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'card formula-card'; btn.disabled = true;
+    btn.innerHTML = '<div class="card-top"><span class="form-letter">Formulas</span></div><div class="card-desc-formula">Generator failed to load</div>';
+    grid.appendChild(btn);
+  } else {
+    FINALS_CHAPTERS.forEach(ch => {
+      const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'card formula-card';
+      btn.dataset.card = 'formulas-' + ch.id;
+      const isDraft = !!(c.draft || ch.draft);
+      const extraBadge = isDraft
+        ? '<span class="card-badge draft" title="Unfinished · still being written">Draft</span>'
+        : '';
+      const badgeHtml = extraBadge ? '<div class="card-badges">' + extraBadge + '</div>' : '';
+      const titleWithBadge = '<span class="form-letter">' + ch.title + '</span>' +
+  (extraBadge ? '<span class="card-badge draft" title="Unfinished · still being written" style="margin-left:8px">Draft</span>' : '');
+
+btn.innerHTML = '<div class="card-top">' + titleWithBadge + '</div>' +
+  '<div class="card-sub">' + formulaCount(ch) + ' formulas' + (bankFor(ch.id).length ? ' · ' + bankFor(ch.id).length + ' bank questions' : '') + ' · ' + ch.subtitle + '</div>' +
+  '<div class="card-stats"><div class="card-pct">' + total() + ' answered</div></div>';
+      btn.addEventListener('click', () => start(ch.keys, ch.id));
+      grid.appendChild(btn);
+    });
+  }
+  host.appendChild(grid);
+}
+
+  /* —— run —— */
+  function start(ks, chId) {
+    bankQueue = bankFor(chId).slice();
+    bankKeys = bankQueue.map(b => b.formula.key).filter((k, i, a) => a.indexOf(k) === i);
+    const mat = window.__activeMaterial; const c = configFor(mat); if (!c) return;
+    cfg = c; gen = window[c.gen];
+    keys = (ks && ks.length) ? ks.slice() : gen.allKeys();
+    history = []; historyIndex = -1;
+    $('formulaTitle').textContent = (c.title || 'Formulas');
+    started = Date.now(); clearInterval(clock);
+    clock = setInterval(() => { const e = Math.floor((Date.now() - started) / 1000); $('formulaElapsed').textContent = String(Math.floor(e / 60)).padStart(2, '0') + ':' + String(e % 60).padStart(2, '0'); }, 1000);
+    $('formulaElapsed').textContent = '00:00';
+    if (typeof showView === 'function') showView('formulaView');
+    next(false);
+  }
+  function next(random) {
+    wrong = 0; hintLevel = 0; locked = false;
+    saveDrawing();
+    const fam = pickFamily(random), bi = bankQueue.findIndex(b => b.formula.key === fam);
+    q = bi >= 0 ? fromBank(bankQueue.splice(bi, 1)[0]) : gen.generateQuestion([fam]);
+    history = history.slice(0, historyIndex + 1);
+    history.push({ question: q, solved: false, drawing: null, credited: false }); historyIndex++;
+    curKey = q.formulaKey;
+    render();
+  }
+  function back() {
+    if (historyIndex <= 0) return;
+    saveDrawing();
+    const entry = history[--historyIndex]; q = entry.question; locked = entry.solved;
+    wrong = 0; hintLevel = 0; curKey = q.formulaKey; render();
+  }
+  function solvedUI() {
+    const btns = document.querySelectorAll('#formulaOptions .opt');
+    btns.forEach((b, k) => { b.disabled = true; if (k === q.correct) b.classList.add('correct'); });
+    const fb = $('formulaFeedback'); fb.className = 'feedback good'; mathText(fb, '✓ ' + (q.explain || ''));
+    if (diagram) diagram.show();
+    $('formulaWorkspace').classList.toggle('has-diagram', !!diagram);
+    gateNext();
+  }
+  /* A question with a diagram counts once the drawing is complete; Next waits for it. */
+  function pending() { return !!(locked && diagram && !diagram.done); }
+  function gateNext() {
+    const b = $('formulaRollBtn'); b.disabled = pending();
+    b.title = b.disabled ? 'Finish the diagram to continue' : '';
+  }
+  function saveDrawing() { if (diagram && history[historyIndex]) history[historyIndex].drawing = diagram.getState(); }
+  function credit() {
+    const entry = history[historyIndex]; if (!entry || entry.credited) return;
+    entry.credited = true;
+    bump(q.formulaKey, q._formulaVariant);
+    if (window.FinalsUnlocks && FinalsUnlocks.formulaSolved && cfg) FinalsUnlocks.formulaSolved(cfg.key);
+    chrome();
+  }
+  function drawingDone() {
+    saveDrawing(); gateNext(); credit();
+    const panel = $('formulaPanel'); panel.classList.add('correct-pulse'); setTimeout(() => panel.classList.remove('correct-pulse'), 650);
+    if (typeof spawnConfetti === 'function') { try { spawnConfetti(); } catch (e) {} }
+  }
+  function render() {
+    if (diagram) diagram.destroy();
+    const entry = history[historyIndex];
+    diagram = window.FormulaDiagram ? FormulaDiagram.mount($('formulaDiagram'), q, drawingDone, entry && entry.drawing) : null;
+    $('formulaDiagram').hidden = true;
+    $('formulaWorkspace').classList.remove('has-diagram');
+    $('formulaBackBtn').disabled = historyIndex <= 0;
+    mathText($('formulaQText'), q.q);
+    const opts = $('formulaOptions'); opts.innerHTML = '';
+    q.options.forEach((o, i) => {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'opt'; b.dataset.key = String.fromCharCode(65 + i);
+      mathText(b, o); b.addEventListener('click', () => select(i)); opts.appendChild(b);
+    });
+    const fb = $('formulaFeedback'); fb.className = 'feedback idle'; fb.textContent = '';
+    $('formulaHintBox').classList.remove('show');
+    setShowUsed(false);
+    if (locked) solvedUI(); else gateNext();
+    chrome();
+  }
+  function chrome() {
+    const strip = $('formulaFamilyStrip'); strip.innerHTML = '';
+    // bank-only formulas (no generator) are listed too, but never generated
+    keys.concat(bankKeys.filter(k => keys.indexOf(k) < 0)).forEach(k => {
+      const s = document.createElement('span'); s.className = 'ff-title' + (k === curKey ? ' active' : '');
+      const n = famCount(k); s.textContent = famTitle(k) + ' ' + n; s.title = famTitle(k) + ' · ' + n + ' answered';
+      strip.appendChild(s);
+    });
+    $('formulaStatus').textContent = 'Formulas · ' + famTitle(curKey) + ' · ' + famCount(curKey) + ' answered · total ' + total();
+  }
+  /* "Show formula": worked help in rows — givens, formula, rearranged, substitution, result.
+     Bank questions carry it in formula.worked; generated ones build it from their own numbers. */
+  function workedRows(level) {
+    const w = q.formulaWorked;
+    if (!w) {
+      const lines = [q.formulaHint || q.formulaEq || ''];
+      (q.formulaMap || []).forEach(l => lines.push(l));
+      if (q.formulaPlugIn) lines.push(q.formulaPlugIn);
+      if (level >= 3) (q.formulaSteps || []).filter(x => x !== q.formulaHint).forEach(x => lines.push(x));
+      return lines.filter(Boolean).map(t => ({ label: '', text: t }));
+    }
+    const rows = [];
+    // original formula first, then this question's case and rearranged form, then the numbers
+    if (w.equation) rows.push({ label: 'Formula', text: w.equation });
+    if (w.caseNote || w.branch) rows.push({ label: 'This case', text: [w.caseNote, w.branch].filter(Boolean).join('\n') });
+    if (w.rearranged) rows.push({ label: 'Rearrange', text: w.rearranged });
+    if (w.givens && w.givens.length) rows.push({ label: 'Given', text: w.givens.join('\n') });
+    if (level >= 2 && w.substitution) rows.push({ label: 'Substitute', text: w.substitution });
+    if (level >= 3 && w.result) rows.push({ label: 'Result', text: w.result });
+    return rows;
+  }
+  function hintText(level) { return workedRows(level).map(r => (r.label ? r.label + ': ' : '') + r.text).join('\n'); }
+  function renderWorked(level) {
+    const box = $('formulaHintText'); box.innerHTML = '';
+    workedRows(level).forEach(r => {
+      const row = document.createElement('div'); row.className = 'fh-row';
+      if (r.label) { const l = document.createElement('div'); l.className = 'fh-step'; l.textContent = r.label; row.appendChild(l); }
+      const t = document.createElement('div'); t.className = 'fh-math'; mathText(t, r.text); row.appendChild(t);
+      box.appendChild(row);
+    });
+  }
+  /* a wrong answer opens the help a step at a time (formula, then the numbers, never the result);
+     the Show formula button shows all of it */
+  function reveal(level) {
+    hintLevel = Math.max(hintLevel, level | 0);
+    renderWorked(hintLevel);
+    $('formulaHintBox').classList.add('show');
+    setShowUsed(hintLevel >= 3);
+  }
+  function setShowUsed(u) { const b = $('formulaShowBtn'); b.disabled = !!u; b.classList.toggle('used', !!u); }
+  function select(i) {
+    if (locked || !q) return;
+    const btns = document.querySelectorAll('#formulaOptions .opt'); const fb = $('formulaFeedback');
+    if (i !== q.correct) {
+      const b = btns[i]; if (b) { b.disabled = true; b.classList.add('wrong', 'soft-wrong'); setTimeout(() => b.classList.remove('soft-wrong'), 480); }
+      fb.className = 'feedback soft'; fb.textContent = 'Not that one. Try again.';
+      wrong++; reveal(Math.min(wrong, 2));
+      if (window.StudyAchievements && typeof StudyAchievements.recordWrong === 'function') StudyAchievements.recordWrong();
+      return;
+    }
+    locked = true;
+    history[historyIndex].solved = true;
+    solvedUI();
+    const panel = $('formulaPanel'); panel.classList.add('correct-pulse'); setTimeout(() => panel.classList.remove('correct-pulse'), 650);
+    if (typeof spawnConfetti === 'function') { try { spawnConfetti(); } catch (e) {} }
+    if (!diagram) credit(); else chrome();
+  }
+  function onKey(e) {
+    if (!active()) return;
+    const tag = (e.target && e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea') return;
+    // Calculator owns numpad / letter keys while focused (Tab switches back to formulas)
+    if (typeof window.FinalsCalcKeysBlocked === 'function' && window.FinalsCalcKeysBlocked()) return;
+    if (e.key === 'Escape') { e.preventDefault(); leave(); return; }
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (/^[1-4]$/.test(e.key)) {
+      const b = document.querySelectorAll('#formulaOptions .opt')[+e.key - 1]; if (b && !b.disabled) { e.preventDefault(); kbHighlight(null); b.click(); }
+      return;
+    }
+    // arrows as in normal quizzes: ↑ ↓ highlight a choice, Enter picks it; ← Back, → or Enter Next once
+    // solved (never past an unfinished diagram). The diagram's own handles keep their arrow keys.
+    if (e.target && e.target.closest && e.target.closest('#formulaDiagram')) return;
+    const opts = [...document.querySelectorAll('#formulaOptions .opt')].filter(b => !b.disabled);
+    if ((e.key === 'ArrowUp' || e.key === 'ArrowDown') && opts.length && !locked) {
+      e.preventDefault();
+      const i = opts.findIndex(b => b.classList.contains('kb-hl'));
+      const n = i < 0 ? (e.key === 'ArrowDown' ? 0 : opts.length - 1) : (i + (e.key === 'ArrowDown' ? 1 : -1) + opts.length) % opts.length;
+      kbHighlight(opts[n]);
+      // the focus ring follows the highlight, so the choice that Enter will pick is the one you see
+      const ae = document.activeElement;
+      if (!ae || ae === document.body || (ae.closest && ae.closest('#formulaPanel'))) { try { opts[n].focus({ preventScroll: true }); } catch (er) { opts[n].focus(); } }
+      return;
+    }
+    // a choice button keeps focus after it is clicked; once solved it must not swallow Enter
+    let onBtn = e.target && e.target.closest && e.target.closest('button,a,[role="button"]');
+    if (onBtn && locked && onBtn.closest('#formulaOptions')) onBtn = null;
+    if (e.key === 'Enter' && !locked) {
+      const hl = opts.find(b => b.classList.contains('kb-hl'));
+      if (hl) { e.preventDefault(); kbHighlight(null); hl.click(); }
+      return;
+    }
+    if ((e.key === 'ArrowRight' || (e.key === 'Enter' && !onBtn)) && locked) {
+      const nb = $('formulaRollBtn'); e.preventDefault(); if (nb && !nb.disabled && !pending()) nb.click(); return;
+    }
+    if (e.key === 'ArrowLeft') { const bb = $('formulaBackBtn'); e.preventDefault(); if (bb && !bb.disabled) bb.click(); }
+  }
+  /* formulas as KaTeX: T_C, v_S… and any \( \) already in bank text; plain text stays text */
+  function mathText(el, s) {
+    const esc = String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    if (typeof renderMathIn === 'function') { el.innerHTML = typeof mathSubscripts === 'function' ? mathSubscripts(esc) : esc; renderMathIn(el); }
+    else el.textContent = String(s == null ? '' : s);
+  }
+  function kbHighlight(btn) {
+    document.querySelectorAll('#formulaOptions .opt.kb-hl').forEach(b => b.classList.remove('kb-hl'));
+    if (btn) { btn.classList.add('kb-hl'); try { btn.scrollIntoView({ block: 'nearest' }); } catch (e) {} }
+  }
+  function active() { const v = $('formulaView'); return !!(v && v.classList.contains('active')); }
+  function leave() {
+    clearInterval(clock);
+    if (diagram) diagram.destroy(); diagram = null; q = null;
+    $('formulaOptions').innerHTML = ''; $('formulaFeedback').className = 'feedback idle'; $('formulaFeedback').textContent = '';
+    $('formulaWorkspace').classList.remove('has-diagram');
+    if (window.StudyQuiz && StudyQuiz.renderSets) StudyQuiz.renderSets();
+    if (typeof showView === 'function') showView('setsView');
+  }
+
+  function wire() {
+    $('formulaShowBtn').addEventListener('click', () => { if (q && !$('formulaShowBtn').disabled) reveal(3); });
+    $('formulaRollBtn').addEventListener('click', () => { if (q && !pending()) { saveDrawing(); next(false); } });
+    $('formulaBackBtn').addEventListener('click', back);
+    $('formulaSetsBtn').addEventListener('click', leave);
+    window.addEventListener('keydown', onKey);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', wire); else wire();
+
+  window.FormulaPractice = { formulaCount, appendSetsSection, start, next: () => next(false), back, get question() { return q; }, drawingPending: () => pending(), get active() { return active(); }, leave, totalAnswered: () => cfg ? total() : 0 };
+})();

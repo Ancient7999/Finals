@@ -1,0 +1,77 @@
+/* Formula practice (ported from the Med Physics Finals site, quiz/index.html 662–737).
+   Scoped to #formulaView and the sets's formula card; colours come from the portal theme. */
+.finals-q .card-desc-formula{font-family:var(--mono);font-size:.78rem;color:var(--text-dim);margin:2px 0 0;line-height:1.45;opacity:.92}
+.finals-q .card.formula-card .form-letter{font-size:1.05rem}
+#formulaView .formula-hint-box{display:none;margin:10px 0 0;padding:12px 14px;border-radius:12px;border:1px solid rgba(var(--accent-0-rgb),.35);background:rgba(var(--accent-0-rgb),.08);font-family:var(--mono);font-size:.98rem;line-height:1.5;color:var(--accent-1)}
+#formulaView .formula-hint-box.show{display:block}
+#formulaView .formula-hint-box .fh-label{font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-dim);margin-bottom:4px}
+#formulaHintText{white-space:pre-line}
+#formulaView .feedback{font-size:1.08rem}
+#formulaView .elapsed{min-width:0;float:left;margin:1px 10px 3px 0}
+#formulaView .quiz-meta{display:block}
+#formulaView .quiz-meta::after{content:"";display:block;clear:both}
+#formulaView .status-bar{border-bottom:none}
+#formulaFamilyStrip{display:contents;font-family:var(--mono)}
+#formulaView .ff-title{display:inline-flex;align-items:center;gap:4px;margin:1px 6px 2px 0;padding:2px 8px;border-radius:999px;border:1px solid rgba(var(--accent-0-rgb),.18);background:rgba(var(--accent-0-rgb),.04);color:var(--text-dim);opacity:.55;white-space:nowrap;font-family:var(--mono);font-size:.68rem;line-height:1.15;transition:opacity .2s ease,color .2s ease,border-color .2s ease,background .2s ease}
+#formulaView .ff-title.active{opacity:1;color:var(--accent-1);font-weight:600;border-color:rgba(var(--accent-0-rgb),.55);background:rgba(var(--accent-0-rgb),.14);box-shadow:0 0 16px rgba(var(--accent-0-rgb),.22)}
+#formulaShowBtn.used,#formulaShowBtn:disabled{opacity:.32;filter:grayscale(.35);cursor:default}
+#formulaView .nav.formula-nav{gap:10px;flex-wrap:wrap}
+#formulaView .opt.wrong{border-color:rgba(var(--accent-0-rgb),.5);border-left-color:var(--accent-0);background:rgba(var(--accent-0-rgb),.06);color:var(--text);opacity:.6}
+
+/* Phone: denser Formulas layout (pairs with css/finals-calculator.css) */
+html.finals-phone #formulaView .panel{padding:10px 12px}
+html.finals-phone #formulaView .nav.formula-nav{gap:8px;margin-top:8px}
+html.finals-phone #formulaView .nav.formula-nav .nav-btn{padding:9px 12px;font-size:.85rem}
+html.finals-phone #formulaView .formula-hint-box{font-size:.88rem;padding:10px 11px}
+html.finals-phone #formulaView .ff-title{font-size:.62rem;padding:2px 6px}
+
+/* Ray sketches share the formula panel's theme and SVG vocabulary. */
+#formulaView .formula-diagram{margin:14px 0 18px;padding:14px;border:1px solid rgba(var(--accent-0-rgb),.28);border-radius:12px;background:transparent;color:var(--text)}
+#formulaView .formula-diagram [hidden],#formulaView .formula-diagram[hidden]{display:none!important}
+#formulaView .fd-heading{font-weight:600;font-size:.9rem;color:var(--accent-1)}
+#formulaView .fd-caption{font-size:.8rem;line-height:1.5;color:var(--text-dim);margin:6px 0 10px}
+#formulaView .fd-svg{display:block;width:100%;max-width:620px;height:auto;margin:0 auto;background:transparent;overflow:visible}
+#formulaView .fd-interface{stroke:var(--text-dim);stroke-width:1.5}
+#formulaView .fd-normal{stroke:var(--text-dim);stroke-width:1.2;stroke-dasharray:5 5;opacity:.7}
+#formulaView .fd-label{fill:var(--text);font-family:var(--mono);font-size:13px}
+#formulaView .formula-diagram input:focus-visible,#formulaView .formula-diagram button:focus-visible{outline:2px solid var(--accent-1);outline-offset:3px}
+#formulaView .formula-diagram input[aria-invalid=true]{border-color:var(--accent-1);box-shadow:0 0 0 2px rgba(var(--accent-0-rgb),.25)}
+
+#formulaView .formula-workspace{display:block}
+#formulaView .formula-work{min-width:0}
+#formulaView .has-diagram{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(320px,1fr);gap:20px;align-items:start}
+#formulaView .has-diagram .formula-diagram{margin:0}
+#formulaView .fd-hint{padding:10px;border-left:2px solid var(--accent-0);background:rgba(var(--accent-0-rgb),.06)}
+@media(max-width:900px){#formulaView .has-diagram{grid-template-columns:minmax(0,1fr)}}
+
+/* Drawing task */
+#formulaView .fd-tools,#formulaView .fd-actions{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+#formulaView .fd-tool[aria-pressed=true]{border-color:var(--accent-0);color:var(--accent-1);box-shadow:0 0 0 2px rgba(var(--accent-0-rgb),.25)}
+#formulaView .fd-tool.done{opacity:.55}
+#formulaView .fd-tool.done::before{content:"✓ "}
+#formulaView .fd-draw{touch-action:none;cursor:crosshair;-webkit-user-select:none;user-select:none}
+#formulaView .fd-complete{cursor:default}
+#formulaView .fd-dim{fill:var(--text-dim)}
+#formulaView .fd-origin{fill:var(--accent-1)}
+#formulaView .fd-line line,#formulaView .fd-line path{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+#formulaView .fd-normal line{stroke:var(--text-dim);stroke-dasharray:6 5}
+#formulaView .fd-incident line,#formulaView .fd-incident path{stroke:var(--accent-0)}
+#formulaView .fd-refracted line,#formulaView .fd-refracted path{stroke:var(--accent-1)}
+#formulaView .fd-line:not(.fd-locked) line{opacity:.75}
+#formulaView .fd-snapped line{opacity:1;filter:drop-shadow(0 0 4px rgba(var(--accent-0-rgb),.7))}
+#formulaView .fd-locked line{opacity:1}
+#formulaView .fd-ghost{stroke:var(--accent-1);stroke-width:8;stroke-linecap:round;opacity:.22;pointer-events:none}
+#formulaView .fd-handle{fill:rgba(var(--accent-0-rgb),.18);stroke:var(--accent-0);stroke-width:2;cursor:grab;transition:r .12s ease}
+#formulaView .fd-active .fd-handle{r:15}
+#formulaView .fd-locked .fd-handle{fill:var(--accent-1);stroke:none;r:5;cursor:default}
+#formulaView .fd-handle:focus-visible{outline:none;stroke:var(--accent-1);stroke-width:4}
+#formulaView .fd-readout{fill:var(--accent-1)}
+#formulaView .fd-status{min-height:1.5em;color:var(--text)}
+@media(max-width:520px){#formulaView .formula-diagram{padding:10px}#formulaView .fd-label{font-size:14px}}
+@media(prefers-reduced-motion:reduce){#formulaView .fd-handle{transition:none}}
+/* worked help rows (Show formula) */
+#formulaHintText .fh-row{display:grid;grid-template-columns:minmax(5.5em,auto) 1fr;gap:4px 12px;align-items:baseline;padding:4px 0}
+#formulaHintText .fh-row+.fh-row{border-top:1px dashed rgba(var(--accent-0-rgb),.2)}
+#formulaHintText .fh-step{font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-dim)}
+#formulaHintText .fh-math{white-space:pre-line;overflow-wrap:anywhere}
+@media (max-width:480px){#formulaHintText .fh-row{grid-template-columns:1fr}}

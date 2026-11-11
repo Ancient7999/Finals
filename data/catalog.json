@@ -1,0 +1,88 @@
+{
+  "title": "Finals",
+  "version": 2,
+  "subjects": [
+    {
+      "id": "finals",
+      "name": "Finals",
+      "locked": false,
+      "materials": [
+        {
+          "id": "english-finals",
+          "title": "English",
+          "subtitle": "Question banks not ready yet",
+          "locked": false,
+          "draft": false,
+          "finalsEmpty": true,
+          "week": "Week 16-18"
+        },
+        {
+          "id": "medterm-finals",
+          "title": "Medical Terminology",
+          "subtitle": "Question banks not ready yet",
+          "locked": false,
+          "draft": false,
+          "finalsEmpty": true,
+          "week": "Week 16-18"
+        },
+        {
+          "id": "anatomy-finals",
+          "title": "Anatomy",
+          "subtitle": "Question banks not ready yet",
+          "locked": false,
+          "draft": false,
+          "finalsEmpty": true,
+          "week": "Week 16-18"
+        },
+        {
+          "id": "medphys-finals",
+          "title": "Medical Physics",
+          "subtitle": "Chapters 7–8 (draft)",
+          "locked": false,
+          "draft": true,
+          "comingSoon": false,
+          "week": "Week 16-18",
+          "lectures": [
+            {
+              "id": "ch7",
+              "title": "Chapter 7: Atomic and Nuclear Physics",
+              "bank": "banks/medphys/finals/chapter-7-atomic-and-nuclear-physics.json",
+              "status": "ready",
+              "draft": true
+            },
+            {
+              "id": "ch8",
+              "title": "Chapter 8: Electricity and Magnetism",
+              "bank": "banks/medphys/finals/chapter-8-electricity-and-magnetism.json",
+              "status": "ready",
+              "draft": true
+            },
+            {
+              "id": "mixed-ch7",
+              "title": "Mixed Chapters",
+              "bank": "banks/medphys/finals/mixed-chapters.json",
+              "status": "ready",
+              "draft": true
+            }
+          ],
+          "formulas": {
+            "gen": "FinalsFormulaGen",
+            "key": "medphys/finals",
+            "title": "Formulas · Finals",
+            "scope": "Chapter 7 · Atomic and Nuclear Physics",
+            "draft": true
+          }
+        },
+        {
+          "id": "studyskills-finals",
+          "title": "Study Skills",
+          "subtitle": "Question banks not ready yet",
+          "locked": false,
+          "draft": false,
+          "finalsEmpty": true,
+          "week": "Week 16-18"
+        }
+      ]
+    }
+  ]
+}

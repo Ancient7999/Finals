@@ -1,0 +1,301 @@
+/* Finals calculator — Formulas toggle + desktop float / phone slide-up sheet. */
+#settings-wrapper{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+/* Wrapper is pointer-events:none (colorizer); children must opt back in (Settings already does). */
+#settings-wrapper > *{ pointer-events:auto!important; }
+#calc-toggle-btn{
+  width:44px!important;
+  height:44px!important;
+  border-radius:50%!important;
+  background:rgba(var(--accent-0-rgb),.08)!important;
+  /* Match Settings text button border (not solid accent-0) */
+  border:1px solid rgba(var(--accent-0-rgb),.28)!important;
+  color:var(--accent-0)!important;
+  cursor:pointer!important;
+  display:none!important;
+  align-items:center!important;
+  justify-content:center!important;
+  padding:0!important;
+  box-shadow:none!important;
+  transition:transform .2s, background .2s, border-color .2s, box-shadow .2s!important;
+  margin:0!important;
+  flex-shrink:0;
+  position:relative!important;
+  z-index:1;
+}
+body.finals-formula-calc #calc-toggle-btn{ display:flex!important; }
+#calc-toggle-btn:hover{
+  background:rgba(var(--accent-0-rgb),.14)!important;
+  border-color:rgba(var(--accent-0-rgb),.55)!important;
+  box-shadow:0 0 18px rgba(var(--accent-0-rgb),.28)!important;
+}
+#calc-toggle-btn[aria-pressed="true"]{
+  background:rgba(var(--accent-0-rgb),.18)!important;
+  border-color:rgba(var(--accent-0-rgb),.55)!important;
+  box-shadow:0 0 18px rgba(var(--accent-0-rgb),.28)!important;
+}
+#calc-toggle-btn:active{ transform:scale(.97)!important; }
+#calc-toggle-btn:focus-visible{
+  outline:2px solid var(--accent-1)!important;
+  outline-offset:3px!important;
+}
+
+/* Extra header room when the calc toggle is visible (desktop) */
+body.finals-formula-calc{ --finals-settings-room:9.5rem; }
+
+/* Beta tag next to the calculator brand */
+#calculator-widget .brand-name .calc-beta{
+  display:inline-block;
+  margin-left:6px;
+  font-size:8px;
+  font-weight:700;
+  letter-spacing:0.12em;
+  text-transform:lowercase;
+  color:var(--accent-1, var(--accent-2, #00e5e5));
+  text-shadow:0 0 8px rgba(var(--accent-1-rgb, var(--accent-0-rgb)), 0.45);
+  vertical-align:middle;
+  position:relative;
+  top:-1px;
+}
+
+/* Phone: free-drag floating calculator (no sheet lock; same drag as desktop). */
+
+
+/* —— Layered translucent calc backgrounds (ATC-Math / RSO layer system on soft calculator-repo shell) ——
+   Layer 1: frosted multi-stop .calc-body fill at ATC ~0.85 alpha so quiz content shows through.
+   Layer 2: vendor .calc-body::before wallpaper wave (opacity 0.15) + soft theme overlays.
+   Soft shell kept: asymmetric radius, thin accent border, backdrop blur, inset depth (from calculator.css).
+   Opacity is backgrounds only — never fade calc content/buttons. */
+#calculator-widget .calc-body{
+  background:
+    linear-gradient(165deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.02) 32%, transparent 55%),
+    radial-gradient(ellipse at 22% 8%, rgba(var(--accent-0-rgb), 0.12), transparent 50%),
+    linear-gradient(160deg, rgba(10,10,26,0.85) 0%, rgba(13,5,32,0.82) 48%, rgba(8,8,24,0.85) 100%) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+#calculator-widget .calc-body::before{
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+#calculator-widget #calcCosmicCanvas{
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+}
+#calculator-widget .calc-theme-overlay{
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 3;
+}
+/* Inactive = answers focused: soften background glow only (not content fade) */
+#calculator-widget.calc-inactive .calc-body{
+  background:
+    linear-gradient(165deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.015) 32%, transparent 55%),
+    radial-gradient(ellipse at 22% 8%, rgba(var(--accent-0-rgb), 0.06), transparent 50%),
+    linear-gradient(160deg, rgba(10,10,26,0.72) 0%, rgba(13,5,32,0.70) 48%, rgba(8,8,24,0.74) 100%) !important;
+  box-shadow:
+    0 0 0 1px rgba(var(--accent-0-rgb), 0.06),
+    0 22px 52px -18px rgba(0,0,0,0.75),
+    0 8px 22px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    inset 0 -1px 0 rgba(0,0,0,0.22) !important;
+}
+#calculator-widget.calc-inactive .calc-body::before{
+  opacity: 0.09;
+}
+
+/* Basic theme: keep calc frosted layers (global basic rules strip backdrop-filter / animation / shadows) */
+html.finals-basic #calculator-widget .calc-body{
+  -webkit-backdrop-filter: blur(16px) !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow:
+    0 0 0 1px rgba(var(--accent-0-rgb), 0.10),
+    0 28px 64px -18px rgba(0,0,0,0.85),
+    0 10px 28px rgba(0,0,0,0.40),
+    inset 0 1px 0 rgba(255,255,255,0.09),
+    inset 0 -1px 0 rgba(0,0,0,0.28) !important;
+}
+html.finals-basic #calculator-widget .calc-body::before{
+  animation: calcWallpaperWave 20s ease infinite !important;
+  opacity: 0.15 !important;
+}
+html.finals-basic #calculator-widget.calc-inactive .calc-body::before{
+  opacity: 0.09 !important;
+}
+
+/* —— Drag areas: chrome + padding grab; buttons / display interact —— */
+#calculator-widget{
+  cursor: grab;
+}
+#calculator-widget .calc-header,
+#calculator-widget .brand-name,
+#calculator-widget .solar-panel,
+#calculator-widget .calc-body{
+  cursor: grab;
+}
+#calculator-widget .calc-btn,
+#calculator-widget .nav-btn,
+#calculator-widget .info-btn,
+#calculator-widget .info-close,
+#calculator-widget .calc-toggle-btn{
+  cursor: pointer;
+}
+#calculator-widget .calc-display{
+  cursor: default;
+}
+#calculator-widget .btn-dis{
+  cursor: not-allowed;
+}
+
+/* Suppress all system cursors on the calculator when a custom cursor is active */
+html[data-custom-cursor]:not([data-custom-cursor="off"]) #calculator-widget,
+html[data-custom-cursor]:not([data-custom-cursor="off"]) #calculator-widget *,
+html[data-custom-cursor]:not([data-custom-cursor="off"]) #calc-toggle-btn {
+  cursor: none !important;
+}
+
+/* —— Phone chrome: Settings (+ calculator) stay top-right with room; titles do not run under them —— */
+html.finals-phone .settings-wrapper{
+  position:fixed!important;
+  top:max(10px, env(safe-area-inset-top, 0px))!important;
+  right:max(10px, env(safe-area-inset-right, 0px))!important;
+  left:auto!important;
+  bottom:auto!important;
+  z-index:10001!important;
+  display:flex!important;
+  flex-direction:row!important;
+  align-items:center!important;
+  gap:6px!important;
+  margin:0!important;
+  pointer-events:none!important;
+  transform:none!important;
+}
+html.finals-phone .settings-wrapper > *{ pointer-events:auto!important; }
+html.finals-phone #settings-wrapper #settings-btn.finals-settings-text{
+  padding:7px 11px!important;
+  font-size:.72rem!important;
+  line-height:1.15!important;
+  white-space:nowrap!important;
+}
+html.finals-phone #calc-toggle-btn{
+  width:30px!important;
+  height:30px!important;
+}
+html.finals-phone #calc-toggle-btn svg{ width:15px; height:15px; }
+
+/* Phone: much smaller Quantifier panel (~55vw max, scaled down) */
+html.finals-phone #calculator-widget{
+  transform: scale(0.68)!important;
+  transform-origin: top right!important;
+  max-width: min(55vw, 240px)!important;
+}
+html.finals-phone #calculator-widget .calc-body{
+  width: min(55vw, 240px)!important;
+  max-width: min(55vw, 240px)!important;
+  box-sizing: border-box!important;
+  padding: 10px 9px!important;
+  border-radius: 4px 16px 4px 16px!important;
+}
+html.finals-phone #calculator-widget .calc-header{ margin-bottom:6px!important; }
+html.finals-phone #calculator-widget .brand-name{ font-size:7px!important; letter-spacing:0.8px!important; top:-2px!important; }
+html.finals-phone #calculator-widget .brand-name .calc-beta{ font-size:6px!important; margin-left:3px!important; }
+html.finals-phone #calculator-widget .solar-panel{
+  width:36px!important;
+  height:18px!important;
+}
+html.finals-phone #calculator-widget .calc-display{
+  padding:3px 5px 4px!important;
+  margin-bottom:5px!important;
+  min-height:52px!important;
+  border-radius:3px 8px 3px 8px!important;
+}
+html.finals-phone #calculator-widget .display-status{ font-size:7px!important; margin-bottom:1px!important; }
+html.finals-phone #calculator-widget .stat-pill{ font-size:6px!important; padding:0 2px!important; }
+html.finals-phone #calculator-widget .display-expr{ font-size:9px!important; min-height:11px!important; }
+html.finals-phone #calculator-widget .display-main{ font-size:14px!important; min-height:16px!important; }
+html.finals-phone #calculator-widget .blk-cursor{ font-size:13px!important; }
+html.finals-phone #calculator-widget #errMsg{ font-size:7px!important; min-height:10px!important; }
+html.finals-phone #calculator-widget .calc-buttons{ gap:4px!important; }
+html.finals-phone #calculator-widget .btn-top-section,
+html.finals-phone #calculator-widget .btn-top-left,
+html.finals-phone #calculator-widget .btn-row,
+html.finals-phone #calculator-widget .btn-row-full{ gap:4px!important; }
+html.finals-phone #calculator-widget .btn-main-grid{ gap:4px!important; }
+html.finals-phone #calculator-widget .nav-pad-outer{ width:54px!important; gap:2px!important; }
+html.finals-phone #calculator-widget .nav-row{ gap:2px!important; }
+html.finals-phone #calculator-widget .calc-btn{
+  font-size:9px!important;
+  min-height:20px!important;
+  padding:0!important;
+  border-radius:3px 7px 3px 7px!important;
+}
+html.finals-phone #calculator-widget .btn-num{ font-size:11px!important; }
+html.finals-phone #calculator-widget .btn-op{ font-size:11px!important; }
+html.finals-phone #calculator-widget .btn-2nd{ font-size:9px!important; }
+html.finals-phone #calculator-widget .btn-on{ font-size:8px!important; }
+html.finals-phone #calculator-widget .lbl2{ font-size:5.5px!important; }
+html.finals-phone #calculator-widget .lblsub{ font-size:5px!important; }
+html.finals-phone #calculator-widget .info-btn{
+  width:11px!important;
+  height:11px!important;
+  font-size:7px!important;
+  left:6px!important;
+  top:4px!important;
+}
+html.finals-phone #calculator-widget .info-popup{
+  max-width: min(50vw, 180px)!important;
+  padding:6px 8px 18px!important;
+  font-size:0.65em!important;
+}
+
+/* Title / header clearance for the fixed Settings cluster (wider when calc toggle is shown) */
+html.finals-phone{
+  --finals-settings-room:5.75rem;
+}
+html.finals-phone body.finals-formula-calc{
+  --finals-settings-room:7.5rem;
+}
+html.finals-phone .portal-wrap h1,
+html.finals-phone .sets-wrap h1,
+html.finals-phone #formulaView .header h1,
+html.finals-phone #quizView .header h1,
+html.finals-phone #studyView .study-header h1{
+  padding-right:var(--finals-settings-room)!important;
+  box-sizing:border-box;
+  max-width:100%;
+}
+html.finals-phone .portal-wrap,
+html.finals-phone .sets-wrap{
+  padding-top:8px;
+}
+html.finals-phone .portal-wrap h1{
+  font-size:1.55rem!important;
+  line-height:1.2!important;
+  margin-right:0!important;
+}
+html.finals-phone .sets-wrap h1{
+  font-size:1.45rem!important;
+  line-height:1.2!important;
+}
+html.finals-phone .portal-fs,
+html.finals-phone .sets-back{
+  padding-right:var(--finals-settings-room);
+}
+html.finals-phone .finals-q [data-fs]{
+  margin-right:0!important; /* room already reserved on titles / header rows */
+}
+html.finals-phone #formulaView .header-right,
+html.finals-phone #quizView .header-right{
+  padding-right:0;
+  max-width:100%;
+}
+html.finals-phone #formulaView .header,
+html.finals-phone #quizView .header{
+  padding-right:var(--finals-settings-room);
+  box-sizing:border-box;
+}

@@ -1,0 +1,146 @@
+/* Look options: animation effects, hover sheen, accent modes. Everything here is inert until its html class is set. */
+@property --finals-ang{syntax:'<angle>';inherits:false;initial-value:0deg}
+
+/* —— hover sheen shared by every menu (one overlay that follows the hovered control) —— */
+#finalsGlass{position:fixed;left:0;top:0;width:0;height:0;pointer-events:none;z-index:2147483000;opacity:0;overflow:hidden;
+  transition:opacity .18s ease;
+  background:linear-gradient(180deg,rgba(255,255,255,.11) 0%,rgba(255,255,255,.035) 42%,rgba(255,255,255,0) 62%),
+             linear-gradient(90deg,rgba(var(--accent-0-rgb,255,197,131),.13) 0%,rgba(var(--accent-0-rgb,255,197,131),.03) 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.22),inset 0 0 16px rgba(var(--accent-0-rgb,255,197,131),.15),0 0 22px rgba(var(--accent-0-rgb,255,197,131),.26)}
+#finalsGlass.on{opacity:1}
+html:not(.finals-fx) #finalsGlass{display:none}
+#finalsGlass::after{content:'';position:absolute;top:0;left:-60%;width:45%;height:100%;opacity:0;transform:skewX(-18deg);
+  background:linear-gradient(105deg,transparent 0%,rgba(255,255,255,.08) 40%,rgba(255,255,255,.30) 50%,rgba(255,255,255,.08) 60%,transparent 100%)}
+#finalsGlass.sweep::after{opacity:1;animation:finalsSweep .85s ease forwards}
+@keyframes finalsSweep{from{left:-60%}to{left:120%}}
+html.light-mode #finalsGlass{box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 0 14px rgba(var(--accent-4-rgb),.22)}
+@media (prefers-reduced-motion:reduce){#finalsGlass.sweep::after{animation:none;opacity:0}}
+
+/* —— Animation effects (html.finals-fx): extra motion in the current accent colour —— */
+/* titles breathe with a soft accent glow */
+html.finals-fx :is(#portalView h1,#setsView h1,#studyView h1){text-shadow:0 0 18px rgba(var(--accent-0-rgb),.55),0 0 46px rgba(var(--accent-0-rgb),.25);animation:finalsTitleBreathe 3.8s ease-in-out infinite}
+html.finals-fx .finals-week-h{text-shadow:0 0 12px rgba(var(--accent-0-rgb),.4)}
+@keyframes finalsTitleBreathe{0%,100%{filter:brightness(1)}50%{filter:brightness(1.15)}}
+/* a current runs round a card while it is hovered */
+html.finals-fx .portal-card::before{content:'';position:absolute;inset:-1.5px;border-radius:inherit;padding:1.5px;pointer-events:none;z-index:2;
+  background:conic-gradient(from var(--finals-ang),transparent 0 58%,rgba(var(--accent-0-rgb),.35) 66%,var(--accent-0) 74%,#fff 78%,var(--accent-0) 82%,transparent 90%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;
+  opacity:0;transition:opacity .25s ease;animation:finalsOrbit 2.6s linear infinite paused;filter:drop-shadow(0 0 4px rgba(var(--accent-0-rgb),.8))}
+html.finals-fx .portal-card:hover::before,html.finals-fx .portal-card:focus-visible::before{opacity:1;animation-play-state:running}
+@keyframes finalsOrbit{to{--finals-ang:360deg}}
+html.finals-fx .timer-dock{box-shadow:0 0 22px rgba(var(--accent-0-rgb),.18),0 12px 30px rgba(0,0,0,.5)!important}
+html.finals-fx .settings-nav-btn.active{text-shadow:0 0 10px rgba(var(--accent-0-rgb),.55)}
+/* cards and sets fade up one after another when a menu opens */
+html.finals-fx :is(.finals-week-cards>*,#setsSections .card){animation:finalsRise .5s cubic-bezier(.2,.8,.2,1) backwards}
+html.finals-fx :is(.finals-week-cards>*,#setsSections .card):nth-child(2){animation-delay:.06s}
+html.finals-fx :is(.finals-week-cards>*,#setsSections .card):nth-child(3){animation-delay:.12s}
+html.finals-fx :is(.finals-week-cards>*,#setsSections .card):nth-child(4){animation-delay:.18s}
+html.finals-fx :is(.finals-week-cards>*,#setsSections .card):nth-child(n+5){animation-delay:.24s}
+@keyframes finalsRise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes finalsFadeIn{from{opacity:0}to{opacity:1}}
+/* answer choices lift a little on hover; a right answer pulses once */
+html.finals-fx .finals-q #options .opt{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+html.finals-fx .finals-q #options .opt:not(:disabled):hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.35),0 0 14px rgba(var(--accent-0-rgb),.22)}
+html.finals-fx .finals-q .opt.correct{animation:finalsCorrect .6s ease-out 1}
+@keyframes finalsCorrect{0%{box-shadow:0 0 0 0 rgba(var(--accent-0-rgb),.55)}100%{box-shadow:0 0 0 14px rgba(var(--accent-0-rgb),0)}}
+/* the progress bar glows and shimmers */
+html.finals-fx .finals-q .track-fill{box-shadow:0 0 10px rgba(var(--accent-0-rgb),.55);animation:finalsGlow 2.4s ease-in-out infinite}
+@keyframes finalsGlow{0%,100%{box-shadow:0 0 6px rgba(var(--accent-0-rgb),.4)}50%{box-shadow:0 0 14px rgba(var(--accent-0-rgb),.75)}}
+/* faint scanlines and a few sparks, painted once and animated on the compositor */
+#finalsFx{position:fixed;inset:0;pointer-events:none;z-index:0;display:none}
+html.finals-fx #finalsFx{display:block}
+#finalsFx::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0,transparent 2px,rgba(var(--accent-0-rgb),.022) 2px,rgba(var(--accent-0-rgb),.022) 3px)}
+#finalsFx i{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;opacity:0;
+  background:radial-gradient(circle,#fff 0 12%,rgba(var(--accent-0-rgb),.9) 18%,rgba(var(--accent-0-rgb),0) 55%),
+    linear-gradient(90deg,transparent 45%,rgba(var(--accent-0-rgb),.9) 50%,transparent 55%),linear-gradient(0deg,transparent 45%,rgba(var(--accent-0-rgb),.9) 50%,transparent 55%);
+  filter:drop-shadow(0 0 3px rgba(var(--accent-0-rgb),.9));animation:finalsSpark var(--d,7s) ease-in-out var(--w,0s) infinite;will-change:opacity,transform}
+@keyframes finalsSpark{0%,86%,100%{opacity:0;transform:scale(.3) rotate(0deg)}90%{opacity:.95;transform:scale(1) rotate(30deg)}94%{opacity:.25;transform:scale(.7) rotate(60deg)}}
+@media (prefers-reduced-motion:reduce){
+  #finalsFx i{animation:none}
+  html.finals-fx :is(#portalView h1,#setsView h1,#studyView h1),html.finals-fx .finals-q .track-fill,html.finals-fx .finals-q .opt.correct{animation:none}
+  html.finals-fx :is(.finals-week-cards>*,#setsSections .card){animation:none}
+  html.finals-fx .portal-card::before{animation:none;background:linear-gradient(90deg,var(--accent-0),#fff,var(--accent-0))}
+}
+.finals-fx-item{display:none}
+html.finals-la-open .finals-fx-item{display:block}
+
+/* the main menu cursor (Settings → Custom Cursor, once unlocked) */
+html[data-cursor="intro"]{--cur-w:100px;--cur-h:100px;--cur-border:none;--cur-radius:50%;--cur-blend:normal;--cur-shadow:none;
+  --cur-bg:radial-gradient(circle,rgba(var(--accent-0-rgb),.5) 0%,rgba(var(--accent-0-rgb),0) 70%);
+  --cur-active-w:100px;--cur-active-h:100px;--cur-active-border:transparent;--cur-active-bg:radial-gradient(circle,rgba(var(--accent-0-rgb),.6) 0%,rgba(var(--accent-0-rgb),0) 70%);
+  --cur-core-w:20px;--cur-core-h:20px;--cur-core-radius:50%;--cur-core-shadow:0 0 0 1px rgba(0,0,0,.85);
+  --cur-core-bg:radial-gradient(circle,var(--accent-0) 0,var(--accent-0) 8px,rgba(var(--accent-0-rgb),.8) 8px,rgba(var(--accent-0-rgb),.8) 10px)}
+html[data-cursor="intro"] #cursor:not(.core){opacity:.5;animation:finalsAura 2s infinite}
+html[data-cursor="intro"] #cursor.core{outline:2px solid rgba(255,255,255,.9);outline-offset:1px}
+@keyframes finalsAura{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.5}50%{transform:translate(-50%,-50%) scale(1.2);opacity:.8}}
+.cursor-skin-opt.finals-intro-skin{display:none}
+html.finals-la-open .cursor-skin-opt.finals-intro-skin{display:flex}
+.preview-intro{width:22px;height:22px;border-radius:50%;position:relative;background:radial-gradient(circle,rgba(var(--accent-0-rgb),.55) 0%,rgba(var(--accent-0-rgb),0) 70%)}
+.preview-intro::after{content:'';position:absolute;left:50%;top:50%;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;background:var(--accent-0);outline:1.5px solid rgba(255,255,255,.9);outline-offset:1px}
+
+/* emoji change while the palette is held: a short ripple in the emoji's colour */
+.finals-ripple{position:fixed;left:0;top:0;width:0;height:0;pointer-events:none;z-index:2147482000}
+.finals-ripple span{position:absolute;left:-60px;top:-60px;width:120px;height:120px;border-radius:47% 53% 51% 49%/52% 48% 52% 48%;
+  border:2px solid var(--rc);box-shadow:0 0 18px var(--rc),inset 0 0 14px var(--rc);opacity:0;animation:finalsRipple 1s ease-out forwards}
+.finals-ripple span:nth-child(2){animation-delay:.12s;border-radius:52% 48% 47% 53%/48% 53% 47% 52%}
+.finals-ripple span:nth-child(3){animation-delay:.24s}
+@keyframes finalsRipple{0%{opacity:.26;transform:scale(.3) rotate(0deg)}60%{opacity:.14}100%{opacity:0;transform:scale(4.2) rotate(24deg)}}
+.finals-ripple.calm span{display:none}
+.finals-ripple.calm::before{content:'';position:fixed;inset:0;background:radial-gradient(circle at var(--rx) var(--ry),var(--rc),transparent 60%);opacity:0;animation:finalsTint 1s ease forwards}
+@keyframes finalsTint{0%,100%{opacity:0}35%{opacity:.12}}
+
+/* —— multicolour accents —— */
+html.finals-mc :is(#portalView h1,#setsView h1,#studyView h1,#quizTitle,.finals-week-h,.settings-panel-title,.finals-q .final .score-big){
+  background-image:var(--mc-grad)!important;background-size:200% 100%;-webkit-background-clip:text!important;background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;color:transparent!important;text-shadow:none!important}
+html.finals-mc :is(#portalView h1,#setsView h1,#studyView h1){filter:drop-shadow(0 0 14px rgba(var(--accent-0-rgb),.35))}
+html.finals-mc :is(.finals-q .track-fill,.btn-gold,.finals-q .btn-gold,.finals-q .nav-btn.primary,.settings-nav-btn.active::after,.finals-mc-preview){background-image:var(--mc-grad)!important;background-size:200% 100%!important}
+html.finals-mc :is(.portal-card,.timer-dock,.modal-card,.settings-modal-content,.finals-q .card,.finals-q #mainPanel,.finals-mc-ringed)::after{content:'';position:absolute;inset:-1.5px;border-radius:inherit;padding:1.5px;pointer-events:none;z-index:1;
+  background:var(--mc-grad);background-size:200% 100%;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+html.finals-mc :is(.modal-card,.settings-modal-content,.finals-q .card,.finals-q #mainPanel){position:relative}
+html.finals-mc-wave :is(#portalView h1,#setsView h1,#studyView h1,#quizTitle,.finals-week-h,.settings-panel-title,.finals-q .final .score-big,.finals-q .track-fill,.btn-gold,.finals-q .nav-btn.primary,.finals-mc-preview),
+html.finals-mc-wave :is(.portal-card,.timer-dock,.modal-card,.settings-modal-content,.finals-q .card,.finals-q #mainPanel)::after{animation:finalsMcWave var(--mc-dur,8s) linear infinite!important}
+html.finals-mc-aurora{--mc-bs:300% 300%}
+html.finals-mc-aurora :is(#portalView h1,#setsView h1,#studyView h1,#quizTitle,.finals-week-h,.settings-panel-title,.finals-q .final .score-big,.finals-q .track-fill,.btn-gold,.finals-q .nav-btn.primary,.finals-mc-preview),
+html.finals-mc-aurora :is(.portal-card,.timer-dock,.modal-card,.settings-modal-content,.finals-q .card,.finals-q #mainPanel)::after{background-size:300% 300%!important;animation:finalsMcAurora var(--mc-dur,8s) ease-in-out infinite alternate!important}
+@keyframes finalsMcWave{from{background-position:0% 50%}to{background-position:200% 50%}}
+@keyframes finalsMcAurora{0%{background-position:0% 0%}100%{background-position:100% 100%}}
+@media (prefers-reduced-motion:reduce){
+  html.finals-mc *,html.finals-mc *::after{animation-name:none}
+}
+
+/* —— Extra tab —— */
+.finals-mc-colors{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:6px 0 4px}
+.finals-mc-chip{position:relative;display:inline-flex}
+.finals-mc-chip input[type=color]{width:40px;height:40px;border:none;border-radius:10px;padding:0;background:none;cursor:pointer}
+.finals-mc-x{position:absolute;top:-7px;right:-7px;width:18px;height:18px;border-radius:50%;border:1px solid var(--col-border);background:var(--col-bg-card,#1a1a1a);color:var(--col-text-muted);font-size:12px;line-height:15px;padding:0}
+.finals-mc-add{width:40px;height:40px;border-radius:10px;border:1.5px dashed var(--col-border);background:transparent;color:var(--col-text-muted);font-size:20px}
+.finals-mc-modes{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.finals-mc-mode{padding:7px 14px;border-radius:999px;border:1px solid var(--col-border);background:transparent;color:var(--col-text-muted);font-size:.85em}
+.finals-mc-mode.active{border-color:var(--accent-0);color:var(--accent-0);background:rgba(var(--accent-0-rgb),.1)}
+.finals-mc-speed{display:flex;gap:10px;align-items:center;margin-top:6px}
+.finals-mc-speed input{flex:1;accent-color:var(--accent-0)}
+.finals-mc-preview{height:12px;border-radius:99px;margin:8px 0 2px;background-size:200% 100%}
+.finals-mc-off .finals-mc-body{opacity:.55}
+/* next-question bar: shine, glow and sparkle in the accent colour */
+html.finals-fx .finals-q .kb-advance .formula-advance-track{border-color:rgba(var(--accent-0-rgb),.55);box-shadow:0 0 14px rgba(var(--accent-0-rgb),.35),inset 0 1px 0 rgba(255,255,255,.12)}
+html.finals-fx .finals-q .kb-advance .formula-advance-fill{background:linear-gradient(90deg,var(--accent-2,var(--accent-0)),#fff,var(--accent-0),var(--accent-2,var(--accent-0)));background-size:200% 100%;animation:finalsBarFlow 1.6s ease-in-out infinite;box-shadow:0 0 12px rgba(var(--accent-0-rgb),.7)}
+html.finals-fx .finals-q .kb-advance .formula-advance-track::after{content:'';position:absolute;top:0;left:-60%;width:45%;height:100%;pointer-events:none;
+  background:linear-gradient(105deg,transparent 0%,rgba(255,255,255,.08) 40%,rgba(255,255,255,.55) 50%,rgba(255,255,255,.08) 60%,transparent 100%);transform:skewX(-18deg);animation:finalsBarShine .85s ease infinite}
+html.finals-fx .finals-q .kb-advance .formula-advance-track::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:1;
+  background:radial-gradient(circle at 18% 50%,#fff 0 1.2px,transparent 2px),radial-gradient(circle at 52% 40%,#fff 0 1px,transparent 2px),radial-gradient(circle at 81% 60%,#fff 0 1.2px,transparent 2px);animation:finalsBarTwinkle 1.1s steps(2,end) infinite}
+@keyframes finalsBarFlow{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@keyframes finalsBarShine{from{left:-60%}to{left:120%}}
+@keyframes finalsBarTwinkle{0%{opacity:.25}50%{opacity:1}100%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){html.finals-fx .finals-q .kb-advance .formula-advance-fill,html.finals-fx .finals-q .kb-advance .formula-advance-track::after,html.finals-fx .finals-q .kb-advance .formula-advance-track::before{animation:none}html.finals-fx .finals-q .kb-advance .formula-advance-track::after{display:none}}
+/* Settings → Drawing Lines (finals-lines.js) */
+.finals-ln-list{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.finals-ln-pal{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;padding:10px 12px;border-radius:12px;border:1px solid var(--col-border-light,rgba(255,255,255,.12));background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.finals-ln-pal:hover{border-color:var(--accent-0)}
+.finals-ln-pal[aria-pressed="true"]{border-color:var(--accent-0);box-shadow:0 0 0 1px var(--accent-0) inset;background:rgba(var(--accent-0-rgb),.08)}
+.finals-ln-name{display:flex;flex-direction:column;gap:2px;font-weight:600;font-size:.9rem}
+.finals-ln-hint{font-weight:400;font-size:.75rem;opacity:.7}
+.finals-ln-sws{display:flex;gap:5px;flex-shrink:0}
+.finals-ln-sw{width:18px;height:18px;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
+#settings-panel-lines.finals-ln-off .finals-ln-pals{opacity:.5}
+@media (max-width:480px){.finals-ln-sw{width:14px;height:14px}.finals-ln-sws{gap:3px}}

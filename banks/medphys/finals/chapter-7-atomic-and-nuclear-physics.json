@@ -1,0 +1,1225 @@
+{
+  "id": "chapter-7-atomic-and-nuclear-physics",
+  "subject": "Medical Physics",
+  "subjectId": "medphys",
+  "title": "Chapter 7: Atomic and Nuclear Physics",
+  "source": "Medical Physics question banks chapter-7-atomic-and-nuclear-physics (74)",
+  "formSize": 74,
+  "forms": [
+    "A"
+  ],
+  "cards": [
+    {
+      "id": "ch7",
+      "title": "Chapter 7: Atomic and Nuclear Physics",
+      "cats": [
+        "Chapter 7: Electromagnetic Spectrum",
+        "Chapter 7: Photon",
+        "Chapter 7: Photoelectric Effect",
+        "Chapter 7: de Broglie Hypothesis",
+        "Chapter 7: Atomic Structure",
+        "Chapter 7: Nuclear Radius",
+        "Chapter 7: Radioactivity",
+        "Chapter 7: Half-Life",
+        "Chapter 7: Carbon Dating",
+        "Chapter 7: Fission and Fusion",
+        "Chapter 7: Dosimetry",
+        "Chapter 7: Radiation Detection",
+        "Chapter 7: Nuclear Reactions",
+        "Chapter 7: Photon and Nuclear Formulas",
+        "Chapter 7: Matter Waves",
+        "Chapter 7: Nuclear Structure",
+        "Chapter 7: Medical Applications"
+      ],
+      "draft": true
+    }
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "PHY70001",
+        "type": "mcq",
+        "cat": "Chapter 7: Electromagnetic Spectrum",
+        "q": "Which of the following correctly lists the regions of the electromagnetic spectrum in order of increasing wavelength?",
+        "options": [
+          "Gamma rays, X-rays, Ultraviolet, Visible, Infrared, Radio waves",
+          "Radio waves, Infrared, Visible, Ultraviolet, X-rays, Gamma rays",
+          "Gamma rays, X-rays, Infrared, Visible, Ultraviolet, Radio waves",
+          "Radio waves, Ultraviolet, Visible, Infrared, X-rays, Gamma rays"
+        ],
+        "correct": 0,
+        "explain": "Increasing wavelength means going from the shortest wavelengths to the longest. Gamma rays have the shortest wavelengths, followed by X-rays, ultraviolet, visible, infrared, and finally radio waves with the longest wavelengths. The line Radio waves, Infrared, Visible, Ultraviolet, X-rays, Gamma rays reverses the order, listing from longest to shortest. The line Gamma rays, X-rays, Infrared, Visible, Ultraviolet, Radio waves places infrared before visible and ultraviolet, which is incorrect. The line Radio waves, Ultraviolet, Visible, Infrared, X-rays, Gamma rays mixes the order throughout."
+      },
+      {
+        "id": "PHY70002",
+        "type": "mcq",
+        "cat": "Chapter 7: Electromagnetic Spectrum",
+        "q": "The visible portion of the electromagnetic spectrum spans which wavelength range?",
+        "options": [
+          "Approximately 300 nm to 600 nm",
+          "Approximately 400 nm to 700 nm",
+          "Approximately 500 nm to 800 nm",
+          "Approximately 200 nm to 500 nm"
+        ],
+        "correct": 1,
+        "explain": "The visible spectrum ranges from about 400 nm at the violet end to about 700 nm at the red end. Violet light has the shortest wavelength in the visible range, and red light has the longest. The other ranges either shift the entire window or place the boundaries at the wrong values."
+      },
+      {
+        "id": "PHY70003",
+        "type": "mcq",
+        "cat": "Chapter 7: Electromagnetic Spectrum",
+        "q": "Which statement correctly describes the relationship between the electric and magnetic fields in an electromagnetic wave?",
+        "options": [
+          "They are parallel to each other and to the direction of propagation",
+          "They are perpendicular to each other and to the direction of propagation",
+          "They are perpendicular to each other but parallel to the direction of propagation",
+          "They are parallel to each other but perpendicular to the direction of propagation"
+        ],
+        "correct": 1,
+        "explain": "An electromagnetic wave consists of oscillating electric and magnetic fields that are perpendicular to each other and also perpendicular to the direction in which the wave travels. This transverse configuration is a defining property of all electromagnetic waves. The options that place either field parallel to the propagation direction or parallel to each other contradict this geometry."
+      },
+      {
+        "id": "PHY70004",
+        "type": "mcq",
+        "cat": "Chapter 7: Photon",
+        "q": "A photon is best defined as:",
+        "options": [
+          "A negatively charged particle emitted by metals",
+          "A quantum of electromagnetic radiation",
+          "A neutral particle with negligible mass",
+          "A positively charged particle in the nucleus"
+        ],
+        "correct": 1,
+        "explain": "A photon is the elementary amount, or quantum, of electromagnetic radiation. Einstein proposed in 1905 that light is quantized and exists in these discrete packets. A negatively charged particle emitted by metals describes an electron in the photoelectric effect. A neutral particle with negligible mass describes a neutrino. A positively charged particle in the nucleus describes a proton."
+      },
+      {
+        "id": "PHY70005",
+        "type": "mcq",
+        "cat": "Chapter 7: Photon",
+        "q": "The energy E of a photon with frequency f is given by which expression?",
+        "options": [
+          "E = h / f",
+          "E = f / h",
+          "E = h × f",
+          "E = h + f"
+        ],
+        "correct": 2,
+        "explain": "The energy of a photon is directly proportional to its frequency, with the constant of proportionality being Planck's constant h. The relation is E = h × f, where h = 6.63 × 10⁻³⁴ J·s. A higher frequency photon carries more energy. The other options either divide by frequency, divide by Planck's constant, or add the two quantities."
+      },
+      {
+        "id": "PHY70006",
+        "type": "mcq",
+        "cat": "Chapter 7: Photon",
+        "q": "An x-ray photon has a frequency of 1.8 × 10¹⁸ s⁻¹. What is its energy? Take h = 6.63 × 10⁻³⁴ J·s.",
+        "options": [
+          "1.19 × 10⁻¹⁶ J",
+          "1.19 × 10⁻¹⁵ J",
+          "1.19 × 10⁻¹⁷ J",
+          "1.19 × 10⁻¹⁴ J"
+        ],
+        "correct": 1,
+        "explain": "Using E = h × f, substitute h = 6.63 × 10⁻³⁴ J·s and f = 1.8 × 10¹⁸ s⁻¹. Then E = 6.63 × 10⁻³⁴ × 1.8 × 10¹⁸ = 11.93 × 10⁻¹⁶ J, which is 1.193 × 10⁻¹⁵ J (11.93 × 10⁻¹⁶ J and 1.193 × 10⁻¹⁵ J are the same value). The option 1.19 × 10⁻¹⁶ J is one power of ten too small, 1.19 × 10⁻¹⁷ J is two powers too small, and 1.19 × 10⁻¹⁴ J is one power too big."
+      },
+      {
+        "id": "PHY70007",
+        "type": "mcq",
+        "cat": "Chapter 7: Photon",
+        "q": "The relationship between the frequency f, wavelength λ, and speed c of an electromagnetic wave is:",
+        "options": [
+          "f = λ / c",
+          "f = c × λ",
+          "f = c / λ",
+          "f = c + λ"
+        ],
+        "correct": 2,
+        "explain": "For an electromagnetic wave traveling at the speed of light c, the frequency equals the speed divided by the wavelength: f = c / λ. This follows from the general wave equation v = f × λ with v replaced by c. The line f = λ / c inverts the ratio, the line f = c × λ multiplies the two quantities, and the line f = c + λ adds them."
+      },
+      {
+        "id": "PHY70008",
+        "type": "mcq",
+        "cat": "Chapter 7: Photoelectric Effect",
+        "q": "The photoelectric effect occurs when:",
+        "options": [
+          "Photons eject electrons from a metal surface",
+          "Electrons emit photons while dropping a level",
+          "A heavy nucleus splits into two lighter ones",
+          "Two light nuclei combine into a heavier one"
+        ],
+        "correct": 0,
+        "explain": "The photoelectric effect is the phenomenon in which photons of sufficient frequency strike a metal surface, collide with valence electrons, and give them enough energy to be liberated from the metal. The line Electrons emit photons while dropping a level describes photon emission by atoms, which is the reverse process. The line A heavy nucleus splits into two lighter ones describes nuclear fission, and the line Two light nuclei combine into a heavier one describes nuclear fusion."
+      },
+      {
+        "id": "PHY70009",
+        "type": "mcq",
+        "cat": "Chapter 7: Photoelectric Effect",
+        "q": "The photoelectric equation relating the incident photon energy, the work function, and the maximum kinetic energy of the emitted electron is:",
+        "options": [
+          "h f = K_max - φ",
+          "h f = K_max + φ",
+          "h f = φ - K_max",
+          "h f = K_max × φ"
+        ],
+        "correct": 1,
+        "explain": "The total energy of the incident photon hf is divided between the minimum energy needed to eject the electron from the metal, called the work function φ, and the maximum kinetic energy K_max that the ejected electron can carry away. This gives the photoelectric equation hf = K_max + φ. The line hf = K_max - φ subtracts the work function, the line hf = φ - K_max reverses the subtraction, and the line hf = K_max × φ multiplies the two terms."
+      },
+      {
+        "id": "PHY70010",
+        "type": "mcq",
+        "cat": "Chapter 7: Photoelectric Effect",
+        "q": "The work function φ of a metal is:",
+        "options": [
+          "The maximum kinetic energy of the emitted electron",
+          "The minimum energy required to eject an electron",
+          "The total energy of the incident photon",
+          "The number of electrons emitted per second"
+        ],
+        "correct": 1,
+        "explain": "The work function is the minimum amount of energy required to remove an electron from the surface of a particular metal. It is a property of the metal itself. In the photoelectric equation hf = K_max + φ, the work function is the threshold energy that must be overcome. The maximum kinetic energy is K_max, the total photon energy is hf, and the number of emitted electrons per second is the photocurrent."
+      },
+      {
+        "id": "PHY70011",
+        "type": "mcq",
+        "cat": "Chapter 7: Photoelectric Effect",
+        "q": "In the photoelectric equation h f = K_max + φ, the quantity K_max represents:",
+        "options": [
+          "The minimum energy needed to eject an electron",
+          "The maximum kinetic energy of the emitted electron",
+          "The total energy carried by the incident photon",
+          "The energy lost as heat during the collision"
+        ],
+        "correct": 1,
+        "explain": "K_max is the maximum kinetic energy that an emitted electron can have after the photon gives up the work function energy to free it from the metal. Some electrons lose additional energy in collisions before escaping, so they emerge with less than K_max, but none can exceed it. The work function φ is the minimum ejection energy, and hf is the total photon energy."
+      },
+      {
+        "id": "PHY90033",
+        "type": "saq",
+        "cat": "Chapter 7: Photoelectric Effect",
+        "q": "Which effect liberates electrons from a metal surface?",
+        "answer": "Photoelectric effect",
+        "accept": [
+          "photoelectric effect"
+        ],
+        "explain": "The photoelectric effect is liberation of electrons from a metal surface by sufficiently energetic light."
+      },
+      {
+        "id": "PHY70012",
+        "type": "mcq",
+        "cat": "Chapter 7: de Broglie Hypothesis",
+        "q": "According to the de Broglie hypothesis, a moving particle:",
+        "options": [
+          "Has only particle nature, with no wave properties",
+          "Has both particle nature and wave nature",
+          "Has only wave nature, with no particle properties",
+          "Has neither particle nor wave properties"
+        ],
+        "correct": 1,
+        "explain": "De Broglie proposed that any moving object or particle has dual nature, possessing both particle and wave characteristics. The wave associated with a moving particle is called a matter wave. This hypothesis extends the wave-particle duality that was already established for light to all material particles. The line Has only particle nature, with no wave properties denies the wave aspect. The line Has only wave nature, with no particle properties denies the particle aspect. The line Has neither particle nor wave properties denies both."
+      },
+      {
+        "id": "PHY70013",
+        "type": "mcq",
+        "cat": "Chapter 7: de Broglie Hypothesis",
+        "q": "The de Broglie wavelength λ of a particle of mass m moving with velocity v is given by:",
+        "options": [
+          "λ = m v / h",
+          "λ = h / (m v)",
+          "λ = h × m × v",
+          "λ = h / (m + v)"
+        ],
+        "correct": 1,
+        "explain": "The de Broglie wavelength is inversely proportional to the momentum p = mv of the particle, with the Planck constant as the constant of proportionality. The relation is λ = h / (m v), which can also be written as λ = h / p. A heavier or faster particle has a shorter de Broglie wavelength. The line λ = m v / h inverts the ratio, the line λ = h × m × v multiplies all three quantities, and the line λ = h / (m + v) adds mass and velocity in the denominator."
+      },
+      {
+        "id": "PHY70014",
+        "type": "mcq",
+        "cat": "Chapter 7: de Broglie Hypothesis",
+        "q": "Matter waves are:",
+        "options": [
+          "Electromagnetic waves that carry energy but no rest mass",
+          "Moving-particle waves, not electromagnetic in nature",
+          "Longitudinal mechanical waves in a material medium",
+          "Standing waves that form inside the nucleus"
+        ],
+        "correct": 1,
+        "explain": "Matter waves are the waves associated with moving particles, as proposed by de Broglie. They are explicitly not electromagnetic waves. They do not require a material medium and are not the same as the electromagnetic radiation described by Maxwell. The other options incorrectly classify matter waves as electromagnetic, mechanical, or nuclear standing waves."
+      },
+      {
+        "id": "PHY70015",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "Which statement correctly describes the structure of an atom?",
+        "options": [
+          "Mostly empty space with a small dense central nucleus",
+          "A solid sphere with electrons embedded throughout its volume",
+          "A large nucleus that fills nearly all of the atomic volume",
+          "A bare nucleus with no surrounding space or electrons"
+        ],
+        "correct": 0,
+        "explain": "The atom consists mostly of empty space, with a very small and dense nucleus at the center where all of the positive charge and most of the mass are concentrated. Electrons occupy the empty space and revolve around the nucleus. The other options either fill the atom with solid material, make the nucleus too large, or deny the existence of the electron cloud."
+      },
+      {
+        "id": "PHY70016",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "Protons and neutrons are collectively called:",
+        "options": [
+          "Electrons",
+          "Nucleons",
+          "Nuclides",
+          "Isotopes"
+        ],
+        "correct": 1,
+        "explain": "Nucleons is the collective term for the protons and neutrons that make up the nucleus. A nuclide refers to a specific type of nucleus characterized by its atomic number and mass number. Isotopes are nuclei with the same atomic number but different neutron numbers. Electrons are not part of the nucleus at all."
+      },
+      {
+        "id": "PHY70017",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "The atomic number Z of a nuclide represents:",
+        "options": [
+          "The total number of nucleons in the nucleus",
+          "The number of protons in the nucleus",
+          "The number of neutrons in the nucleus",
+          "The sum of protons and neutrons in the nucleus"
+        ],
+        "correct": 1,
+        "explain": "The atomic number Z is defined as the number of protons in the nucleus. This number determines the chemical element. The total number of nucleons, which is the sum of protons and neutrons, is the mass number A. The number of neutrons is found by subtracting Z from A, giving N = A - Z."
+      },
+      {
+        "id": "PHY70018",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "The mass number A of a nuclide represents:",
+        "options": [
+          "The number of protons in the nucleus",
+          "The number of neutrons in the nucleus",
+          "The total number of nucleons in the nucleus",
+          "The number of electrons orbiting the nucleus"
+        ],
+        "correct": 2,
+        "explain": "The mass number A is the total number of nucleons, which means the sum of protons and neutrons in the nucleus. It is not the same as the atomic number Z, which counts only protons. The number of neutrons is found from N = A - Z. The number of electrons in a neutral atom equals Z, not A."
+      },
+      {
+        "id": "PHY70019",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "The neutron number N of a nuclide is calculated as:",
+        "options": [
+          "N = A + Z",
+          "N = A - Z",
+          "N = Z - A",
+          "N = A × Z"
+        ],
+        "correct": 1,
+        "explain": "The neutron number is the difference between the mass number and the atomic number: N = A - Z. Since the mass number counts all nucleons and the atomic number counts only protons, subtracting the two gives the number of neutrons. The line N = A + Z adds the two quantities, the line N = Z - A reverses the subtraction, and the line N = A × Z multiplies them."
+      },
+      {
+        "id": "PHY70020",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "Isotopes are nuclei that have:",
+        "options": [
+          "The same number of neutrons but different numbers of protons",
+          "The same number of protons but different numbers of neutrons",
+          "The same total number of nucleons but different elements",
+          "The same mass number but different atomic numbers"
+        ],
+        "correct": 1,
+        "explain": "Isotopes are nuclei with the same atomic number Z, meaning the same number of protons, but different neutron numbers N. Because they have the same number of protons, they are the same chemical element. The line The same number of neutrons but different numbers of protons describes isotones. The line The same total number of nucleons but different elements describes isobars. The line The same mass number but different atomic numbers also describes isobars."
+      },
+      {
+        "id": "PHY70021",
+        "type": "mcq",
+        "cat": "Chapter 7: Atomic Structure",
+        "q": "For light nuclides, which condition generally leads to stability?",
+        "options": [
+          "The neutron number is much larger than the proton number",
+          "The neutron number equals the proton number",
+          "The proton number is much larger than the neutron number",
+          "The neutron number is zero"
+        ],
+        "correct": 1,
+        "explain": "For light nuclides, the stable configuration is N = Z, meaning the neutron number equals the proton number. A ratio of N/Z = 1 corresponds to stability in lighter elements. Deuterium, with one proton and one neutron, is stable under this rule, while tritium, with one proton and two neutrons, has an N/Z ratio of 2 and is radioactive. The other options describe configurations that lead to instability."
+      },
+      {
+        "id": "PHY70022",
+        "type": "mcq",
+        "cat": "Chapter 7: Nuclear Radius",
+        "q": "The radius r of a nucleus with mass number A is given by which expression?",
+        "options": [
+          "r = (1.2 × 10⁻¹⁵ m) × A",
+          "r = (1.2 × 10⁻¹⁵ m) × A^(1/3)",
+          "r = (1.2 × 10⁻¹⁵ m) × A^(1/2)",
+          "r = (1.2 × 10⁻¹⁵ m) × A²"
+        ],
+        "correct": 1,
+        "explain": "Measurements from high-energy electron scattering show that the nuclear radius varies with the cube root of the mass number: r = (1.2 × 10⁻¹⁵ m) × A^(1/3). The constant 1.2 × 10⁻¹⁵ m is an empirical value. The line r = (1.2 × 10⁻¹⁵ m) × A makes the radius proportional to A directly, the line r = (1.2 × 10⁻¹⁵ m) × A^(1/2) uses a square root, and the line r = (1.2 × 10⁻¹⁵ m) × A² uses a square."
+      },
+      {
+        "id": "PHY70023",
+        "type": "mcq",
+        "cat": "Chapter 7: Nuclear Radius",
+        "q": "What is the approximate radius of a ⁶⁴Cu₂₉ nucleus? Take R₀ = 1.2 × 10⁻¹⁵ m.",
+        "options": [
+          "4.8 × 10⁻¹⁵ m",
+          "3.0 × 10⁻¹⁵ m",
+          "7.7 × 10⁻¹⁵ m",
+          "1.2 × 10⁻¹⁵ m"
+        ],
+        "correct": 0,
+        "explain": "Using r = R₀ × A^(1/3) with A = 64, the cube root of 64 is 4. Substituting gives r = 1.2 × 10⁻¹⁵ × 4 = 4.8 × 10⁻¹⁵ m. The option 3.0 × 10⁻¹⁵ m uses A = 16, 7.7 × 10⁻¹⁵ m uses A = 256, and 1.2 × 10⁻¹⁵ m uses A = 1."
+      },
+      {
+        "id": "PHY70024",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Radioactivity is best defined as:",
+        "options": [
+          "The spontaneous decay of unstable atomic nuclei",
+          "The absorption of neutrons by stable nuclei",
+          "The emission of light from excited atoms",
+          "The collision of two nuclei at high speed"
+        ],
+        "correct": 0,
+        "explain": "Radioactivity is the spontaneous process in which unstable atomic nuclei disintegrate into more stable nuclei, emitting energy and/or ionizing radiation such as alpha, beta, and gamma rays. The process is random and is not influenced by external conditions. The other options describe neutron capture, atomic emission spectra, and nuclear collisions, which are different phenomena."
+      },
+      {
+        "id": "PHY70025",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "An alpha particle consists of:",
+        "options": [
+          "Two protons and one neutron",
+          "One proton and two neutrons",
+          "Two protons and two neutrons",
+          "One proton and one neutron"
+        ],
+        "correct": 2,
+        "explain": "An alpha particle consists of two protons and two neutrons, which makes it identical to a helium-4 nucleus. It carries a positive charge of +2e and has a relatively large mass. The other options describe combinations that do not correspond to an alpha particle or to any common emitted particle."
+      },
+      {
+        "id": "PHY70026",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "When a nucleus emits an alpha particle, what happens to its atomic number Z and mass number A?",
+        "options": [
+          "Z decreases by 2, and A decreases by 4",
+          "Z increases by 2, and A increases by 4",
+          "Z decreases by 4, and A decreases by 2",
+          "Z remains the same, and A decreases by 4"
+        ],
+        "correct": 0,
+        "explain": "An alpha particle carries away two protons and two neutrons from the nucleus. Because the atomic number counts protons, Z decreases by 2. Because the mass number counts all nucleons, A decreases by 4. Charge and nucleon number are conserved overall when the alpha particle is included on the product side. The line Z increases by 2, and A increases by 4 would require the nucleus to gain nucleons rather than lose them. The line Z decreases by 4, and A decreases by 2 swaps the changes. The line Z remains the same, and A decreases by 4 does not remove the protons."
+      },
+      {
+        "id": "PHY70027",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "When a nucleus undergoes beta minus decay, what happens to its atomic number Z and mass number A?",
+        "options": [
+          "Z decreases by 1, and A remains the same",
+          "Z increases by 1, and A remains the same",
+          "Z remains the same, and A increases by 1",
+          "Z decreases by 2, and A decreases by 4"
+        ],
+        "correct": 1,
+        "explain": "In beta minus decay, a neutron converts into a proton while emitting an electron and an antineutrino. Because a proton is created, the atomic number Z increases by 1. The total number of nucleons does not change, so A remains the same. The line Z decreases by 1, and A remains the same describes beta plus decay. The line Z remains the same, and A increases by 1 does not match. The line Z decreases by 2, and A decreases by 4 describes alpha decay."
+      },
+      {
+        "id": "PHY70028",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "When a nucleus undergoes beta plus decay, what happens to its atomic number Z and mass number A?",
+        "options": [
+          "Z increases by 1, and A remains the same",
+          "Z decreases by 1, and A remains the same",
+          "Z remains the same, and A decreases by 1",
+          "Z decreases by 2, and A decreases by 4"
+        ],
+        "correct": 1,
+        "explain": "In beta plus decay, a proton converts into a neutron while emitting a positron and a neutrino. Because a proton is lost, the atomic number Z decreases by 1. The total number of nucleons does not change, so A remains the same. The line Z increases by 1, and A remains the same describes beta minus decay. The line Z decreases by 2, and A decreases by 4 describes alpha decay. The remaining line does not match beta plus."
+      },
+      {
+        "id": "PHY70029",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "In beta decay, one type of nucleon converts into the other type. What is the consequence for the nucleon number?",
+        "options": [
+          "The nucleon number increases by 1",
+          "The nucleon number decreases by 1",
+          "The nucleon number remains unchanged",
+          "The nucleon number doubles"
+        ],
+        "correct": 2,
+        "explain": "In beta decay, a neutron becomes a proton in beta minus decay, or a proton becomes a neutron in beta plus decay. In both cases, the total count of nucleons stays the same because one nucleon is simply changing type. The mass number A therefore remains unchanged. Only the atomic number Z changes, by plus one for beta minus or minus one for beta plus."
+      },
+      {
+        "id": "PHY70030",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Which statement correctly describes gamma radiation?",
+        "options": [
+          "A stream of helium nuclei with a positive charge",
+          "A stream of fast electrons with a negative charge",
+          "High-energy photons with no mass and no charge",
+          "A stream of neutral particles with a small mass"
+        ],
+        "correct": 2,
+        "explain": "Gamma rays are high-energy photons (electromagnetic radiation). They have no rest mass and no electric charge, so they are not bent by electric or magnetic fields. A stream of helium nuclei with a positive charge describes alpha particles. A stream of fast electrons with a negative charge describes beta minus particles. A stream of neutral particles with a small mass describes neutrinos or neutrons, not gamma rays."
+      },
+      {
+        "id": "PHY70031",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Which comparison of the three types of nuclear radiation is correct?",
+        "options": [
+          "Alpha particles have the highest penetration and lowest ionizing power",
+          "Beta particles have the lowest penetration and highest ionizing power",
+          "Gamma rays have the highest penetration and lowest ionizing power",
+          "Gamma rays have the lowest penetration and highest ionizing power"
+        ],
+        "correct": 2,
+        "explain": "Alpha particles are massive and carry a double positive charge, which gives them a very short range and the highest ionizing power. Beta particles are lighter and have intermediate range and ionizing power. Gamma rays are electromagnetic radiation with no charge and no rest mass, so they interact weakly and have the greatest penetrating power but the lowest ionizing power. The other options reverse these relationships."
+      },
+      {
+        "id": "PHY70032",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "In a magnetic field, how do alpha, beta, and gamma radiations behave?",
+        "options": [
+          "All three are bent in the same direction",
+          "Alpha and beta bend in opposite directions, and gamma is not bent",
+          "Alpha and gamma bend in opposite directions, and beta is not bent",
+          "Beta and gamma bend in opposite directions, and alpha is not bent"
+        ],
+        "correct": 1,
+        "explain": "Alpha particles carry a positive charge, and beta particles carry a negative charge, so they are deflected in opposite directions when passing through a magnetic field. Gamma rays are electrically neutral, so they pass through without being deflected at all. This difference in deflection is a standard way to distinguish the three types of radiation."
+      },
+      {
+        "id": "PHY70033",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "The activity R of a radioactive sample is related to the number of radioactive nuclei N by which expression?",
+        "options": [
+          "R = N / λ",
+          "R = λ / N",
+          "R = λ × N",
+          "R = λ + N"
+        ],
+        "correct": 2,
+        "explain": "The activity is the rate at which nuclei decay. Since each nucleus has a fixed probability per unit time of decaying, the total decay rate is the decay constant multiplied by the number of radioactive nuclei present: R = λ × N. This means a sample with more nuclei or a larger decay constant will have higher activity."
+      },
+      {
+        "id": "PHY70034",
+        "type": "mcq",
+        "cat": "Chapter 7: Half-Life",
+        "q": "The half-life of a radioactive material is:",
+        "options": [
+          "The time required for the activity to double",
+          "The time required for half the nuclei to decay",
+          "The time required for all the nuclei to decay",
+          "The time required for a quarter of the nuclei to decay"
+        ],
+        "correct": 1,
+        "explain": "The half-life T₁/₂ is the time it takes for half of the radioactive nuclei in a sample to decay, so the amount (and the activity) falls to one half. After two half-lives one quarter is left, after three one eighth. Activity doubling never happens in decay, all the nuclei never decay in one half-life, and a quarter decaying is not the definition."
+      },
+      {
+        "id": "PHY70035",
+        "type": "mcq",
+        "cat": "Chapter 7: Half-Life",
+        "q": "The relationship between the half-life T₁/₂ and the decay constant λ is:",
+        "options": [
+          "T₁/₂ = λ / 0.693",
+          "T₁/₂ = 0.693 / λ",
+          "T₁/₂ = 0.693 × λ",
+          "T₁/₂ = λ + 0.693"
+        ],
+        "correct": 1,
+        "explain": "The half-life and the decay constant are inversely related: T₁/₂ = ln 2 / λ = 0.693 / λ. A larger decay constant means the nuclei decay faster, so the half-life is shorter. The line T₁/₂ = λ / 0.693 inverts the ratio, T₁/₂ = 0.693 × λ multiplies instead of dividing, and T₁/₂ = λ + 0.693 adds the two."
+      },
+      {
+        "id": "PHY70036",
+        "type": "mcq",
+        "cat": "Chapter 7: Half-Life",
+        "q": "The half-life of a radioactive material is 30 years. What is its decay constant?",
+        "options": [
+          "7.32 × 10⁻¹⁰ s⁻¹",
+          "7.32 × 10⁻⁹ s⁻¹",
+          "7.32 × 10⁻¹¹ s⁻¹",
+          "7.32 × 10⁻⁸ s⁻¹"
+        ],
+        "correct": 0,
+        "explain": "First convert the half-life to seconds: 30 years × 3.156 × 10⁷ s/year = 9.467 × 10⁸ s. Then λ = 0.693 / T₁/₂ = 0.693 / (9.467 × 10⁸) = 7.32 × 10⁻¹⁰ s⁻¹. The other options place the decimal in the wrong position relative to this value."
+      },
+      {
+        "id": "PHY70037",
+        "type": "mcq",
+        "cat": "Chapter 7: Half-Life",
+        "q": "A radioactive material has a half-life of 15 days. If you start with 1 g of the material, how much is left after two half-lives?",
+        "options": [
+          "0.50 g",
+          "0.25 g",
+          "0.125 g",
+          "0.0625 g"
+        ],
+        "correct": 1,
+        "explain": "After one half-life, half of the original 1 g remains, which is 0.50 g. After a second half-life, half of that remaining amount decays, leaving 0.25 g. The line 0.50 g is the amount after one half-life, the line 0.125 g is after three, and the line 0.0625 g is after four half-lives."
+      },
+      {
+        "id": "PHY70038",
+        "type": "mcq",
+        "cat": "Chapter 7: Half-Life",
+        "q": "The SI unit of activity is the becquerel, defined as:",
+        "options": [
+          "One joule per kilogram",
+          "One decay event per second",
+          "One gray multiplied by RBE",
+          "One curie divided by 3.70 × 10¹⁰"
+        ],
+        "correct": 1,
+        "explain": "The becquerel is the SI unit of activity. One becquerel equals one nuclear decay event per second. The line One joule per kilogram defines the gray, the unit of absorbed dose. The line One gray multiplied by RBE defines the sievert, the unit of dose equivalent. The line One curie divided by 3.70 × 10¹⁰ expresses the inverse of the curie-to-becquerel conversion."
+      },
+      {
+        "id": "PHY70039",
+        "type": "mcq",
+        "cat": "Chapter 7: Half-Life",
+        "q": "One curie is equal to how many becquerels?",
+        "options": [
+          "3.70 × 10⁸ Bq",
+          "3.70 × 10⁹ Bq",
+          "3.70 × 10¹⁰ Bq",
+          "3.70 × 10¹¹ Bq"
+        ],
+        "correct": 2,
+        "explain": "The curie is an older unit of activity that equals 3.70 × 10¹⁰ decay events per second. Since one becquerel is one decay per second, the conversion is 1 Ci = 3.70 × 10¹⁰ Bq. The other options place the decimal one or two positions away from this value."
+      },
+      {
+        "id": "PHY70040",
+        "type": "mcq",
+        "cat": "Chapter 7: Carbon Dating",
+        "q": "Carbon dating uses the radioactive isotope C-14, which has a half-life of approximately:",
+        "options": [
+          "5,730 years",
+          "573 years",
+          "57,300 years",
+          "57 years"
+        ],
+        "correct": 0,
+        "explain": "Carbon-14 has a half-life of 5,730 years, which makes it suitable for dating historical and archaeological materials up to about 60,000 years old. The other values are either ten times shorter, ten times longer, or one hundred times shorter than the correct half-life."
+      },
+      {
+        "id": "PHY70041",
+        "type": "mcq",
+        "cat": "Chapter 7: Carbon Dating",
+        "q": "While an organism is alive, the ratio of carbon-14 to carbon-12 in its tissues remains constant because:",
+        "options": [
+          "The tissue continually exchanges carbon with its surroundings",
+          "The half-life of carbon-14 slows down inside living tissue",
+          "The body produces carbon-14 by internal nuclear reactions",
+          "Carbon-12 decays into carbon-14 at the same rate"
+        ],
+        "correct": 0,
+        "explain": "Living organisms constantly exchange carbon with their environment through processes such as respiration and feeding. This keeps the ratio of C-14 to C-12 at the atmospheric value of about 1 to 10¹². Once the organism dies, the exchange stops, and the C-14 begins to decay without replacement. The other options describe mechanisms that do not occur."
+      },
+      {
+        "id": "PHY90041",
+        "type": "saq",
+        "cat": "Chapter 7: Carbon Dating",
+        "q": "Which carbon isotope is used in dating?",
+        "answer": "Carbon-14",
+        "accept": [
+          "C14",
+          "¹⁴C"
+        ],
+        "explain": "Carbon dating uses the radioactive isotope carbon-14."
+      },
+      {
+        "id": "PHY90042",
+        "type": "saq",
+        "cat": "Chapter 7: Carbon Dating",
+        "q": "What is the half-life of carbon-14 in years?",
+        "answer": "5730",
+        "accept": [],
+        "explain": "Carbon-14 has a half-life of 5730 years."
+      },
+      {
+        "id": "PHY70042",
+        "type": "mcq",
+        "cat": "Chapter 7: Fission and Fusion",
+        "q": "Nuclear fission is best described as:",
+        "options": [
+          "Two light nuclei joining into a single heavier nucleus",
+          "A heavy nucleus splitting and releasing energy",
+          "An electron jumping between atomic energy levels",
+          "A photon ejecting an electron from a metal surface"
+        ],
+        "correct": 1,
+        "explain": "Nuclear fission occurs when a heavy nucleus, such as uranium or plutonium, absorbs a neutron and splits into two lighter nuclei. The process releases free neutrons, gamma rays, and a large amount of energy. The line Two light nuclei joining into a single heavier nucleus describes nuclear fusion. The line An electron jumping between atomic energy levels describes an atomic process. The line A photon ejecting an electron from a metal surface describes the photoelectric effect."
+      },
+      {
+        "id": "PHY70043",
+        "type": "mcq",
+        "cat": "Chapter 7: Fission and Fusion",
+        "q": "Nuclear fusion is best described as:",
+        "options": [
+          "A heavy nucleus splitting apart into lighter nuclei",
+          "Two light nuclei joining into a heavier nucleus",
+          "A neutron converting into a proton plus electron",
+          "An atom absorbing a photon and losing an electron"
+        ],
+        "correct": 1,
+        "explain": "Nuclear fusion occurs when two or more light nuclei combine to form a single heavier nucleus with a higher atomic number. This process releases energy and occurs naturally in stars and the sun. The line A heavy nucleus splitting apart into lighter nuclei describes nuclear fission. The line A neutron converting into a proton plus electron describes beta decay. The line An atom absorbing a photon and losing an electron describes the photoelectric effect."
+      },
+      {
+        "id": "PHY70044",
+        "type": "mcq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "Absorbed dose is defined as:",
+        "options": [
+          "The rate at which nuclear transformations occur",
+          "The energy deposited by ionizing radiation per unit mass",
+          "The product of absorbed dose and a radiation weighting factor",
+          "The number of ion pairs produced in a detector per second"
+        ],
+        "correct": 1,
+        "explain": "Absorbed dose is the energy given by ionizing radiation to a unit mass of absorbing material. It depends on the properties of the absorbing material. The SI unit is the gray, where 1 Gy equals 1 joule per kilogram. The line The rate at which nuclear transformations occur defines activity. The line The product of absorbed dose and a radiation weighting factor defines dose equivalent. The line The number of ion pairs produced in a detector per second describes a detector response rather than a dose."
+      },
+      {
+        "id": "PHY70045",
+        "type": "mcq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "One gray of absorbed dose is equivalent to:",
+        "options": [
+          "One joule of energy absorbed per kilogram of material",
+          "One hundred joules of energy absorbed per kilogram of material",
+          "One joule of energy absorbed per gram of material",
+          "One thousand joules of energy absorbed per kilogram of material"
+        ],
+        "correct": 0,
+        "explain": "The gray is defined as one joule of radiation energy absorbed per kilogram of absorbing material: 1 Gy = 1 J/kg. It is also equal to 100 rad, where one rad is 0.01 J/kg. The line One hundred joules of energy absorbed per kilogram of material describes 100 Gy. The line One joule of energy absorbed per gram of material describes a dose in J/g which is 1000 Gy. The line One thousand joules of energy absorbed per kilogram of material describes 1000 Gy."
+      },
+      {
+        "id": "PHY70046",
+        "type": "mcq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "The dose equivalent is calculated as:",
+        "options": [
+          "Absorbed dose divided by the radiation weighting factor",
+          "Absorbed dose multiplied by the radiation weighting factor",
+          "Absorbed dose added to the radiation weighting factor",
+          "Absorbed dose minus the radiation weighting factor"
+        ],
+        "correct": 1,
+        "explain": "The dose equivalent accounts for the biological effectiveness of different types of radiation. It is the product of the absorbed dose and a dimensionless radiation weighting factor, also called the quality factor or RBE. If the absorbed dose is in gray, the result is in sieverts. If the absorbed dose is in rad, the result is in rem."
+      },
+      {
+        "id": "PHY70047",
+        "type": "mcq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "One sievert of dose equivalent is equal to how many rem?",
+        "options": [
+          "1 rem",
+          "10 rem",
+          "100 rem",
+          "1000 rem"
+        ],
+        "correct": 2,
+        "explain": "The sievert is the SI unit of dose equivalent, and the rem is the older unit. The conversion is 1 Sv = 100 rem. This mirrors the relationship between the gray and the rad, where 1 Gy = 100 rad. Because the weighting factor is dimensionless, the conversion factor between Sv and rem is the same as that between Gy and rad."
+      },
+      {
+        "id": "PHY70048",
+        "type": "mcq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "For X-rays and gamma rays, the radiation weighting factor QF is:",
+        "options": [
+          "1",
+          "3",
+          "10",
+          "20"
+        ],
+        "correct": 0,
+        "explain": "The quality factor for X-rays and gamma rays is 1. This means that for these radiations, the absorbed dose in gray is numerically equal to the dose equivalent in sieverts. Beta particles also have a quality factor of approximately 1. Slow neutrons have a factor of about 3, fast neutrons up to 10, and alpha particles and heavy ions up to 20."
+      },
+      {
+        "id": "PHY70049",
+        "type": "mcq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "A patient receives an absorbed dose of 0.02 Gy from X-rays. What is the equivalent dose in sieverts? Take QF = 1.",
+        "options": [
+          "0.002 Sv",
+          "0.02 Sv",
+          "0.2 Sv",
+          "2.0 Sv"
+        ],
+        "correct": 1,
+        "explain": "The equivalent dose is the absorbed dose multiplied by the quality factor. For X-rays, QF equals 1, so the equivalent dose is 0.02 Gy × 1 = 0.02 Sv, which is 20 mSv. The other options place the decimal in the wrong position."
+      },
+      {
+        "id": "PHY70050",
+        "type": "mcq",
+        "cat": "Chapter 7: Radiation Detection",
+        "q": "A Geiger-Muller counter operates by:",
+        "options": [
+          "Collecting ions formed when radiation ionizes gas",
+          "Measuring the temperature rise from absorbed radiation",
+          "Recording the light given off by a struck crystal",
+          "Detecting the deflection of particles by a magnet"
+        ],
+        "correct": 0,
+        "explain": "The Geiger-Muller counter is a gas ionization counter. It consists of a metallic tube filled with a gas such as helium or argon, with a wire anode at the center and the tube wall as cathode. When radiation enters through a thin window, it ionizes the gas, and the resulting electrons and positive ions move toward the electrodes, producing a current pulse that is registered as a click or a count."
+      },
+      {
+        "id": "PHY70051",
+        "type": "mcq",
+        "cat": "Chapter 7: Radiation Detection",
+        "q": "A drawback of the Geiger-Muller counter is that:",
+        "options": [
+          "It cannot detect alpha particles when they are present",
+          "It cannot identify the type or energy of the radiation",
+          "It requires liquid nitrogen to keep the gas cooled",
+          "It can only operate inside a perfect vacuum tube"
+        ],
+        "correct": 1,
+        "explain": "Although the Geiger-Muller counter is sensitive and can detect alpha, beta, and gamma radiation, it does not provide information about the energy of the radiation or its type. All interactions produce the same type of output pulse. More sophisticated detectors are needed when energy discrimination or particle identification is required."
+      },
+      {
+        "id": "PHY90040",
+        "type": "saq",
+        "cat": "Chapter 7: Radiation Detection",
+        "q": "Which counter uses gas ionization and high voltage?",
+        "answer": "GM counter",
+        "accept": [
+          "Geiger counter",
+          "GM Counter",
+          "Geiger-Muller counter"
+        ],
+        "explain": "A GM counter is a gas ionization counter operating at high voltage."
+      },
+      {
+        "id": "PHY70052",
+        "type": "mcq",
+        "cat": "Chapter 7: Nuclear Reactions",
+        "q": "In a fission reaction, a uranium-235 nucleus absorbs a neutron and splits. Which of the following is a possible pair of daughter nuclei?",
+        "options": [
+          "Xenon-140 and Strontium-94",
+          "Helium-4 and Radon-222",
+          "Deuterium and Tritium",
+          "Carbon-14 and Nitrogen-14"
+        ],
+        "correct": 0,
+        "explain": "One common fission pathway for uranium-235 is the production of xenon-140 and strontium-94, along with two or three free neutrons and gamma rays. The line Helium-4 and Radon-222 describes an alpha decay product pair, not fission fragments. The line Deuterium and Tritium lists hydrogen isotopes involved in fusion. The line Carbon-14 and Nitrogen-14 lists carbon and nitrogen isotopes associated with beta decay and carbon dating."
+      },
+      {
+        "id": "PHY70053",
+        "type": "mcq",
+        "cat": "Chapter 7: Nuclear Reactions",
+        "q": "Which of the following is a fusion reaction?",
+        "options": [
+          "²³⁵U₉₂ + n → ¹⁴⁰Xe₅₄ + ⁹⁴Sr₃₈ + 2n",
+          "²H₁ + ²H₁ → ³H₁ + ¹H₁ + 4.0 MeV",
+          "²³⁸U₉₂ → ²³⁴Th₉₀ + ⁴He₂",
+          "¹⁴C₆ → ¹⁴N₇ + e⁻ + ν"
+        ],
+        "correct": 1,
+        "explain": "Fusion is the combination of two light nuclei into a heavier nucleus. The reaction ²H₁ + ²H₁ → ³H₁ + ¹H₁ is a fusion reaction between two deuterium nuclei. The line ²³⁵U₉₂ + n → ¹⁴⁰Xe₅₄ + ⁹⁴Sr₃₈ + 2n is a fission reaction. The line ²³⁸U₉₂ → ²³⁴Th₉₀ + ⁴He₂ is alpha decay, and the line ¹⁴C₆ → ¹⁴N₇ + e⁻ + ν is beta decay. These are all nuclear processes, but only the deuterium reaction is fusion."
+      },
+      {
+        "id": "PHY70054",
+        "type": "matching",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Match each property to the type of nuclear radiation it describes.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Two protons and two neutrons bound together"
+          },
+          {
+            "id": "2",
+            "text": "A fast-moving electron or positron"
+          },
+          {
+            "id": "3",
+            "text": "High-energy electromagnetic radiation"
+          },
+          {
+            "id": "4",
+            "text": "Carries a positive charge of plus two"
+          },
+          {
+            "id": "5",
+            "text": "Carries a negative charge of minus one"
+          },
+          {
+            "id": "6",
+            "text": "Carries no electric charge"
+          },
+          {
+            "id": "7",
+            "text": "Greatest ionizing power and shortest range"
+          },
+          {
+            "id": "8",
+            "text": "Intermediate ionizing power and intermediate range"
+          },
+          {
+            "id": "9",
+            "text": "Lowest ionizing power and greatest penetrating power"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Alpha particle"
+          },
+          {
+            "id": "B",
+            "text": "Beta particle"
+          },
+          {
+            "id": "C",
+            "text": "Gamma ray"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "A",
+          "5": "B",
+          "6": "C",
+          "7": "A",
+          "8": "B",
+          "9": "C"
+        },
+        "explain": "Alpha particles are helium-4 nuclei, carrying two protons and two neutrons and a charge of plus two. Their large mass and double charge make them strongly ionizing but easily stopped, so they have the shortest range. Beta particles are fast electrons or positrons, carrying a single negative or positive charge, with intermediate mass, intermediate ionizing power, and intermediate range. Gamma rays are high-energy photons with no mass and no charge, so they interact weakly and have the lowest ionizing power but the greatest penetrating power."
+      },
+      {
+        "id": "PHY70055",
+        "type": "matching",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Match each type of nuclear decay to its effect on the atomic number Z and the mass number A.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Alpha decay"
+          },
+          {
+            "id": "2",
+            "text": "Beta minus decay"
+          },
+          {
+            "id": "3",
+            "text": "Beta plus decay"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Z falls by two, A falls by four"
+          },
+          {
+            "id": "B",
+            "text": "Z rises by one, A unchanged"
+          },
+          {
+            "id": "C",
+            "text": "Z falls by one, A unchanged"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "explain": "In alpha decay, the nucleus emits two protons and two neutrons, so the atomic number decreases by two and the mass number decreases by four. In beta minus decay, a neutron becomes a proton, so the atomic number increases by one while the mass number stays the same because the total count of nucleons is unchanged. In beta plus decay, a proton becomes a neutron, so the atomic number decreases by one while the mass number again stays the same."
+      },
+      {
+        "id": "PHY70056",
+        "type": "matching",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "Match each unit of radiation measurement to its correct definition.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Becquerel"
+          },
+          {
+            "id": "2",
+            "text": "Gray"
+          },
+          {
+            "id": "3",
+            "text": "Sievert"
+          },
+          {
+            "id": "4",
+            "text": "Curie"
+          },
+          {
+            "id": "5",
+            "text": "Rad"
+          },
+          {
+            "id": "6",
+            "text": "Rem"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "One decay event per second"
+          },
+          {
+            "id": "B",
+            "text": "One joule absorbed per kilogram of material"
+          },
+          {
+            "id": "C",
+            "text": "Absorbed dose multiplied by the quality factor, in SI"
+          },
+          {
+            "id": "D",
+            "text": "Three point seven times ten to the tenth decays per second"
+          },
+          {
+            "id": "E",
+            "text": "One hundredth of a joule absorbed per kilogram"
+          },
+          {
+            "id": "F",
+            "text": "The older unit equal to one hundredth of a sievert"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F"
+        },
+        "explain": "The becquerel is the SI unit of activity and equals one decay event per second. The gray is the SI unit of absorbed dose and equals one joule per kilogram. The sievert is the SI unit of dose equivalent and equals the absorbed dose multiplied by the radiation weighting factor. The curie is the older unit of activity, equal to three point seven times ten to the tenth decays per second. The rad is the older unit of absorbed dose, equal to one hundredth of a joule per kilogram. The rem is the older unit of dose equivalent and equals one hundredth of a sievert."
+      },
+      {
+        "id": "PHY90037",
+        "type": "saq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "What is the SI symbol for absorbed dose?",
+        "answer": "Gy",
+        "accept": [],
+        "explain": "Absorbed dose is measured in gray, symbol Gy, where 1 Gy = 1 J/kg."
+      },
+      {
+        "id": "PHY90038",
+        "type": "saq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "What is the SI symbol for dose equivalent?",
+        "answer": "Sv",
+        "accept": [],
+        "explain": "Dose equivalent is measured in sievert, symbol Sv."
+      },
+      {
+        "id": "PHY90039",
+        "type": "saq",
+        "cat": "Chapter 7: Dosimetry",
+        "q": "Which older unit symbol is used for dose equivalent?",
+        "answer": "rem",
+        "accept": [],
+        "explain": "The older dose-equivalent unit is the rem, and 1 Sv = 100 rem."
+      },
+      {
+        "id": "PHY70057",
+        "type": "matching",
+        "cat": "Chapter 7: Photon and Nuclear Formulas",
+        "q": "Match each formula to the quantity it defines or the relationship it expresses.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "E = h × f"
+          },
+          {
+            "id": "2",
+            "text": "f = c / λ"
+          },
+          {
+            "id": "3",
+            "text": "λ = h / (m v)"
+          },
+          {
+            "id": "4",
+            "text": "h f = K_max + φ"
+          },
+          {
+            "id": "5",
+            "text": "r = R₀ A^(1/3)"
+          },
+          {
+            "id": "6",
+            "text": "T₁/₂ = 0.693 / λ"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Relates the energy of a photon to its frequency"
+          },
+          {
+            "id": "B",
+            "text": "Relates the frequency of light to its wavelength and speed"
+          },
+          {
+            "id": "C",
+            "text": "Gives the de Broglie wavelength of a moving particle"
+          },
+          {
+            "id": "D",
+            "text": "Relates incident photon energy, work function, and maximum kinetic energy"
+          },
+          {
+            "id": "E",
+            "text": "Gives the radius of a nucleus from its mass number"
+          },
+          {
+            "id": "F",
+            "text": "Relates the half-life of a radionuclide to its decay constant"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F"
+        },
+        "explain": "The relation E = h × f gives the energy of a single photon from its frequency. The relation f = c / λ connects the frequency of an electromagnetic wave to its wavelength and to the speed of light. The relation λ = h / (m v) gives the de Broglie wavelength of a particle of mass m moving with velocity v. The photoelectric equation h f = K_max + φ relates the incident photon energy to the work function of the metal and the maximum kinetic energy of the emitted electron. The relation r = R₀ A^(1/3) gives the radius of a nucleus from its mass number. The relation T₁/₂ = 0.693 / λ links the half-life of a radionuclide to its decay constant."
+      },
+      {
+        "id": "PHY90032",
+        "type": "saq",
+        "cat": "Chapter 7: Photon and Nuclear Formulas",
+        "q": "Which constant relates photon energy to frequency?",
+        "answer": "Planck constant",
+        "accept": [
+          "Planck",
+          "Planck's constant",
+          "planck constant",
+          "h"
+        ],
+        "explain": "Photon energy is E = hf, where h is Planck constant."
+      },
+      {
+        "id": "PHY70058",
+        "type": "mcq",
+        "cat": "Chapter 7: de Broglie Hypothesis",
+        "q": "A proton of mass 1.67 × 10⁻²⁷ kg moves at 1.3 × 10⁶ m/s. With h = 6.63 × 10⁻³⁴ J·s, what is its de Broglie wavelength?",
+        "options": [
+          "3.05 × 10⁻¹³ m",
+          "3.05 × 10⁻⁷ m",
+          "2.17 × 10⁻²¹ m",
+          "5.16 × 10⁻¹³ m"
+        ],
+        "correct": 0,
+        "explain": "The de Broglie wavelength is λ = h / (m v). The momentum is (1.67 × 10⁻²⁷) × (1.3 × 10⁶) = 2.17 × 10⁻²¹ kg·m/s. Dividing h by that momentum gives 3.05 × 10⁻¹³ m. The line 3.05 × 10⁻⁷ m drops the 10⁶ in the speed. The line 2.17 × 10⁻²¹ m is the momentum itself, not the wavelength. The line 5.16 × 10⁻¹³ m does not come from h / (m v) with these values."
+      },
+      {
+        "id": "PHY70059",
+        "type": "mcq",
+        "cat": "Chapter 7: de Broglie Hypothesis",
+        "q": "A 20 gram steel ball moves at 20 m/s. Why is its de Broglie wavelength of no practical size?",
+        "options": [
+          "λ = h / (m v) is about 1.7 × 10⁻³³ m, far below nuclear sizes.",
+          "λ = h m v is about 1.7 × 10⁻³ m, comparable to visible light.",
+          "λ = h / (m v) is about 1.7 × 10⁻¹⁰ m, comparable to an atom.",
+          "A macroscopic object has no de Broglie wavelength, because the relation applies only to electrons."
+        ],
+        "correct": 0,
+        "explain": "With m = 0.020 kg and v = 20 m/s, m v = 0.40, so λ = h / (m v) is about 1.66 × 10⁻³³ m. That is far smaller than a nucleus, so the wave character is not seen. The line λ = h m v is about 1.7 × 10⁻³ m multiplies by momentum instead of dividing. The line λ = h / (m v) is about 1.7 × 10⁻¹⁰ m would require a much smaller momentum. The line A macroscopic object has no de Broglie wavelength denies the general relation."
+      },
+      {
+        "id": "PHY70060",
+        "type": "mcq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Uranium-238 emits one alpha particle and then one beta minus particle. What is the daughter?",
+        "options": [
+          "Protactinium-234",
+          "Thorium-234",
+          "Uranium-234",
+          "Radium-230"
+        ],
+        "correct": 0,
+        "explain": "The alpha particle takes A from 238 to 234 and Z from 92 to 90, giving thorium-234. The following beta minus decay leaves A at 234 and raises Z from 90 to 91, giving protactinium-234. The line Thorium-234 stops after the alpha particle. The line Uranium-234 would require beta minus to restore Z to 92, which it does not. The line Radium-230 would require two alpha particles."
+      },
+      {
+        "id": "PHY90035",
+        "type": "saq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Which decay emits a helium nucleus?",
+        "answer": "Alpha decay",
+        "accept": [
+          "alpha decay",
+          "α decay"
+        ],
+        "explain": "Alpha decay emits an alpha particle, which is a helium nucleus."
+      },
+      {
+        "id": "PHY90036",
+        "type": "saq",
+        "cat": "Chapter 7: Radioactivity",
+        "q": "Which neutral particle has negligible mass in beta decay?",
+        "answer": "Neutrino",
+        "accept": [
+          "neutrino",
+          "ν"
+        ],
+        "explain": "The neutrino is neutral, has negligible mass, and interacts weakly with matter."
+      },
+      {
+        "id": "PHY70061",
+        "type": "mcq",
+        "cat": "Chapter 7: Nuclear Radius",
+        "q": "What is the ratio of the radii (R1:R2) of two nuclei whose mass numbers are 27 and 64?",
+        "options": [
+          "3:4",
+          "2:3",
+          "4:3",
+          "1:2"
+        ],
+        "correct": 0,
+        "explain": "The nuclear radius is r = R0 × A^(1/3). The ratio R1/R2 = (A1/A2)^(1/3) = (27/64)^(1/3) = 3/4, so R1:R2 = 3:4. The line 2:3 uses an incorrect cube root. The line 4:3 reverses the ratio. The line 1:2 uses a different mass ratio."
+      },
+      {
+        "id": "PHY90034",
+        "type": "saq",
+        "cat": "Chapter 7: Matter Waves",
+        "q": "Which waves are associated with moving particles?",
+        "answer": "Matter waves",
+        "accept": [
+          "matter waves",
+          "de Broglie waves"
+        ],
+        "explain": "Matter waves are associated with moving particles and are not electromagnetic waves."
+      },
+      {
+        "id": "PHY90043",
+        "type": "saq",
+        "cat": "Chapter 7: Medical Applications",
+        "q": "Which treatment uses radiation to destroy cancer cells?",
+        "answer": "Radiation therapy",
+        "accept": [],
+        "explain": "Radiation therapy uses ionizing radiation to destroy cancer cells."
+      },
+      {
+        "id": "PHY90044",
+        "type": "saq",
+        "cat": "Chapter 7: Nuclear Structure",
+        "q": "Which collective term denotes protons and neutrons?",
+        "answer": "Nucleons",
+        "accept": [
+          "nucleons"
+        ],
+        "explain": "Protons and neutrons are collectively called nucleons. They form the nucleus."
+      }
+    ]
+  }
+}

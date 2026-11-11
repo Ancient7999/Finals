@@ -1,0 +1,336 @@
+{
+  "id": "mixed-chapters",
+  "subject": "Medical Physics",
+  "subjectId": "medphys",
+  "title": "Mixed Chapters",
+  "source": "Medical Physics question banks mixed-chapters: original versions of the 8 items that contain Chapter 7 content (removed or trimmed in the live bank)",
+  "formSize": 8,
+  "forms": [
+    "A"
+  ],
+  "cards": [
+    {
+      "id": "mixed",
+      "title": "Mixed Chapters",
+      "cats": [
+        "Mixed Chapters: Cross-Chapter",
+        "Mixed Chapters: Linking and Short Answers"
+      ],
+      "draft": true
+    }
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "PHY90006",
+        "type": "matching",
+        "cat": "Mixed Chapters: Cross-Chapter",
+        "q": "Match each principle to the medical technology that relies on it.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Total internal reflection"
+          },
+          {
+            "id": "2",
+            "text": "Thin-lens power"
+          },
+          {
+            "id": "3",
+            "text": "Stimulated emission"
+          },
+          {
+            "id": "4",
+            "text": "Radioactive half-life"
+          },
+          {
+            "id": "5",
+            "text": "Ionizing radiation"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Trapped light steers a flexible scope"
+          },
+          {
+            "id": "B",
+            "text": "Curvature bends rays to a focus"
+          },
+          {
+            "id": "C",
+            "text": "Coherent beam seals or cuts tissue"
+          },
+          {
+            "id": "D",
+            "text": "Fixed decay dates old carbon"
+          },
+          {
+            "id": "E",
+            "text": "Charged beams destroy tumour cells"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E"
+        },
+        "explain": "Trapped light guides an endoscope. Lens curvature focuses corrective and instrumental rays. Stimulated emission gives the laser beam. Half-life clocks carbon dating. Ionizing beams treat tumours."
+      },
+      {
+        "id": "PHY90007",
+        "type": "matching",
+        "cat": "Mixed Chapters: Cross-Chapter",
+        "q": "Match each physical quantity to its SI unit.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Viscosity"
+          },
+          {
+            "id": "2",
+            "text": "Surface tension"
+          },
+          {
+            "id": "3",
+            "text": "Lens power"
+          },
+          {
+            "id": "4",
+            "text": "Activity"
+          },
+          {
+            "id": "5",
+            "text": "Absorbed dose"
+          },
+          {
+            "id": "6",
+            "text": "Dose equivalent"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "pascal-second"
+          },
+          {
+            "id": "B",
+            "text": "newton per metre"
+          },
+          {
+            "id": "C",
+            "text": "dioptre"
+          },
+          {
+            "id": "D",
+            "text": "becquerel"
+          },
+          {
+            "id": "E",
+            "text": "gray"
+          },
+          {
+            "id": "F",
+            "text": "sievert"
+          },
+          {
+            "id": "G",
+            "text": "joule"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F"
+        },
+        "explain": "Viscosity is pascal-second, surface tension newton per metre, lens power dioptre, activity becquerel, absorbed dose gray, and dose equivalent sievert. Joule is energy."
+      },
+      {
+        "id": "PHY90008",
+        "type": "matching",
+        "cat": "Mixed Chapters: Cross-Chapter",
+        "q": "Match each formula to what it calculates.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "E = hf"
+          },
+          {
+            "id": "2",
+            "text": "λ = h/mv"
+          },
+          {
+            "id": "3",
+            "text": "T½ = 0.693/λ"
+          },
+          {
+            "id": "4",
+            "text": "n = c/v"
+          },
+          {
+            "id": "5",
+            "text": "P = 1/f"
+          },
+          {
+            "id": "6",
+            "text": "Q = πr⁴ΔP/8ηL"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Photon energy"
+          },
+          {
+            "id": "B",
+            "text": "Matter wavelength"
+          },
+          {
+            "id": "C",
+            "text": "Half-life"
+          },
+          {
+            "id": "D",
+            "text": "Index of refraction"
+          },
+          {
+            "id": "E",
+            "text": "Lens power"
+          },
+          {
+            "id": "F",
+            "text": "Viscous tube flow"
+          },
+          {
+            "id": "G",
+            "text": "Wave speed"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F"
+        },
+        "explain": "E = hf is photon energy, λ = h/mv matter wavelength, T½ = 0.693/λ half-life, n = c/v refractive index, P = 1/f lens power, and the r⁴ form is viscous tube flow. Wave speed is v = λf."
+      },
+      {
+        "id": "PHY90009",
+        "type": "matching",
+        "cat": "Mixed Chapters: Cross-Chapter",
+        "q": "Match each wave category to its examples.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Mechanical waves"
+          },
+          {
+            "id": "2",
+            "text": "Electromagnetic waves"
+          },
+          {
+            "id": "3",
+            "text": "Matter waves"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Sound and ultrasound"
+          },
+          {
+            "id": "B",
+            "text": "Light, X-rays, gamma rays"
+          },
+          {
+            "id": "C",
+            "text": "de Broglie association with moving particles"
+          },
+          {
+            "id": "D",
+            "text": "Sound travelling through vacuum"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "explain": "Mechanical waves include sound and ultrasound. Electromagnetic waves include light, X-rays, and gamma rays. Matter waves are the de Broglie association. Sound cannot cross vacuum."
+      },
+      {
+        "id": "PHY90018",
+        "type": "saq",
+        "cat": "Mixed Chapters: Linking and Short Answers",
+        "q": "Which named relation gives a moving particle the wavelength h over mv?",
+        "answer": "de Broglie wavelength",
+        "accept": [
+          "de Broglie",
+          "De Broglie",
+          "de broglie",
+          "de-Broglie",
+          "De Broglie wavelength",
+          "de-Broglie wavelength",
+          "de Broglie's wavelength"
+        ],
+        "explain": "The de Broglie relation λ = h / mv assigns a wavelength to a moving particle."
+      },
+      {
+        "id": "PHY90019",
+        "type": "saq",
+        "cat": "Mixed Chapters: Linking and Short Answers",
+        "q": "In hf = Kmax + φ, which term is the minimum ejection energy?",
+        "answer": "Work function",
+        "accept": [
+          "work function",
+          "The function of work",
+          "function of work"
+        ],
+        "explain": "The work function φ is the minimum energy needed to free an electron from the metal."
+      },
+      {
+        "id": "PHY90025",
+        "type": "saq",
+        "cat": "Mixed Chapters: Linking and Short Answers",
+        "q": "Which term means the smallest discrete amount of a quantized quantity?",
+        "answer": "Quantum",
+        "accept": [
+          "quantum"
+        ],
+        "explain": "A quantum is the elementary amount of a quantized quantity; quanta is the plural."
+      },
+      {
+        "id": "PHY90031",
+        "type": "stepped",
+        "cat": "Mixed Chapters: Linking and Short Answers",
+        "q": "Ionizing radiation has two named medical applications. Type one at each step.",
+        "explain": "Radiation therapy destroys cancer cells with ionizing radiation. Dosimetry measures the dose absorbed by living tissue in medicine.",
+        "steps": [
+          {
+            "id": "1",
+            "type": "saq",
+            "prompt": "Type the treatment that uses ionizing radiation to destroy cancer cells.",
+            "answer": "Radiation therapy",
+            "accept": []
+          },
+          {
+            "id": "2",
+            "type": "saq",
+            "prompt": "Given Radiation therapy, type the medical measurement of dose absorbed by living tissue.",
+            "answer": "Dosimetry",
+            "accept": [
+              "Radiation dosimetry"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

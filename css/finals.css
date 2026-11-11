@@ -1,0 +1,369 @@
+/* Finals: timer box settings */
+html.finals-hide-dock #timerDock{display:none!important}
+html.finals-hide-quotes #globalTimerMode,html.finals-hide-quotes #globalTimerAuthor{display:none!important}
+html.finals-hide-emojis #liveMoodBtn,html.finals-hide-emojis #moodTray{display:none!important}
+html.finals-pomo-off #globalTimerDisplay{display:none!important}
+#portalView .online-panel,#portalView .portal-tabs,#portalView #materialsLabel{display:none!important}
+.finals-menu-link{display:inline-block;margin:0 0 14px;font-size:.85rem;color:var(--cyan-bright,#67e8f9);text-decoration:none}
+.finals-menu-link:hover{text-decoration:underline}
+
+/* —— t305u fixes —— */
+/* the custom cursor stays above every overlay (settings, pop-ups, confirms, tips) */
+#cursor{z-index:2147483646 !important}
+#cursor.core{z-index:2147483647 !important}
+/* one font dropdown per role: the styled picker; the native select stays only as the value holder */
+.font-family-select-native{display:none !important}
+/* default fonts: Body / UI and Headings follow the font roles */
+body{font-family:var(--font-ui,'Outfit',system-ui,sans-serif)}
+#portalView h1,#setsView h1,#studyView h1,.settings-modal h2,.settings-panel-title{font-family:var(--font-head,'Roboto',system-ui,sans-serif)}
+/* Settings → Quiz: one option per row, same toggles as the Theme panel */
+.finals-opt-list{display:flex;flex-direction:column;gap:2px;margin-top:10px}
+.finals-opt{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:9px 2px;border-bottom:1px solid var(--col-border-light)}
+.finals-opt:last-child{border-bottom:0}
+.finals-opt-text{display:flex;flex-direction:column;gap:2px;min-width:0}
+.finals-opt-name{font-size:.95rem}
+.finals-opt-hint{font-size:.78rem;opacity:.7}
+.finals-opt .toggle-switch{flex:0 0 auto}
+html.finals-pomo-off .finals-opt[data-needs-timer]{opacity:.45}
+
+/* Lock emoji button in the emoji dropdown */
+.mood-lock-btn:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+
+/* System cursor: no custom overlay at all (the system pencil takes over while linking) */
+html[data-custom-cursor="off"] #cursor,html[data-custom-cursor="off"] .brushCursor{display:none!important}
+
+/* Background grid off (Settings → Theme) */
+html.finals-no-grid:not([data-skin]){--skin-pattern:none!important;--skin-pattern-opacity:0!important;--grid-tint:transparent!important}
+html.finals-no-grid:not([data-skin]) #el-arquitecto-bg-layer{display:none!important}
+
+/* Picture Study title: the sheen moves through shades and tints of the active colour only */
+#studyView .study-header h1{background:linear-gradient(120deg,color-mix(in srgb,var(--accent-0) 45%,#fff) 0%,var(--accent-0) 35%,color-mix(in srgb,var(--accent-0) 62%,#000) 65%,color-mix(in srgb,var(--accent-0) 70%,#fff) 100%)!important;background-size:220% 100%!important;-webkit-background-clip:text!important;background-clip:text!important}
+/* Practice title: same rule, no fixed second hue */
+.sets-wrap h1{background:linear-gradient(120deg,var(--cyan-bright) 0%,var(--cyan) 40%,color-mix(in srgb,var(--cyan) 65%,#000) 75%,var(--cyan-bright) 100%)!important;-webkit-background-clip:text!important;background-clip:text!important}
+
+/* Lock emoji stays hidden until it is unlocked (html.finals-lock-open) */
+html:not(.finals-lock-open) #finalsMoodLock,html:not(.finals-lock-open) .finals-emoji-lock-opt{display:none!important}
+/* t325u: Lock emoji is a checkbox-style control, left of the Change cursor button */
+.mood-tray-tools .finals-tools-row{display:flex;align-items:center;justify-content:center;gap:.6rem}
+.mood-lock-btn{display:inline-flex;align-items:center;gap:7px;padding:5px 10px 5px 7px;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--text-dim,inherit);font:inherit;font-family:var(--body,inherit);font-size:.78rem;line-height:1.2;cursor:pointer}
+.mood-lock-btn:hover{border-color:var(--cyan);color:inherit}
+.mood-lock-box{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;border-radius:4px;border:1.5px solid var(--cyan);font-size:11px;font-weight:800;line-height:1;color:#05070c;background:transparent}
+.mood-lock-btn[aria-checked="true"]{border-color:var(--cyan);color:var(--cyan-bright,inherit)}
+.mood-lock-btn[aria-checked="true"] .mood-lock-box{background:var(--cyan)}
+
+/* t327u: Week sections on the home menu */
+#materialCards.finals-weeks{display:block}
+.finals-week{margin:0 0 26px}
+.finals-week-h{margin:0 0 12px;font-family:var(--font-head,var(--head,'Roboto')),'Roboto',system-ui,sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:.04em;color:var(--accent);-webkit-text-fill-color:var(--accent);display:flex;align-items:center;gap:10px}
+.finals-week-h::after{content:"";flex:1;height:1px;background:color-mix(in srgb,var(--accent) 35%,transparent)}
+.finals-week-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media (max-width:640px){.finals-week-cards{grid-template-columns:1fr}}
+/* t326u: Draft / Coming Soon cards dimmed like Finals's locked cards; they still open the confirm */
+.portal-card.finals-dim{opacity:.6;filter:saturate(.6)}
+.portal-card.finals-dim:hover,.portal-card.finals-dim:focus-visible{opacity:.8}
+/* t326u: draft confirm card (its rules lived in lobby.css, which Finals does not ship) */
+.study-confirm{--sc-bg2:var(--bg2,#080c14);--sc-bg:var(--bg,#05070c);--sc-text:var(--text,#e5e7eb);--sc-acc:var(--accent,#22d3ee);
+  position:fixed;z-index:100002;top:max(14px,env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);width:min(440px,calc(100vw - 24px));pointer-events:none;animation:scIn .2s cubic-bezier(.2,.8,.2,1);
+  font-family:var(--font-ui,var(--body,'Outfit')),'Outfit',system-ui,sans-serif}
+.study-confirm.leaving{animation:scOut .16s ease-in forwards}
+.study-confirm-card{pointer-events:auto;display:grid;grid-template-columns:auto 1fr;grid-template-areas:"ico body" "act act";gap:4px 12px;align-items:start;padding:12px 14px;border-radius:16px;
+  background:color-mix(in srgb,var(--sc-bg2) 94%,transparent);border:1px solid color-mix(in srgb,var(--sc-acc) 35%,transparent);
+  box-shadow:0 18px 46px color-mix(in srgb,var(--sc-bg) 80%,transparent),inset 0 1px 0 color-mix(in srgb,var(--sc-text) 10%,transparent);backdrop-filter:blur(18px) saturate(1.2);color:var(--sc-text);text-align:left}
+.study-confirm .sc-ico{grid-area:ico;width:32px;height:32px;border-radius:10px;display:grid;place-items:center;color:var(--sc-acc);background:color-mix(in srgb,var(--sc-acc) 14%,transparent)}
+.study-confirm .sc-body{grid-area:body;min-width:0;padding-top:1px}
+.study-confirm-card h3{margin:0;font-family:var(--font-head,var(--head,'Roboto')),'Roboto',system-ui,sans-serif;font-size:.95rem;font-weight:700;line-height:1.3;color:var(--sc-text);-webkit-text-fill-color:var(--sc-text);background:none}
+.study-confirm-text{margin:2px 0 0;font-size:.82rem;line-height:1.45;color:var(--text-dim,#9ca3af)}
+.study-confirm-text[hidden]{display:none}
+.study-confirm .sc-actions{grid-area:act;display:flex;justify-content:flex-end;gap:8px;margin-top:10px}
+.study-confirm .sc-btn{min-width:72px;height:32px;padding:0 14px;border-radius:10px;border:1px solid color-mix(in srgb,var(--sc-text) 14%,transparent);background:color-mix(in srgb,var(--sc-text) 5%,transparent);color:var(--sc-text);-webkit-text-fill-color:currentColor;
+  font:700 .78rem var(--font-ui,var(--body,'Outfit')),'Outfit',system-ui,sans-serif;cursor:pointer;transition:border-color .15s,box-shadow .15s,transform .15s,background .15s;-webkit-appearance:none;appearance:none}
+.study-confirm .sc-btn:hover{border-color:color-mix(in srgb,var(--sc-acc) 60%,transparent);box-shadow:0 0 14px var(--mood-glow,transparent)}
+.study-confirm .sc-btn:active{transform:scale(.97)}
+.study-confirm .sc-btn:focus-visible{outline:none;box-shadow:0 0 0 3px color-mix(in srgb,var(--sc-acc) 40%,transparent);border-color:var(--sc-acc)}
+.study-confirm .sc-btn.sc-primary{border-color:transparent;color:var(--sc-bg);-webkit-text-fill-color:var(--sc-bg);background:linear-gradient(135deg,var(--sc-acc),var(--accent-2,var(--sc-acc)))}
+.study-confirm .sc-btn.sc-danger{border-color:color-mix(in srgb,var(--error,#ef4444) 55%,transparent);background:color-mix(in srgb,var(--error,#ef4444) 22%,transparent)}
+@keyframes scIn{from{opacity:0;transform:translate(-50%,-14px)}to{opacity:1;transform:translate(-50%,0)}}
+@keyframes scOut{to{opacity:0;transform:translate(-50%,-10px)}}
+@media (max-width:520px){.study-confirm{width:calc(100vw - 16px);top:max(8px,env(safe-area-inset-top,0px))}.study-confirm .sc-btn{flex:1;height:40px}}
+@media (prefers-reduced-motion:reduce){.study-confirm,.study-confirm.leaving{animation:none}}
+
+/* t336u + S: Anatomy is a slightly smaller card joined to English and Medical Terminology by connectors (drawn by
+   finals-offline.js). Wide screens: the two main cards share one row at the same size, Anatomy is centred below them.
+   Phones: one column, Anatomy between English and Medical Terminology. */
+.finals-week-cards.finals-has-lesser{position:relative;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;row-gap:44px}
+.finals-week-cards.finals-has-lesser > .finals-lesser{grid-column:1 / -1;grid-row:2;justify-self:center;align-self:start;width:58%}
+.finals-week-cards.finals-has-lesser > .finals-lesser .portal-card{padding:20px 19px}
+.finals-week-cards.finals-has-lesser > .finals-lesser .portal-card h3{font-size:1.05rem}
+@media (max-width:640px){
+  .finals-week-cards.finals-has-lesser{grid-template-columns:1fr;row-gap:30px}
+  .finals-week-cards.finals-has-lesser > *{order:1}
+  .finals-week-cards.finals-has-lesser > .finals-lesser{order:2;grid-column:1;grid-row:auto;width:88%}
+  .finals-week-cards.finals-has-lesser > :not(:first-child):not(.finals-lesser):not(svg){order:3}
+}
+.finals-branch{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:3}
+.finals-branch path{fill:none;stroke:var(--accent-0);stroke-width:2;stroke-dasharray:5 5;stroke-linecap:round;opacity:.85}
+.finals-branch circle{fill:var(--accent-0)}
+.finals-branch{filter:drop-shadow(0 0 4px rgba(var(--accent-0-rgb),.7))}
+@media (prefers-reduced-motion:no-preference){.finals-branch path{animation:finals-branch-flow 3.6s linear infinite}}
+@keyframes finals-branch-flow{to{stroke-dashoffset:-20}}
+/* the section description under a view title (Human Atlas credit for Anatomy) */
+.finals-view-intro{margin:6px 0 10px}
+#studyView .finals-view-intro{margin:6px 0 0}
+
+/* steer C: the 'System' cursor is the custom-drawn arrow from Medphys-finals (quiz/index.html), accent coloured.
+   It keeps the custom cursor z-index above (settings, pop-ups, confirms, tips). */
+html[data-cursor="system"]{--cur-w:18px;--cur-h:26px;--cur-border:none;--cur-radius:0;--cur-bg:var(--accent-0);--cur-blend:normal;--cur-shadow:none;--cur-core-w:0px;--cur-core-h:0px;--cur-core-bg:transparent;--cur-active-w:20px;--cur-active-h:28px;--cur-active-bg:var(--accent-1);--cur-active-border:transparent}
+/* not while a link line is drawn: then the pencil rules (quiz-finals.css) take over, as for the other skins */
+html[data-cursor="system"]:not(.link-drawing) #cursor,
+html[data-cursor="system"]:not(.link-drawing) #cursor.active{
+  border:none!important;border-radius:0!important;
+  background:var(--accent-0)!important;
+  clip-path:polygon(0% 0%,0% 100%,34% 70%,48% 100%,60% 95%,42% 62%,78% 62%);
+  transform:translate(0,0)!important;
+  mix-blend-mode:normal!important;
+  /* fill + outline both accent (clip-path ignores box-shadow; use drop-shadow) */
+  filter:drop-shadow(0 0 0.6px var(--accent-0)) drop-shadow(0 0 0.6px var(--accent-0)) drop-shadow(1px 2px 3px rgba(0,0,0,.45))!important;
+  box-shadow:none!important;
+}
+html[data-cursor="system"]:not(.link-drawing) #cursor.active{
+  background:var(--accent-1)!important;
+  filter:drop-shadow(0 0 0.6px var(--accent-1)) drop-shadow(0 0 0.6px var(--accent-1)) drop-shadow(1px 2px 3px rgba(0,0,0,.45))!important;
+}
+html[data-cursor="system"]:not(.link-drawing) #cursor.core,
+html[data-cursor="system"]:not(.link-drawing) #cursor.core.active{display:none!important;opacity:0!important;width:0!important;height:0!important}
+html[data-cursor="system"] #cursor{z-index:2147483646!important}
+
+/* steer B: 'Automatic' in the cursor picker */
+.cursor-skin-opt.cursor-skin-auto .preview-auto{display:flex;align-items:center;justify-content:center;font-size:20px;color:var(--accent-0)}
+
+/* steer D: Settings is a text button like the other header buttons (Fullscreen), in the accent colour */
+#settings-wrapper #settings-btn.finals-settings-text{
+  width:auto!important;height:auto!important;min-width:0!important;
+  font-family:var(--font-nav,var(--mono))!important;font-size:.85rem!important;line-height:1.2!important;font-weight:500!important;letter-spacing:.02em;
+  color:var(--accent-0)!important;-webkit-text-fill-color:var(--accent-0)!important;
+  border:1px solid rgba(var(--accent-0-rgb),.28)!important;border-radius:999px!important;
+  background:rgba(var(--accent-0-rgb),.08)!important;padding:10px 16px!important;box-shadow:none!important;
+  pointer-events:auto!important;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s!important;
+}
+#settings-wrapper #settings-btn.finals-settings-text:hover{background:rgba(var(--accent-0-rgb),.14)!important;border-color:rgba(var(--accent-0-rgb),.55)!important;box-shadow:0 0 18px rgba(var(--accent-0-rgb),.28)!important}
+#settings-wrapper #settings-btn.finals-settings-text:active{transform:scale(.97)!important}
+#settings-wrapper #settings-btn.finals-settings-text:focus-visible{outline:2px solid var(--accent-1)!important;outline-offset:3px!important}
+/* the top-right Fullscreen buttons make room for it */
+.finals-q [data-fs]{margin-right:var(--finals-settings-room,104px)}
+
+/* steer G: hovering the 'Show background grid' row (or focusing its switch) makes the grid glow in the accent
+   colour with thicker lines; if the grid is off it shows as a preview while hovered */
+#finalsGridGlow{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0;transition:opacity .35s ease;
+  background-image:linear-gradient(rgba(var(--accent-0-rgb),.55) 2px,transparent 2px),linear-gradient(90deg,rgba(var(--accent-0-rgb),.55) 2px,transparent 2px);
+  background-size:var(--finals-grid-size,60px) var(--finals-grid-size,60px);
+  filter:drop-shadow(0 0 3px rgba(var(--accent-0-rgb),.9)) drop-shadow(0 0 8px rgba(var(--accent-0-rgb),.45));
+  mask-image:radial-gradient(ellipse at 50% 42%,black 32%,transparent 92%);-webkit-mask-image:radial-gradient(ellipse at 50% 42%,black 32%,transparent 92%)}
+html[data-skin="grid-haze"]{--finals-grid-size:64px}
+.settings-modal{transition:background-color .35s ease}
+/* grid level: Low = plain grid (no glow), Moderate = a light glow (weaker than the old Medium) */
+html[data-finals-grid="mod"] #finalsGridGlow{opacity:.3}
+html.finals-grid-hover .settings-modal{background-color:rgba(8,10,16,.4)!important}
+.finals-grid-opt{border-radius:10px;transition:background .25s ease,box-shadow .25s ease}
+.finals-grid-opt:hover,html.finals-grid-hover .finals-grid-opt{background:rgba(var(--accent-0-rgb),.08);box-shadow:inset 0 0 0 1px rgba(var(--accent-0-rgb),.35)}
+/* Off / Low / Medium / High segmented control */
+.finals-seg{flex:0 0 auto;display:inline-flex;gap:2px;padding:3px;border-radius:999px;border:1px solid rgba(var(--accent-0-rgb),.35);background:rgba(var(--accent-0-rgb),.06)}
+.finals-seg button{appearance:none;border:0;background:transparent;color:inherit;font:inherit;font-size:.8rem;line-height:1;padding:7px 11px;border-radius:999px;cursor:pointer;opacity:.75;transition:background .2s ease,color .2s ease,opacity .2s ease}
+.finals-seg button:hover{opacity:1;background:rgba(var(--accent-0-rgb),.12)}
+.finals-seg button.active{opacity:1;background:rgba(var(--accent-0-rgb),.28);color:var(--accent-1);box-shadow:inset 0 0 0 1px rgba(var(--accent-0-rgb),.6);font-weight:600}
+.finals-seg button:focus-visible{outline:2px solid var(--accent-1);outline-offset:1px}
+@media (max-width:480px){.finals-grid-opt{flex-wrap:wrap}.finals-seg button{padding:7px 9px}}
+
+/* M: Peek button on the dimmed Coming Soon cards (outside the card, so not dimmed) */
+.finals-peek-wrap{position:relative;display:flex}
+.finals-peek-wrap > .portal-card{flex:1;min-width:0}
+.finals-peek-wrap .portal-card .finals-soon{right:58px}
+.finals-peek{position:absolute;top:10px;right:12px;z-index:3;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;padding:0;
+  color:var(--accent-0);background:rgba(var(--accent-0-rgb),.12);border:1px solid rgba(var(--accent-0-rgb),.55);opacity:1;filter:none;
+  box-shadow:0 0 12px rgba(var(--accent-0-rgb),.25);transition:transform .2s,background .2s,box-shadow .2s}
+.finals-peek:hover{background:rgba(var(--accent-0-rgb),.22);box-shadow:0 0 18px rgba(var(--accent-0-rgb),.5);transform:translateY(-1px)}
+.finals-peek:active{transform:scale(.94)}
+.finals-peek:focus-visible{outline:2px solid var(--accent-1);outline-offset:3px}
+.finals-peek svg{pointer-events:none}
+#setsSub[hidden]{display:none!important}
+
+/* V: emoji unlocks: the unlock pop-up (Finals's achievement pop-up look and slide-in, in the accent colour) */
+@keyframes finalsUnlockIn{from{opacity:0;transform:translateX(80px)}to{opacity:1;transform:translateX(0)}}
+@keyframes finalsUnlockOut{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(40px)}}
+#finals-unlock-popup{position:fixed;top:80px;right:20px;z-index:2147483000;max-width:320px;padding:14px 18px;border-radius:12px;
+  background:linear-gradient(135deg,color-mix(in srgb,var(--accent-0) 92%,transparent),color-mix(in srgb,var(--accent-1,var(--accent-0)) 88%,transparent));
+  border:2px solid var(--accent-0);box-shadow:0 8px 32px rgba(0,0,0,.6),0 0 24px rgba(var(--accent-0-rgb),.45);color:#14110a;
+  animation:finalsUnlockIn .4s ease-out,finalsUnlockOut .5s ease-in 12.9s forwards}
+#finals-unlock-popup .achievement-popup-content{display:flex;align-items:center;gap:12px}
+#finals-unlock-popup .achievement-popup-icon{font-size:2em;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+#finals-unlock-popup .achievement-popup-title{font-size:.7em;text-transform:uppercase;letter-spacing:1px;opacity:.85;margin-bottom:2px;font-family:var(--mono)}
+#finals-unlock-popup .achievement-popup-name{font-size:1.05em;font-weight:800;margin-bottom:2px}
+#finals-unlock-popup .achievement-popup-desc{font-size:.8em;opacity:.92}
+@media (prefers-reduced-motion:reduce){#finals-unlock-popup{animation:none}}
+
+/* W: emoji picker paging (20 per page); the pager only exists visually with 21+ emojis */
+#moodTray .mood-pick.finals-pg-off{display:none!important}
+#moodTray .finals-mood-pager[hidden]{display:none!important}
+#moodTray .finals-mood-pager{display:flex;align-items:center;justify-content:center;gap:.45rem;margin-top:-.15rem}
+#moodTray .finals-pg-btn{width:1.6rem;height:1.6rem;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;padding:0;
+  color:var(--cyan-bright);background:rgba(255,255,255,.05);border:1px solid var(--border);cursor:pointer;transition:transform .15s,background .15s,box-shadow .15s,opacity .15s}
+#moodTray .finals-pg-btn:hover:not(:disabled){background:var(--mood-glow);border-color:var(--cyan);box-shadow:0 0 12px var(--mood-glow);transform:scale(1.08)}
+#moodTray .finals-pg-btn:active:not(:disabled){transform:scale(.92)}
+#moodTray .finals-pg-btn:focus-visible{outline:2px solid var(--cyan-bright);outline-offset:2px}
+#moodTray .finals-pg-btn:disabled{opacity:.35;cursor:default}
+#moodTray .finals-pg-ind{font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--muted,var(--text));min-width:2.6rem;text-align:center}
+/* phones: take Coming Soon out of absolute positioning so it sits under the Draft badge */
+@media (max-width:640px){
+  .portal-card:has(.finals-soon){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .portal-card .finals-soon{
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    order: 2;
+    display: inline-flex;
+    margin: 2px 0 10px;
+    font-size: .72rem;
+  }
+  .portal-card:has(.finals-soon) h3{ order: 1; margin-bottom: 4px; }
+  .portal-card:has(.finals-soon) .sub,
+  .portal-card:has(.finals-soon) .badge-note{ order: 3; }
+  .portal-card:has(.finals-soon) .go{ order: 4; }
+}
+
+/* Subject cards on the main interface: Aero-style glass tinted with the accent colour (a gloss layer on top of the tint) */
+#materialCards .portal-card{
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.15) 0%,rgba(255,255,255,.06) 42%,rgba(255,255,255,0) 52%),
+    linear-gradient(160deg,rgba(var(--accent-0-rgb),.17) 0%,rgba(var(--accent-0-rgb),.06) 40%,rgba(12,16,26,.5) 100%);
+  -webkit-backdrop-filter:blur(14px) saturate(1.6);backdrop-filter:blur(14px) saturate(1.6);
+  border:1px solid rgba(255,255,255,.22);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.3),inset 0 0 18px rgba(var(--accent-0-rgb),.14),0 14px 34px -14px rgba(0,0,0,.65)}
+#materialCards .portal-card:hover:not(.locked){border-color:rgba(255,255,255,.4);box-shadow:inset 0 1px 0 rgba(255,255,255,.36),inset 0 0 22px rgba(var(--accent-0-rgb),.2),0 0 26px var(--mood-glow),0 18px 40px -12px rgba(0,0,0,.6)}
+#materialCards .portal-card.finals-dim{background:linear-gradient(180deg,rgba(255,255,255,.08) 0%,rgba(255,255,255,0) 50%),linear-gradient(160deg,rgba(255,255,255,.06) 0%,rgba(12,16,26,.58) 60%);border-color:rgba(255,255,255,.14)}
+
+/* 🔒 Locked emoji look (class mood-locked): dark red mood chrome only.
+   Does NOT force --accent-0…4 — Settings accent + strength stay free unless Accent Color lock is on. */
+html.mood-locked{
+  --bg:#0d0405; --bg2:#160608; --bg-glow:rgba(185,28,28,.10); --grid-tint:transparent;
+  --accent:#dc2626; --accent-2:#b91c1c; --cyan:#dc2626; --cyan-bright:#f87171; --teal:#991b1b;
+  --border:rgba(220,38,38,.42); --mood-glow:rgba(185,28,28,.30); --gold:#fca5a5;
+  --anim-speed:.7; --pulse-ms:2600ms; --transition-ms:420ms; --particle-speed:.55;
+}
+/* Emoji tray stays fully clickable while 🔒 is selected */
+html.mood-locked .mood-pick,
+html.finals-mood-locked .mood-pick{
+  pointer-events:auto!important;
+  opacity:1!important;
+  filter:none!important;
+  cursor:pointer!important;
+}
+/* background, adapted from the Ember Atlas theme (theme previewer): a faint red grid fading to the edges and soft
+   'heat' scanlines. They drift and breathe only with Animation effects on and motion allowed; otherwise they stay still. */
+html.mood-locked:not(.finals-basic)::before,html.mood-locked:not(.finals-basic)::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none}
+html.mood-locked:not(.finals-basic)::before{
+  background:linear-gradient(rgba(220,38,38,.07) 1px,transparent 1px) 0 0/44px 44px,linear-gradient(90deg,rgba(220,38,38,.07) 1px,transparent 1px) 0 0/44px 44px,
+    radial-gradient(ellipse at 50% -8%,rgba(185,28,28,.22),transparent 46%),radial-gradient(ellipse at 80% 110%,rgba(127,29,29,.28),transparent 52%);
+  -webkit-mask-image:radial-gradient(ellipse at center,#000 38%,transparent 85%);mask-image:radial-gradient(ellipse at center,#000 38%,transparent 85%)}
+html.mood-locked:not(.finals-basic)::after{background:repeating-linear-gradient(180deg,transparent 0 3px,rgba(80,8,8,.08) 3px 4px);opacity:.5}
+@media (prefers-reduced-motion:no-preference){
+  html.mood-locked.finals-fx:not(.finals-basic)::before{animation:finalsLockGrid 28s linear infinite}
+  html.mood-locked.finals-fx:not(.finals-basic)::after{animation:finalsLockHeat 7s ease-in-out infinite alternate}
+}
+@keyframes finalsLockGrid{to{background-position:0 -44px,44px 0,0 0,0 0}}
+@keyframes finalsLockHeat{from{opacity:.3}to{opacity:.65}}
+
+/* Special emoji rethemes (😈 🥶 🥵 👻), built like 🔒 above: custom properties plus two fixed background layers,
+   still under Basic, moving only with Animation effects on and motion allowed. Picking another emoji removes them. */
+html.mood-devil{ /* 😈 */
+  --bg:#0c0410; --bg2:#150619; --bg-glow:rgba(192,38,211,.09); --grid-tint:transparent;
+  --accent:#c026d3; --cyan:#c026d3; --cyan-bright:#e879f9; --teal:#6b21a8;
+  --border:rgba(192,38,211,.42); --mood-glow:rgba(192,38,211,.28); --gold:#e879f9;
+  --anim-speed:.75; --pulse-ms:2200ms; --transition-ms:360ms; --particle-speed:.7;
+}
+html.mood-devil:not(.finals-basic)::before,html.mood-devil:not(.finals-basic)::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none}
+html.mood-devil:not(.finals-basic)::before{background:radial-gradient(ellipse at 15% 110%,rgba(190,18,60,.26),transparent 50%),radial-gradient(ellipse at 85% 110%,rgba(147,51,234,.26),transparent 50%),radial-gradient(ellipse at 50% -10%,rgba(192,38,211,.16),transparent 45%)}
+html.mood-devil:not(.finals-basic)::after{background:repeating-linear-gradient(180deg,transparent 0 3px,rgba(60,6,50,.09) 3px 4px);opacity:.6}
+@media (prefers-reduced-motion:no-preference){
+  html.mood-devil.finals-fx:not(.finals-basic)::before{animation:finalsMoodBreathe 6s ease-in-out infinite alternate}
+  html.mood-devil.finals-fx:not(.finals-basic)::after{animation:finalsMoodFlicker 9s ease-in-out infinite alternate}
+}
+html.mood-frozen{ /* 🥶 */
+  --bg:#03101a; --bg2:#061826; --bg-glow:rgba(56,189,248,.09); --grid-tint:transparent;
+  --accent:#38bdf8; --cyan:#38bdf8; --cyan-bright:#bae6fd; --teal:#0284c7;
+  --border:rgba(56,189,248,.42); --mood-glow:rgba(56,189,248,.28); --gold:#bae6fd;
+  --anim-speed:.75; --pulse-ms:2200ms; --transition-ms:360ms; --particle-speed:.7;
+}
+html.mood-frozen:not(.finals-basic)::before,html.mood-frozen:not(.finals-basic)::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none}
+html.mood-frozen:not(.finals-basic)::before{background:radial-gradient(ellipse at center,transparent 55%,rgba(186,230,253,.10) 100%),radial-gradient(ellipse at 50% -10%,rgba(56,189,248,.18),transparent 50%)}
+html.mood-frozen:not(.finals-basic)::after{background:radial-gradient(circle,rgba(224,242,254,.35) 1px,transparent 1.6px) 0 0/60px 60px,radial-gradient(circle,rgba(224,242,254,.22) 1px,transparent 1.4px) 30px 30px/90px 90px;opacity:.6}
+@media (prefers-reduced-motion:no-preference){
+  html.mood-frozen.finals-fx:not(.finals-basic)::before{animation:finalsMoodBreathe 8s ease-in-out infinite alternate}
+  html.mood-frozen.finals-fx:not(.finals-basic)::after{animation:finalsMoodSnow 40s linear infinite}
+}
+html.mood-hot{ /* 🥵 */
+  --bg:#150703; --bg2:#200b05; --bg-glow:rgba(249,115,22,.09); --grid-tint:transparent;
+  --accent:#f97316; --cyan:#f97316; --cyan-bright:#fdba74; --teal:#c2410c;
+  --border:rgba(249,115,22,.42); --mood-glow:rgba(249,115,22,.28); --gold:#fdba74;
+  --anim-speed:.75; --pulse-ms:2200ms; --transition-ms:360ms; --particle-speed:.7;
+}
+html.mood-hot:not(.finals-basic)::before,html.mood-hot:not(.finals-basic)::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none}
+html.mood-hot:not(.finals-basic)::before{background:radial-gradient(ellipse at 50% 115%,rgba(234,88,12,.32),transparent 55%),radial-gradient(ellipse at 50% -10%,rgba(251,146,60,.12),transparent 45%)}
+html.mood-hot:not(.finals-basic)::after{background:repeating-linear-gradient(180deg,transparent 0 4px,rgba(120,40,4,.10) 4px 5px);opacity:.6}
+@media (prefers-reduced-motion:no-preference){
+  html.mood-hot.finals-fx:not(.finals-basic)::before{animation:finalsMoodBreathe 3.5s ease-in-out infinite alternate}
+  html.mood-hot.finals-fx:not(.finals-basic)::after{animation:finalsMoodHeat 2.6s ease-in-out infinite alternate}
+}
+html.mood-ghost{ /* 👻 */
+  --bg:#0a0a12; --bg2:#11111c; --bg-glow:rgba(165,180,252,.09); --grid-tint:transparent;
+  --accent:#a5b4fc; --cyan:#a5b4fc; --cyan-bright:#e0e7ff; --teal:#6366f1;
+  --border:rgba(165,180,252,.42); --mood-glow:rgba(165,180,252,.28); --gold:#e0e7ff;
+  --anim-speed:.75; --pulse-ms:2200ms; --transition-ms:360ms; --particle-speed:.7;
+}
+html.mood-ghost:not(.finals-basic)::before,html.mood-ghost:not(.finals-basic)::after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none}
+html.mood-ghost:not(.finals-basic)::before{background:radial-gradient(ellipse 60% 40% at 20% 30%,rgba(199,210,254,.10),transparent 70%),radial-gradient(ellipse 50% 35% at 80% 70%,rgba(196,181,253,.10),transparent 70%)}
+html.mood-ghost:not(.finals-basic)::after{background:radial-gradient(ellipse 45% 30% at 60% 20%,rgba(224,231,255,.07),transparent 70%),radial-gradient(ellipse 40% 30% at 30% 85%,rgba(224,231,255,.06),transparent 70%);opacity:.6}
+@media (prefers-reduced-motion:no-preference){
+  html.mood-ghost.finals-fx:not(.finals-basic)::before{animation:finalsMoodDrift 26s ease-in-out infinite alternate}
+  html.mood-ghost.finals-fx:not(.finals-basic)::after{animation:finalsMoodDrift2 34s ease-in-out infinite alternate}
+}
+@keyframes finalsMoodBreathe{from{opacity:.7}to{opacity:1}}
+@keyframes finalsMoodFlicker{0%{opacity:.35}40%{opacity:.6}55%{opacity:.4}100%{opacity:.7}}
+@keyframes finalsMoodHeat{from{opacity:.3;transform:translateY(0)}to{opacity:.7;transform:translateY(-3px)}}
+@keyframes finalsMoodSnow{to{background-position:0 600px,30px 930px}}
+@keyframes finalsMoodDrift{from{transform:translate(0,0)}to{transform:translate(4vw,-3vh)}}
+@keyframes finalsMoodDrift2{from{transform:translate(0,0)}to{transform:translate(-5vw,2vh)}}
+
+html[data-finals-bg="bubbles"],
+html[data-finals-bg="particles"],
+html.finals-no-grid:not([data-skin]) {
+  --skin-pattern: none !important;
+  --skin-pattern-opacity: 0 !important;
+  --grid-tint: transparent !important;
+  --bg-glow: transparent !important;
+  --mood-glow: transparent !important;
+  --skin-mid: transparent !important;
+}
+html[data-finals-bg="bubbles"] body,
+html[data-finals-bg="particles"] body,
+html.finals-no-grid:not([data-skin]) body {
+  background-image: none !important;
+}
+html[data-finals-bg="bubbles"] body::before,
+html[data-finals-bg="particles"] body::before,
+html.finals-no-grid:not([data-skin]) body::before {
+  opacity: 0 !important;
+  background-image: none !important;
+  content: none !important;
+}
+html[data-finals-bg="bubbles"] #el-arquitecto-bg-layer,
+html[data-finals-bg="particles"] #el-arquitecto-bg-layer,
+html.finals-no-grid:not([data-skin]) #el-arquitecto-bg-layer,
+html[data-finals-bg="bubbles"] #fxCanvas,
+html[data-finals-bg="particles"] #fxCanvas,
+html.finals-no-grid:not([data-skin]) #fxCanvas {
+  display: none !important;
+}

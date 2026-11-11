@@ -1,0 +1,984 @@
+{
+  "id": "chapter-8-electricity-and-magnetism",
+  "subject": "Medical Physics",
+  "subjectId": "medphys",
+  "title": "Chapter 8: Electricity and Magnetism",
+  "formSize": 58,
+  "forms": [
+    "A"
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "PHY80001",
+        "type": "mcq",
+        "cat": "Chapter 8: Static Electricity",
+        "q": "Which statement correctly describes the two types of electric charge and their interaction?",
+        "options": [
+          "There is one type of charge, and all charged bodies attract each other",
+          "There are two types, and like charges repel while opposite charges attract",
+          "There are two types, and like charges attract while opposite charges repel",
+          "There is one type of charge, and all charged bodies repel each other"
+        ],
+        "correct": 1,
+        "explain": "Electric charge comes in two types, positive and negative. The fundamental rule is that like charges repel each other, while opposite charges attract each other. The options that describe only one type of charge or that reverse the attraction and repulsion rules do not match this behavior."
+      },
+      {
+        "id": "PHY80002",
+        "type": "mcq",
+        "cat": "Chapter 8: Static Electricity",
+        "q": "The SI unit of electric charge is the:",
+        "options": [
+          "Volt",
+          "Ampere",
+          "Coulomb",
+          "Ohm"
+        ],
+        "correct": 2,
+        "explain": "The SI unit of electric charge is the coulomb, abbreviated C. Typical charges in electrostatics experiments are on the order of a microcoulomb, where 1 μC equals 10⁻⁶ C. The volt is the unit of electric potential, the ampere is the unit of current, and the ohm is the unit of resistance."
+      },
+      {
+        "id": "PHY80003",
+        "type": "mcq",
+        "cat": "Chapter 8: Static Electricity",
+        "q": "Electric charge is quantized in units of the electron charge. This means the total charge Q on a body is:",
+        "options": [
+          "Q = e / n, where n is any integer",
+          "Q = n e, where n is any integer",
+          "Q = n + e, where n is any integer",
+          "Q = n - e, where n is any integer"
+        ],
+        "correct": 1,
+        "explain": "Quantization of charge means the charge on any body is an integer multiple of the elementary charge e, so Q = n e where n is a whole number. The elementary charge is the magnitude of the charge on one electron, about 1.602 × 10⁻¹⁹ C. The line Q = e / n, where n is any integer divides by n rather than multiplying. The line Q = n + e, where n is any integer adds rather than multiplies. The line Q = n - e, where n is any integer subtracts rather than multiplies."
+      },
+      {
+        "id": "PHY80004",
+        "type": "mcq",
+        "cat": "Chapter 8: Static Electricity",
+        "q": "Two million electrons are transferred to a body. What is the total charge acquired by the body? Take e = 1.602 × 10⁻¹⁹ C.",
+        "options": [
+          "3.20 × 10⁻¹³ C",
+          "3.20 × 10⁻¹² C",
+          "3.20 × 10⁻¹⁴ C",
+          "3.20 × 10⁻¹¹ C"
+        ],
+        "correct": 0,
+        "explain": "Using Q = n e, substitute n = 2 × 10⁶ and e = 1.602 × 10⁻¹⁹ C. Then Q = 2 × 10⁶ × 1.602 × 10⁻¹⁹ = 3.204 × 10⁻¹³ C. The other options place the decimal one, two, or three positions away from this value."
+      },
+      {
+        "id": "PHY80005",
+        "type": "mcq",
+        "cat": "Chapter 8: Static Electricity",
+        "q": "One billion electrons are removed from a body. What is the total charge left on the body? Take e = 1.602 × 10⁻¹⁹ C.",
+        "options": [
+          "1.602 × 10⁻¹⁰ C",
+          "1.602 × 10⁻⁹ C",
+          "1.602 × 10⁻¹¹ C",
+          "1.602 × 10⁻⁸ C"
+        ],
+        "correct": 0,
+        "explain": "Using Q = n e, substitute n = 1 × 10⁹ and e = 1.602 × 10⁻¹⁹ C. Then Q = 1 × 10⁹ × 1.602 × 10⁻¹⁹ = 1.602 × 10⁻¹⁰ C. Because electrons are removed, the body is left with a net positive charge of this magnitude. The other options place the decimal in the wrong position."
+      },
+      {
+        "id": "PHY80006",
+        "type": "mcq",
+        "cat": "Chapter 8: Coulomb's Law",
+        "q": "Coulomb's law states that the electric force between two point charges is:",
+        "options": [
+          "Directly proportional to the sum of the charges and inversely proportional to the square of the distance",
+          "Directly proportional to the product of the charges and inversely proportional to the square of the distance",
+          "Directly proportional to the product of the charges and inversely proportional to the distance between them",
+          "Inversely proportional to the product of the charges and directly proportional to the distance between them"
+        ],
+        "correct": 1,
+        "explain": "Coulomb's law states that the force between two charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them. This gives the expression F = k Q₁Q₂ / r². The line Directly proportional to the sum of the charges and inversely proportional to the square of the distance uses the sum instead of the product. The line Directly proportional to the product of the charges and inversely proportional to the distance between them leaves out the square on the distance. The line Inversely proportional to the product of the charges and directly proportional to the distance between them reverses both proportionalities."
+      },
+      {
+        "id": "PHY80007",
+        "type": "mcq",
+        "cat": "Chapter 8: Coulomb's Law",
+        "q": "Which expression correctly gives the electric force F between two point charges Q₁ and Q₂ separated by a distance r?",
+        "options": [
+          "F = k Q₁ Q₂ r²",
+          "F = k Q₁ Q₂ / r²",
+          "F = k r² / (Q₁ Q₂)",
+          "F = k (Q₁ + Q₂) / r²"
+        ],
+        "correct": 1,
+        "explain": "Coulomb's law is expressed as F = k Q₁Q₂ / r², where k is the Coulomb constant. The force is proportional to the product of the charges and inversely proportional to the square of the distance. The line F = k Q₁ Q₂ r² multiplies by r² instead of dividing. The line F = k r² / (Q₁ Q₂) inverts the whole expression. The line F = k (Q₁ + Q₂) / r² adds the charges instead of multiplying them."
+      },
+      {
+        "id": "PHY80008",
+        "type": "mcq",
+        "cat": "Chapter 8: Coulomb's Law",
+        "q": "The Coulomb constant k for air is approximately:",
+        "options": [
+          "8.998 × 10⁹ N·m²/C²",
+          "6.63 × 10⁻³⁴ N·m²/C²",
+          "1.602 × 10⁻¹⁹ N·m²/C²",
+          "3.00 × 10⁸ N·m²/C²"
+        ],
+        "correct": 0,
+        "explain": "The Coulomb constant for air is k = 8.998 × 10⁹ N·m²/C², often approximated as 9 × 10⁹ N·m²/C². The value 6.63 × 10⁻³⁴ is the Planck constant, 1.602 × 10⁻¹⁹ is the elementary charge, and 3.00 × 10⁸ is the speed of light in vacuum."
+      },
+      {
+        "id": "PHY80009",
+        "type": "mcq",
+        "cat": "Chapter 8: Coulomb's Law",
+        "q": "Two charges of -3 μC and +6 μC are placed 50 cm apart in air. What is the magnitude of the electric force between them? Take k = 9 × 10⁹ N·m²/C².",
+        "options": [
+          "0.648 N",
+          "6.48 N",
+          "0.0648 N",
+          "64.8 N"
+        ],
+        "correct": 0,
+        "explain": "Using F = k Q₁Q₂ / r², substitute Q₁ = 3 × 10⁻⁶ C, Q₂ = 6 × 10⁻⁶ C, and r = 0.5 m. Then F = 9 × 10⁹ × (3 × 10⁻⁶ × 6 × 10⁻⁶) / (0.5)² = 9 × 10⁹ × 18 × 10⁻¹² / 0.25 = 162 × 10⁻³ / 0.25 = 0.648 N. The other options shift the decimal by one or two positions."
+      },
+      {
+        "id": "PHY80010",
+        "type": "mcq",
+        "cat": "Chapter 8: Coulomb's Law",
+        "q": "The force between a 30 μC charge and a 90 μC charge is 1.8 N. How far apart are they? Take k = 9 × 10⁹ N·m²/C².",
+        "options": [
+          "3.67 m",
+          "1.84 m",
+          "0.367 m",
+          "36.7 m"
+        ],
+        "correct": 0,
+        "explain": "Rearranging F = k Q₁Q₂ / r² gives r² = k Q₁Q₂ / F. Substituting Q₁ = 30 × 10⁻⁶ C, Q₂ = 90 × 10⁻⁶ C, and F = 1.8 N gives r² = 9 × 10⁹ × 30 × 10⁻⁶ × 90 × 10⁻⁶ / 1.8 = 9 × 10⁹ × 2700 × 10⁻¹² / 1.8 = 24.3 / 1.8 = 13.5 m². Taking the square root gives r ≈ 3.67 m. The other options shift the decimal in the final result."
+      },
+      {
+        "id": "PHY80011",
+        "type": "mcq",
+        "cat": "Chapter 8: Coulomb's Law",
+        "q": "If the distance between two point charges is doubled while the charges remain unchanged, the electric force between them becomes:",
+        "options": [
+          "Twice as large",
+          "Half as large",
+          "One quarter as large",
+          "Four times as large"
+        ],
+        "correct": 2,
+        "explain": "Coulomb's law states that the force is inversely proportional to the square of the distance, F ∝ 1/r². If the distance is doubled, the force becomes F / 2² = F / 4, so the force is one quarter of its original value. The options that double or halve the force ignore the square dependence."
+      },
+      {
+        "id": "PHY80012",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Field",
+        "q": "The electric field at a point in space is defined as:",
+        "options": [
+          "The force on a small positive test charge divided by the charge on that body",
+          "The charge on a small positive test body divided by the force acting on that body",
+          "The force on a small positive test charge multiplied by the charge on that body",
+          "The charge on a small positive test body multiplied by the force acting on that body"
+        ],
+        "correct": 0,
+        "explain": "The electric field is defined as E = F / q, where F is the force on a small test charge q placed at the point of interest. The SI unit is the newton per coulomb (N/C). The field is a vector that points in the direction of the force on a positive charge. The line The charge on a small positive test body divided by the force acting on that body inverts the division. The line The force on a small positive test charge multiplied by the charge on that body multiplies the two quantities. The line The charge on a small positive test body multiplied by the force acting on that body also multiplies rather than taking the ratio."
+      },
+      {
+        "id": "PHY80013",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Field",
+        "q": "The electric field at a distance r from a point charge Q is given by:",
+        "options": [
+          "E = k Q / r²",
+          "E = k Q² / r",
+          "E = k r² / Q",
+          "E = k Q / r"
+        ],
+        "correct": 0,
+        "explain": "The electric field produced by a point charge is E = k Q / r², where k is the Coulomb constant. The field falls off with the square of the distance, just as the Coulomb force does. The line E = k Q² / r squares the charge and drops one power of r. The line E = k r² / Q inverts the expression. The line E = k Q / r leaves only one power of r in the denominator."
+      },
+      {
+        "id": "PHY80014",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Field",
+        "q": "The SI unit of electric field is:",
+        "options": [
+          "The newton (N)",
+          "The joule per coulomb (J/C)",
+          "The newton per coulomb (N/C)",
+          "The volt per meter squared (V/m²)"
+        ],
+        "correct": 2,
+        "explain": "The electric field is defined as force per unit charge, so its SI unit is the newton per coulomb, N/C. It can also be written as the volt per meter, V/m, because 1 N/C equals 1 V/m. The newton is the unit of force, the joule per coulomb is the unit of electric potential, and the volt per meter squared is not a standard unit for the field."
+      },
+      {
+        "id": "PHY80015",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Field",
+        "q": "A point charge of +5 × 10⁻⁶ C is placed in an electric field of 4 × 10⁵ N/C. What is the force on the charge?",
+        "options": [
+          "2.0 N",
+          "0.20 N",
+          "20 N",
+          "200 N"
+        ],
+        "correct": 0,
+        "explain": "The force on a charge in an electric field is F = qE. Substituting q = 5 × 10⁻⁶ C and E = 4 × 10⁵ N/C gives F = 5 × 10⁻⁶ × 4 × 10⁵ = 20 × 10⁻¹ = 2.0 N. The direction of the force is the same as the direction of the field because the charge is positive. The other options shift the decimal by one or two positions."
+      },
+      {
+        "id": "PHY80016",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Field",
+        "q": "Electric field lines around a negatively charged sphere:",
+        "options": [
+          "Radiate outward away from the sphere",
+          "Extend inward toward the sphere from every direction",
+          "Form closed circles around the sphere",
+          "Form straight parallel lines that pass through the sphere"
+        ],
+        "correct": 1,
+        "explain": "The direction of the electric field is defined as the direction of the force on a positive test charge. Around a negatively charged sphere, that force is attractive, so the field lines point inward toward the sphere. Outward-radiating lines are characteristic of a positive charge. Circular and parallel-line patterns do not represent the field of an isolated point charge."
+      },
+      {
+        "id": "PHY80017",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Potential",
+        "q": "The electric potential V at a point is defined as:",
+        "options": [
+          "The work per unit charge in bringing a test charge from infinity to that point",
+          "The work per unit charge in taking a test charge from that point to infinity",
+          "The force per unit charge on a small test charge kept at that point in space",
+          "The product of the field and the charge on a test charge kept at that point"
+        ],
+        "correct": 0,
+        "explain": "Electric potential is the work done per unit charge in bringing a small positive test charge from infinity to the point. It is expressed as V = W / q, and its SI unit is the volt, where 1 V = 1 J/C. The line The work per unit charge in taking a test charge from that point to infinity reverses the path. The line The force per unit charge on a small test charge kept at that point in space describes the electric field. The line The product of the field and the charge on a test charge kept at that point multiplies field and charge rather than giving the potential."
+      },
+      {
+        "id": "PHY80018",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Potential",
+        "q": "The electric potential at a distance r from a point charge Q is given by:",
+        "options": [
+          "V = k Q r",
+          "V = k Q / r",
+          "V = k Q / r²",
+          "V = k r / Q"
+        ],
+        "correct": 1,
+        "explain": "The electric potential from a point charge is V = k Q / r, where k is the Coulomb constant. The potential falls off as one over r, not as one over r squared. The line V = k Q r multiplies by r. The line V = k Q / r² uses the inverse-square form. The line V = k r / Q inverts the charge and distance."
+      },
+      {
+        "id": "PHY80019",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Potential",
+        "q": "A potential difference of 10 V exists between two points. How much work is required to move a charge of 2 × 10⁻³ C between the points?",
+        "options": [
+          "2.0 × 10⁻² J",
+          "2.0 × 10⁻³ J",
+          "2.0 × 10⁻¹ J",
+          "2.0 × 10⁻⁴ J"
+        ],
+        "correct": 0,
+        "explain": "Using V = W / q, rearrange to W = q V. Substituting q = 2 × 10⁻³ C and V = 10 V gives W = 2 × 10⁻³ × 10 = 2 × 10⁻² J. The other options place the decimal one or two positions away from the correct value."
+      },
+      {
+        "id": "PHY80020",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Potential",
+        "q": "A potential difference of 10 V exists between two points, and 2.0 × 10⁻² J of work is required to move a charge between them. What is the magnitude of the charge?",
+        "options": [
+          "2.0 × 10⁻³ C",
+          "2.0 × 10⁻² C",
+          "2.0 × 10⁻¹ C",
+          "2.0 × 10⁻⁴ C"
+        ],
+        "correct": 0,
+        "explain": "Rearranging V = W / q gives q = W / V. Substituting W = 2.0 × 10⁻² J and V = 10 V gives q = 2.0 × 10⁻² / 10 = 2.0 × 10⁻³ C. The other options place the decimal in the wrong position."
+      },
+      {
+        "id": "PHY80021",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Potential",
+        "q": "One volt is equivalent to:",
+        "options": [
+          "One coulomb per joule",
+          "One joule per coulomb",
+          "One joule per second",
+          "One newton per coulomb"
+        ],
+        "correct": 1,
+        "explain": "The volt is defined as one joule per coulomb, written 1 V = 1 J/C. This follows from the definition V = W / q, where W is the work in joules and q is the charge in coulombs. The line One coulomb per joule inverts the ratio. The line One joule per second is the watt. The line One newton per coulomb is the unit of electric field."
+      },
+      {
+        "id": "PHY80022",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Current",
+        "q": "Electric current is defined as:",
+        "options": [
+          "The total amount of charge that has passed a given point in a conductor",
+          "The rate of flow of electric charge through a conductor per unit time",
+          "The potential difference that exists across the two ends of a conductor",
+          "The resistance offered by a conductor to the passage of electric charge"
+        ],
+        "correct": 1,
+        "explain": "Electric current is the rate of flow of charge through a conductor, expressed as I = Q / T. If an amount of charge Q passes through a cross-section in time T, then the current is that charge divided by that time. The total charge is not the rate, the potential difference is the voltage, and the resistance is the opposition to current."
+      },
+      {
+        "id": "PHY80023",
+        "type": "mcq",
+        "cat": "Chapter 8: Electric Current",
+        "q": "A charge of 100 C passes through a point in a conductor in 1 second. What is the current?",
+        "options": [
+          "1 A",
+          "10 A",
+          "100 A",
+          "0.01 A"
+        ],
+        "correct": 2,
+        "explain": "Using I = Q / T, substitute Q = 100 C and T = 1 s. Then I = 100 / 1 = 100 A. The option 1 A uses a charge of 1 C, 10 A uses a charge of 10 C, and 0.01 A inverts the ratio."
+      },
+      {
+        "id": "PHY80024",
+        "type": "mcq",
+        "cat": "Chapter 8: Ohm's Law",
+        "q": "Ohm's law states that, at constant temperature, the current through a conductor is:",
+        "options": [
+          "Directly proportional to the potential difference across it",
+          "Inversely proportional to the potential difference across it",
+          "Independent of the potential difference across it",
+          "Proportional to the square of the potential difference"
+        ],
+        "correct": 0,
+        "explain": "Ohm's law states that the current through a conductor is directly proportional to the potential difference across it, provided the temperature is held constant. This is written as V = I R, or equivalently I = V / R. The constant of proportionality is the resistance. The other options describe inverse, absent, or squared dependence, none of which match Ohm's law."
+      },
+      {
+        "id": "PHY80025",
+        "type": "mcq",
+        "cat": "Chapter 8: Ohm's Law",
+        "q": "In a circuit, a current of 2 mA passes through a wire when connected to a 5 V battery. What is the resistance of the wire?",
+        "options": [
+          "2500 Ω",
+          "250 Ω",
+          "25 Ω",
+          "25000 Ω"
+        ],
+        "correct": 0,
+        "explain": "Using V = I R, rearrange to R = V / I. Substituting V = 5 V and I = 2 × 10⁻³ A gives R = 5 / (2 × 10⁻³) = 2500 Ω. The other options shift the decimal by one or two positions."
+      },
+      {
+        "id": "PHY80026",
+        "type": "mcq",
+        "cat": "Chapter 8: Ohm's Law",
+        "q": "How much current passes through a wire of resistance 100 Ω when it is connected to a 5.5 V battery?",
+        "options": [
+          "55 mA",
+          "5.5 mA",
+          "550 mA",
+          "0.55 mA"
+        ],
+        "correct": 0,
+        "explain": "Using I = V / R, substitute V = 5.5 V and R = 100 Ω. Then I = 5.5 / 100 = 0.055 A = 55 mA. The option 5.5 mA divides by 1000 instead of 100, 550 mA multiplies by 10, and 0.55 mA divides by 10000."
+      },
+      {
+        "id": "PHY80027",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "The resistance R of a conducting wire is proportional to its length L and inversely proportional to its area of cross-section A. Which expression correctly represents this relationship?",
+        "options": [
+          "R = ρ A / L",
+          "R = ρ L A",
+          "R = ρ L / A",
+          "R = ρ / (L A)"
+        ],
+        "correct": 2,
+        "explain": "The resistance of a wire is proportional to its length and inversely proportional to its cross-sectional area, so R = ρ L / A. The line R = ρ A / L swaps L and A. The line R = ρ L A multiplies length and area. The line R = ρ / (L A) puts both in the denominator."
+      },
+      {
+        "id": "PHY80028",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "The resistivity ρ of a material is defined as:",
+        "options": [
+          "The resistance of a piece of the material of any size and shape",
+          "The resistance of a unit cube of the material from opposite faces",
+          "The product of the resistance and the cross-sectional area of a sample",
+          "The total length of a sample divided by its resistance"
+        ],
+        "correct": 1,
+        "explain": "Resistivity is the resistance offered by a unit cube of the material from one face to the opposite face. It is an intrinsic property of the material. The line The resistance of a piece of the material of any size and shape describes resistance. The line The product of the resistance and the cross-sectional area of a sample is incomplete. The line The total length of a sample divided by its resistance is incomplete."
+      },
+      {
+        "id": "PHY80029",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "The SI unit of resistivity is the:",
+        "options": [
+          "Ohm (Ω)",
+          "Ohm-meter (Ω·m)",
+          "Ohm per meter (Ω/m)",
+          "Ohm per square meter (Ω/m²)"
+        ],
+        "correct": 1,
+        "explain": "The resistivity has SI unit ohm-meter, Ω·m, because it comes from rearranging R = ρ L / A to ρ = R A / L. The resistance is in ohms, the area in square meters, and the length in meters, so the unit becomes Ω·m²/m = Ω·m. The ohm is the unit of resistance, not resistivity."
+      },
+      {
+        "id": "PHY80030",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "Which statement correctly distinguishes resistance from resistivity?",
+        "options": [
+          "Resistance is a property of the material, and resistivity depends on the size and shape of the object",
+          "Resistance depends on the size and shape of the object, and resistivity is a property of the material",
+          "Resistance depends on the material and temperature, and resistivity is a property of the size of the object",
+          "Resistance depends on the size of the object only, and resistivity is a property of its shape only"
+        ],
+        "correct": 1,
+        "explain": "Resistance is a property of the object; it depends on the length and cross-sectional area of the particular sample. Resistivity is a property of the material; it is independent of the size and shape of the sample and depends only on the material and its temperature. The line Resistance is a property of the material, and resistivity depends on the size and shape of the object reverses these two descriptions. The other lines assign the wrong dependences to each quantity."
+      },
+      {
+        "id": "PHY80031",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "A wire has a length of 20 m, an area of cross-section of 5 × 10⁻⁶ m², and a resistance of 30 Ω. What is the resistivity of the material?",
+        "options": [
+          "7.5 × 10⁻⁶ Ω·m",
+          "7.5 × 10⁻⁵ Ω·m",
+          "7.5 × 10⁻⁷ Ω·m",
+          "7.5 × 10⁻⁴ Ω·m"
+        ],
+        "correct": 0,
+        "explain": "Rearranging R = ρ L / A gives ρ = R A / L. Substituting R = 30 Ω, A = 5 × 10⁻⁶ m², and L = 20 m gives ρ = 30 × 5 × 10⁻⁶ / 20 = 150 × 10⁻⁶ / 20 = 7.5 × 10⁻⁶ Ω·m. The other options shift the decimal by one or two positions."
+      },
+      {
+        "id": "PHY80032",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "A tungsten filament has a resistivity of 6.0 × 10⁻⁸ Ω·m, a length of 0.1 m, and a resistance of 20 Ω. What is the area of the filament?",
+        "options": [
+          "3 × 10⁻¹⁰ m²",
+          "3 × 10⁻⁹ m²",
+          "3 × 10⁻⁸ m²",
+          "3 × 10⁻¹¹ m²"
+        ],
+        "correct": 0,
+        "explain": "Rearranging R = ρ L / A gives A = ρ L / R. Substituting ρ = 6.0 × 10⁻⁸ Ω·m, L = 0.1 m, and R = 20 Ω gives A = 6.0 × 10⁻⁸ × 0.1 / 20 = 6.0 × 10⁻⁹ / 20 = 3 × 10⁻¹⁰ m². The other options shift the decimal by one or two positions."
+      },
+      {
+        "id": "PHY80033",
+        "type": "mcq",
+        "cat": "Chapter 8: Resistance and Resistivity",
+        "q": "Two wires of the same length and cross-section are made of copper and iron. When the same potential difference is applied across each, different currents flow. This difference is due to the difference in their:",
+        "options": [
+          "Length",
+          "Area of cross-section",
+          "Resistivity",
+          "Applied voltage"
+        ],
+        "correct": 2,
+        "explain": "Resistivity is the intrinsic property of a material that determines how much resistance a sample of a given size will have. Two wires of identical geometry have the same resistance only if their resistivities are equal. Copper and iron have different resistivities, so they have different resistances and different currents. Length, area, and voltage are all held the same in this comparison."
+      },
+      {
+        "id": "PHY80034",
+        "type": "mcq",
+        "cat": "Chapter 8: Current Density",
+        "q": "Current density J is defined as:",
+        "options": [
+          "The total current in a conductor",
+          "Current per unit surface area of cross-section",
+          "The product of current and surface area",
+          "The resistance per unit length of a conductor"
+        ],
+        "correct": 1,
+        "explain": "Current density is defined as the current per unit surface area of cross-section, written J = I / A, with SI unit A/m². It measures how concentrated the current is within a conductor. The line The total current in a conductor gives the total current. The line The product of current and surface area multiplies current and area. The line The resistance per unit length of a conductor describes a different quantity."
+      },
+      {
+        "id": "PHY80035",
+        "type": "mcq",
+        "cat": "Chapter 8: Current Density",
+        "q": "The relationship between current density J and electric field E in a conductor with conductivity σ is:",
+        "options": [
+          "J = σ / E",
+          "J = σ × E",
+          "J = E / σ",
+          "J = σ + E"
+        ],
+        "correct": 1,
+        "explain": "In a conductor, the current density is proportional to the electric field, with the constant of proportionality being the conductivity σ. This gives J = σ × E. Since conductivity is the reciprocal of resistivity, this relation is equivalent to E = ρ J. The line J = σ / E divides. The line J = E / σ inverts the ratio. The line J = σ + E adds the two quantities."
+      },
+      {
+        "id": "PHY80036",
+        "type": "mcq",
+        "cat": "Chapter 8: Current Density",
+        "q": "The SI unit of current density is:",
+        "options": [
+          "The ampere per unit length of the conductor, A/m",
+          "The ampere per square meter of cross-section, A/m²",
+          "The ampere per cubic meter of the conductor, A/m³",
+          "The ampere per unit of charge delivered, A/C"
+        ],
+        "correct": 1,
+        "explain": "Current density is current per unit area, so its unit is the ampere per square meter, A/m². The ampere alone is the unit of current, not current density. The other units divide by length, volume, or charge and do not match the definition J = I / A."
+      },
+      {
+        "id": "PHY80037",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "Which of the following correctly describes the parts of a neuron and their functions?",
+        "options": [
+          "Signals are received by the axon and transmitted through the dendrites",
+          "Signals are received by the dendrites, propagated along the axon, and transmitted through a synapse",
+          "Signals are received by the synapse, propagated along the dendrites, and transmitted through the axon",
+          "Signals are received by the cell body, propagated along the synapse, and transmitted through the dendrites"
+        ],
+        "correct": 1,
+        "explain": "A neuron has a main cell body, small attachments called dendrites, and a long tail called the axon. Signals are received by the dendrites, propagated along the axon, and then transmitted to another neuron or a muscle through a connection called a synapse. The other options swap these roles and therefore misassign the functions."
+      },
+      {
+        "id": "PHY80039",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "During depolarization of a neuron, which ion moves into the cell and causes the membrane potential to rise?",
+        "options": [
+          "K⁺",
+          "Cl⁻",
+          "Na⁺",
+          "Ca²⁺"
+        ],
+        "correct": 2,
+        "explain": "Depolarization is triggered when voltage-gated sodium channels open and Na⁺ ions rush into the cell. Because sodium carries a positive charge, the inside of the cell becomes less negative and eventually positive. K⁺ moves out of the cell during repolarization, Cl⁻ is a negative ion that is not the trigger, and Ca²⁺ plays a role at synapses rather than in the initial depolarization."
+      },
+      {
+        "id": "PHY80040",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "During repolarization of a neuron, which change occurs?",
+        "options": [
+          "Na⁺ channels open and Na⁺ flows into the cell",
+          "Na⁺ channels close and K⁺ moves out of the cell",
+          "K⁺ channels close and Na⁺ moves out of the cell",
+          "Both Na⁺ and K⁺ channels remain fully open"
+        ],
+        "correct": 1,
+        "explain": "Repolarization occurs when the sodium channels close, stopping the inward Na⁺ current, and the potassium channels open, allowing K⁺ to flow out of the cell. The loss of positive potassium ions restores the negative interior. The line Na⁺ channels open and Na⁺ flows into the cell describes depolarization. The line K⁺ channels close and Na⁺ moves out of the cell reverses the ion flow. The line Both Na⁺ and K⁺ channels remain fully open would prevent any return to the resting state."
+      },
+      {
+        "id": "PHY80041",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "Hyperpolarization of a neuron occurs because:",
+        "options": [
+          "Na⁺ channels open again after the action potential",
+          "K⁺ channels stay open longer, so more K⁺ leaves the cell",
+          "Cl⁻ channels close and stop the inflow of negative charge",
+          "The cell body releases a burst of positive charge"
+        ],
+        "correct": 1,
+        "explain": "Hyperpolarization happens because the potassium channels have slower kinetics than the sodium channels. They remain open a little longer than needed, so more K⁺ ions leave the cell than usual, and the membrane potential dips below the resting value. The line Na⁺ channels open again after the action potential would trigger another action potential. The line Cl⁻ channels close and stop the inflow of negative charge describes the opposite of what Cl⁻ does. The line The cell body releases a burst of positive charge is not a physiological mechanism."
+      },
+      {
+        "id": "PHY80042",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "The refractory period of a neuron is:",
+        "options": [
+          "A brief interval when a new stimulus cannot fire it, or must be much stronger",
+          "A brief interval when the neuron fires at its maximum possible rate in response",
+          "A brief interval when the resting potential becomes more positive than usual",
+          "A brief interval when both the sodium and potassium channels remain open"
+        ],
+        "correct": 0,
+        "explain": "The refractory period is a brief interval during which the cell cannot respond to a new stimulus, or can only respond to a much stronger one. This limits the maximum firing rate of the neuron and ensures that action potentials travel in one direction along the axon. Continuous firing, more positive resting potential, and permanently open channels are not descriptions of the refractory period."
+      },
+      {
+        "id": "PHY80043",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "Which of the following correctly lists the three types of gated channels in nerve membranes?",
+        "options": [
+          "Chemical gated, thermal gated, and light gated",
+          "Chemical gated, mechanical gated, and voltage gated",
+          "Voltage gated, magnetic gated, and pressure gated",
+          "Mechanical gated, chemical gated, and sound gated"
+        ],
+        "correct": 1,
+        "explain": "Nerve membranes contain three types of gated ion channels: chemically gated, mechanically gated, and voltage gated. Chemical gating responds to neurotransmitters, mechanical gating responds to physical deformation, and voltage gating responds to changes in membrane potential. The other options list channels that are not part of the standard set."
+      },
+      {
+        "id": "PHY80044",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "The myelin sheath on an axon serves to:",
+        "options": [
+          "Prevent the axon from carrying any signal",
+          "Speed up the transmission of the action potential",
+          "Increase the leakage of ions across the membrane",
+          "Convert the electrical signal into a chemical one"
+        ],
+        "correct": 1,
+        "explain": "The myelin sheath is an insulating layer that wraps around the axon and speeds up signal transmission by allowing the action potential to jump between the nodes of Ranvier in a process called saltatory conduction. It does not stop signaling, increase ion leakage, or convert the signal; conversion at the synapse is a separate process."
+      },
+      {
+        "id": "PHY80045",
+        "type": "mcq",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "The resting potential of a neuron arises mainly from:",
+        "options": [
+          "A perfectly uniform distribution of all the ions on both sides of the membrane",
+          "Ionic concentration gradients and selective permeability of the membrane to K⁺",
+          "The rapid permanent closing of all the ion channels in the membrane after firing",
+          "The complete absence of any charged particles on either side of the membrane"
+        ],
+        "correct": 1,
+        "explain": "The resting potential arises from the ionic concentration gradients across the membrane and from the membrane's selective permeability, particularly to K⁺. The sodium-potassium exchange pump maintains these gradients by pumping Na⁺ out and K⁺ in. A uniform distribution, complete closure of channels, or absence of ions would all eliminate the potential."
+      },
+      {
+        "id": "PHY80046",
+        "type": "mcq",
+        "cat": "Chapter 8: Magnetism",
+        "q": "A moving charge produces:",
+        "options": [
+          "An electric field only, with no magnetic field produced by the motion",
+          "A magnetic field only, with no electric field carried along with it",
+          "Both an electric field and a magnetic field around its path",
+          "Neither an electric field nor a magnetic field around its path"
+        ],
+        "correct": 2,
+        "explain": "A moving charge carries its electric field with it and also produces a magnetic field because of its motion. The magnetic field of a current-carrying wire and the magnetic moment of a spinning electron in an atom are both consequences of moving charge. The options that mention only one field or neither field are incomplete."
+      },
+      {
+        "id": "PHY80047",
+        "type": "mcq",
+        "cat": "Chapter 8: Magnetism",
+        "q": "The magnitude of the magnetic force on a charge q moving with velocity v through a magnetic field B is given by:",
+        "options": [
+          "F = q v B sin θ, where θ is the angle between the velocity and the magnetic field",
+          "F = q v B cos θ, where θ is the angle between the velocity and the magnetic field",
+          "F = q v B tan θ, where θ is the angle between the velocity and the magnetic field",
+          "F = q v B cot θ, where θ is the angle between the velocity and the magnetic field"
+        ],
+        "correct": 0,
+        "explain": "The magnitude of the magnetic force is F = q v B sin θ, where θ is the angle between the velocity vector and the magnetic field vector. In vector form this is written F = q v × B. The force is maximum when the velocity is perpendicular to the field and zero when they are parallel. The options using cosine, tangent, or cotangent have the wrong dependence on the angle between velocity and field."
+      },
+      {
+        "id": "PHY80048",
+        "type": "mcq",
+        "cat": "Chapter 8: Magnetism",
+        "q": "The direction of the magnetic force on a moving charged particle is:",
+        "options": [
+          "Parallel to the velocity and parallel to the magnetic field",
+          "Perpendicular to the velocity and perpendicular to the magnetic field",
+          "Parallel to the velocity and perpendicular to the magnetic field",
+          "Perpendicular to the velocity and parallel to the magnetic field"
+        ],
+        "correct": 1,
+        "explain": "The magnetic force is always perpendicular to both the velocity of the charged particle and the magnetic field, because the force is the vector cross product F = q v × B. This perpendicularity is what causes a charged particle to move in a circular or helical path in a uniform magnetic field. The other options place the force parallel to at least one of the two vectors, which contradicts the cross-product definition."
+      },
+      {
+        "id": "PHY80049",
+        "type": "mcq",
+        "cat": "Chapter 8: Magnetism",
+        "q": "The SI unit of magnetic field is the tesla, which is equivalent to:",
+        "options": [
+          "One newton per coulomb of charge placed in the field",
+          "One newton per ampere-meter of current and length",
+          "One joule per coulomb of charge moving in the field",
+          "One ampere per meter of the current-carrying conductor"
+        ],
+        "correct": 1,
+        "explain": "The tesla is defined from the magnetic force equation as 1 T = 1 N / (A·m), that is, one newton per ampere-meter. This follows from B = F / (|q| v). The newton per coulomb is the unit of electric field, the joule per coulomb is the volt, and the ampere per meter is the unit of magnetic field strength in a different context."
+      },
+      {
+        "id": "PHY80050",
+        "type": "mcq",
+        "cat": "Chapter 8: Magnetism",
+        "q": "One tesla is equal to how many gauss?",
+        "options": [
+          "10² G",
+          "10³ G",
+          "10⁴ G",
+          "10⁵ G"
+        ],
+        "correct": 2,
+        "explain": "The gauss is a non-SI unit of magnetic field. The conversion is 1 tesla = 10⁴ gauss. This means a magnetic field of 1 T is the same as 10,000 G. The other options place the power of ten one or two positions away from the correct value."
+      },
+      {
+        "id": "PHY80051",
+        "type": "mcq",
+        "cat": "Chapter 8: MRI",
+        "q": "MRI (Magnetic Resonance Imaging) produces images of the body using:",
+        "options": [
+          "Ionizing X-rays and a rotating detector",
+          "Strong magnetic fields and radio waves",
+          "High-frequency sound waves and a gel couplant",
+          "Gamma rays emitted by a radiotracer"
+        ],
+        "correct": 1,
+        "explain": "MRI uses strong magnetic fields to align hydrogen nuclei in the body, then applies radio waves to disturb the alignment. When the nuclei relax, they emit signals that are detected and converted into detailed images. X-rays and gamma rays are ionizing and belong to other imaging modalities, and sound waves are used in ultrasound."
+      },
+      {
+        "id": "PHY80052",
+        "type": "mcq",
+        "cat": "Chapter 8: MRI",
+        "q": "MRI scanners commonly operate at magnetic field strengths of:",
+        "options": [
+          "50 μT to 0.5 mT",
+          "1.5 T to 3 T",
+          "10 T to 30 T",
+          "0.5 T to 1.0 T"
+        ],
+        "correct": 1,
+        "explain": "Clinical MRI scanners use magnetic fields of about 1.5 T to 3 T, which are thousands of times stronger than Earth's magnetic field of roughly 50 μT. A refrigerator magnet produces about 0.005 T, much weaker than an MRI magnet. The other options either fall well below the clinical range or exceed practical field strengths."
+      },
+      {
+        "id": "PHY80053",
+        "type": "mcq",
+        "cat": "Chapter 8: MRI",
+        "q": "Which of the following is a key advantage of MRI over imaging methods that use ionizing radiation?",
+        "options": [
+          "It uses X-rays at low intensity",
+          "It does not use ionizing radiation",
+          "It requires no magnetic field",
+          "It produces images only of bones"
+        ],
+        "correct": 1,
+        "explain": "MRI does not use ionizing radiation, which distinguishes it from X-ray and CT imaging. This makes it safer for repeated use and for imaging sensitive tissues. MRI relies on strong magnetic fields and radio waves, not on X-rays. It provides excellent soft-tissue contrast, including brain, spinal cord, muscles, and joints, rather than only bone."
+      },
+      {
+        "id": "PHY80054",
+        "type": "mcq",
+        "cat": "Chapter 8: MRI",
+        "q": "Why are metallic objects not allowed in an MRI room?",
+        "options": [
+          "They reflect the radio waves used in imaging and create false echoes in the image",
+          "They block the hydrogen nuclei in the body from aligning with the strong field",
+          "They are attracted with great force by the strong magnetic field of the scanner",
+          "They emit gamma rays when they are placed inside the magnetic field of the scanner"
+        ],
+        "correct": 2,
+        "explain": "The magnetic field of an MRI scanner is so strong that it can pull ferromagnetic objects toward the bore with great force, which creates a serious safety hazard. This is the primary reason metal objects are forbidden in the scanner room. Reflection of radio waves, blocking of hydrogen alignment, and emission of gamma rays are not the reasons for the restriction."
+      },
+      {
+        "id": "PHY80055",
+        "type": "mcq",
+        "cat": "Chapter 8: Biomagnetism",
+        "q": "Biomagnetism refers to the fact that:",
+        "options": [
+          "The body generates weak magnetic fields from organ electrical activity",
+          "The body generates strong magnetic fields as strong as an MRI scanner",
+          "The body stores permanent magnetic material inside the cells of organs",
+          "The body produces detectable magnetic fields only while asleep at night"
+        ],
+        "correct": 0,
+        "explain": "Biomagnetism is the phenomenon in which the human body naturally generates weak magnetic fields because of the electrical activity of organs such as the brain and heart. These fields are extremely small compared with an MRI magnet. The body does not contain permanent magnets and does not produce fields only during sleep."
+      },
+      {
+        "id": "PHY80056",
+        "type": "mcq",
+        "cat": "Chapter 8: Biomagnetism",
+        "q": "Which pair correctly matches a body source of magnetic field with its measurement technique?",
+        "options": [
+          "Brain activity with magnetocardiography, and heart activity with magnetoencephalography",
+          "Brain activity with magnetoencephalography, and heart activity with magnetocardiography",
+          "Brain activity with electrocardiography, and heart activity with electromyography",
+          "Brain activity with electromyography, and heart activity with electrocardiography"
+        ],
+        "correct": 1,
+        "explain": "Brain activity produces tiny magnetic fields measured by magnetoencephalography, abbreviated MEG. Heart activity produces magnetic fields measured by magnetocardiography, abbreviated MCG. The line Brain activity with magnetocardiography, and heart activity with magnetoencephalography swaps the two techniques. The other lines refer to techniques that measure electric potentials rather than magnetic fields."
+      },
+      {
+        "id": "PHY80057",
+        "type": "matching",
+        "cat": "Chapter 8: Electricity Formulas",
+        "q": "Match each formula to the quantity it defines or the relationship it expresses.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Q = n e"
+          },
+          {
+            "id": "2",
+            "text": "F = k Q₁ Q₂ / r²"
+          },
+          {
+            "id": "3",
+            "text": "E = F / q"
+          },
+          {
+            "id": "4",
+            "text": "V = W / q"
+          },
+          {
+            "id": "5",
+            "text": "I = Q / T"
+          },
+          {
+            "id": "6",
+            "text": "V = I R"
+          },
+          {
+            "id": "7",
+            "text": "R = ρ L / A"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "The quantization of charge in integer multiples of the elementary charge."
+          },
+          {
+            "id": "B",
+            "text": "The electric force between two point charges separated by a distance."
+          },
+          {
+            "id": "C",
+            "text": "The electric field as the force per unit charge."
+          },
+          {
+            "id": "D",
+            "text": "The electric potential as the work per unit charge."
+          },
+          {
+            "id": "E",
+            "text": "The electric current as the rate of flow of charge."
+          },
+          {
+            "id": "F",
+            "text": "Ohm's law, relating voltage, current, and resistance."
+          },
+          {
+            "id": "G",
+            "text": "The resistance of a wire in terms of its resistivity, length, and area."
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F",
+          "7": "G"
+        },
+        "explain": "The relation Q = n e expresses quantization of charge. Coulomb's law F = k Q₁Q₂ / r² gives the force between two point charges. The definition E = F / q gives the electric field. The definition V = W / q gives the electric potential. The relation I = Q / T gives the electric current. Ohm's law V = I R relates voltage, current, and resistance. The relation R = ρ L / A gives the resistance of a wire from its resistivity, length, and cross-sectional area."
+      },
+      {
+        "id": "PHY80058",
+        "type": "matching",
+        "cat": "Chapter 8: Nerve Conduction",
+        "q": "Match each phase of the neuronal action potential to its correct description.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Resting potential"
+          },
+          {
+            "id": "2",
+            "text": "Depolarization"
+          },
+          {
+            "id": "3",
+            "text": "Repolarization"
+          },
+          {
+            "id": "4",
+            "text": "Hyperpolarization"
+          },
+          {
+            "id": "5",
+            "text": "Refractory period"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "The membrane potential is about -70 mV because of ionic gradients and selective K⁺ permeability."
+          },
+          {
+            "id": "B",
+            "text": "Voltage-gated Na⁺ channels open and Na⁺ rushes into the cell, raising the membrane potential."
+          },
+          {
+            "id": "C",
+            "text": "Na⁺ channels close and K⁺ moves out of the cell, restoring the negative interior."
+          },
+          {
+            "id": "D",
+            "text": "K⁺ channels remain open longer, so the membrane potential dips below the resting value."
+          },
+          {
+            "id": "E",
+            "text": "A brief interval during which a new action potential cannot be triggered or needs a much stronger stimulus."
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E"
+        },
+        "explain": "The resting potential of about -70 mV is maintained by ionic concentration gradients and selective permeability, especially to K⁺. Depolarization occurs when voltage-gated Na⁺ channels open and Na⁺ enters the cell. Repolarization occurs when Na⁺ channels close and K⁺ leaves the cell, restoring the negative interior. Hyperpolarization occurs because K⁺ channels stay open longer, letting the potential dip below the resting value. The refractory period is the interval when a new action potential cannot be triggered, or requires a much stronger stimulus."
+      },
+      {
+        "id": "PHY80060",
+        "type": "stepped",
+        "cat": "Chapter 8: Nerve Conduction",
+        "group": "channel-category-drill",
+        "groupOrder": 1,
+        "q": "Gated channels. At each step a channel type is named; choose the correct category for it, then continue.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Chemical gated channel. Which description fits?",
+            "options": [
+              "Opens when a neurotransmitter binds.",
+              "Opens when the membrane is stretched or deformed.",
+              "Opens when the membrane voltage changes.",
+              "Opens when the temperature rises."
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Mechanical gated channel. Which description fits?",
+            "options": [
+              "Opens when the membrane is stretched or deformed.",
+              "Opens when a neurotransmitter binds.",
+              "Opens when the membrane voltage changes.",
+              "Opens when light strikes the membrane."
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Voltage gated channel. Which description fits?",
+            "options": [
+              "Opens when the membrane voltage changes.",
+              "Opens when a neurotransmitter binds.",
+              "Opens when the membrane is stretched or deformed.",
+              "Opens when the ion concentration is equal."
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Chemical gated channels open when a neurotransmitter binds. Mechanical gated channels open when the membrane is stretched or deformed. Voltage gated channels open when the membrane voltage changes. The other lines assign the wrong stimulus to that channel type."
+      }
+    ]
+  },
+  "cards": [
+    {
+      "id": "ch8",
+      "title": "Chapter 8: Electricity and Magnetism",
+      "cats": [
+        "Chapter 8: Static Electricity",
+        "Chapter 8: Coulomb's Law",
+        "Chapter 8: Electric Field",
+        "Chapter 8: Electric Potential",
+        "Chapter 8: Electric Current",
+        "Chapter 8: Ohm's Law",
+        "Chapter 8: Resistance and Resistivity",
+        "Chapter 8: Current Density",
+        "Chapter 8: Nerve Conduction",
+        "Chapter 8: Magnetism",
+        "Chapter 8: MRI",
+        "Chapter 8: Biomagnetism",
+        "Chapter 8: Electricity Formulas"
+      ],
+      "draft": true
+    }
+  ]
+}
