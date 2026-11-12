@@ -1,0 +1,1380 @@
+{
+  "id": "ss-lec11-test-prep",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 11 – Test Preparation and Taking Skills",
+  "formSize": 58,
+  "forms": [
+    "A"
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT211000",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What is the key to success and high scores on tests?",
+        "options": [
+          "Good preparation",
+          "More knowledge",
+          "Wild guessing",
+          "Peer competition"
+        ],
+        "correct": 0,
+        "explain": "Good preparation for tests is the key for success and high scores. Having more knowledge than you think does not guarantee doing well without good preparation."
+      },
+      {
+        "id": "SSPT211001",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which question type is used in the SCFHS SLE?",
+        "options": [
+          "Multiple-choice",
+          "Short-answer",
+          "Clinical cases",
+          "Stem and lead-in"
+        ],
+        "correct": 0,
+        "explain": "MCQs is the type of questions used in SCFHS SLE. Short-answer questions, clinical case scenarios, and stem and lead-in are parts or other types of questions."
+      },
+      {
+        "id": "SSPT211002",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What is the main reason capable students are not successful?",
+        "options": [
+          "Exam stress",
+          "Poor preparation",
+          "Peer competition",
+          "Lack of sleep"
+        ],
+        "correct": 0,
+        "explain": "The main reason capable students are not successful is exam stress and anxiety. Poor preparation, peer competition, and lack of sleep are causes of stress, not the main reason for failure itself."
+      },
+      {
+        "id": "SSPT211003",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which factors cause exam stress and lead to anxiety and panic?",
+        "options": [
+          "Poor preparation",
+          "Negative thoughts",
+          "Peer competition",
+          "Lack of sleep",
+          "Think positively",
+          "Join a study group"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "Causes of stress include poor preparation, negative thoughts and fear of failing, peer competition, and not enough sleep the night before. Thinking positively and joining a study group are preparation strategies."
+      },
+      {
+        "id": "SSPT211004",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What happens when you panic?",
+        "options": [
+          "Memory is inhibited",
+          "Focus decreases",
+          "Easily confused",
+          "Think positively",
+          "Join a group",
+          "Budget time"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "explain": "When you panic, your memory is inhibited, your ability to focus decreases, and you become easily confused. The other options are test-taking or preparation strategies."
+      },
+      {
+        "id": "SSPT211005",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What is the key to deal with exam stress, anxiety, and panic?",
+        "options": [
+          "Good preparation",
+          "Scanning test",
+          "Wild guessing",
+          "Peer competition"
+        ],
+        "correct": 0,
+        "explain": "The key to deal with exam stress, anxiety, and panic is good preparation. Scanning the test is a test-taking tip, while wild guessing and peer competition are not solutions."
+      },
+      {
+        "id": "SSPT211006",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which actions are recommended to 'Study Well'?",
+        "options": [
+          "Attend classes",
+          "Review notes",
+          "Check handouts",
+          "Answer questions",
+          "Link with teachers",
+          "Join a group",
+          "Skip tough ones"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "explain": "Studying well includes attending all classes, reviewing notes, checking handouts and summaries, answering as much questions as you can, linking with teachers, and joining a study group. Skipping tough ones is a test-taking strategy."
+      },
+      {
+        "id": "SSPT211007",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What should you do the day and night before the test?",
+        "options": [
+          "Sleep early and well",
+          "Wake up very early",
+          "Do some workout",
+          "Review forgotten info"
+        ],
+        "correct": 0,
+        "explain": "The day and night before the test, you should think positively, review notes, review easily forgotten info, sleep early and sleep well, and prepare stationery. Waking up early and working out are for the day of the test."
+      },
+      {
+        "id": "SSPT211008",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Why is a good breakfast recommended on the day of the test?",
+        "options": [
+          "Serves as fuel",
+          "Helps you relax",
+          "Fixes attention",
+          "Tracks revisits"
+        ],
+        "correct": 0,
+        "explain": "Having a good breakfast is recommended because it is your brain's fuel for the exam. Working out helps you relax, underlining fixes attention, and certainty marking tracks revisits."
+      },
+      {
+        "id": "SSPT211009",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Who should you avoid being around on the day of the test?",
+        "options": [
+          "Anxious colleagues",
+          "Your teachers",
+          "Lab assistants",
+          "Study groups"
+        ],
+        "correct": 0,
+        "explain": "On the day of the test, don't be around pessimistic or anxious colleagues. Teachers, lab assistants, and study groups are not mentioned as people to avoid."
+      },
+      {
+        "id": "SSPT211010",
+        "type": "stepped",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "A student follows the 5-day test preparation plan in reverse order.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "What is the main task for Day 5?",
+            "options": [
+              "Read and highlight",
+              "Use mnemonics",
+              "Rewrite briefly",
+              "Answer questions"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After reading and highlighting on Day 5, what is the main task for Day 4?",
+            "options": [
+              "Use mnemonics",
+              "Read and highlight",
+              "Rewrite briefly",
+              "Answer questions"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "After using mnemonics on Day 4, what is the main task for Day 3?",
+            "options": [
+              "Rewrite briefly",
+              "Read and highlight",
+              "Use mnemonics",
+              "Answer questions"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "After rewriting briefly on Day 3, what is the main task for Day 2?",
+            "options": [
+              "Answer questions",
+              "Read and highlight",
+              "Use mnemonics",
+              "Rewrite briefly"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "After answering questions on Day 2, what is the main task for Day 1?",
+            "options": [
+              "Review notes",
+              "Read and highlight",
+              "Use mnemonics",
+              "Rewrite briefly"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "6",
+            "prompt": "After reviewing notes on Day 1, what do you go over just before the test?",
+            "options": [
+              "Difficult information",
+              "Rewritten notes",
+              "Practice questions",
+              "Mnemonic methods"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Day 5: read and highlight. Day 4: mnemonics. Day 3: rewrite briefly. Day 2: answer questions. Day 1: review notes and go over difficult information just before the test."
+      },
+      {
+        "id": "SSPT211011",
+        "type": "stepped",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "A student applies general test taking tips 1 through 7 during a paper exam.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Tip 1: what do you do with the instructions?",
+            "options": [
+              "Read them carefully",
+              "Scan the whole test",
+              "Budget your time",
+              "Answer all questions"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After reading instructions carefully, why scan the whole paper test (Tip 2)?",
+            "options": [
+              "Budget time per question",
+              "Fix your attention",
+              "Track what needs review",
+              "Have review time"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "After scanning to budget time, what does Tip 4 advise when you can answer instantly?",
+            "options": [
+              "Answer and move on",
+              "Skip and save it",
+              "Leave it blank",
+              "Listen to invigilators"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "After answering instantly, how do you handle a tough question on paper (Tip 5)?",
+            "options": [
+              "Skip and save it",
+              "Answer and move on",
+              "Leave it blank",
+              "Read the axes"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "After skipping tough questions, what does certainty marking (Tip 6) do?",
+            "options": [
+              "Track what needs review",
+              "Fix your attention",
+              "Circle qualifying words",
+              "Cross out negatives"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "6",
+            "prompt": "After tracking what needs review, what is the rule if you run out of time (Tip 7)?",
+            "options": [
+              "Never leave them blank",
+              "Plan to finish early",
+              "Scan the whole test",
+              "Budget your time"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "7",
+            "prompt": "After deciding never to leave blanks, what does Tip 3 advise overall?",
+            "options": [
+              "Budget your time",
+              "Answer and move on",
+              "Skip the tough ones",
+              "Circle qualifying words"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Tip 1 read instructions. Tip 2 scan to budget time per question. Tip 3 budget your time. Tip 4 answer instantly and move on. Tip 5 skip tough ones until easier questions done. Tip 6 certainty marking tracks revisits. Tip 7 never leave blanks."
+      },
+      {
+        "id": "SSPT211012",
+        "type": "stepped",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "A student applies general test taking tips 8 through 14 to analyze question features.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "What does Tip 8 say to do before answering?",
+            "options": [
+              "Read and understand it",
+              "Read all the options",
+              "Decide the answer",
+              "Underline key data"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After understanding the question, why underline key data (Tip 9)?",
+            "options": [
+              "Fix your attention",
+              "Budget time per question",
+              "Track what needs review",
+              "Have review time"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "After underlining to fix attention, what do qualifying words do (Tip 10)?",
+            "options": [
+              "Alter the statement",
+              "Reverse the meaning",
+              "Make it positive",
+              "Track what needs review"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "After noticing qualifying words alter the statement, what do negative prefixes do (Tip 11)?",
+            "options": [
+              "Reverse the meaning",
+              "Alter the statement",
+              "Make it positive",
+              "Budget time per question"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "After reversing meaning with prefixes, what does a double negative mean (Tip 12)?",
+            "options": [
+              "Common",
+              "Never",
+              "Except",
+              "Few"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "6",
+            "prompt": "After understanding double negatives, what to read first in a graph question (Tip 13)?",
+            "options": [
+              "Title and axes",
+              "Stem and lead-in",
+              "Lead-in and options",
+              "Positive and negative"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "7",
+            "prompt": "After reading the title and axes, why plan to finish early (Tip 14)?",
+            "options": [
+              "Time for review",
+              "Budget time per question",
+              "Track what needs review",
+              "Fix your attention"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Tip 8: Understand the question first. Tip 9: Underline to fix attention. Tip 10: Qualifying words alter statements. Tip 11: Negative prefixes reverse meaning. Tip 12: Double negatives mean positive. Tip 13: Read graph title and axes first. Tip 14: Finish early for review time."
+      },
+      {
+        "id": "SSPT211013",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What characterizes Simple (Recall) MCQs?",
+        "options": [
+          "Direct questions",
+          "Higher cognition",
+          "Indirect questions",
+          "Case scenarios"
+        ],
+        "correct": 0,
+        "explain": "Simple (Recall) MCQs ask about knowledge recall or recognition and are direct questions. Cognitive MCQs require higher functions, are indirect, and are based on case scenarios."
+      },
+      {
+        "id": "SSPT211014",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Cognitive MCQs are based on what?",
+        "options": [
+          "A case or problem",
+          "Knowledge recall",
+          "Direct questions",
+          "A simple stem"
+        ],
+        "correct": 0,
+        "explain": "Cognitive MCQs require higher cognitive functions and are based on a case scenario (a clinical case) or a problem that needs solving. Simple recall and direct questions describe Simple MCQs."
+      },
+      {
+        "id": "SSPT211015",
+        "type": "matching",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Match MCQ structure parts to their definitions.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Stem"
+          },
+          {
+            "id": "2",
+            "text": "Lead-in"
+          },
+          {
+            "id": "3",
+            "text": "Options"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Clinical case scenario"
+          },
+          {
+            "id": "B",
+            "text": "The question asked"
+          },
+          {
+            "id": "C",
+            "text": "4 choices including correct"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "explain": "The stem is the clinical case scenario. The lead-in is the question asked. The options are the 4 choices including the correct answer."
+      },
+      {
+        "id": "SSPT211016",
+        "type": "stepped",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "A student chooses between 'above down' and 'down up' approaches for an MCQ.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "When use the 'Above down' approach?",
+            "options": [
+              "When prepared well",
+              "When no time left",
+              "When stem complex",
+              "When English poor"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After deciding to use 'Above down' because you prepared well, what is the first step?",
+            "options": [
+              "Read the stem",
+              "Read the options",
+              "Read the lead-in",
+              "Guess the answer"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "After reading the stem in 'Above down', what do you underline in it?",
+            "options": [
+              "Positive and negative",
+              "Title and axes",
+              "Qualifying words",
+              "Lead-in and options"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "After underlining key data, when do you figure out the correct answer?",
+            "options": [
+              "Before seeing options",
+              "At first glance",
+              "Before leaving test",
+              "While eating breakfast"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "After figuring out the answer, when is the 'Down up' approach recommended instead?",
+            "options": [
+              "When stem complex",
+              "When stem simple",
+              "When ample time",
+              "When high prep"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "6",
+            "prompt": "When the stem is complex and you use 'Down up', what to read first?",
+            "options": [
+              "Lead-in and options",
+              "Stem and key data",
+              "Title and axes",
+              "Positive and negative"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "'Above down' is used when prepared well, starting with the stem, underlining key data, and figuring out the answer before seeing options. 'Down up' is used for complex stems, starting with the lead-in and options."
+      },
+      {
+        "id": "SSPT211017",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "According to MCQ Tip 3, when change an answer?",
+        "options": [
+          "When absolutely sure",
+          "At first glance",
+          "Before seeing options",
+          "Before leaving test"
+        ],
+        "correct": 0,
+        "explain": "MCQ Tip 3 advises not to second guess yourself. Only change answers if you are absolutely sure the current answer is incorrect."
+      },
+      {
+        "id": "SSPT211018",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What does Tip 4 for answering MCQs advise to avoid?",
+        "options": [
+          "Patterns and middle dumping",
+          "Reading all options",
+          "Eliminating choices",
+          "Deciding beforehand"
+        ],
+        "correct": 0,
+        "explain": "MCQ Tip 4 advises to avoid patterns and avoid middle dumping. Reading options, eliminating choices, and deciding beforehand are other recommended tips."
+      },
+      {
+        "id": "SSPT211019",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What defines 'Educated guessing'?",
+        "options": [
+          "Using your judgment",
+          "Having no knowledge",
+          "At first glance",
+          "Before leaving test"
+        ],
+        "correct": 0,
+        "explain": "Educated guessing is made using judgment and a particular level of knowledge and is therefore more likely to be correct. Wild guessing is based on no knowledge."
+      },
+      {
+        "id": "SSPT211020",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What defines 'Wild guessing'?",
+        "options": [
+          "Having no knowledge",
+          "Using your judgment",
+          "At first glance",
+          "Before leaving test"
+        ],
+        "correct": 0,
+        "explain": "Wild guessing is made based on no knowledge or information. Educated guessing uses judgment and knowledge."
+      },
+      {
+        "id": "SSPT211021",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What do Short Answer Questions (SAQs) test?",
+        "options": [
+          "Synthesizing the answer",
+          "Knowledge recall",
+          "Higher cognition",
+          "Choosing options"
+        ],
+        "correct": 0,
+        "explain": "SAQs require the examinee to provide information, not to choose it. They test the examinees' ability to synthesize or create (write) the answer."
+      },
+      {
+        "id": "SSPT211022",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which are recommended tips for answering SAQs?",
+        "options": [
+          "Formulate first",
+          "Clear handwriting",
+          "Focused and brief",
+          "Technical language",
+          "Follow the order",
+          "Underestimate examiner",
+          "Leave answers blank"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "explain": "SAQ tips include formulating first, clear handwriting, being focused, using technical language, and following order. You should not underestimate the examiner or leave answers blank."
+      },
+      {
+        "id": "SSPT211023",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "According to SAQ Tip 5, what if order matters?",
+        "options": [
+          "Follow it",
+          "Cross it out",
+          "Circle it",
+          "Underline it"
+        ],
+        "correct": 0,
+        "explain": "SAQ Tip 5 states that if order matters, then follow it."
+      },
+      {
+        "id": "SSPT211024",
+        "type": "matching",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Match computerized test strategies to their actions.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Positive goal"
+          },
+          {
+            "id": "2",
+            "text": "Software commands"
+          },
+          {
+            "id": "3",
+            "text": "Incorrect feedback"
+          },
+          {
+            "id": "4",
+            "text": "Tensing up"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Intention to do well"
+          },
+          {
+            "id": "B",
+            "text": "Understand interface"
+          },
+          {
+            "id": "C",
+            "text": "Do not rush next"
+          },
+          {
+            "id": "D",
+            "text": "Use relaxation"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D"
+        },
+        "explain": "A positive goal shows intention to do well. Understand software commands to use the interface. Do not rush if feedback is incorrect. Use relaxation if tensing up."
+      },
+      {
+        "id": "SSPT211025",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What to do before leaving a computerized test?",
+        "options": [
+          "Jot down concerns",
+          "Answer too quickly",
+          "Move to next question",
+          "Underestimate examiner"
+        ],
+        "correct": 0,
+        "explain": "Before leaving the test, jot down (highlight) any questions that concerned or confused you."
+      },
+      {
+        "id": "SSPT211026",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What should you prepare the night before?",
+        "options": [
+          "Your stationery",
+          "Rewritten notes",
+          "Practice questions",
+          "Title and axes"
+        ],
+        "correct": 0,
+        "explain": "The night before the test, prepare your stationery for the exam along with sleeping early and reviewing notes."
+      },
+      {
+        "id": "SSPT211027",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What does Tip 6 ('Certainty marking') do?",
+        "options": [
+          "Track what needs revisiting",
+          "Budget your time",
+          "Fix your attention",
+          "Have review time"
+        ],
+        "correct": 0,
+        "explain": "Certainty marking helps you keep track of what needs to get answered or revisited."
+      },
+      {
+        "id": "SSPT211028",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which word is a 'Qualifying Word'?",
+        "options": [
+          "Always",
+          "Stem",
+          "Lead-in",
+          "Options"
+        ],
+        "correct": 0,
+        "explain": "Qualifying words include Always, Never, Except, Only, and others that alter the statement's meaning. Stem, lead-in, and options are parts of an MCQ."
+      },
+      {
+        "id": "SSPT211029",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What do negative prefixes do to meaning?",
+        "options": [
+          "Reverse the meaning",
+          "Alter the statement",
+          "Make it positive",
+          "Track what needs review"
+        ],
+        "correct": 0,
+        "explain": "Negative words and prefixes change the meaning to the opposite."
+      },
+      {
+        "id": "SSPT211030",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "In an MCQ, what is the 'Lead-in'?",
+        "options": [
+          "The question asked",
+          "The clinical case",
+          "The four choices",
+          "The correct answer"
+        ],
+        "correct": 0,
+        "explain": "The Lead-in is a question, like: Which of the following is...?"
+      },
+      {
+        "id": "SSPT211031",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What to do before reading MCQ options (Tip 5)?",
+        "options": [
+          "Decide the answer",
+          "Read all options",
+          "Eliminate choices",
+          "Guess it"
+        ],
+        "correct": 0,
+        "explain": "MCQ Tip 5 advises trying to decide the answer before reading the options."
+      },
+      {
+        "id": "SSPT211032",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What to eliminate at first glance (MCQ Tip 2)?",
+        "options": [
+          "Incorrect choices",
+          "The question stem",
+          "Qualifying words",
+          "Key data points"
+        ],
+        "correct": 0,
+        "explain": "MCQ Tip 2 advises eliminating choices you know are incorrect at 1st glance."
+      },
+      {
+        "id": "SSPT211033",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "According to SAQ Tip 6, what not to do?",
+        "options": [
+          "Underestimate examiner",
+          "Technical language",
+          "Focused and brief",
+          "Clear handwriting"
+        ],
+        "correct": 0,
+        "explain": "SAQ Tip 6 states: Don't underestimate the examiner."
+      },
+      {
+        "id": "SSPT211034",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What keeps a focused mind on computer tests?",
+        "options": [
+          "Concentration tactics",
+          "Wild guessing",
+          "Middle dumping",
+          "Peer competition"
+        ],
+        "correct": 0,
+        "explain": "Use concentration strategies to keep a focused mind and deal with distractors during computerized tests."
+      },
+      {
+        "id": "SSPT211035",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "On the day of the test, why do some workout?",
+        "options": [
+          "It helps you relax",
+          "It is brain fuel",
+          "It fixes attention",
+          "It tracks revisits"
+        ],
+        "correct": 0,
+        "explain": "Doing some workout on the day of the test helps you relax. Breakfast is brain fuel, underlining fixes attention, and certainty marking tracks revisits."
+      },
+      {
+        "id": "SSPT211036",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "If you don't know the answer to a question, what should you do?",
+        "options": [
+          "Guess it",
+          "Leave it blank",
+          "Cross it out",
+          "Circle it"
+        ],
+        "correct": 0,
+        "explain": "Your goal is to collect marks. Don't leave any question unanswered. If you don't know the answer, guess it."
+      },
+      {
+        "id": "SSPT211037",
+        "type": "matching",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Match each MCQ strategy to its action.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Read all options"
+          },
+          {
+            "id": "2",
+            "text": "Eliminate choices"
+          },
+          {
+            "id": "3",
+            "text": "Avoid second guessing"
+          },
+          {
+            "id": "4",
+            "text": "Avoid patterns"
+          },
+          {
+            "id": "5",
+            "text": "Decide first"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Do before selecting"
+          },
+          {
+            "id": "B",
+            "text": "Remove incorrect ones"
+          },
+          {
+            "id": "C",
+            "text": "Change only if sure"
+          },
+          {
+            "id": "D",
+            "text": "Prevent middle dumping"
+          },
+          {
+            "id": "E",
+            "text": "Figure out beforehand"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E"
+        },
+        "explain": "Read all options before selecting. Eliminate incorrect ones instantly. Avoid second guessing by changing only if sure. Avoid patterns like middle dumping. Decide the answer before reading options."
+      },
+      {
+        "id": "SSPT211038",
+        "type": "matching",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Match each SAQ strategy to its action.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Formulate first"
+          },
+          {
+            "id": "2",
+            "text": "Clear handwriting"
+          },
+          {
+            "id": "3",
+            "text": "Focused and brief"
+          },
+          {
+            "id": "4",
+            "text": "Technical language"
+          },
+          {
+            "id": "5",
+            "text": "Follow order"
+          },
+          {
+            "id": "6",
+            "text": "Respect examiner"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Think before writing"
+          },
+          {
+            "id": "B",
+            "text": "Make it legible"
+          },
+          {
+            "id": "C",
+            "text": "Get straight to point"
+          },
+          {
+            "id": "D",
+            "text": "Use proper terms"
+          },
+          {
+            "id": "E",
+            "text": "Obey the sequence"
+          },
+          {
+            "id": "F",
+            "text": "Do not underestimate"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F"
+        },
+        "explain": "Formulate the answer before writing. Use clear handwriting to make it legible. Be focused and get straight to the point. Use technical terminology. Follow the sequence if order matters. Respect the examiner by not underestimating them."
+      },
+      {
+        "id": "SSPT211039",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "If instructions are spoken by invigilators, what should you do?",
+        "options": [
+          "Listen attentively",
+          "Scan the whole test",
+          "Budget your time",
+          "Skip tough ones"
+        ],
+        "correct": 0,
+        "explain": "Tip 1 states to read instructions carefully, and if spoken by invigilators, listen attentively to them."
+      },
+      {
+        "id": "SSPT211040",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What should you do when you see a qualifying word?",
+        "options": [
+          "Circle it",
+          "Cross it out",
+          "Underline it",
+          "Skip it"
+        ],
+        "correct": 0,
+        "explain": "When you see a qualifying word, circle it to fix attention on it. Crossing out is for double negatives, and underlining is for key data."
+      },
+      {
+        "id": "SSPT211041",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which are common negative prefixes or words?",
+        "options": [
+          "un",
+          "non",
+          "dis",
+          "not",
+          "except",
+          "false"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "Common negative prefixes and words include un, non, dis, and not. 'Except' is a qualifying word, and 'false' is a true/false qualifier, not a prefix."
+      },
+      {
+        "id": "SSPT211043",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Cognitive MCQs are based on which items?",
+        "options": [
+          "A clinical case",
+          "A Math problem",
+          "The capital city",
+          "2 benefits",
+          "Knowledge recall",
+          "Direct questions"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "explain": "Cognitive MCQs are based on a case scenario (a clinical case) or a problem that needs solving (Math or Physics problem). The other options describe Simple MCQs or SAQs."
+      },
+      {
+        "id": "SSPT211044",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which conditions favor the 'above down' approach?",
+        "options": [
+          "You have time",
+          "You prepared well",
+          "Stem is simple",
+          "You lack time",
+          "Stem is complex",
+          "English is poor"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "explain": "The 'above down' approach is used when you have time, prepared well, and the stem is simple and easily readable. The other conditions favor the 'down up' approach."
+      },
+      {
+        "id": "SSPT211045",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which conditions favor the 'down up' approach?",
+        "options": [
+          "You lack time",
+          "Poor preparation",
+          "Stem is complex",
+          "English is poor",
+          "You have time",
+          "You prepared well"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "The 'down up' approach is used when you don't have time, did not prepare well, the stem is complex, or you are not good at English. Having time and preparing well favor 'above down'."
+      },
+      {
+        "id": "SSPT211046",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which describe Short Answer Questions (SAQs)?",
+        "options": [
+          "Provide information",
+          "Synthesize answer",
+          "Knowledge recall",
+          "Indirect questions",
+          "Case scenarios",
+          "Direct questions"
+        ],
+        "correct": [
+          0,
+          1
+        ],
+        "explain": "SAQs require the examinee to provide information and test the ability to synthesize or create the answer. The other options describe Simple or Cognitive MCQs."
+      },
+      {
+        "id": "SSPT211047",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which are essential strategies for computerized tests?",
+        "options": [
+          "Use MCQ strategies",
+          "Do not rush",
+          "Discuss with lab",
+          "Skip tough ones",
+          "Leave blank",
+          "Second guess"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "explain": "Essential strategies include using multiple-choice strategies, not answering too quickly, and discussing skills with the lab assistant or instructor. Skipping, leaving blank, and second guessing are not recommended."
+      },
+      {
+        "id": "SSPT211048",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "According to the conclusion, test preparation prevents what?",
+        "options": [
+          "Anxiety and panic",
+          "Qualifying words",
+          "Negative prefixes",
+          "Middle dumping"
+        ],
+        "correct": 0,
+        "explain": "Test preparation makes test taking easy and prevents test anxiety and panic."
+      },
+      {
+        "id": "SSPT211049",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Tips for which test types are important for any test taker?",
+        "options": [
+          "MCQs and SAQs",
+          "Stem and lead-in",
+          "Title and axes",
+          "Positive and negative"
+        ],
+        "correct": 0,
+        "explain": "Tips for taking MCQs and SAQs tests are important for any test taker."
+      },
+      {
+        "id": "SSPT211050",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Test taking skills are important for whom?",
+        "options": [
+          "Everyone in education",
+          "Lab assistants",
+          "Anxious colleagues",
+          "Invigilators"
+        ],
+        "correct": 0,
+        "explain": "Test taking skills are important for everyone in education."
+      },
+      {
+        "id": "SSPT211051",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which actions belong to the day of the test?",
+        "options": [
+          "Wake up early",
+          "Do some workout",
+          "Have breakfast",
+          "Attend early",
+          "Quick review",
+          "Sleep early",
+          "Prepare stationery"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "explain": "Day of the test actions include waking up early, working out, having breakfast, attending early, and quick review. Sleeping early and preparing stationery belong to the night before."
+      },
+      {
+        "id": "SSPT211052",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which actions belong to the day and night before the test?",
+        "options": [
+          "Think positively",
+          "Review notes",
+          "Review forgotten info",
+          "Sleep early",
+          "Prepare stationery",
+          "Wake up early",
+          "Do some workout"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "explain": "Day and night before actions include thinking positively, reviewing notes, reviewing easily forgotten info, sleeping early, and preparing stationery. Waking up early and working out are for the day of the test."
+      },
+      {
+        "id": "SSPT211053",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Without good preparation, what happens even if you have more knowledge than you think?",
+        "options": [
+          "You will not do well",
+          "Memory is inhibited",
+          "Become confused",
+          "Focus decreases"
+        ],
+        "correct": 0,
+        "explain": "You most probably have more knowledge than what you think you do. But, without good preparation you will not do well on tests. The other options are results of panic."
+      },
+      {
+        "id": "SSPT211054",
+        "type": "mcq",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "What is a key constraint for online exams regarding skipping questions?",
+        "options": [
+          "No back to previous",
+          "Skip tough ones",
+          "Answer easy first",
+          "Leave them blank"
+        ],
+        "correct": 0,
+        "explain": "In an online exam, there is no back to previous question, unlike a paper exam where you can skip tough ones and return to them later."
+      },
+      {
+        "id": "SSPT211055",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which words from the first group are listed as 'Qualifying Words'?",
+        "options": [
+          "Always",
+          "Never",
+          "Including",
+          "All",
+          "Because",
+          "Must",
+          "Stem",
+          "Lead-in"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "explain": "Qualifying words include Always, Never, Including, All, Because, and Must. Stem and Lead-in are parts of an MCQ structure."
+      },
+      {
+        "id": "SSPT211056",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which words from the second group are listed as 'Qualifying Words'?",
+        "options": [
+          "Weak",
+          "Strong",
+          "Positive",
+          "Negative",
+          "Except",
+          "More than",
+          "Options",
+          "Cues"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "explain": "Qualifying words include Weak, Strong, Positive, Negative, Except, and More than. Options and Cues are parts of test structures."
+      },
+      {
+        "id": "SSPT211057",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which words from the third group are listed as 'Qualifying Words'?",
+        "options": [
+          "Less than",
+          "True",
+          "False",
+          "Superior",
+          "Inferior",
+          "Few",
+          "Summary",
+          "Record"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "explain": "Qualifying words include Less than, True, False, Superior, Inferior, and Few. Summary and Record are note-taking terms."
+      },
+      {
+        "id": "SSPT211058",
+        "type": "multi",
+        "cat": "Lecture 11 - Test Preparation and Taking Skills",
+        "q": "Which words from the fourth group are listed as 'Qualifying Words'?",
+        "options": [
+          "Only",
+          "Absolutely",
+          "Always",
+          "Never",
+          "Except",
+          "All",
+          "Main notes",
+          "Recall"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "explain": "Qualifying words include Only and Absolutely, along with others like Always, Never, Except, and All. Main notes and Recall are Cornell note-taking terms."
+      }
+    ]
+  }
+}

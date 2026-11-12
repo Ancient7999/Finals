@@ -1,0 +1,499 @@
+{
+  "id": "msa-lec13",
+  "subject": "Medical Student Assessment",
+  "subjectId": "medical_student_assessment",
+  "title": "Lecture 13 – Medical Student Assessment",
+  "formSize": 43,
+  "forms": ["A"],
+  "bank": {
+    "A": [
+      {
+        "id": "MSA13001",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "The word 'assess' comes from the Latin verb 'assidere', which means what?",
+        "options": ["To sit with", "To judge strictly", "To measure progress", "To grade formally"],
+        "correct": 0,
+        "explain": "'Assess' comes from 'assidere', meaning 'to sit with'. Judging strictly, measuring progress, and grading formally are not its meaning."
+      },
+      {
+        "id": "MSA13002",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Student assessment gains learning information and forms what?",
+        "options": ["Value judgments", "Financial budgets", "Curriculum plans", "Teacher reviews"],
+        "correct": 0,
+        "explain": "Assessment forms value judgments concerning learning progress. Budgets, curriculum plans, and teacher reviews are not part of the definition."
+      },
+      {
+        "id": "MSA13003",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "The phrase 'steering effect of assessment' refers to which concept?",
+        "options": ["Assessment drives learning", "Assessment replaces instruction", "Assessment is a necessary evil", "Assessment is only for grading"],
+        "correct": 0,
+        "explain": "The steering effect means assessment drives learning. It does not replace instruction; 'necessary evil' is a separate remark, and 'only for grading' is false."
+      },
+      {
+        "id": "MSA13004",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Planning for student assessment must start with and go parallel to planning for what?",
+        "options": ["Instruction", "Graduation ceremonies", "Student housing", "Extracurricular activities"],
+        "correct": 0,
+        "explain": "Assessment planning runs parallel to instruction planning. Ceremonies, housing, and activities are not the stated parallel."
+      },
+      {
+        "id": "MSA13005",
+        "type": "matching",
+        "cat": "MT_lec13",
+        "q": "Match each assessment type to its primary design purpose.",
+        "leftItems": [
+          {"id": "1", "text": "Norm-referenced assessment"},
+          {"id": "2", "text": "Criterion-referenced assessment"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Absolute achievement of a clearly defined domain"},
+          {"id": "B", "text": "Relative standing among a known group"}
+        ],
+        "correct_pairs": {"1": "B", "2": "A"},
+        "explain": "Norm-referenced assessment gauges relative standing among a known group. Criterion-referenced assessment gauges absolute achievement of a defined domain."
+      },
+      {
+        "id": "MSA13006",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which of the following are functions of student assessment?",
+        "options": ["Certifying competence", "Aiding student motivation", "Replacing teacher instruction", "Aiding in relative ranking of students"],
+        "correct": [0, 1, 3],
+        "explain": "Functions include certifying competence, aiding motivation, and aiding relative ranking. Replacing instruction is not a function; assessment parallels instruction."
+      },
+      {
+        "id": "MSA13007",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Placement assessment is used to decide what?",
+        "options": ["Entry level", "Exit grade", "Final rank", "Knowledge gap"],
+        "correct": 0,
+        "explain": "Placement decides the entry level. Exit grade and final rank belong to summative use; the knowledge gap belongs to formative feedback."
+      },
+      {
+        "id": "MSA13008",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Placement assessment is an entry exam to avoid what?",
+        "options": ["Instruction duplication", "Competence certification", "Course grade granting", "Knowledge gap bridging"],
+        "correct": 0,
+        "explain": "Placement is an entry exam to avoid duplicated instruction. Certification and grades are summative; gap bridging is formative."
+      },
+      {
+        "id": "MSA13009",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Formative assessment is best described as which of the following?",
+        "options": ["Assessment For Learning", "Assessment Of Learning", "Assessment Against Learning", "Assessment Without Learning"],
+        "correct": 0,
+        "explain": "Formative assessment is 'Assessment For Learning'. 'Of Learning' is summative; 'Against' and 'Without' are not used."
+      },
+      {
+        "id": "MSA13010",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Formative assessment is best described as which pattern?",
+        "options": ["Continuous, no marks", "Periodic, marks allocated", "Continuous, marks allocated", "Periodic, no marks"],
+        "correct": 0,
+        "explain": "Formative assessment is continuous and informal with no marks. Periodic with marks is summative; the mixed patterns match neither type."
+      },
+      {
+        "id": "MSA13012",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Summative assessment is primarily done to achieve what?",
+        "options": ["Certify competence or grant grades", "Discover gaps in knowledge during instruction", "Avoid duplication of instruction", "Provide immediate feedback for improvement"],
+        "correct": 0,
+        "explain": "Summative assessment certifies competence or grants grades. Discovering gaps and giving feedback are formative; avoiding duplication is placement."
+      },
+      {
+        "id": "MSA13013",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Knowledge (Cognition) is primarily assessed through which method?",
+        "options": ["Written paper-and-pencil tests", "Practical and clinical exams", "Observation and Likert scales", "Self and peer assessment"],
+        "correct": 0,
+        "explain": "Knowledge is assessed by written paper-and-pencil tests. Practical clinical exams assess skills; observation and Likert scales assess attitudes; self and peer are carriers."
+      },
+      {
+        "id": "MSA13014",
+        "type": "matching",
+        "cat": "MT_lec13",
+        "q": "Match each paper-and-pencil test category to its examples.",
+        "leftItems": [
+          {"id": "1", "text": "Selection-Type"},
+          {"id": "2", "text": "Supply-Type"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Short-Answer, Short Essay, Long Essay, Modified Essay"},
+          {"id": "B", "text": "MCQ, True/False, Matching"}
+        ],
+        "correct_pairs": {"1": "B", "2": "A"},
+        "explain": "Selection-Type tests include MCQ, True/False, and Matching. Supply-Type tests include Short-Answer, Short Essay, Long Essay, and Modified Essay."
+      },
+      {
+        "id": "MSA13015",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "What makes MCQs the most common written-test item?",
+        "options": ["They show who learned", "They measure creation well", "They are simple to make", "They rule out guessing"],
+        "correct": 0,
+        "explain": "MCQs are most common because they show who has learned and who has not. They are hard to construct, weak at measuring creation, and open to guessing."
+      },
+      {
+        "id": "MSA13016",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which are recognized problems with MCQs?",
+        "options": ["They are hard to construct", "They miss problem-solving and creation", "They let guessing affect scores", "They are ineffective for knowledge"],
+        "correct": [0, 1, 2],
+        "explain": "MCQ problems are that they are hard to construct, weak at problem-solving and creation, and vulnerable to guessing. They are effective for assessing knowledge."
+      },
+      {
+        "id": "MSA13017",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Skills are assessed through which type of exam?",
+        "options": ["Performance", "Paper-and-pencil", "Norm-referenced", "Likert-scale"],
+        "correct": 0,
+        "explain": "Skills use practical and clinical performance exams. Paper-and-pencil tests assess knowledge; norm-referencing compares students; Likert scales rate attitudes."
+      },
+      {
+        "id": "MSA13018",
+        "type": "matching",
+        "cat": "MT_lec13",
+        "q": "Match each performance exam task type to its example.",
+        "leftItems": [
+          {"id": "1", "text": "Extended Response"},
+          {"id": "2", "text": "Restricted Response"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "OSCE and OSPE"},
+          {"id": "B", "text": "Long Case Examinations"}
+        ],
+        "correct_pairs": {"1": "B", "2": "A"},
+        "explain": "Extended Response tasks include Long Case Examinations. Restricted Response tasks include OSCE and OSPE."
+      },
+      {
+        "id": "MSA13019",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which tools belong to skills assessment?",
+        "options": ["Rating scale", "Checklist", "Scoring rubric", "Likert scale"],
+        "correct": [0, 1, 2],
+        "explain": "Skills scoring tools are the rating scale, checklist, and scoring rubric. The Likert scale rates attitudes, not skills."
+      },
+      {
+        "id": "MSA13020",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Which domain of learning is the most difficult to assess?",
+        "options": ["Attitudes", "Knowledge", "Skills"],
+        "correct": 0,
+        "explain": "Attitudes are the most difficult domain to assess. Knowledge and skills are the other two assessed domains and are comparatively easier."
+      },
+      {
+        "id": "MSA13021",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Assessment of attitudes uses observation and specific rating scales called what?",
+        "options": ["Likert scales", "Rubric scales", "Norm scales", "Checklist scales"],
+        "correct": 0,
+        "explain": "Attitude rating scales are called Likert scales. Rubrics and checklists score skills; norm-referencing compares students and is not an attitude scale."
+      },
+      {
+        "id": "MSA13022",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "What does 'self-assessment' mean?",
+        "options": ["Students judge their own performance", "Students judge peers' performance", "Teachers judge student performance", "A national body judges all students"],
+        "correct": 0,
+        "explain": "Self-assessment means students judge their own performance. Judging peers is peer-assessment; teachers give home-made exams; a national body assesses students nationwide."
+      },
+      {
+        "id": "MSA13023",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "What does 'peer-assessment' mean?",
+        "options": ["Students judge one another's performance", "Students judge their own performance", "Teachers judge student performance", "Learners judge via Likert scales"],
+        "correct": 0,
+        "explain": "Peer-assessment means students judge one another's performance. Judging your own is self-assessment; teachers give home-made exams; Likert scales rate attitudes."
+      },
+      {
+        "id": "MSA13024",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which are characteristics of a good assessment?",
+        "options": ["Validity", "Reliability", "Educational impact", "Cost", "Guessing", "Motivation"],
+        "correct": [0, 1, 2, 3],
+        "explain": "The characteristics are validity, reliability, educational impact, cost, and acceptability. Guessing is an MCQ problem and motivation is a function, not a quality characteristic."
+      },
+      {
+        "id": "MSA13025",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Which factor completes the utility formula: Validity × Reliability × Educational Impact × Cost × ?",
+        "options": ["Acceptability", "Fairness", "Motivation", "Guessing"],
+        "correct": 0,
+        "explain": "The utility formula multiplies validity, reliability, educational impact, cost, and acceptability. Fairness is named alongside the characteristics but is not a factor; motivation and guessing are not."
+      },
+      {
+        "id": "MSA13026",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Feedback is information about reactions to a performance, used as a basis for what?",
+        "options": ["Improvement", "Punishment", "Grading only", "Ranking"],
+        "correct": 0,
+        "explain": "Feedback is used as a basis for improvement. It is an educational tool, not meant for punishment, grading only, or ranking."
+      },
+      {
+        "id": "MSA13027",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which are traits of effective feedback?",
+        "options": ["Be immediate", "Be specific", "Be personal", "Be general"],
+        "correct": [0, 1],
+        "explain": "Effective feedback is immediate and specific. It must not be personal, and 'general' contradicts 'specific'."
+      },
+      {
+        "id": "MSA13029",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Which is an example of a Supply-Type paper-and-pencil test?",
+        "options": ["Essay", "MCQ", "True/False", "Matching"],
+        "correct": 0,
+        "explain": "Essay questions (short, long, or modified) are Supply-Type. MCQ, True/False, and Matching are Selection-Type."
+      },
+      {
+        "id": "MSA13030",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "OSCE and OSPE are examples of which type of performance exam task?",
+        "options": ["Restricted Response", "Extended Response", "Paper-and-pencil", "Self-assessment"],
+        "correct": 0,
+        "explain": "OSCE and OSPE are Restricted Response tasks. Extended Response is exemplified by Long Case Examinations; paper-and-pencil assesses knowledge; self-assessment is a carrier."
+      },
+      {
+        "id": "MSA13032",
+        "type": "matching",
+        "cat": "MT_lec13",
+        "q": "Match each assessment carrier to its description.",
+        "leftItems": [
+          {"id": "1", "text": "Home-made exams"},
+          {"id": "2", "text": "National bodies"},
+          {"id": "3", "text": "Self-assessment"},
+          {"id": "4", "text": "Peer-assessment"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Institution teachers prepare and run them"},
+          {"id": "B", "text": "A country-wide agency tests every student"},
+          {"id": "C", "text": "Learners judge their own work"},
+          {"id": "D", "text": "Learners judge classmates' work"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C", "4": "D"},
+        "explain": "Home-made exams are run by institution teachers. National bodies are country-wide agencies. Self-assessment is learners judging their own work; peer-assessment is learners judging classmates' work."
+      },
+      {
+        "id": "MSA13033",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "In formative assessment, what is the central function?",
+        "options": ["Feedback", "Granting grades", "Relative ranking", "Certifying competence"],
+        "correct": 0,
+        "explain": "In formative assessment, feedback is the central function. Granting grades, ranking, and certifying competence are summative functions."
+      },
+      {
+        "id": "MSA13034",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Summative marks go to the students and to whom?",
+        "options": ["The school", "The nation", "The tutors", "The parents"],
+        "correct": 0,
+        "explain": "Summative marks are reported to the students and the school. The nation, tutors, and parents are not the stated recipients."
+      },
+      {
+        "id": "MSA13035",
+        "type": "saq",
+        "cat": "MT_lec13",
+        "q": "The Latin verb 'assidere', from which 'assess' comes, means to do what?",
+        "answer": "to sit with",
+        "accept": [],
+        "explain": "The Latin verb 'assidere' means 'to sit with'."
+      },
+      {
+        "id": "MSA13036",
+        "type": "matching",
+        "cat": "MT_lec13",
+        "q": "Sort each feature into its assessment type.",
+        "leftItems": [
+          {"id": "1", "text": "Assessment FOR learning"},
+          {"id": "2", "text": "Occurs after instruction"},
+          {"id": "3", "text": "Feedback is the central function"},
+          {"id": "4", "text": "Periodic and formal with marks allocated"},
+          {"id": "5", "text": "Continuous and informal with no marks"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Formative"},
+          {"id": "B", "text": "Summative"},
+          {"id": "C", "text": "Placement"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "A", "4": "B", "5": "A"},
+        "explain": "Formative is assessment FOR learning, occurs during instruction, makes feedback central, and is continuous and informal with no marks. Summative occurs after instruction and is periodic and formal with marks. Placement is an entry exam and fits none of these."
+      },
+      {
+        "id": "MSA13037",
+        "type": "matching",
+        "cat": "MT_lec13",
+        "q": "Match each learning domain to how it is assessed.",
+        "leftItems": [
+          {"id": "1", "text": "Knowledge"},
+          {"id": "2", "text": "Skills"},
+          {"id": "3", "text": "Attitudes"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Written paper-and-pencil tests"},
+          {"id": "B", "text": "Practical and clinical performance exams"},
+          {"id": "C", "text": "Observation and Likert scales"},
+          {"id": "D", "text": "Self and peer assessment"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C"},
+        "explain": "Knowledge is assessed by written paper-and-pencil tests; skills by practical and clinical performance exams; attitudes, the hardest domain, by observation and Likert scales. Self and peer assessment are carriers, not a domain method."
+      },
+      {
+        "id": "MSA13038",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which items are named as ways to assess learners?",
+        "options": ["Portfolios", "Workplace", "OSCE", "Norm-referencing"],
+        "correct": [0, 1, 2],
+        "explain": "The methods list includes portfolios, workplace-based assessment, and OSCE, alongside paper-and-pencil tests, MCQs, clinical exams, observations, rating scales, checklists, self- and peer-assessment, and OSPE. Norm-referencing is a comparison standard, not a method."
+      },
+      {
+        "id": "MSA13039",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Effective feedback should focus on both strengths and what?",
+        "options": ["Weaknesses", "Grades", "Rankings", "Penalties"],
+        "correct": 0,
+        "explain": "Effective feedback focuses on both strengths and weaknesses. Grades, rankings, and penalties are not the stated counterpart to strengths."
+      },
+      {
+        "id": "MSA13040",
+        "type": "stepped",
+        "cat": "MT_lec13",
+        "q": "The five planning questions each target a different aspect.",
+        "steps": [
+          {"id": "1", "prompt": "Which question is answered by 'knowledge, skills, and attitudes'?", "options": ["What", "How", "Why", "When", "Who"], "correct": 0},
+          {"id": "2", "prompt": "Besides What, which question is answered by 'written or performance-based methods'?", "options": ["What", "How", "Why", "When", "Who"], "correct": 1},
+          {"id": "3", "prompt": "Besides How, which question is answered by 'Assessment of Learning versus Assessment for Learning'?", "options": ["What", "How", "Why", "When", "Who"], "correct": 2},
+          {"id": "4", "prompt": "Besides Why, which question is answered by 'summative, ongoing, and formative timing'?", "options": ["What", "How", "Why", "When", "Who"], "correct": 3},
+          {"id": "5", "prompt": "Besides When, which question is answered by 'school, national body, or self'?", "options": ["What", "How", "Why", "When", "Who"], "correct": 4}
+        ],
+        "explain": "Step 1: 'knowledge, skills, attitudes' answers What. Step 2: 'written or performance-based' answers How. Step 3: 'of-learning vs for-learning' answers Why. Step 4: 'summative, ongoing, formative' answers When. Step 5: 'school, national body, self' answers Who."
+      },
+      {
+        "id": "MSA13041",
+        "type": "multi",
+        "cat": "MT_lec13",
+        "q": "Which are also functions of student assessment?",
+        "options": ["Granting grades and upgrading", "Aiding retention and transfer", "Aiding student self-assessment", "Aiding evaluation of instruction", "Duplicating instruction"],
+        "correct": [0, 1, 2, 3],
+        "explain": "Further functions are granting grades and upgrading, aiding retention and transfer, aiding self-assessment, and aiding evaluation of instructional effectiveness. Duplicating instruction is what placement avoids, not a function."
+      },
+      {
+        "id": "MSA13042",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "What is the only way to know whether students have learned?",
+        "options": ["Assess them", "Take attendance", "Trust self-reports", "Review the syllabus"],
+        "correct": 0,
+        "explain": "The only way to know whether students learned is to assess them. Attendance, self-reports, and syllabus review do not prove learning."
+      },
+      {
+        "id": "MSA13043",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Assessment is sometimes characterized as what?",
+        "options": ["A necessary evil", "An optional extra", "A teaching substitute", "A mere formality"],
+        "correct": 0,
+        "explain": "Assessment is called a necessary evil. It is not optional, does not substitute for teaching, and is more than a formality."
+      },
+      {
+        "id": "MSA13044",
+        "type": "stepped",
+        "cat": "MT_lec13",
+        "q": "Compare the two main functional assessment types in detail.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "At which point does formative assessment occur?",
+            "options": ["During instruction", "After instruction", "Before the course begins", "Only at graduation"],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "During-instruction assessment is designed to give feedback mainly to do what?",
+            "options": ["Identify areas for improvement", "Certify competence for a grade", "Grant the final course mark", "Rank learners across the nation"],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Besides giving feedback to identify improvement, during-instruction assessment checks understanding so the teacher can do what?",
+            "options": ["Bridge the knowledge gaps", "Award summative marks", "Issue a completion certificate", "Replace the entry exam"],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "After bridging knowledge gaps, which formats are used in this during-instruction type?",
+            "options": ["Open- and closed-ended quizzes", "Only extended long-case examinations", "Only national licensing board papers", "Only workplace-based portfolio logs"],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "Unlike the open- and closed-ended quizzes of the during-instruction type, the after-instruction type is called which phrase?",
+            "options": ["Assessment Of Learning", "Assessment For Learning", "Assessment Against Learning", "Assessment Without Learning"],
+            "correct": 0
+          },
+          {
+            "id": "6",
+            "prompt": "Assessment Of Learning evaluates achievement at which point?",
+            "options": ["End or middle of a unit", "The very first week of all teaching", "Each daily activity during class", "Before any instruction is delivered"],
+            "correct": 0
+          },
+          {
+            "id": "7",
+            "prompt": "After the end-or-middle evaluation, this type is composed of tasks covering what?",
+            "options": ["Different domains of learning", "Only rote cognitive recall", "Only psychomotor skill drills", "Only class attendance records"],
+            "correct": 0
+          }
+        ],
+        "explain": "Formative occurs during instruction, gives feedback to identify improvement, bridges knowledge gaps, and uses open- and closed-ended quizzes. Summative is Assessment Of Learning, set at the end or middle of a unit, and built from tasks covering different domains."
+      },
+      {
+        "id": "MSA13045",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "Besides a basis for improvement, feedback is also described as what?",
+        "options": ["An educational tool", "A necessary evil", "A steering effect", "An entry exam"],
+        "correct": 0,
+        "explain": "Feedback is a very important educational tool. The necessary evil and the steering effect describe assessment itself, and an entry exam describes placement, not feedback."
+      },
+      {
+        "id": "MSA13046",
+        "type": "mcq",
+        "cat": "MT_lec13",
+        "q": "With no student assessment, what is absent?",
+        "options": ["Proof of learning", "A necessary evil", "A steering effect", "An entry exam"],
+        "correct": 0,
+        "explain": "Without assessment there is no proof that learning occurred. The necessary evil, the steering effect, and the entry exam are other lecture points, not the missing evidence."
+      }
+    ]
+  }
+}

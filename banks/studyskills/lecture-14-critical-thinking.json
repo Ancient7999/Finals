@@ -1,0 +1,781 @@
+{
+  "id": "ss-lec14-critical-thinking",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 14 - Critical Thinking",
+  "formSize": 38,
+  "forms": [
+    "A"
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT214000",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "What is the way that the mind makes sense of the world?",
+        "options": [
+          "Thinking",
+          "Memorizing",
+          "Observing",
+          "Listening"
+        ],
+        "correct": 0,
+        "explain": "Thinking is the way that the mind makes sense of the world."
+      },
+      {
+        "id": "SSPT214001",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Thinking is classified as what kind of function?",
+        "options": [
+          "A higher cognitive function",
+          "A basic sensory function",
+          "A purely emotional function",
+          "A physical motor function"
+        ],
+        "correct": 0,
+        "explain": "Thinking is a higher cognitive function."
+      },
+      {
+        "id": "SSPT214002",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which type of thinking proceeds on the assumption that there is one single best solution to any problem?",
+        "options": [
+          "Convergent thinking",
+          "Divergent thinking",
+          "Creative thinking",
+          "Critical thinking"
+        ],
+        "correct": 0,
+        "explain": "Convergent thinking assumes there is one single best solution to any problem."
+      },
+      {
+        "id": "SSPT214003",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Convergent thinking assumes the solution can be arrived at on the basis of what?",
+        "options": [
+          "Existing knowledge",
+          "Future predictions",
+          "Emotional intuition",
+          "Random guessing"
+        ],
+        "correct": 0,
+        "explain": "Convergent thinking assumes the solution can be arrived at on the basis of existing knowledge."
+      },
+      {
+        "id": "SSPT214004",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which type of thinking is associated with the ability to create or construct something new, novel, or unusual?",
+        "options": [
+          "Divergent or creative thinking",
+          "Convergent or logical thinking",
+          "Critical or analytical thinking",
+          "Deductive or inductive reasoning"
+        ],
+        "correct": 0,
+        "explain": "Divergent or creative thinking is associated with creating or constructing something new, novel, or unusual."
+      },
+      {
+        "id": "SSPT214005",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Divergent thinking looks for new relationships and associations to do what?",
+        "options": [
+          "Describe and interpret the nature of things, events, and situations",
+          "Determine the single best solution to any complex problem based on existing knowledge",
+          "Judge information according to established personal, professional, or social rules",
+          "Separate a whole into its functional parts to discover relationships"
+        ],
+        "correct": 0,
+        "explain": "Divergent thinking looks for new relationships and associations to describe and interpret the nature of things, events, and situations."
+      },
+      {
+        "id": "SSPT214006",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "What does it mean to be critical of a text?",
+        "options": [
+          "Question the information and opinions in the text to evaluate or judge its worth overall",
+          "Criticize the author in an exclusively negative manner without evaluating the content",
+          "Accept all information and opinions as absolute truth without questioning",
+          "Ignore the opinions presented in the text and focus only on isolated facts"
+        ],
+        "correct": 0,
+        "explain": "To be critical of a text means you question the information and opinions in the text to evaluate or judge its worth overall."
+      },
+      {
+        "id": "SSPT214007",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Being critical does NOT mean what?",
+        "options": [
+          "Criticizing in an exclusively negative manner",
+          "Evaluating the overall worth of information",
+          "Questioning opinions presented in a text",
+          "Judging the general value of a text"
+        ],
+        "correct": 0,
+        "explain": "To be critical does not mean to criticize in an exclusively negative manner."
+      },
+      {
+        "id": "SSPT214008",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Critical thinking is described as what kind of process?",
+        "options": [
+          "A self-directed process",
+          "A teacher-directed process",
+          "A purely emotional process",
+          "A random cognitive process"
+        ],
+        "correct": 0,
+        "explain": "Critical thinking is a self-directed process by which we take deliberate steps to think at the highest level of quality."
+      },
+      {
+        "id": "SSPT214009",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "In critical thinking, deliberate steps are taken to think at what level?",
+        "options": [
+          "The highest level of quality",
+          "The most basic level of recall",
+          "The fastest level of processing",
+          "The most emotional level of response"
+        ],
+        "correct": 0,
+        "explain": "Critical thinking involves taking deliberate steps to think at the highest level of quality."
+      },
+      {
+        "id": "SSPT214010",
+        "type": "stepped",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Critical thinking involves identifying and analyzing problems. What else does it require?",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "After identifying and analyzing problems, what must a critical thinker do?",
+            "options": [
+              "Seek and evaluate relevant information",
+              "Ignore irrelevant information quickly",
+              "Accept the first solution available",
+              "Rely solely on existing knowledge"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After seeking and evaluating relevant information, what is the goal?",
+            "options": [
+              "Reach an appropriate conclusion",
+              "Reach a quick conclusion",
+              "Avoid making any conclusion",
+              "Accept existing conclusions"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Critical thinking is the ability to identify and analyze problems as well as seek and evaluate relevant information in order to reach an appropriate conclusion."
+      },
+      {
+        "id": "SSPT214011",
+        "type": "stepped",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Why is critical thinking important for Health Professions Education Students?",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "What must Health Professions Education Students do?",
+            "options": [
+              "Make complex decisions",
+              "Memorize large volumes",
+              "Avoid asking questions",
+              "Rely on convergent thinking"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Besides making complex decisions, what else must they do?",
+            "options": [
+              "Adapt to new situations",
+              "Study in one location",
+              "Use fixed methods",
+              "Work independently only"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "What ongoing requirement do they have?",
+            "options": [
+              "Continuously update knowledge and skills",
+              "Complete all coursework requirements as quickly as possible",
+              "Follow established clinical protocols without any deviation",
+              "Memorize textbook content verbatim for all future exams"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Health Professions Education Students must make complex decisions, adapt to new situations, and continuously update their knowledge and skills, making critical thinking integral."
+      },
+      {
+        "id": "SSPT214012",
+        "type": "multi",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which of the following are listed as critical thinking skills in the lecture?",
+        "options": [
+          "Analyzing",
+          "Applying Standards",
+          "Discriminating",
+          "Information Seeking",
+          "Memorizing verbatim"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "The critical thinking skills listed are Analyzing, Applying Standards, Discriminating, Information Seeking, Logical Reasoning, and Predicting. Memorizing verbatim is not a critical thinking skill."
+      },
+      {
+        "id": "SSPT214013",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which critical thinking skill involves separating or breaking a whole into parts to discover their nature, functional, and relationships?",
+        "options": [
+          "Analyzing",
+          "Applying Standards",
+          "Discriminating",
+          "Predicting"
+        ],
+        "correct": 0,
+        "explain": "Analyzing involves separating or breaking a whole into parts to discover their nature, functional, and relationships."
+      },
+      {
+        "id": "SSPT214014",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "The quotes 'I studied it piece by piece' and 'I sorted things out' are associated with which critical thinking skill?",
+        "options": [
+          "Analyzing",
+          "Applying Standards",
+          "Logical Reasoning",
+          "Predicting"
+        ],
+        "correct": 0,
+        "explain": "These quotes are associated with Analyzing, which involves breaking a whole into parts."
+      },
+      {
+        "id": "SSPT214015",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which critical thinking skill involves judging according to established personal, professional, or social rules or criteria?",
+        "options": [
+          "Applying Standards",
+          "Analyzing",
+          "Discriminating",
+          "Information Seeking"
+        ],
+        "correct": 0,
+        "explain": "Applying Standards means judging according to established personal, professional, or social rules or criteria."
+      },
+      {
+        "id": "SSPT214016",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which critical thinking skill involves recognizing differences and similarities among things or situations and distinguishing carefully as to category or rank?",
+        "options": [
+          "Discriminating",
+          "Analyzing",
+          "Predicting",
+          "Logical Reasoning"
+        ],
+        "correct": 0,
+        "explain": "Discriminating involves recognizing differences and similarities among things or situations and distinguishing carefully as to category or rank."
+      },
+      {
+        "id": "SSPT214017",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "The quotes 'I rank ordered the various...' and 'I grouped things together' are associated with which critical thinking skill?",
+        "options": [
+          "Discriminating",
+          "Analyzing",
+          "Applying Standards",
+          "Information Seeking"
+        ],
+        "correct": 0,
+        "explain": "These quotes are associated with Discriminating, which involves distinguishing carefully as to category or rank."
+      },
+      {
+        "id": "SSPT214018",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which critical thinking skill involves searching for evidence, facts, or knowledge by identifying relevant sources?",
+        "options": [
+          "Information Seeking",
+          "Logical Reasoning",
+          "Analyzing",
+          "Predicting"
+        ],
+        "correct": 0,
+        "explain": "Information Seeking involves searching for evidence, facts, or knowledge by identifying relevant sources."
+      },
+      {
+        "id": "SSPT214019",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Gathering objective, subjective, historical, and current data from relevant sources is part of which critical thinking skill?",
+        "options": [
+          "Information Seeking",
+          "Applying Standards",
+          "Discriminating",
+          "Logical Reasoning"
+        ],
+        "correct": 0,
+        "explain": "Gathering objective, subjective, historical, and current data is part of Information Seeking."
+      },
+      {
+        "id": "SSPT214020",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which critical thinking skill involves drawing inferences or conclusions that are supported in or justified by evidence?",
+        "options": [
+          "Logical Reasoning",
+          "Predicting",
+          "Analyzing",
+          "Information Seeking"
+        ],
+        "correct": 0,
+        "explain": "Logical Reasoning involves drawing inferences or conclusions that are supported in or justified by evidence."
+      },
+      {
+        "id": "SSPT214021",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "The quotes 'I deduced from the information that...' and 'My rationale for the conclusion was...' are associated with which critical thinking skill?",
+        "options": [
+          "Logical Reasoning",
+          "Predicting",
+          "Analyzing",
+          "Applying Standards"
+        ],
+        "correct": 0,
+        "explain": "These quotes are associated with Logical Reasoning, which involves drawing inferences or conclusions supported by evidence."
+      },
+      {
+        "id": "SSPT214022",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which critical thinking skill involves envisioning a plan and its consequences?",
+        "options": [
+          "Predicting",
+          "Analyzing",
+          "Discriminating",
+          "Information Seeking"
+        ],
+        "correct": 0,
+        "explain": "Predicting involves envisioning a plan and its consequences."
+      },
+      {
+        "id": "SSPT214023",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "The quotes 'I envisioned the outcome would be...' and 'I was prepared for...' are associated with which critical thinking skill?",
+        "options": [
+          "Predicting",
+          "Logical Reasoning",
+          "Applying Standards",
+          "Analyzing"
+        ],
+        "correct": 0,
+        "explain": "These quotes are associated with Predicting, which involves envisioning a plan and its consequences."
+      },
+      {
+        "id": "SSPT214024",
+        "type": "multi",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which of the following are listed as barriers to thinking critically?",
+        "options": [
+          "Misunderstanding",
+          "Lack of detailed knowledge",
+          "Wanting to know the answers without having to ask questions",
+          "Gathering information from multiple sources"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "explain": "The barriers listed are misunderstanding, lack of detailed knowledge, and wanting to know the answers without having to ask questions. Gathering information is a critical thinking practice, not a barrier."
+      },
+      {
+        "id": "SSPT214025",
+        "type": "stepped",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Misunderstanding is a barrier to critical thinking. What causes it?",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "What differences can cause misunderstanding?",
+            "options": [
+              "Language or cultural differences",
+              "Age or gender differences",
+              "Educational level differences",
+              "Professional experience differences"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "What lack can cause misunderstanding?",
+            "options": [
+              "Lack of awareness of the processes involved",
+              "Lack of sufficient study time allocated for the subject",
+              "Lack of intrinsic motivation to engage with the material",
+              "Lack of adequate physical resources or study materials"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "What misconception causes misunderstanding?",
+            "options": [
+              "Thinking critical thinking means making negative comments",
+              "Thinking critical thinking requires verbatim memorization of facts",
+              "Thinking critical thinking is too difficult for most students",
+              "Thinking critical thinking is unnecessary for basic comprehension"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Misunderstanding can arise due to language or cultural differences, a lack of awareness of the processes involved, or a misunderstanding that critical thinking means making negative comments."
+      },
+      {
+        "id": "SSPT214026",
+        "type": "stepped",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Lack of detailed knowledge is a barrier to critical thinking. What does this mean?",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "What type of knowledge is the problem?",
+            "options": [
+              "Superficial knowledge",
+              "Excessive knowledge",
+              "Outdated knowledge",
+              "Specialized knowledge"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "What does superficial knowledge mean?",
+            "options": [
+              "Not having read deeply enough around the subject",
+              "Having read too much material without any real focus",
+              "Having memorized isolated facts without understanding context",
+              "Having practical experience only without theoretical background"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Lack of detailed knowledge refers to superficial knowledge, meaning not having read deeply enough around the subject."
+      },
+      {
+        "id": "SSPT214027",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Critical thinking is aimed at achieving what in any situation?",
+        "options": [
+          "The best possible outcomes",
+          "The fastest possible conclusions",
+          "The most negative criticisms",
+          "The simplest possible solutions"
+        ],
+        "correct": 0,
+        "explain": "Critical thinking is aimed at achieving the best possible outcomes in any situation."
+      },
+      {
+        "id": "SSPT214028",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "To achieve the best possible outcomes, what must critical thinking involve?",
+        "options": [
+          "Gathering and evaluating information from as many different sources",
+          "Relying on a single authoritative source of information exclusively",
+          "Avoiding asking questions to save time and reach conclusions faster",
+          "Accepting superficial knowledge as sufficient for complex decision making"
+        ],
+        "correct": 0,
+        "explain": "To achieve the best possible outcomes, critical thinking must involve gathering and evaluating information from as many different sources."
+      },
+      {
+        "id": "SSPT214029",
+        "type": "matching",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Match each critical thinking skill to its description.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Analyzing"
+          },
+          {
+            "id": "2",
+            "text": "Applying Standards"
+          },
+          {
+            "id": "3",
+            "text": "Discriminating"
+          },
+          {
+            "id": "4",
+            "text": "Information Seeking"
+          },
+          {
+            "id": "5",
+            "text": "Logical Reasoning"
+          },
+          {
+            "id": "6",
+            "text": "Predicting"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Separating or breaking a whole into parts"
+          },
+          {
+            "id": "B",
+            "text": "Judging according to established rules or criteria"
+          },
+          {
+            "id": "C",
+            "text": "Recognizing differences and similarities among things"
+          },
+          {
+            "id": "D",
+            "text": "Searching for evidence and gathering data from sources"
+          },
+          {
+            "id": "E",
+            "text": "Drawing inferences or conclusions supported by evidence"
+          },
+          {
+            "id": "F",
+            "text": "Envisioning a plan and its consequences"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E",
+          "6": "F"
+        },
+        "explain": "Analyzing breaks a whole into parts. Applying Standards judges by rules. Discriminating recognizes differences. Information Seeking gathers data. Logical Reasoning draws supported inferences. Predicting envisions plans and consequences."
+      },
+      {
+        "id": "SSPT214030",
+        "type": "stepped",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Identify the barriers to thinking critically.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Which barrier arises due to language or cultural differences, or a lack of awareness of the processes involved?",
+            "options": [
+              "Misunderstanding",
+              "Lack of detailed knowledge",
+              "Wanting answers without questions",
+              "Overanalyzing the text"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Which barrier refers to superficial knowledge, meaning not having read deeply enough around the subject?",
+            "options": [
+              "Lack of detailed knowledge",
+              "Misunderstanding",
+              "Wanting answers without questions",
+              "Gathering too much data"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Which barrier involves wanting to know the answers without doing what?",
+            "options": [
+              "Having to ask questions",
+              "Reading the textbook",
+              "Listening to lectures",
+              "Taking notes"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "The three barriers are misunderstanding (due to language/culture or process awareness), lack of detailed knowledge (superficial reading), and wanting to know answers without asking questions."
+      },
+      {
+        "id": "SSPT214031",
+        "type": "stepped",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Match the quotes to their critical thinking skills.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Which skill is associated with the quote: 'I studied it piece by piece'?",
+            "options": [
+              "Analyzing",
+              "Applying Standards",
+              "Discriminating",
+              "Predicting"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Which skill is associated with the quote: 'I judged it according to...'?",
+            "options": [
+              "Applying Standards",
+              "Analyzing",
+              "Logical Reasoning",
+              "Information Seeking"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Which skill is associated with the quote: 'I deduced from the information that...'?",
+            "options": [
+              "Logical Reasoning",
+              "Predicting",
+              "Discriminating",
+              "Analyzing"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "'I studied it piece by piece' is Analyzing. 'I judged it according to...' is Applying Standards. 'I deduced from the information that...' is Logical Reasoning."
+      },
+      {
+        "id": "SSPT214032",
+        "type": "matching",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Match each type of thinking to its definition.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Convergent thinking"
+          },
+          {
+            "id": "2",
+            "text": "Divergent or Creative Thinking"
+          },
+          {
+            "id": "3",
+            "text": "Critical Thinking"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "Assumes one single best solution based on existing knowledge"
+          },
+          {
+            "id": "B",
+            "text": "Ability to create or construct something new, novel, or unusual"
+          },
+          {
+            "id": "C",
+            "text": "Self-directed process to think at the highest level of quality"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "explain": "Convergent thinking assumes one best solution. Divergent thinking creates something new. Critical thinking is a self-directed process for high-quality thought."
+      },
+      {
+        "id": "SSPT214033",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Understanding anything is possible only through which mental activity?",
+        "options": [
+          "Thinking",
+          "Analyzing",
+          "Predicting",
+          "Seeking"
+        ],
+        "correct": 0,
+        "explain": "There is no way to understand anything except through thinking. Analyzing, predicting, and seeking are specific critical-thinking skills, not the universal way the mind understands."
+      },
+      {
+        "id": "SSPT214034",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Critical thinking is described as the key to what?",
+        "options": [
+          "Resolving problems",
+          "Making negative comments",
+          "Avoiding questions",
+          "Envisioning plans"
+        ],
+        "correct": 0,
+        "explain": "Critical thinking is the key to resolving problems. Making negative comments is a misunderstanding barrier; avoiding questions is a barrier; envisioning plans is the predicting skill."
+      },
+      {
+        "id": "SSPT214035",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Critical thinking is integral to all of what?",
+        "options": [
+          "The student demands",
+          "The thinking barriers",
+          "The thinking skills",
+          "The thinking types"
+        ],
+        "correct": 0,
+        "explain": "Critical thinking is integral to all the things health profession students must do: making complex decisions, adapting to new situations, and updating knowledge and skills. Barriers, skills, and types are other categories."
+      },
+      {
+        "id": "SSPT214036",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Which skill matches 'I knew I needed to lookup/study...' and 'I kept searching for data.'?",
+        "options": [
+          "Information Seeking",
+          "Logical Reasoning",
+          "Predicting",
+          "Discriminating"
+        ],
+        "correct": 0,
+        "explain": "These quotes match information seeking, which searches for evidence and data. Logical reasoning draws conclusions, predicting envisions plans, and discriminating ranks or groups."
+      },
+      {
+        "id": "SSPT214037",
+        "type": "mcq",
+        "cat": "Lecture 14 - Critical Thinking",
+        "q": "Critical thinking is described as having what?",
+        "options": [
+          "Many skills to be practiced",
+          "Only one single best solution",
+          "No barriers to thinking critically",
+          "Exclusively negative comments to make"
+        ],
+        "correct": 0,
+        "explain": "Critical thinking has many skills to be practiced. One best solution describes convergent thinking; barriers do exist; negative comments are a misunderstanding."
+      }
+    ]
+  }
+}

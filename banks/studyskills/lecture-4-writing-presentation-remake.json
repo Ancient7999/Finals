@@ -1,0 +1,948 @@
+{
+  "id": "lecture-4-writing-and-presentation",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 4 – Writing and Presentation",
+  "formSize": 65,
+  "forms": ["A"],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT14000",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What should the first slide of a presentation typically include?",
+        "options": [
+          "The title of the presentation alone, with no mention of the presenter's name, position, or affiliation",
+          "Title, your name, position, affiliation, and optionally additional information such as date or institution logo",
+          "The detailed body content of the presentation, omitting the title, the presenter's name, and the affiliation"
+        ],
+        "correct": 1,
+        "explain": "Cover slide: title plus name, position, affiliation (with optional date or institution logo), not detailed content."
+      },
+      {
+        "id": "SSPT14001",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which of the following combinations is considered most readable for text?",
+        "options": [
+          "Light font on a light background (e.g., yellow on white)",
+          "Dark font on a light background (e.g., blue on white)",
+          "Dark font on a dark background (e.g., black on navy)"
+        ],
+        "correct": 1,
+        "explain": "Dark font on light background gives the strongest, most readable contrast."
+      },
+      {
+        "id": "SSPT14002",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which of the following is a recommended way to end a presentation effectively?",
+        "options": [
+          "Stop speaking abruptly the instant your allotted time runs out, with no summary or closing remark",
+          "End with a strong closing slide that summarizes the key take-home messages for the audience to remember",
+          "Repeat the cover slide verbatim as the final screen so the talk closes on the title and name"
+        ],
+        "correct": 1,
+        "explain": "End with a strong closing summarizing the key take-home messages; never end abruptly."
+      },
+      {
+        "id": "SSPT14003",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which statement best defines a presentation?",
+        "options": [
+          "A written examination paper that a student submits to the instructor for grading and marks",
+          "An informal, unstructured chat between two classmates recalling what was said in a previous lecture",
+          "A process of communicating knowledge, thoughts, ideas, and/or research results to specific audiences",
+          "A printed handout of reference notes photocopied and distributed to the class after the session ends"
+        ],
+        "correct": 2,
+        "explain": "A presentation communicates knowledge, thoughts, ideas, and/or research results to specific audiences."
+      },
+      {
+        "id": "SSPT14004",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "The 'presentation circuit' consists of which four components?",
+        "options": [
+          "Presenter, audience, message, and the setting or context surrounding them",
+          "Slides, projector, podium, and the microphone or sound system in the room",
+          "Title, outline, body, and the list of references at the end",
+          "Writer, editor, reviewer, and the publisher who prints the final copy"
+        ],
+        "correct": 0,
+        "explain": "Presenter and audience around a message, all inside a setting or context."
+      },
+      {
+        "id": "SSPT14005",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which academic tasks require the ability to write papers scientifically and professionally?",
+        "options": [
+          "Multiple-choice examinations, attendance registers, and oral quizzes",
+          "Assignments, research activities, scientific reports, and dissertations",
+          "Social media posts, personal text messages, and casual chat",
+          "Reading textbooks, listening to lectures, and watching videos"
+        ],
+        "correct": 1,
+        "explain": "Assignments, research activities, scientific reports, and dissertations require scientific and professional writing."
+      },
+      {
+        "id": "SSPT14006",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "A successful person is described as one who is capable of:",
+        "options": [
+          "Standing and speaking continuously without a pause or break for a full hour on end",
+          "Memorizing the exact wording of each slide and reciting it back word for word",
+          "Deliberately avoiding the audience's eyes and reading from the notes held in the hand",
+          "Communicating his knowledge, experiences, and thoughts in a professional manner"
+        ],
+        "correct": 3,
+        "explain": "A successful person communicates knowledge, experiences, and thoughts in a professional manner."
+      },
+      {
+        "id": "SSPT14007",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What are the 3 P's of presentation?",
+        "options": [
+          "Plan, Prepare, Present",
+          "Practice, Perform, Publish",
+          "Plan, Print, Prove",
+          "Prepare, Pause, Perfect"
+        ],
+        "correct": 0,
+        "explain": "The 3 P's are Plan, Prepare, Present."
+      },
+      {
+        "id": "SSPT14008",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "The reminder 'A person who is going nowhere normally gets there' is attached to which planning step?",
+        "options": [
+          "Locating the suitable resources",
+          "Collecting ideas and information",
+          "Setting your goal",
+          "Designing the background colors"
+        ],
+        "correct": 2,
+        "explain": "It is paired with the step of setting your goal."
+      },
+      {
+        "id": "SSPT14009",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which set of actions belongs to the PLAN stage?",
+        "options": [
+          "Choosing the font, checking the spelling, designing the background, and thanking the audience at the end",
+          "Setting your goal, collecting ideas and information, locating suitable resources, and knowing your audience beforehand",
+          "Scanning the audience's eyes, diversifying the voice, synchronizing the hands, and smiling at the questioner",
+          "Handling nasty questions with humor, managing the time, hiding the accent, and thanking the audience"
+        ],
+        "correct": 1,
+        "explain": "Plan covers goal, ideas, resources, and knowing your audience beforehand."
+      },
+      {
+        "id": "SSPT14010",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "In the three-part organization, 'Tell them what you told them' is which part?",
+        "options": [
+          "The opening",
+          "The message",
+          "The closing",
+          "The cover slide"
+        ],
+        "correct": 2,
+        "explain": "The closing tells them what you told them."
+      },
+      {
+        "id": "SSPT14011",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What should the OPENING of your talk do, according to the organization rule?",
+        "options": [
+          "Tell them what you are going to say",
+          "Tell the audience what you told them earlier",
+          "Invite the audience to pose nasty questions now",
+          "Show the audience the conclusion graph up front"
+        ],
+        "correct": 0,
+        "explain": "The opening tells them what you are going to say."
+      },
+      {
+        "id": "SSPT14012",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "The first slide of a presentation must contain:",
+        "options": [
+          "The complete verbatim text of the whole talk, written out in full paragraphs on one screen",
+          "The title of the presentation and your name, position, and affiliation",
+          "The organization or institution logo alone, with no title, name, or affiliation shown",
+          "The full list of references and citations used, placed alone on the opening screen"
+        ],
+        "correct": 1,
+        "explain": "Title plus name, position, and affiliation (with optional date or institution logo)."
+      },
+      {
+        "id": "SSPT14013",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Your second slide should list:",
+        "options": [
+          "Every reference and citation written out in full on the slide",
+          "The closing thank-you message addressed to the audience and organizers",
+          "Complete paragraphs reproducing the introduction of the paper word for word",
+          "The objectives, agenda, or outline of your talk, main points only"
+        ],
+        "correct": 3,
+        "explain": "Objectives or agenda, main points only; follow that order for the rest of the talk."
+      },
+      {
+        "id": "SSPT14014",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "The recommended slide count is:",
+        "options": [
+          "1–2 slides per minute of your presentation",
+          "Just 1 or 2 slides in total for the whole presentation, regardless of its length",
+          "Around 10 slides for each minute of your scheduled presentation time",
+          "As many slides as the presentation file can physically hold on the computer screen"
+        ],
+        "correct": 0,
+        "explain": "Use 1–2 slides per minute."
+      },
+      {
+        "id": "SSPT14015",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Good slide structure means writing:",
+        "options": [
+          "Complete, grammatically full sentences packed with as many descriptive words as possible",
+          "Full paragraphs copied word for word straight from the textbook onto the screen",
+          "In point form, key words and phrases only, 4–5 points per slide",
+          "At least twelve separate bullet points crammed onto each prepared slide"
+        ],
+        "correct": 2,
+        "explain": "Point form, 4–5 points per slide, key words only; avoid wordiness."
+      },
+      {
+        "id": "SSPT14016",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why is showing one point at a time recommended?",
+        "options": [
+          "It significantly reduces the overall file size of the presentation stored on the computer",
+          "It helps the audience concentrate, prevents them from reading ahead, and keeps your talk focused",
+          "It quietly hides your weakest arguments and least-prepared points from the watching audience",
+          "It is a compulsory feature built into most presentation software programs"
+        ],
+        "correct": 1,
+        "explain": "It helps concentration, prevents reading ahead, and keeps the talk focused."
+      },
+      {
+        "id": "SSPT14017",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which rule matches the advice on animation?",
+        "options": [
+          "Apply a different noisy animation to each slide, layer several effects, and change the style often",
+          "Load the deck with as much animation as possible, since more motion keeps the audience alert",
+          "Do not use distracting animation, avoid noisy effects, do not go overboard, and be consistent",
+          "Leave animation out and depend on static cuts, believing motion hurts focus"
+        ],
+        "correct": 2,
+        "explain": "No distracting or noisy animation, do not overdo it, and be consistent."
+      },
+      {
+        "id": "SSPT14018",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Using the Verdana font, content text should be no smaller than what size?",
+        "options": [
+          "12 point",
+          "24 point",
+          "32 point",
+          "40 point"
+        ],
+        "correct": 1,
+        "explain": "Title about 40 pt, bullets about 32 pt, content no smaller than 24 pt."
+      },
+      {
+        "id": "SSPT14019",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which fonts are named as standard, readable choices for slides?",
+        "options": [
+          "Garamond, Century Gothic, Gill Sans, and Times",
+          "Times New Roman, Tahoma, Verdana, or Arial",
+          "Garamond Italic, Gill Sans Condensed, Century Gothic, and Times Bold",
+          "Verdana, Tahoma, Gill Sans, and Century Gothic"
+        ],
+        "correct": 1,
+        "explain": "Times New Roman, Tahoma, Verdana, or Arial are the standard readable choices."
+      },
+      {
+        "id": "SSPT14020",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why should you NOT use all capital letters?",
+        "options": [
+          "The presentation software simply refuses to display text written in capital letters",
+          "Typing in capitals automatically shortens the total running time of the presentation",
+          "It makes text hard to read, conceals acronyms, and denies capitals for EMPHASIS",
+          "Using capitals affects the footer line but leaves the body of the slide unchanged"
+        ],
+        "correct": 2,
+        "explain": "ALL CAPS is hard to read, conceals acronyms, and denies capitals for emphasis."
+      },
+      {
+        "id": "SSPT14021",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Italics are properly used for:",
+        "options": [
+          "Italicize each bullet point on the slide so the list stands out",
+          "Quotes, highlighting thoughts or ideas, and titles of books, journals, or magazines",
+          "Apply italics to the headings and titles rather than to ordinary body text",
+          "Use italics for numbers and statistics rather than for ordinary words or phrases"
+        ],
+        "correct": 1,
+        "explain": "Quotes, highlighted thoughts or ideas, and book, journal, or magazine titles."
+      },
+      {
+        "id": "SSPT14022",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which rule governs font color?",
+        "options": [
+          "Assign a brand-new, different color to each individual point or even each word",
+          "Place bright, vivid colors directly on a plain white background for maximum pop",
+          "Choose a font color that matches the background color exactly, blending them together",
+          "Use a font color that contrasts sharply with the background"
+        ],
+        "correct": 3,
+        "explain": "Contrast sharply with the background: dark font on light background."
+      },
+      {
+        "id": "SSPT14023",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What is advised about presentation backgrounds?",
+        "options": [
+          "Use light backgrounds and keep the same background consistently throughout",
+          "Choose dark, cluttered, busy backgrounds in order to add drama and intensity to the talk",
+          "Switch to a brand-new background on each slide to keep the audience alert",
+          "Believe that the choice of background has little effect on how readable the text is"
+        ],
+        "correct": 0,
+        "explain": "Light backgrounds, the same background consistently throughout."
+      },
+      {
+        "id": "SSPT14024",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which set of combinations appears on the 'avoid such combinations' list?",
+        "options": [
+          "White on black, dark yellow on green, purple on blue, orange on green, red on green",
+          "Green on blue, dark yellow on green, blue on white, orange on green, red on green",
+          "Green on blue, dark yellow on green, purple on blue, orange on green, red on green",
+          "Green on blue, dark yellow on green, purple on blue, orange on green, dark text on a light background"
+        ],
+        "correct": 2,
+        "explain": "Avoid green on blue, dark yellow on green, purple on blue, orange on green, and red on green, plus bright colors on white."
+      },
+      {
+        "id": "SSPT14025",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why are graphs recommended rather than just tables and words?",
+        "options": [
+          "Drawing a graph simply takes far less time than typing out the equivalent table",
+          "Data in graphs is easier to comprehend and retain, and trends are easier to visualize",
+          "A graph is allowed to skip its title because the axes explain the data on their own",
+          "Tables are discouraged and should not appear in a scientific presentation"
+        ],
+        "correct": 1,
+        "explain": "Data in graphs is easier to comprehend and retain, and trends are easier to visualize; title every graph."
+      },
+      {
+        "id": "SSPT14026",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "In the faulty-graph example, which faults were called out?",
+        "options": [
+          "Minor gridlines unnecessary, font too small, colors illogical, title missing, shading distracting",
+          "Too few colors used, dull monochrome look, line plots instead of bars, months mislabeled, legend absent",
+          "Graph drawn too small, axes reversed, bold gridlines, over-long title, missing shading",
+          "Bars used instead of lines, colors too logical, font too large, no shading, title present"
+        ],
+        "correct": 0,
+        "explain": "Unnecessary gridlines, too-small font, illogical colors, missing title, and distracting shading."
+      },
+      {
+        "id": "SSPT14027",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "About spelling and syntax, you are advised to:",
+        "options": [
+          "Rely on the audience to silently correct the spelling mistakes you leave on the screen",
+          "Bother to check the spelling after the presentation is over and the audience gone",
+          "Proofread your presentation before they see it, and asking a friend for help is OK",
+          "Ignore spelling, on the theory that the content is what really matters"
+        ],
+        "correct": 2,
+        "explain": "Proofread before they see it; asking a friend for help is OK."
+      },
+      {
+        "id": "SSPT14028",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why is an effective and strong closing important?",
+        "options": [
+          "It reduces the total number of slides you show",
+          "Your audience is likely to remember your last words",
+          "It prevents the audience from asking more questions",
+          "It replaces the outline slide at the very end"
+        ],
+        "correct": 1,
+        "explain": "The audience is likely to remember your last words: take-home messages, no abrupt ending."
+      },
+      {
+        "id": "SSPT14029",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What is the purpose of the 'Questions' slide at the end of a presentation?",
+        "options": [
+          "Use the final screen to invite your audience to step forward and ask questions",
+          "Use the final screen to read out the complete list of references and citations",
+          "Use the final screen to display the title and your name one more time",
+          "Use the final screen to announce the topic and date of the next lecture"
+        ],
+        "correct": 0,
+        "explain": "Invite your audience to ask questions and handle them well."
+      },
+      {
+        "id": "SSPT14030",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "'The mind starts working the minute you're born, and never stops until you get up to speak' humorously refers to:",
+        "options": [
+          "Audience boredom",
+          "Writer's block during essays",
+          "Presentation phobia",
+          "Time management failure"
+        ],
+        "correct": 2,
+        "explain": "Presentation phobia, which can be healthy or unhealthy."
+      },
+      {
+        "id": "SSPT14031",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Complete the key sentence about delivery: 'It is not WHAT we say, but…'",
+        "options": [
+          "how long we speak",
+          "HOW we say it",
+          "how many slides we show",
+          "how loudly we apologize"
+        ],
+        "correct": 1,
+        "explain": "It is not WHAT we say, but HOW we say it."
+      },
+      {
+        "id": "SSPT14032",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which treatment is given for presentation phobia?",
+        "options": [
+          "Practice using colleagues, friends, or relatives as audiences, and breathe deeply before you stand",
+          "Avoid giving presentations for a full year, hoping the fear fades on its own",
+          "Rehearse the talk only in front of mirrors, steering clear of any live audience",
+          "Read every slide aloud word-for-word throughout the talk so that no mistake slips through"
+        ],
+        "correct": 0,
+        "explain": "Practice repeatedly with friendly audiences, and take a couple of deep breaths before standing up."
+      },
+      {
+        "id": "SSPT14033",
+        "type": "matching",
+        "cat": "Writing and Presentation",
+        "q": "Match each tip number to the advice it gives.",
+        "leftItems": [
+          {"id": "1", "text": "Tip 1"},
+          {"id": "2", "text": "Tip 2"},
+          {"id": "3", "text": "Tip 3"},
+          {"id": "4", "text": "Tip 4"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Get well dressed and arrive early to the stage"},
+          {"id": "B", "text": "Introduce yourself, as people buy people first"},
+          {"id": "C", "text": "Start a two-way conversation fed back by body language"},
+          {"id": "D", "text": "Scan the audience's eyes on a regular basis"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C", "4": "D"},
+        "explain": "Tip 1 is dressing and arriving early, tip 2 introducing yourself, tip 3 commencing a two-way conversation, tip 4 scanning the audience's eyes."
+      },
+      {
+        "id": "SSPT14034",
+        "type": "matching",
+        "cat": "Writing and Presentation",
+        "q": "Match each tip number to the advice it gives.",
+        "leftItems": [
+          {"id": "1", "text": "Tip 5"},
+          {"id": "2", "text": "Tip 6"},
+          {"id": "3", "text": "Tip 7"},
+          {"id": "4", "text": "Tip 8"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Behave naturally rather than stiffly or rehearsed"},
+          {"id": "B", "text": "Synchronize your gestures with your words"},
+          {"id": "C", "text": "Do not roam to and fro, which distracts listeners"},
+          {"id": "D", "text": "Diversify tone between loud, soft, fast and slow"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C", "4": "D"},
+        "explain": "Tip 5 is being natural, tip 6 synchronizing hand movements with words, tip 7 limiting body movement, tip 8 diversifying the voice."
+      },
+      {
+        "id": "SSPT14035",
+        "type": "matching",
+        "cat": "Writing and Presentation",
+        "q": "Match each tip number to the advice it gives.",
+        "leftItems": [
+          {"id": "1", "text": "Tip 9"},
+          {"id": "2", "text": "Tip 10"},
+          {"id": "3", "text": "Tip 11"},
+          {"id": "4", "text": "Tip 12"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Use a deliberate pause as a positive sound effect"},
+          {"id": "B", "text": "Drop self-importance and apologies that devalue the talk"},
+          {"id": "C", "text": "Skip hard technical terms unless you explain them"},
+          {"id": "D", "text": "Let listeners discover gaps instead of being told"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C", "4": "D"},
+        "explain": "Tip 9 is using silence well, tip 10 avoiding bad habits, tip 11 explaining jargon, tip 12 letting the audience discover rather than be told."
+      },
+      {
+        "id": "SSPT14036",
+        "type": "matching",
+        "cat": "Writing and Presentation",
+        "q": "Match each tip number to the advice it gives.",
+        "leftItems": [
+          {"id": "1", "text": "Tip 13"},
+          {"id": "2", "text": "Tip 14"},
+          {"id": "3", "text": "Tip 15"},
+          {"id": "4", "text": "Tip 16"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Keep to your allotted time and do not overrun"},
+          {"id": "B", "text": "Do not artificially mask the way you naturally sound"},
+          {"id": "C", "text": "Repeat unclear questions; if stumped, apologize with humor"},
+          {"id": "D", "text": "Smile, approach the questioner, defer or bounce it back"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C", "4": "D"},
+        "explain": "Tip 13 is time management, tip 14 not hiding your accent, tip 15 handling questions well, tip 16 handling nasty questions."
+      },
+      {
+        "id": "SSPT14037",
+        "type": "matching",
+        "cat": "Writing and Presentation",
+        "q": "Match each tip number to the advice it gives.",
+        "leftItems": [
+          {"id": "1", "text": "Tip 17"},
+          {"id": "2", "text": "Tip 18"},
+          {"id": "3", "text": "Tip 19"},
+          {"id": "4", "text": "Tip 20"}
+        ],
+        "rightItems": [
+          {"id": "A", "text": "Face audience, do not block projection, know what is behind"},
+          {"id": "B", "text": "Use humor but do not overuse it"},
+          {"id": "C", "text": "Hold attention and avoid boring the audience"},
+          {"id": "D", "text": "Close by thanking the audience at the end"}
+        ],
+        "correct_pairs": {"1": "A", "2": "B", "3": "C", "4": "D"},
+        "explain": "Tip 17 is posture, tip 18 using humor in moderation, tip 19 maintaining attention, tip 20 thanking the audience."
+      },
+      {
+        "id": "SSPT14038",
+        "type": "stepped",
+        "cat": "Writing and Presentation",
+        "q": "The Verdana font sizes form a descending ladder for slides.",
+        "steps": [
+          {"id": "1", "prompt": "What size does the ladder give a title?", "options": ["40 point", "32 point", "24 point", "12 point"], "correct": 0},
+          {"id": "2", "prompt": "Below the 40-point title, what size is for subtitles or bullets?", "options": ["32 point", "24 point", "12 point", "40 point"], "correct": 0},
+          {"id": "3", "prompt": "Below the 32-point bullets, content must be no smaller than what?", "options": ["24 point", "12 point", "32 point", "40 point"], "correct": 0},
+          {"id": "4", "prompt": "The smallest rung, not recommended for content, is what size?", "options": ["12 point", "24 point", "32 point", "40 point"], "correct": 0}
+        ],
+        "explain": "Titles 40 pt, subtitles or bullets 32 pt, content no smaller than 24 pt, and 12 pt is not recommended for content."
+      },
+      {
+        "id": "SSPT14039",
+        "type": "stepped",
+        "cat": "Writing and Presentation",
+        "q": "A finished talk follows a fixed slide order.",
+        "steps": [
+          {"id": "1", "prompt": "The opening slide is the cover; what must it carry?", "options": ["Title plus name, position and affiliation", "The full reference list", "The thank-you note", "The conclusion graph"], "correct": 0},
+          {"id": "2", "prompt": "After the cover, the second slide lists what?", "options": ["The objectives or agenda, main points only", "Every citation in full", "The closing summary", "The questions prompt"], "correct": 0},
+          {"id": "3", "prompt": "The body delivers the message; which slide comes right before Questions?", "options": ["The conclusion summarizing main points", "The cover again", "The agenda", "The title only"], "correct": 0},
+          {"id": "4", "prompt": "What is the last slide's purpose after the conclusion?", "options": ["Invite the audience to ask questions", "Reprint the title", "Read references", "Announce next topic"], "correct": 0}
+        ],
+        "explain": "Cover first with title, name and affiliation, then the agenda of main points, then the message, then a conclusion summarizing points and suggesting future research, and finally a slide inviting questions."
+      },
+      {
+        "id": "SSPT14040",
+        "type": "multi",
+        "cat": "Writing and Presentation",
+        "q": "Which are listed as bad habits that switch off the audience?",
+        "options": [
+          "Claiming to be the top expert in the field",
+          "Apologizing for having nothing important or being unprepared",
+          "Explaining difficult jargon to the audience",
+          "Scanning the audience's eyes on a regular basis"
+        ],
+        "correct": [0, 1],
+        "explain": "Self-importance and apologizing are bad habits that devalue speaker and talk; explaining jargon and scanning eyes are good practices, not bad habits."
+      },
+      {
+        "id": "SSPT14041",
+        "type": "multi",
+        "cat": "Writing and Presentation",
+        "q": "Which does the topic say happens to the body when you are nervous?",
+        "options": [
+          "Blood pressure changes",
+          "Adrenaline level increases",
+          "You turn red, shake, or perspire",
+          "Your voice becomes noticeably deeper"
+        ],
+        "correct": [0, 1, 2],
+        "explain": "Nervousness changes blood pressure, raises adrenaline, and makes you turn red, shake or perspire; a deeper voice is not mentioned."
+      },
+      {
+        "id": "SSPT14042",
+        "type": "multi",
+        "cat": "Writing and Presentation",
+        "q": "Which are valid ways to handle a nasty question?",
+        "options": [
+          "Smile at the person asking",
+          "Make eye contact and move toward them",
+          "Throw the question back to them",
+          "Offer to answer privately afterward",
+          "Ignore the questioner and move on"
+        ],
+        "correct": [0, 1, 2, 3],
+        "explain": "Smiling, approaching the questioner, bouncing the question back, or deferring to a private answer are all valid; ignoring the questioner is not advised."
+      },
+      {
+        "id": "SSPT14043",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "All of the following are intended outcomes except:",
+        "options": [
+          "Define what a presentation is",
+          "Plan and prepare a good presentation",
+          "List important tips for presenting",
+          "Recite each slide from memory"
+        ],
+        "correct": 3,
+        "explain": "The aims are to define, plan, prepare and list tips for presentations; reciting slides from memory is not one of them."
+      },
+      {
+        "id": "SSPT14044",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Writing and presenting information are highlighted as important skills especially for whom?",
+        "options": [
+          "A medical student and a health professional",
+          "Only seasoned researchers and professors",
+          "Just administrative and office staff",
+          "Exclusively journalists and editors"
+        ],
+        "correct": 0,
+        "explain": "They matter for anyone, but the medical student and the health professional are stressed in particular."
+      },
+      {
+        "id": "SSPT14045",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "In what order does the topic say to develop the work?",
+        "options": [
+          "Write, then transform into a presentation, then present",
+          "Present, then write the essay, then edit it",
+          "Design slides, then write, then plan the talk",
+          "Plan the audience, then present, then write"
+        ],
+        "correct": 0,
+        "explain": "Write an essay or assignment first, transform it into a presentation, then present it to the target audience."
+      },
+      {
+        "id": "SSPT14046",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why is a word-packed paragraph slide considered bad?",
+        "options": [
+          "The audience reads instead of listening to you",
+          "It makes the file size grow too large",
+          "It hides weak points from the viewers",
+          "It forces the speaker to memorize the text"
+        ],
+        "correct": 0,
+        "explain": "A paragraph slide is hard to read and present, so the audience spends time reading rather than listening, even with the same number of points."
+      },
+      {
+        "id": "SSPT14047",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why is combining a small font with bold or italics discouraged?",
+        "options": [
+          "It makes the text very hard to read",
+          "It uses up the slide too quickly",
+          "It conflicts with the background color rule",
+          "It shortens the running time of the talk"
+        ],
+        "correct": 0,
+        "explain": "Small type already strains readability, and adding bold or italics makes it worse, so the combination is not recommended."
+      },
+      {
+        "id": "SSPT14048",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Where does the topic allow a small font size?",
+        "options": [
+          "In the footer line of a slide",
+          "In the main body bullet points",
+          "In the title of every slide",
+          "In the graph axis labels only"
+        ],
+        "correct": 0,
+        "explain": "Small fonts are acceptable for a footer, such as a date or presenter name, but not for body content."
+      },
+      {
+        "id": "SSPT14049",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What principle do the broken font styles illustrate?",
+        "options": [
+          "Never trade readability for visual style",
+          "Always prefer decorative script fonts",
+          "Use italics for every heading",
+          "Capitalize all text for emphasis"
+        ],
+        "correct": 0,
+        "explain": "The same phrase shown in italic, capitals, script and bold caps all hurt legibility, teaching that readability must not be sacrificed for style."
+      },
+      {
+        "id": "SSPT14050",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Beyond sharp contrast, how should color be used on slides?",
+        "options": [
+          "To reinforce structure and occasionally emphasize",
+          "As a fresh color for every single word",
+          "Only in the footer and not in body text",
+          "To match the background and blend fully"
+        ],
+        "correct": 0,
+        "explain": "Color should reinforce the logic of the structure and emphasize a point only occasionally; a different color per word is discouraged."
+      },
+      {
+        "id": "SSPT14051",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Why are bright colors on a white background a bad mix?",
+        "options": [
+          "They give low contrast and become unreadable",
+          "They make the file size too large",
+          "They hide the acronyms in the text",
+          "They conflict with the animation rule"
+        ],
+        "correct": 0,
+        "explain": "Bright colors on white yield low contrast and are unreadable, unlike a dark font on a light background which reads well."
+      },
+      {
+        "id": "SSPT14052",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What two rules govern graphs and charts?",
+        "options": [
+          "Always title them, and avoid complex ones",
+          "Never title them, and prefer complex ones",
+          "Use only tables, never graphs or charts",
+          "Shade every bar and add minor gridlines"
+        ],
+        "correct": 0,
+        "explain": "Graphs should always carry a title and stay simple; complex graphs and distracting shading or gridlines are discouraged."
+      },
+      {
+        "id": "SSPT14053",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Proofreading a presentation means checking which three things?",
+        "options": [
+          "Spelling, grammar and punctuation",
+          "Font, color and background",
+          "Title, agenda and references",
+          "Voice, posture and humor"
+        ],
+        "correct": 0,
+        "explain": "Before the audience sees it, proofread for spelling, grammar and punctuation, and asking a friend for help is fine."
+      },
+      {
+        "id": "SSPT14054",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "A conclusion slide should do which two things?",
+        "options": [
+          "Summarize the main points and suggest future research",
+          "Reprint the title and list all references",
+          "Invite questions and thank the organizers",
+          "Show the agenda and play an animation"
+        ],
+        "correct": 0,
+        "explain": "The conclusion slide summarizes the main points of the talk and suggests future avenues of research."
+      },
+      {
+        "id": "SSPT14055",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Into which two kinds does the topic divide presentation phobia?",
+        "options": [
+          "Healthy phobia and unhealthy phobia",
+          "Mild phobia and severe phobia",
+          "Stage phobia and camera phobia",
+          "Voice phobia and eye phobia"
+        ],
+        "correct": 0,
+        "explain": "Presentation phobia is split into a healthy form and an unhealthy form; the treatment is practice plus deep breaths."
+      },
+      {
+        "id": "SSPT14056",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "In the three-part organization, the MESSAGE part does what?",
+        "options": [
+          "Tell them, between the opening and closing",
+          "Tell them what you are going to say",
+          "Tell them what you already told them",
+          "Tell them to prepare the agenda"
+        ],
+        "correct": 0,
+        "explain": "The message is the body that simply tells them, sitting between the opening (what you will say) and the closing (what you told them)."
+      },
+      {
+        "id": "SSPT14057",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which saying is remembered before you speak, prompting you to introduce yourself?",
+        "options": [
+          "People buy people first",
+          "Time is money always",
+          "Practice makes perfect only",
+          "The customer is right"
+        ],
+        "correct": 0,
+        "explain": "Before speaking, introduce yourself, remembering that people buy people first, so the person connects before the content."
+      },
+      {
+        "id": "SSPT14058",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Starting a talk is framed as beginning what, fed back through body language?",
+        "options": [
+          "A two-way conversation",
+          "A one-way lecture",
+          "A written report",
+          "A silent reading"
+        ],
+        "correct": 0,
+        "explain": "You commence a two-way conversation; the audience feeds you back through their body language."
+      },
+      {
+        "id": "SSPT14059",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "If you are unsure of a question from the audience, what should you do?",
+        "options": [
+          "Ask for the question to be repeated",
+          "Ignore it and continue talking",
+          "Apologize profusely and sit down",
+          "Make up an answer immediately"
+        ],
+        "correct": 0,
+        "explain": "When uncertain, ask for the question to be repeated; if you lack an answer, apologize with some humor rather than faking one."
+      },
+      {
+        "id": "SSPT14060",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which posture rule is given for the presenter?",
+        "options": [
+          "Face the audience unless pointing at something",
+          "Stand in front of the projection screen",
+          "Turn your back to read the slides",
+          "Pace to and fro across the whole stage"
+        ],
+        "correct": 0,
+        "explain": "Do not block the projection, always face the audience unless pointing, and know what is behind you without looking."
+      },
+      {
+        "id": "SSPT14061",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "What is the advice about using humor in a presentation?",
+        "options": [
+          "Use it, but do not overuse it",
+          "Leave humor out and stay serious throughout",
+          "Add humor to most of your points",
+          "Use humor solely when answering nasty questions"
+        ],
+        "correct": 0,
+        "explain": "A sense of humor helps, but it should be used in moderation and not overdone."
+      },
+      {
+        "id": "SSPT14062",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "How should a presenter handle what the audience does not know?",
+        "options": [
+          "Let them discover it, rather than being told",
+          "Tell them plainly that they lack the knowledge",
+          "Ignore the gap and move to the next slide",
+          "Apologize for the missing background information"
+        ],
+        "correct": 0,
+        "explain": "Do not tell the audience they do not know; let them discover it themselves, which avoids putting them down."
+      },
+      {
+        "id": "SSPT14063",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Which tip is matched correctly to its advice?",
+        "options": [
+          "Hand Movements: synchronize gestures with your words",
+          "Body Movements: synchronize gestures with your words",
+          "Voice: treat a deliberate pause as a positive effect",
+          "Silence: vary loudness, softness, speed and pace"
+        ],
+        "correct": 0,
+        "explain": "Hand movements means syncing gestures with words, while body movements means not roaming; voice means varying tone, and silence means using a pause well."
+      },
+      {
+        "id": "SSPT14064",
+        "type": "mcq",
+        "cat": "Writing and Presentation",
+        "q": "Writing a good paper is described as having how many steps?",
+        "options": [
+          "Ten",
+          "Three",
+          "Five",
+          "Twenty"
+        ],
+        "correct": 0,
+        "explain": "The stated count is ten steps for writing a good paper; three, five and twenty are not given."
+      }
+    ]
+  }
+}

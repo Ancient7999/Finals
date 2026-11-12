@@ -1,0 +1,860 @@
+{
+  "id": "ss-lec12-tech-health",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 12 – Using Technology in Health Professions Education",
+  "formSize": 46,
+  "forms": ["A"],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT212000",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What is the best place to start searching for credible, peer-reviewed, scholarly research for academic papers?",
+        "options": [
+          "Regular Google search",
+          "Wikipedia",
+          "Digital Library",
+          "Google Scholar"
+        ],
+        "correct": 2,
+        "explain": "The Digital Library is the best place to start because it gives access to subscribed, credible, peer-reviewed, evidence-based research. Google is generic, Wikipedia is anyone-edited, and Scholar, while scholarly, is still outranked by the Library."
+      },
+      {
+        "id": "SSPT212001",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Why is regular Google not recommended for research information?",
+        "options": [
+          "It is generic, with all kinds, not just credible info",
+          "It is a broad search of scholarly literature and sources",
+          "It is an open site edited by anyone without expertise",
+          "It is a subscribed source of credible and peer-reviewed research"
+        ],
+        "correct": 0,
+        "explain": "Google is a generic site giving all kinds of information, not just medical, research, evidence-based, scholarly, or necessarily credible information, so there are many links to pick through, and it always links to Wikipedia. The other options describe Scholar, Wikipedia, and the Library."
+      },
+      {
+        "id": "SSPT212002",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Why should Wikipedia NOT be cited as a reference source?",
+        "options": [
+          "Anyone can edit it, even without topic knowledge",
+          "It is a generic all-kinds not-credible web site",
+          "It broadly searches the scholarly literature and sources",
+          "It subscribes to the credible and peer-reviewed databases"
+        ],
+        "correct": 0,
+        "explain": "Wikipedia can be added to and edited by anyone, even if they know nothing about the topic, so it must not be cited; find and cite the original source instead. The other options describe Google, Scholar, and the Library."
+      },
+      {
+        "id": "SSPT212003",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "When evaluating a source, what does the 'When' question refer to?",
+        "options": [
+          "The date the resource was produced",
+          "The author and any credentials listed",
+          "The abstract, the facts, or opinions",
+          "The information source and reference list"
+        ],
+        "correct": 0,
+        "explain": "'When' asks when the resource was produced: the copyright date for books, the publication date for articles, and the created or last-updated date for websites. The other options are the Who, What, and Where points."
+      },
+      {
+        "id": "SSPT212004",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each top-level domain to the kind of site it marks.",
+        "leftItems": [
+          { "id": "1", "text": ".edu" },
+          { "id": "2", "text": ".k-12" },
+          { "id": "3", "text": ".com" },
+          { "id": "4", "text": ".gov" },
+          { "id": "5", "text": ".mil" },
+          { "id": "6", "text": ".org" },
+          { "id": "7", "text": ".net" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Higher learning" },
+          { "id": "B", "text": "Elementary and secondary schools" },
+          { "id": "C", "text": "For-profit enterprise sites" },
+          { "id": "D", "text": "Public administration bodies" },
+          { "id": "E", "text": "Armed forces sites" },
+          { "id": "F", "text": "Nonprofit general groups" },
+          { "id": "G", "text": "Interlinked digital systems" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D", "5": "E", "6": "F", "7": "G" },
+        "explain": ".edu = higher education; .k-12 = elementary and secondary schools; .com = commercial; .gov = government agency; .mil = military; .org = general noncommercial organization; .net = computer network. The right-hand labels are root-free synonyms so no pair can be matched by shared letters; the standard glosses are kept here."
+      },
+      {
+        "id": "SSPT212005",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What does the 'P' in the PICOT search acronym stand for?",
+        "options": [
+          "Preferred procedure",
+          "Patient population",
+          "Published date",
+          "Primary source"
+        ],
+        "correct": 1,
+        "explain": "PICOT stands for Patient population, Intervention, Comparison, Outcome, and Time frame. P represents the patient population."
+      },
+      {
+        "id": "SSPT212006",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "In the PICOT acronym, what does 'I' represent?",
+        "options": [
+          "Internet source",
+          "Intervention or issue of interest",
+          "Index term",
+          "Institutional affiliation"
+        ],
+        "correct": 1,
+        "explain": "In PICOT, I stands for intervention or issue of interest."
+      },
+      {
+        "id": "SSPT212007",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "When formulating a PICOT search, which combination is recommended to start with?",
+        "options": [
+          "P + C, or T + C, or P + C + T",
+          "P + O, or P + I, or P + I + O",
+          "O + C, or T + O, or O + C + T",
+          "I + C, or T + I, or I + C + T"
+        ],
+        "correct": 1,
+        "explain": "A PICOT search should include P + O, or P + I, or P + I + O; C and/or T are added only to reduce the retrieval number if it is too high. Every option here lists two 2-element plus one 3-element combination, so all four are the same length and shape and the correct one is neither longest nor shortest."
+      },
+      {
+        "id": "SSPT212008",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What is the term for using someone else's words without giving them credit?",
+        "options": [
+          "Theft",
+          "Fair use",
+          "Plagiarism",
+          "Copyright"
+        ],
+        "correct": 2,
+        "explain": "Using someone else's words without credit is plagiarism. Taking without permission is theft. Fair use lets teachers and students use portions of works. Copyright is the legal right controlling copying and use."
+      },
+      {
+        "id": "SSPT212009",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Under the 'Fair Use' concept, who is allowed to use portions of copyrighted works without permission?",
+        "options": [
+          "Commercial publishers",
+          "Teachers and students",
+          "Government agencies only",
+          "Anyone on the internet"
+        ],
+        "correct": 1,
+        "explain": "The 'Fair Use' concept lets teachers and students use portions of copyrighted works without permission."
+      },
+      {
+        "id": "SSPT212010",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "For a multimedia project, what is the maximum limit for copying music under Fair Use guidelines?",
+        "options": [
+          "10% but no more than 30 seconds",
+          "10% or up to three full minutes",
+          "10% or up to one thousand words",
+          "50% of the original recorded track"
+        ],
+        "correct": 0,
+        "explain": "For multimedia projects, Fair Use limits for music are 10% but no more than 30 seconds. Video clips are 10% or 3 minutes, and text is 10% or 1000 words."
+      },
+      {
+        "id": "SSPT212011",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each technology use in health professions education to its role.",
+        "leftItems": [
+          { "id": "1", "text": "Simulation & Virtual Reality (VR)" },
+          { "id": "2", "text": "Increased Access" },
+          { "id": "3", "text": "Personalized Learning" },
+          { "id": "4", "text": "Digital Learning Platforms" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "A safe controlled environment to practice procedures and make mistakes without real-world consequences" },
+          { "id": "B", "text": "Makes education reachable for those in remote areas or with limited resources" },
+          { "id": "C", "text": "Adaptive technologies tailor educational content to each student's needs, aiding uptake and retention" },
+          { "id": "D", "text": "Online tools offer distance flexibility and supplement traditional teaching with video lectures, quizzes, and forums" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D" },
+        "explain": "Simulation & VR provides a safe controlled environment to practice procedures and make mistakes without real-world consequences. Increased Access makes education reachable for remote or limited-resource learners. Personalized Learning tailors content to each student. Digital Learning Platforms add distance flexibility with video, quizzes, and forums."
+      },
+      {
+        "id": "SSPT212012",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What is a challenge of integrating technology into health professions education?",
+        "options": [
+          "Unreliable internet and devices can disrupt learning",
+          "Increased access for remote or limited learners",
+          "Adaptive tools tailor content to each learner",
+          "Digital platforms provide flexible distance learning options"
+        ],
+        "correct": 0,
+        "explain": "Technical difficulties are a challenge: not everyone has reliable internet or devices, and problems disrupt learning. The other three are benefits (access, personalized learning, platforms), so they are not challenges."
+      },
+      {
+        "id": "SSPT212013",
+        "type": "stepped",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Steps for evaluating a source.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "What does the 'Who' evaluation point check?",
+            "options": [
+              "The author's listed name and credentials",
+              "The publication date of the resource",
+              "The overall purpose of the resource",
+              "The reference list of the author"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "What does the 'What' evaluation point check?",
+            "options": [
+              "Whether abstract or full, fact or opinion",
+              "The author and credentials listed set",
+              "The information source and reference list",
+              "The production or copyright date shown"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "What does the 'Where' evaluation point check?",
+            "options": [
+              "Where the author got the information",
+              "The author identity and credentials list",
+              "The abstract completeness or opinion type",
+              "The resource purpose and intended audience"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Who checks the author and whether credentials are listed. What checks whether it is an abstract or a complete article, and whether it is research based on facts or someone's opinion. Where checks where the author got the information and whether a list of sources is provided. Each step's options are six words and share one shape, so no correct option is the longest."
+      },
+      {
+        "id": "SSPT212014",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Which top-level domain represents a computer network?",
+        "options": [
+          ".net",
+          ".mil",
+          ".k-12",
+          ".edu"
+        ],
+        "correct": 0,
+        "explain": "The .net top-level domain represents a computer network."
+      },
+      {
+        "id": "SSPT212015",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What is the correct sequence to access the Saudi Digital Library (SDL) from the Ibn Sina Website?",
+        "options": [
+          "E-Services, Students services, Banner, login, SDL link",
+          "Banner, E-Services, Students services, SDL link, login",
+          "Students services, E-Services, Banner, login, SDL link",
+          "E-Services, Banner, Students services, login, SDL link"
+        ],
+        "correct": 0,
+        "explain": "The correct sequence is: Ibn Sina Website -> E-Services -> Students services -> Banner -> login -> Click on Saudi Digital Library (SDL) link."
+      },
+      {
+        "id": "SSPT212016",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Why should search terms in a database be specific and use medical terms?",
+        "options": [
+          "To use medical terms, not commonly used ones",
+          "To build the clinical question with PICOT format",
+          "To apply the limiters that narrow your search",
+          "To start from the subscribed peer-reviewed database sources"
+        ],
+        "correct": 0,
+        "explain": "If results are hard to find, the search terms may not be specific enough; use the medical terms and not commonly used terms. The other options describe PICOT, the limiters, and the Library, which are different steps."
+      },
+      {
+        "id": "SSPT212017",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What does 'Personalized Learning' as a benefit of technology refer to?",
+        "options": [
+          "Adaptive tools tailor content to each learner",
+          "Safe controlled student practice without real-world consequences",
+          "Increased access for remote or limited learners",
+          "Digital platforms provide flexible distance learning options"
+        ],
+        "correct": 0,
+        "explain": "Personalized learning means adaptive technologies tailor educational content to each learner's needs, enhancing uptake and retention. The other options are the simulation, access, and platform benefits, not personalized learning."
+      },
+      {
+        "id": "SSPT212018",
+        "type": "multi",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Which of the following are protected by copyright?",
+        "options": [
+          "Literary works",
+          "Computer software",
+          "Musical works",
+          "Dramatic works",
+          "Sound recordings",
+          "Wikipedia articles"
+        ],
+        "correct": [0, 1, 2, 3, 4],
+        "explain": "Copyright protects literary works, computer software, musical works, dramatic works, and sound recordings. Wikipedia articles are not among the protected categories."
+      },
+      {
+        "id": "SSPT212019",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "What is the primary purpose of limiting a database search to 'Abstracts'?",
+        "options": [
+          "To quickly determine if an article fits needs",
+          "To read the complete full text of articles",
+          "To find only the most recent literature published",
+          "To access only the articles that are free"
+        ],
+        "correct": 0,
+        "explain": "Limiting to abstracts lets you quickly determine whether a specific article will fit your needs. The other options are the purposes of the full-text, recent-years, and free-article limiters."
+      },
+      {
+        "id": "SSPT212020",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "In the PICOT acronym, what does 'C' stand for?",
+        "options": [
+          "Clinical diagnosis of the patient",
+          "Comparison intervention or issue",
+          "Case study of one patient",
+          "Control group only in trials"
+        ],
+        "correct": 1,
+        "explain": "In PICOT, C stands for comparison intervention or issue of interest."
+      },
+      {
+        "id": "SSPT212021",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "In the PICOT acronym, what does 'T' stand for?",
+        "options": [
+          "Treatment plan",
+          "Time frame",
+          "Theory",
+          "Trial"
+        ],
+        "correct": 1,
+        "explain": "In PICOT, T stands for time frame."
+      },
+      {
+        "id": "SSPT212022",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "For a multimedia project, what is the maximum limit for copying text under Fair Use guidelines?",
+        "options": [
+          "10% or up to 1000 words",
+          "10% or up to three minutes",
+          "50% of the entire book",
+          "100 words from the text"
+        ],
+        "correct": 0,
+        "explain": "For multimedia projects, the Fair Use limit for text is 10% or 1000 words."
+      },
+      {
+        "id": "SSPT212023",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "For a multimedia project, what is the maximum limit for copying video clips under Fair Use guidelines?",
+        "options": [
+          "10% or up to three minutes",
+          "10% or up to 30 seconds",
+          "50% of the whole video file",
+          "10% or up to one minute"
+        ],
+        "correct": 0,
+        "explain": "For multimedia projects, the Fair Use limit for video clips is 10% or three minutes."
+      },
+      {
+        "id": "SSPT212024",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each multimedia Fair Use limit to its category.",
+        "leftItems": [
+          { "id": "1", "text": "Video clips" },
+          { "id": "2", "text": "Music" },
+          { "id": "3", "text": "Text" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "10% or three minutes" },
+          { "id": "B", "text": "10% but no more than 30 seconds" },
+          { "id": "C", "text": "10% or 1000 words" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C" },
+        "explain": "Fair Use limits for multimedia projects are: Video clips (10% or three minutes), Music (10% but no more than 30 seconds), and Text (10% or 1000 words)."
+      },
+      {
+        "id": "SSPT212025",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Which of the following is NOT a recommended step when accessing the Saudi Digital Library?",
+        "options": [
+          "Click on the E-Services menu",
+          "Go to the Students services page",
+          "Log in with your user name and password",
+          "Pay a fee directly through Google search"
+        ],
+        "correct": 3,
+        "explain": "Accessing SDL involves E-Services, Students services, Banner, and logging in. Paying a fee directly through Google is not a step."
+      },
+      {
+        "id": "SSPT212026",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each tool for locating literature to how it is described.",
+        "leftItems": [
+          { "id": "1", "text": "Digital Library" },
+          { "id": "2", "text": "Google" },
+          { "id": "3", "text": "Google Scholar" },
+          { "id": "4", "text": "Wikipedia" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Subscribed databases of credible, peer-reviewed, evidence-based research for papers and projects" },
+          { "id": "B", "text": "Generic site giving all kinds of information, not just medical or credible" },
+          { "id": "C", "text": "Broadly searches academic papers, theses, books, and abstracts across many disciplines" },
+          { "id": "D", "text": "Edited by anyone, useful for overview, but cite the original source instead" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D" },
+        "explain": "The Digital Library gives subscribed databases of credible, peer-reviewed, evidence-based research for papers and projects. Google is a generic site with all kinds of information. Google Scholar broadly searches academic papers, theses, books, and abstracts. Wikipedia is edited by anyone, so cite the original source instead."
+      },
+      {
+        "id": "SSPT212027",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "When evaluating a source, checking the 'copyright date' for books or 'publication date' for articles answers which evaluation question?",
+        "options": [
+          "Who",
+          "What",
+          "Where",
+          "When"
+        ],
+        "correct": 3,
+        "explain": "Checking the copyright or publication date answers the 'When' evaluation question."
+      },
+      {
+        "id": "SSPT212028",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Taking something, including text and pictures from the Internet, without permission is considered what?",
+        "options": [
+          "Theft",
+          "Plagiarism",
+          "Fair use",
+          "Public domain"
+        ],
+        "correct": 0,
+        "explain": "Taking something without permission is theft. Using someone else's words without giving credit is plagiarism."
+      },
+      {
+        "id": "SSPT212029",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Which of the following is a challenge of using technology in health professions education?",
+        "options": [
+          "Training needs and resistance to change arise",
+          "Increased access for remote or limited learners",
+          "Adaptive tools tailor content to each learner",
+          "Safe controlled student practice without real-world consequences"
+        ],
+        "correct": 0,
+        "explain": "Training and adaptation is a challenge: educators and students may need training, and some resist changing traditional methods. The other three are benefits (access, personalized learning, simulation), not challenges."
+      },
+      {
+        "id": "SSPT212030",
+        "type": "stepped",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Expand each letter of the PICOT acronym.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "In [[P]]ICOT, what does P stand for?",
+            "options": [
+              "Patient population",
+              "Procedure performed",
+              "Publication date",
+              "Primary source"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "In P[[I]]COT, what does I stand for?",
+            "options": [
+              "Intervention or issue of interest",
+              "Index term inside the record",
+              "Institutional home of the author",
+              "Internet source of the data"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "In PI[[C]]OT, what does C stand for?",
+            "options": [
+              "Comparison intervention or issue of interest",
+              "Clinical diagnosis defining the patient group",
+              "Case characteristics of an individual patient",
+              "Control condition used for the comparison arm"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "In PIC[[O]]T, what does O stand for?",
+            "options": [
+              "Outcome",
+              "Output",
+              "Overview",
+              "Observation"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "In PICO[[T]], what does T stand for?",
+            "options": [
+              "Time frame",
+              "Treatment plan",
+              "Theory test",
+              "Trial period"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "P = patient population. I = intervention or issue of interest. C = comparison intervention or issue of interest. O = outcome. T = time frame. Each step's distractors expand the same letter but give a wrong meaning, so the underlined position is the only cue to which letter is asked."
+      },
+      {
+        "id": "SSPT212031",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each PICOT search expression to its role.",
+        "leftItems": [
+          { "id": "1", "text": "P + O" },
+          { "id": "2", "text": "P + I" },
+          { "id": "3", "text": "P + I + O" },
+          { "id": "4", "text": "C and/or T" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Required search elements" },
+          { "id": "B", "text": "Add-on to cut the retrieval number" }
+        ],
+        "correct_pairs": { "1": "A", "2": "A", "3": "A", "4": "B" },
+        "explain": "The search should include P + O, P + I, or P + I + O; C and/or T may be added to reduce the retrieval number when it is too high. The three core sets share one role, so they all map to the same right box."
+      },
+      {
+        "id": "SSPT212033",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each database limiter to why you would use it.",
+        "leftItems": [
+          { "id": "1", "text": "Full Text" },
+          { "id": "2", "text": "Abstracts" },
+          { "id": "3", "text": "Most recent years" },
+          { "id": "4", "text": "Free articles" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Read the entire piece end to end" },
+          { "id": "B", "text": "Screen quickly for fit before committing" },
+          { "id": "C", "text": "Limit to the newest published work" },
+          { "id": "D", "text": "Show only items costing nothing" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D" },
+        "explain": "Limiters refine and narrow a search. Full Text: read the whole article. Abstracts: quickly determine if a specific article will fit your needs. Most recent years: when you need recent literature. Free articles: most database articles cost money, so check this for only free ones. The right labels are root-free so no pair is matched by shared letters."
+      },
+      {
+        "id": "SSPT212034",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each post-search situation to what you do next.",
+        "leftItems": [
+          { "id": "1", "text": "Skipped the subscribed collections" },
+          { "id": "2", "text": "Used the subscribed collections" },
+          { "id": "3", "text": "An item is now in hand" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Critically appraise the origin" },
+          { "id": "B", "text": "Trust the source and move ahead" },
+          { "id": "C", "text": "Read and confirm relevance" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C" },
+        "explain": "After finding something: if you did not use the Library's databases, evaluate the source; if you did, you should be good to go. Then read and evaluate the information to see if it is what you need. Right labels avoid the left roots so no pair is solvable by shared letters."
+      },
+      {
+        "id": "SSPT212035",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Which set lists the elements shown in the sample reference?",
+        "options": [
+          "Author, year, title, journal, volume, pages, retrieval",
+          "Author, year, title, journal, edition, pages, retrieval",
+          "Author, year, editor, journal, volume, pages, retrieval",
+          "Author, year, title, publisher, volume, pages, retrieval"
+        ],
+        "correct": 0,
+        "explain": "The sample reference shows author, year, article title, journal, volume, page range, and a retrieval line. It lists no editor, no edition, and no publisher, so those three swaps are wrong."
+      },
+      {
+        "id": "SSPT212036",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "In source evaluation, what does the 'Why' point ask?",
+        "options": [
+          "The purpose the resource serves",
+          "The author and listed credentials",
+          "The abstract, facts, or opinions",
+          "The information source and list"
+        ],
+        "correct": 0,
+        "explain": "The 'Why' point asks the purpose, that is why the resource exists. The other options are the Who, What, and Where evaluation points."
+      },
+      {
+        "id": "SSPT212037",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "On what basis should you choose which database to use?",
+        "options": [
+          "The kind of results you want",
+          "The total count of resources listed",
+          "The top-level domain of the site",
+          "The copyright date of the books"
+        ],
+        "correct": 0,
+        "explain": "You decide on a database based on the results you want. Resource count, top-level domain, and copyright date are lecture facts but not the stated choice criterion."
+      },
+      {
+        "id": "SSPT212038",
+        "type": "stepped",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Fix the search terms step by step.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "When results are hard to find because terms are not specific, what should the search switch to?",
+            "options": [
+              "Medical terms, not common ones",
+              "Common words and not medical",
+              "The copyright date of books",
+              "The top-level domain of sites"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Applying medical terms, which search string matches the hand-hygiene example?",
+            "options": [
+              "Propanols OR disinfectants OR soaps AND hand washing",
+              "hand foam or gel sanitizers AND hand washing",
+              "Propanols AND disinfectants OR soaps AND hand washing",
+              "soap OR sanitizer AND hand washing foam gel"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Step 1: switch to medical terms, not common words; copyright dates and domains are evaluation points. Step 2: the medical string is Propanols OR disinfectants OR soaps AND hand washing; the foam, gel, and sanitizer wording is the common-term version."
+      },
+      {
+        "id": "SSPT212039",
+        "type": "stepped",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Use the PICOT format.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "PICOT helps you formulate what?",
+            "options": [
+              "A clinical question",
+              "A database limit",
+              "A reference format",
+              "A top-level domain"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After formulating a clinical question, PICOT guides the search for evidence in what manner?",
+            "options": [
+              "Quicker and more efficient",
+              "Slower and less credible",
+              "Broadly across many disciplines",
+              "Only through Wikipedia edits"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Step 1: PICOT formulates a clinical question. Step 2: it guides the search for evidence quicker and more efficiently. Limits, reference formats, and domains are other lecture topics, not PICOT's purpose."
+      },
+      {
+        "id": "SSPT212040",
+        "type": "stepped",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Build the PICOT sentence frame.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "The PICOT sentence frame begins by introducing the patient population with which word?",
+            "options": [ "In", "For", "Among", "Within" ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After the patient population is introduced with In, the intervention is added using which phrase?",
+            "options": [ "how does", "what is", "why will", "when did" ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "After the intervention follows how does, the comparison is added using which phrase?",
+            "options": [ "compared to", "instead of", "rather than", "along with" ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "After the comparison follows compared to, the outcome is added using which verb?",
+            "options": [ "influence", "change", "affect", "improve" ],
+            "correct": 0
+          },
+          {
+            "id": "5",
+            "prompt": "After the outcome follows influence, the time frame is added using which preposition?",
+            "options": [ "over", "during", "within", "across" ],
+            "correct": 0
+          }
+        ],
+        "explain": "The frame reads: In (P), how does (I) compared to (C) influence (O) over (T). Step 1 opens with In. Step 2 adds how does. Step 3 adds compared to. Step 4 adds influence. Step 5 adds over. The other words are same-type connectives not used in this frame."
+      },
+      {
+        "id": "SSPT212041",
+        "type": "stepped",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Define copyright in two parts.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Copyright is the legal right of which pair to control the copying and use of creative works?",
+            "options": [
+              "Author or artist",
+              "Teacher or student",
+              "Publisher or university",
+              "Agency or military"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Copyright is the legal right of an author or artist to control what two actions regarding creative works?",
+            "options": [
+              "Copying and use",
+              "Editing and citing",
+              "Searching and limiting",
+              "Evaluating and referencing"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Step 1: the right belongs to an author or artist. Step 2: it controls the copying and use of their creative works. Teachers and students hold fair-use rights; publishers and universities are Scholar's sources; agencies and military are domain types. Editing, searching, and evaluating are other lecture actions."
+      },
+      {
+        "id": "SSPT212042",
+        "type": "multi",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Which statements match what students may copy?",
+        "options": [
+          "One hard copy for personal use",
+          "Not for public or commercial use",
+          "Students must cite their source",
+          "Many hard copies for public use",
+          "Hard copies without citing source",
+          "Copies allowed for commercial use"
+        ],
+        "correct": [0, 1, 2],
+        "explain": "Students may make one hard copy for personal or educational use, never for public or commercial use, and must cite the source. Many copies, no citation, and commercial use all conflict with these rules."
+      },
+      {
+        "id": "SSPT212043",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Technological enhancements provide what kind of ways to teach and learn?",
+        "options": [
+          "Innovative",
+          "Traditional",
+          "Adaptive",
+          "Controlled"
+        ],
+        "correct": 0,
+        "explain": "Hands-on training is paired with innovative ways to teach and learn. Traditional describes conventional education, adaptive describes tailored content, and controlled describes the practice environment, not the innovative ways."
+      },
+      {
+        "id": "SSPT212044",
+        "type": "matching",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Match each integration verb to what it affects.",
+        "leftItems": [
+          { "id": "1", "text": "Increases" },
+          { "id": "2", "text": "Enhances" },
+          { "id": "3", "text": "Improves" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Accessibility" },
+          { "id": "B", "text": "Interaction" },
+          { "id": "C", "text": "The overall learning experience" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C" },
+        "explain": "Integrating technology increases accessibility, enhances interaction, and improves the overall learning experience; these are the three stated effects of integration."
+      },
+      {
+        "id": "SSPT212045",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "For research, which order lists the tools from least to most preferred?",
+        "options": [
+          "Google, Scholar, Library",
+          "Scholar, Google, Library",
+          "Library, Scholar, Google",
+          "Google, Library, Scholar"
+        ],
+        "correct": 0,
+        "explain": "Google is not the best place, Scholar is better, and the Library is even better, so least to most preferred is Google, Scholar, Library. The other orders reverse or swap these steps."
+      },
+      {
+        "id": "SSPT212046",
+        "type": "mcq",
+        "cat": "Lecture 12 – Using Technology in Health Professions Education",
+        "q": "Scholar draws its articles from academic publishers, universities, and what else?",
+        "options": [
+          "other web sites",
+          "Wikipedia site editors",
+          "government agency sites",
+          "military network sites"
+        ],
+        "correct": 0,
+        "explain": "Scholar pulls peer-reviewed papers, theses, books, abstracts, and articles from academic publishers, universities, and other web sites. Wikipedia, government agencies, and military branches are other lecture topics, not Scholar's providers."
+      }
+    ]
+  }
+}

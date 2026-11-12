@@ -1,0 +1,923 @@
+{
+  "id": "lecture-2-goals",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 2 – Goals",
+  "formSize": 54,
+  "forms": [
+    "A"
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT12000",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "'Something you want to achieve' is the definition of which of the following?",
+        "options": [
+          "Habit",
+          "Plan",
+          "Goal",
+          "Challenge"
+        ],
+        "correct": 2,
+        "explain": "A goal is something you want to achieve; a habit is repeated behaviour, a plan is the route, a challenge is an obstacle."
+      },
+      {
+        "id": "SSPT12001",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which of the following is a goal with an outcome that is based on a specific date / time?",
+        "options": [
+          "Fixed goals",
+          "Flexible goals",
+          "Condensed goals"
+        ],
+        "correct": 0,
+        "explain": "A fixed goal's outcome is based on a specific date or time, a set deadline."
+      },
+      {
+        "id": "SSPT12002",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What type of goal is usually achieved over a period of 5 years?",
+        "options": [
+          "Short-term goal",
+          "Daily goal",
+          "Long-term goal"
+        ],
+        "correct": 2,
+        "explain": "A long-term goal is usually achieved over about 5 years."
+      },
+      {
+        "id": "SSPT12003",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What does the 'S' in SMART goals stand for?",
+        "options": [
+          "Specific",
+          "Significant",
+          "Strategic"
+        ],
+        "correct": 0,
+        "explain": "S = Specific, a named target, not a vague wish."
+      },
+      {
+        "id": "SSPT12004",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What does the 'M' in SMART goals stand for?",
+        "options": [
+          "Motivational",
+          "Measurable",
+          "Mandatory",
+          "Mysterious"
+        ],
+        "correct": 1,
+        "explain": "M = Measurable, so you can count whether it happened."
+      },
+      {
+        "id": "SSPT12005",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What does the 'A' in SMART goals stand for?",
+        "options": [
+          "Abstract (Vague)",
+          "Ambitious (Lofty)",
+          "Action-Oriented (Attainable)",
+          "Automatic (Instinctive)"
+        ],
+        "correct": 2,
+        "explain": "In SMART, A is Action-Oriented, also called Attainable. Abstract, Ambitious and Automatic are not the SMART reading of the letter A."
+      },
+      {
+        "id": "SSPT12006",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What does the 'R' in SMART goals stand for?",
+        "options": [
+          "Rigid (Stiff)",
+          "Realistic (Relevant)",
+          "Random (Chance)",
+          "Reserved (Held-back)"
+        ],
+        "correct": 1,
+        "explain": "In SMART, R is Realistic, also called Relevant. Rigid, Random and Reserved are not the SMART reading of the letter R."
+      },
+      {
+        "id": "SSPT12007",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What does the 'T' in SMART goals stand for?",
+        "options": [
+          "Temporary",
+          "Theoretical",
+          "Trendy",
+          "Time-bound"
+        ],
+        "correct": 3,
+        "explain": "T = Time-bound, meaning a deadline exists."
+      },
+      {
+        "id": "SSPT12008",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which statement best defines goals?",
+        "options": [
+          "Vague wishes about the distant future with no real plan",
+          "Well-defined plans aimed at achieving a specific result",
+          "Grades awarded by an examiner rather than chosen by you",
+          "The subjects a student is forced to take against their will"
+        ],
+        "correct": 1,
+        "explain": "Goals are well-defined plans aimed at a specific result. Vague distant wishes, examiner-awarded grades, and forced subjects are not the chosen, planned course of action that goals describe."
+      },
+      {
+        "id": "SSPT12009",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Besides being plans, goals are described as which of the following?",
+        "options": [
+          "Roadmaps for achieving what you want in life",
+          "Substitutes for attending class",
+          "Guarantees of a high Grade Point Average (GPA)",
+          "Personality types that cannot change"
+        ],
+        "correct": 0,
+        "explain": "Goals are roadmaps for achieving what you want in life, a course of action you intend to pursue."
+      },
+      {
+        "id": "SSPT12010",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What do goals reflect?",
+        "options": [
+          "Only the college timetable",
+          "Only what other people expect",
+          "Your values and your priorities",
+          "Random interest with no hierarchy"
+        ],
+        "correct": 2,
+        "explain": "Goals reflect your values and your priorities."
+      },
+      {
+        "id": "SSPT12011",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "A plan for where you want to be five years from now is classified as a:",
+        "options": [
+          "Short-term goal",
+          "Medium-range goal",
+          "Long-term goal",
+          "Daily habit only"
+        ],
+        "correct": 2,
+        "explain": "The five-year plan is a long-term goal: 'Five years from now, I will be…'"
+      },
+      {
+        "id": "SSPT12012",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "A person without goals is compared to which image?",
+        "options": [
+          "A clock that keeps ticking with no direction or end",
+          "A sheep in the pasture living from day to day",
+          "A mountain peak too high for anyone to ever climb",
+          "A library whose empty shelves hold no books at all"
+        ],
+        "correct": 1,
+        "explain": "The sheep image stands for a person without goals, drifting day to day. A directionless clock, an unclimbable mountain, and an empty library are not that comparison."
+      },
+      {
+        "id": "SSPT12013",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In SMART goals, the letter S stands for:",
+        "options": [
+          "Spontaneous",
+          "Specific",
+          "Seasonal",
+          "Silent"
+        ],
+        "correct": 1,
+        "explain": "S is Specific, as in 'Complete 33 credits by May', not 'do better'."
+      },
+      {
+        "id": "SSPT12014",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In SMART goals, the letter M stands for:",
+        "options": [
+          "Motivational",
+          "Mysterious",
+          "Measurable",
+          "Maximum"
+        ],
+        "correct": 2,
+        "explain": "M is Measurable, such as credits, GPA, and hours studied."
+      },
+      {
+        "id": "SSPT12015",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In the SMART list, A stands for Action-oriented, which is also glossed as:",
+        "options": [
+          "Abstract",
+          "Ambitious",
+          "Attainable",
+          "Avoidant"
+        ],
+        "correct": 2,
+        "explain": "A is Action-Oriented, with Attainable in parentheses."
+      },
+      {
+        "id": "SSPT12016",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In the SMART list, R stands for Realistic, which is also glossed as:",
+        "options": [
+          "Random",
+          "Relevant",
+          "Rigid",
+          "Rare"
+        ],
+        "correct": 1,
+        "explain": "R is Realistic, with Relevant in parentheses."
+      },
+      {
+        "id": "SSPT12017",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In SMART goals, the letter T stands for:",
+        "options": [
+          "Theoretical",
+          "Time-bound",
+          "Temporary only",
+          "Team-based"
+        ],
+        "correct": 1,
+        "explain": "T is Time-bound, because a deadline turns a wish into a schedule."
+      },
+      {
+        "id": "SSPT12018",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Achieving a long-term goal is compared to:",
+        "options": [
+          "Winning a single lottery ticket",
+          "Building a pyramid",
+          "Waiting for motivation to arrive",
+          "Memorizing one quotation"
+        ],
+        "correct": 1,
+        "explain": "Achieving a long-term goal is like building a pyramid: short-term base, medium middle, long-term peak."
+      },
+      {
+        "id": "SSPT12019",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In the goal pyramid, medium-range goals sit at approximately which horizon?",
+        "options": [
+          "Today only",
+          "1–2 years from now",
+          "10–20 years from now",
+          "The next 20 minutes"
+        ],
+        "correct": 1,
+        "explain": "Medium-range = 1–2 years; long-term ≈ 5 years; short-term = daily and weekly."
+      },
+      {
+        "id": "SSPT12020",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Short-term goals are mainly:",
+        "options": [
+          "Five-year career titles",
+          "Daily and weekly habits and assignments",
+          "Retirement plans",
+          "Other people's expectations"
+        ],
+        "correct": 1,
+        "explain": "Short-term goals are the daily and weekly habits and assignments that form the pyramid's foundation."
+      },
+      {
+        "id": "SSPT12021",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What happens once short-term goals are met, according to the goal pyramid?",
+        "options": [
+          "Mid-range goals follow more easily",
+          "Long-term goals become unnecessary",
+          "You should stop writing new goals",
+          "Study hours can drop to zero"
+        ],
+        "correct": 0,
+        "explain": "Once short-term goals are met, mid-range goals follow more easily."
+      },
+      {
+        "id": "SSPT12022",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which hint is given for keeping goals visible?",
+        "options": [
+          "Keep them only in your head so they stay fully private and unseen",
+          "Write them down and put them where you will see them every day",
+          "Tell no one about them and review them only once each entire year",
+          "Write them on an exam script only and hide them from daily view"
+        ],
+        "correct": 1,
+        "explain": "The hint is to write goals where you will see them every day. Keeping them private in your head, reviewing once a year, or hiding them on an exam script are not that hint."
+      },
+      {
+        "id": "SSPT12023",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "If a short-term goal is not working, you should:",
+        "options": [
+          "Abandon the long-term goal immediately",
+          "Change the short-term goal",
+          "Study in one 12-hour marathon to force it",
+          "Ignore the problem until the year ends"
+        ],
+        "correct": 1,
+        "explain": "Change the short-term goal if it is not working; the long-term peak stays while the weekly block is redesigned."
+      },
+      {
+        "id": "SSPT12024",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which statement matches the advice on how high to aim?",
+        "options": [
+          "Aim far below what you can do so you never miss a thing",
+          "Be realistic but aim higher than you think you can achieve",
+          "Aim only at what is already finished and never reach beyond it",
+          "Never write a single number inside any goal that you set"
+        ],
+        "correct": 1,
+        "explain": "The advice is to be realistic yet aim higher than you think, so you surprise yourself. Aiming far below, aiming only at finished things, or refusing any number all contradict it."
+      },
+      {
+        "id": "SSPT12025",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "'Make sure you understand the price of reaching your goals' means you should:",
+        "options": [
+          "Ignore the cost and hope that pure luck will eventually pay it",
+          "Know what time, effort, and trade-offs the goal will require",
+          "Pay another person money so they will hold the goal for you",
+          "Treat money as the only real price that exists anywhere in life"
+        ],
+        "correct": 1,
+        "explain": "Understanding the price means knowing the time, effort and trade-offs a goal demands. Ignoring the cost, paying someone else to carry it, or treating money as the only price all miss it."
+      },
+      {
+        "id": "SSPT12026",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What should you do with obstacles to a five-year goal?",
+        "options": [
+          "Pretend that the obstacles simply do not exist and just ignore them forever",
+          "Recognize them, judge how much control you have, then avoid or eliminate them",
+          "List them once on paper and then never look at that list again",
+          "Treat every single obstacle as an unavoidable fate that you can never change"
+        ],
+        "correct": 1,
+        "explain": "You should recognize obstacles, judge your control, then avoid or eliminate them. Pretending they vanish, listing them once, or treating them as fate all skip the active step."
+      },
+      {
+        "id": "SSPT12027",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which study-habit cluster is listed as a powerful way to reach academic goals?",
+        "options": [
+          "One monthly marathon, starting after midnight, with no calendar and no weekly review of notes or textbook reading",
+          "20–25 hours a week outside class, in small bits of time, with most studying done before 10:00 p.m.",
+          "Zero hours outside class if the lecture was attended, relying on memory and never opening the textbook weekly",
+          "Only group work after 1:00 a.m., with no individual schedule, no office-hour visits, and no review before midnight"
+        ],
+        "correct": 1,
+        "explain": "The habit cluster is 20–25 hours a week outside class, studied in small bits, mostly before 10:00 p.m. A monthly midnight marathon, zero outside hours, or only late group work are not it."
+      },
+      {
+        "id": "SSPT12028",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "The opening quotation by J.C. Penney contrasts a stock clerk who has a goal with:",
+        "options": [
+          "A stock clerk who has no goal",
+          "A professor who has no students",
+          "A student who has no textbooks",
+          "A clock with no hands"
+        ],
+        "correct": 0,
+        "explain": "'Give me a stock clerk with a goal and I'll give you a man who will make history. Give me a man with no goals and I'll give you a stock clerk.'"
+      },
+      {
+        "id": "SSPT12029",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which of the following is an example of a short-term academic block on the goal pyramid?",
+        "options": [
+          "Owning a three-bedroom house with a pool and deck",
+          "Create a study schedule and go to every class",
+          "Financial independence at the very end of a career",
+          "A dream job at a high named salary only"
+        ],
+        "correct": 1,
+        "explain": "Creating a study schedule and attending every class are short-term foundation blocks. The dream house, financial independence, and the salaried dream job sit higher on the life pyramid."
+      },
+      {
+        "id": "SSPT12030",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "As the semester or year ends, what should happen to short-term and mid-range goals?",
+        "options": [
+          "They should be frozen forever",
+          "They should be replaced with new ones",
+          "They should be deleted and never rewritten",
+          "They should be converted into quotes only"
+        ],
+        "correct": 1,
+        "explain": "Replace short-term and mid-range goals with new ones; the long-term peak can remain."
+      },
+      {
+        "id": "SSPT12031",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Dr. Boyce Watkins is quoted as saying the path to greatness is usually paved with:",
+        "options": [
+          "Perfect success on the very first try",
+          "Failure, after trying over and over again",
+          "One single lucky weekend of easy wins",
+          "Avoiding all feedback along the entire way"
+        ],
+        "correct": 1,
+        "explain": "Watkins says the path to greatness is paved with failure after repeated trying. Perfect first attempts, one lucky weekend, or avoiding feedback all contradict that saying."
+      },
+      {
+        "id": "SSPT12032",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which morning habit is listed first among the powerful habits?",
+        "options": [
+          "Get up at a different time each day to stay flexible",
+          "Get up at the same time every morning",
+          "Sleep until noon if the night was long",
+          "Skip mornings and study only after 10:00 p.m."
+        ],
+        "correct": 1,
+        "explain": "Get up at the same time every morning, then keep a regular schedule."
+      },
+      {
+        "id": "SSPT12033",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which tracking tool is recommended for assignments and appointments?",
+        "options": [
+          "Memory alone",
+          "A to-do list or appointment calendar",
+          "A motivational poster with no dates",
+          "Someone else's timetable only"
+        ],
+        "correct": 1,
+        "explain": "Use a to-do list or appointment calendar for assignments and appointments."
+      },
+      {
+        "id": "SSPT12034",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which human-contact habits are listed as supports for reaching goals?",
+        "options": [
+          "Avoid all instructors until the final exam, never forming a group or using office hours or skills class",
+          "Find a study partner, use office hours, attend study-skills class, and meet the instructor after the first exam",
+          "Only message classmates the night before the test, skipping office hours, the study skills class, and instructor meeting",
+          "Never form a group, shun office hours, skip the study skills class, and avoid the instructor after exams"
+        ],
+        "correct": 1,
+        "explain": "The supporting habits are a study partner and groups, office-hour visits, the study skills class, and meeting the instructor after the first exam. Avoiding instructors, messaging only the night before, or never grouping are not these."
+      },
+      {
+        "id": "SSPT12035",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Why meet the instructor after the first exam?",
+        "options": [
+          "To argue the grade with no plan to change anything",
+          "To learn from mistakes and get feedback",
+          "To cancel the rest of the semester",
+          "To replace the long-term goal with a complaint"
+        ],
+        "correct": 1,
+        "explain": "To learn from mistakes and get feedback."
+      },
+      {
+        "id": "SSPT12036",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "For a goal to be realized, you must develop:",
+        "options": [
+          "Only a motivational quotation posted on the bedroom wall",
+          "An action plan and implementation intentions",
+          "A completely new personality that you do not yet have",
+          "A promise you write with no calendar behind it"
+        ],
+        "correct": 1,
+        "explain": "A realized goal needs an action plan and implementation intentions. A quotation alone, a brand-new personality, or a promise with no calendar do not turn a goal into achieved work."
+      },
+      {
+        "id": "SSPT12037",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "An action plan should specify which four points?",
+        "options": [
+          "Why other people should work, who to blame, which app to buy, and a motto",
+          "When, where, how, and for how long one is to act",
+          "Only the dream outcome and the feeling after success",
+          "The grade you want and nothing else"
+        ],
+        "correct": 1,
+        "explain": "When, where, how, and for how long, closing the door that time opens for distraction."
+      },
+      {
+        "id": "SSPT12038",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In Pham and Taylor (1999), students who focused mental simulation on the outcome (seeing the high grade and the feeling) tended to:",
+        "options": [
+          "Study more and earn better grades",
+          "Study less and earn poorer grades",
+          "Need no action plan at all",
+          "Sleep through the midterm with no cost"
+        ],
+        "correct": 1,
+        "explain": "The outcome group studied less and earned poorer grades, for fantasy of the trophy is not rehearsal of the work."
+      },
+      {
+        "id": "SSPT12039",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In the same study, students who focused mental simulation on the process (seeing themselves actually studying) tended to:",
+        "options": [
+          "Study more and earn better grades",
+          "Abandon the midterm",
+          "Need more outcome daydreaming",
+          "Perform worse than the outcome group"
+        ],
+        "correct": 0,
+        "explain": "The process group studied more and earned better grades: picture the work, not the trophy."
+      },
+      {
+        "id": "SSPT12040",
+        "type": "matching",
+        "cat": "Goals",
+        "q": "Match each personal task for keeping track of progress to its description.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Self-regulation"
+          },
+          {
+            "id": "2",
+            "text": "Monitor progress"
+          },
+          {
+            "id": "3",
+            "text": "Intermediate goals"
+          },
+          {
+            "id": "4",
+            "text": "Timetable"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "the individual's duty to modify the plan as necessary"
+          },
+          {
+            "id": "B",
+            "text": "keeping an eye on how far you have come"
+          },
+          {
+            "id": "C",
+            "text": "milestones set along the path"
+          },
+          {
+            "id": "D",
+            "text": "used together with the action plan"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D"
+        },
+        "explain": "Self-regulation is the individual's duty to modify the plan as necessary. Monitoring progress means keeping an eye on how far you have come. Intermediate goals are milestones set along the path. A timetable is used together with the action plan."
+      },
+      {
+        "id": "SSPT12041",
+        "type": "matching",
+        "cat": "Goals",
+        "q": "Match each mental-simulation term to its description.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Outcome simulation"
+          },
+          {
+            "id": "2",
+            "text": "Process simulation"
+          },
+          {
+            "id": "3",
+            "text": "Outcome group"
+          },
+          {
+            "id": "4",
+            "text": "Process group"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "visualizes the high grade and the feeling"
+          },
+          {
+            "id": "B",
+            "text": "visualizes the studying that earns the grade"
+          },
+          {
+            "id": "C",
+            "text": "studied less and earned poorer grades"
+          },
+          {
+            "id": "D",
+            "text": "studied more and earned better grades"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D"
+        },
+        "explain": "Outcome simulation visualizes the high grade and the feeling; process simulation visualizes the studying that earns it. The outcome group studied less with poorer grades, while the process group studied more with better grades."
+      },
+      {
+        "id": "SSPT12042",
+        "type": "stepped",
+        "cat": "Goals",
+        "q": "On the life pyramid, each reached goal builds toward the next.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "The bachelor's-degree block at the base of the life pyramid carries which target GPA?",
+            "options": [
+              "4.55 GPA",
+              "4.5 GPA"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After the block carrying the 4.55 GPA, which block does the arrow point to next?",
+            "options": [
+              "Dream job",
+              "Dream house",
+              "Marriage and family",
+              "Financial independence"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "After the dream job, the two-way arrow reaches one box and a lower box also appears; which option names the arrow box and the lower box?",
+            "options": [
+              "Financial independence and marriage and family",
+              "Dream house and financial independence",
+              "Marriage and family and dream house",
+              "Financial independence and dream house"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Step 1: the bachelor's-degree block carries a 4.55 GPA target. Step 2: the arrow from that block points to the dream job. Step 3: the job's two-way arrow reaches financial independence, and the lower box is marriage and family."
+      },
+      {
+        "id": "SSPT12043",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "What is the stated purpose of setting goals?",
+        "options": [
+          "They give direction and focus on where you end up",
+          "They guarantee a high grade point average without effort",
+          "They replace the need for any action plan",
+          "They copy what other people expect of you"
+        ],
+        "correct": 0,
+        "explain": "Setting goals gives direction and keeps you focused on where you want to end up. They do not guarantee grades without work, they do not replace an action plan, and they reflect your own values, not others' expectations."
+      },
+      {
+        "id": "SSPT12044",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Goals represent which of the following?",
+        "options": [
+          "A course of action you intend to pursue",
+          "A routine repeated without any intention",
+          "An outcome that arrives with no planning",
+          "A road that others have chosen for you"
+        ],
+        "correct": 0,
+        "explain": "Goals represent a course of action you intend to pursue. They are not mindless routines, they do not arrive without planning, and they are roads you choose yourself, not ones others pick for you."
+      },
+      {
+        "id": "SSPT12045",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which description matches a flexible goal?",
+        "options": [
+          "An outcome with no time limit attached",
+          "An outcome tied to a specific date or time",
+          "A daily or weekly habit and assignment",
+          "An outcome planned about five years ahead"
+        ],
+        "correct": 0,
+        "explain": "A flexible goal has an outcome but no time limit. A specific date or time marks a fixed goal, daily and weekly habits are short-term, and five years ahead is long-term."
+      },
+      {
+        "id": "SSPT12046",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Per the goal reminders, what should you allow yourself to do?",
+        "options": [
+          "Dream about goals and hold the long-term one in mind",
+          "Forget the long-term goal and only chase daily wins",
+          "Hide every single goal so only you know them",
+          "Replace the long-term goal each and every single week"
+        ],
+        "correct": 0,
+        "explain": "The reminders say to allow yourself to dream about your goals and keep the long-term one in mind. Forgetting it, hiding the goals, or replacing the long-term goal weekly all contradict that advice."
+      },
+      {
+        "id": "SSPT12047",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Besides waking at the same time each morning, which habit builds a routine?",
+        "options": [
+          "Establish a regular schedule for yourself",
+          "Change your wake time daily for flexibility",
+          "Skip scheduling and study only when motivated",
+          "Let the college set every hour for you"
+        ],
+        "correct": 0,
+        "explain": "The habit is to establish a regular schedule for yourself, alongside getting up at the same time each morning. Varying your wake time, waiting for motivation, or letting the college schedule you all undermine that routine."
+      },
+      {
+        "id": "SSPT12048",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "In the obstacles exercise, how much time and how many obstacles are you asked to write?",
+        "options": [
+          "Two minutes to write three possible obstacles",
+          "Three minutes to write two possible obstacles",
+          "Two minutes to write five possible obstacles",
+          "Three minutes to write three possible obstacles"
+        ],
+        "correct": 0,
+        "explain": "The exercise asks for two minutes to write three possible obstacles that might block the five-year goal. Swapping the numbers, inflating the count, or changing the minutes all misstate the instruction."
+      },
+      {
+        "id": "SSPT12049",
+        "type": "mcq",
+        "cat": "Goals",
+        "q": "Which of these is NOT listed as a semester short-term block?",
+        "options": [
+          "Meet with my advisor this semester",
+          "Find a tutor for my courses",
+          "Skip every class to save time",
+          "Review my notes every single week"
+        ],
+        "correct": 2,
+        "explain": "Meeting the advisor, finding a tutor, and reviewing notes weekly are foundation blocks. Skipping every class is the opposite of the listed block 'go to every class', so it is not a short-term goal here."
+      },
+      {
+        "id": "SSPT12050",
+        "type": "multi",
+        "cat": "Goals",
+        "q": "Which of these are medium-range blocks on the reminder pyramid?",
+        "options": [
+          "Complete 33 credits by May",
+          "Reach a 4.5 GPA by Fall",
+          "Choose the minor you want",
+          "Apply for summer training program",
+          "Buy a three-bedroom house with pool"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "The medium-range blocks are 33 credits by May, a 4.5 GPA by Fall, choosing a minor, and applying for summer training. The three-bedroom house is a long-term life-pyramid dream, not a medium-range block."
+      },
+      {
+        "id": "SSPT12051",
+        "type": "matching",
+        "cat": "Goals",
+        "q": "Match each goal type to its description.",
+        "leftItems": [
+          {
+            "id": "1",
+            "text": "Fixed"
+          },
+          {
+            "id": "2",
+            "text": "Flexible"
+          },
+          {
+            "id": "3",
+            "text": "Short-term"
+          },
+          {
+            "id": "4",
+            "text": "Medium-range"
+          },
+          {
+            "id": "5",
+            "text": "Long-term"
+          }
+        ],
+        "rightItems": [
+          {
+            "id": "A",
+            "text": "tied to a set date or time"
+          },
+          {
+            "id": "B",
+            "text": "has an outcome but no deadline"
+          },
+          {
+            "id": "C",
+            "text": "daily and weekly habits and tasks"
+          },
+          {
+            "id": "D",
+            "text": "about one to two years out"
+          },
+          {
+            "id": "E",
+            "text": "roughly a five-year horizon"
+          }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D",
+          "5": "E"
+        },
+        "explain": "Fixed goals are tied to a set date or time; flexible goals have an outcome but no deadline; short-term goals are daily and weekly habits; medium-range goals sit about one to two years out; long-term goals span roughly five years."
+      },
+      {
+        "id": "SSPT12052",
+        "type": "multi",
+        "cat": "Goals",
+        "q": "Which statements describe an action plan?",
+        "options": [
+          "State when, where, how, and how long to act",
+          "Accept that accomplishing your goals takes real time",
+          "Recognize that time opens doors for distraction",
+          "Assume a plan removes every difficulty at once"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ],
+        "explain": "An action plan states when, where, how and how long to act, accepts that goals take time, and recognizes time opens doors for distraction. Believing a plan erases difficulty at once is false."
+      },
+      {
+        "id": "SSPT12053",
+        "type": "multi",
+        "cat": "Goals",
+        "q": "Which statements describe keeping track of progress?",
+        "options": [
+          "Treat the whole task as self-regulation",
+          "Monitor progress and modify the plan yourself",
+          "Set intermediate goals as milestones along the path",
+          "Pair a timetable with the action plan",
+          "Wait for the college to monitor your progress"
+        ],
+        "correct": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "explain": "Keeping track means self-regulation: you monitor and modify the plan, set intermediate milestones, and pair a timetable with the action plan. Waiting for the college to monitor you is the opposite of self-regulation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1152 @@
+{
+  "id": "lecture-3-time-management",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 3 – Time Management",
+  "formSize": 78,
+  "forms": ["A"],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT13000",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which quadrant has tasks that are Not Urgent and Important?",
+        "options": [
+          "Quadrant 1",
+          "Quadrant 2",
+          "Quadrant 3",
+          "Quadrant 4"
+        ],
+        "correct": 1,
+        "explain": "Quadrant 2 = Not Urgent + Important: planning, prevention, preparation."
+      },
+      {
+        "id": "SSPT13001",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What does 'urgent' mean?",
+        "options": [
+          "Tasks that you can safely postpone to any later time",
+          "Tasks connected only to your distant long-term goals",
+          "Tasks that demand your immediate attention right NOW",
+          "Tasks that serve your mission, values, and priorities"
+        ],
+        "correct": 2,
+        "explain": "Urgent means it requires attention NOW."
+      },
+      {
+        "id": "SSPT13002",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which term means judging each task by its worth and its deadline?",
+        "options": [
+          "Scheduling",
+          "Planning",
+          "Priorities",
+          "Organization"
+        ],
+        "correct": 2,
+        "explain": "Priorities = a value judgment on each task by its worth and its deadline."
+      },
+      {
+        "id": "SSPT13003",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which of the following is known as the enemy of time management?",
+        "options": [
+          "Setting goals",
+          "Procrastination",
+          "Prioritizing tasks",
+          "Self-evaluation"
+        ],
+        "correct": 1,
+        "explain": "Procrastination is the enemy of time management."
+      },
+      {
+        "id": "SSPT13004",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which statement best defines time management?",
+        "options": [
+          "Completing as many separate tasks as you possibly can in a single day without any planning at all",
+          "Developing the processes and tools that increase your efficiency and productivity",
+          "Spending every single available hour of the entire week purely on academic work",
+          "Avoiding all of the activities that seem to require your immediate attention today"
+        ],
+        "correct": 1,
+        "explain": "Time management = developing processes and tools that increase efficiency and productivity."
+      },
+      {
+        "id": "SSPT13005",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which statement best distinguishes an urgent activity from an important activity?",
+        "options": [
+          "Urgent activities tend to feel enjoyable, whereas important activities always feel quite difficult and demanding",
+          "Urgent activities are always important, while important activities are never ever urgent in any way",
+          "Urgent activities need immediate attention; important activities serve your mission, values, and priorities",
+          "Urgent activities are distant long-term goals, while important activities are mere daily interruptions"
+        ],
+        "correct": 2,
+        "explain": "Urgent = immediate attention (a timing claim); important = contributes to priorities and values (a mission claim)."
+      },
+      {
+        "id": "SSPT13006",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "A critical assignment due today greatly affects a student's progress. Which quadrant?",
+        "options": [
+          "Quadrant I: Urgent and Important",
+          "Quadrant IV: Not Urgent and Not Important",
+          "Quadrant III: Urgent and Not Important",
+          "Quadrant II: Not Urgent and Important"
+        ],
+        "correct": 0,
+        "explain": "Due today = urgent; major effect on progress = important → Quadrant I."
+      },
+      {
+        "id": "SSPT13007",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which activity is the best example of Quadrant II: Not Urgent and Important?",
+        "options": [
+          "Playing games during scheduled study time",
+          "Responding to a crisis that requires immediate action",
+          "Planning a study schedule before examinations begin",
+          "Answering an unimportant interruption immediately"
+        ],
+        "correct": 2,
+        "explain": "Planning before exams is important but not pressing today, making it the classic Quadrant II activity."
+      },
+      {
+        "id": "SSPT13008",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Why is Quadrant II called the heart of personal quality management?",
+        "options": [
+          "It consists mainly of entertainment and pure time-wasting activities with no real value",
+          "It lets people comfortably avoid all of their everyday responsibilities entirely",
+          "It holds every single urgent crisis that has to be solved right now immediately",
+          "It centers on planning, capacity building, prevention, and preparation"
+        ],
+        "correct": 3,
+        "explain": "Quadrant II focuses on planning, capacity development, prevention, and preparation."
+      },
+      {
+        "id": "SSPT13009",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What is likely to happen when a person consistently neglects Quadrant II activities?",
+        "options": [
+          "Every single task on the list will become less important",
+          "The person will manage to eliminate all interruptions permanently",
+          "The person will no longer have any need to prioritize tasks",
+          "Important activities may drift into Quadrant I as urgent crises"
+        ],
+        "correct": 3,
+        "explain": "Neglected QII items get promoted into Quadrant I as urgent crises."
+      },
+      {
+        "id": "SSPT13010",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which is the most appropriate first priority when several tasks compete for attention?",
+        "options": [
+          "The task carrying the greatest value and the nearest deadline",
+          "The very task that your instructor happened to assign to you most recently of all",
+          "The easiest task to finish, regardless of how important it is",
+          "The task that you personally find the most enjoyable to do"
+        ],
+        "correct": 0,
+        "explain": "First priority = greatest value + nearest deadline."
+      },
+      {
+        "id": "SSPT13011",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which combination represents the three key steps to good time management?",
+        "options": [
+          "Hourly meetings, continuous messaging, and task avoidance",
+          "Daily exercise, social media review, and spontaneous planning",
+          "Weekly schedule, daily to-do-list, and long-term planning",
+          "Crisis response, multitasking, and delaying difficult tasks"
+        ],
+        "correct": 2,
+        "explain": "Weekly schedule + daily to-do list + long-term planning."
+      },
+      {
+        "id": "SSPT13012",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What is the primary purpose of developing a weekly schedule?",
+        "options": [
+          "To completely replace any need for daily planning or lists",
+          "To make sure that every single minute is spent working",
+          "To give an overview of your committed time and free time",
+          "To keep a record of only the tasks left unfinished"
+        ],
+        "correct": 2,
+        "explain": "A weekly schedule shows committed time against available time."
+      },
+      {
+        "id": "SSPT13013",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What behavior is an early warning sign of time-management problems?",
+        "options": [
+          "Frequently asking teachers for extensions",
+          "Using a long-term plan to organize future work",
+          "Completing important tasks before their deadlines",
+          "Preparing a weekly schedule in advance"
+        ],
+        "correct": 0,
+        "explain": "Regularly asking for extensions is an early warning sign."
+      },
+      {
+        "id": "SSPT13014",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What is likely a consequence of procrastinating on an important academic task?",
+        "options": [
+          "More sleep and improved learning",
+          "Increased anxiety and poorer-quality work",
+          "Lower stress without any disadvantages",
+          "More time for completing the task carefully"
+        ],
+        "correct": 1,
+        "explain": "Procrastination → increased anxiety and poorer-quality work."
+      },
+      {
+        "id": "SSPT13015",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which task belongs in Quadrant III: Urgent and Not Important?",
+        "options": [
+          "Carefully preparing your overall long-term academic study strategy for the whole term",
+          "Finishing a high-stakes critical assignment that is due today",
+          "An interruption needing attention now but serving no real priority",
+          "Casually playing a game when no deadline or benefit exists"
+        ],
+        "correct": 2,
+        "explain": "QIII = urgent but does not support major priorities, the classic interruption."
+      },
+      {
+        "id": "SSPT13016",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which activity is the clearest example of Quadrant IV: Not Urgent and Not Important?",
+        "options": [
+          "Preventing future academic problems through careful forward planning",
+          "Completing a high-value critical task that is due today",
+          "Responding promptly to a serious and unexpected emergency",
+          "Spending study time on games and unnecessary chatting"
+        ],
+        "correct": 3,
+        "explain": "Games and unnecessary chatting = neither deadline nor payoff = QIV."
+      },
+      {
+        "id": "SSPT13017",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which outcome is a direct benefit of effective time management?",
+        "options": [
+          "A firm guarantee that no urgent task will ever occur again",
+          "Less anxiety because of better preparation and clear prioritization",
+          "The rare ability to finish absolutely all tasks at once",
+          "The total and complete elimination of every single one of your daily responsibilities"
+        ],
+        "correct": 1,
+        "explain": "Better preparation and prioritization reduce anxiety."
+      },
+      {
+        "id": "SSPT13018",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "A student wants to spend more time on important activities and reduce last-minute crises. Which strategy is best?",
+        "options": [
+          "Concentrate mainly on interruptions simply because they feel immediate",
+          "Schedule important activities early and review them each week",
+          "Delay starting any task until it finally becomes urgent",
+          "Wait until inner motivation arrives before touching important work"
+        ],
+        "correct": 1,
+        "explain": "Plan important activities early and review them weekly, a deliberate QII investment."
+      },
+      {
+        "id": "SSPT13019",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which statement best defines Time Management?",
+        "options": [
+          "An inborn natural talent that only a fortunate few people are simply ever born with",
+          "The total number of hours that a single dedicated student spends studying each week",
+          "A clever and highly systematic method of dodging every single urgent and pressing task",
+          "The development of processes and tools that increase efficiency and productivity"
+        ],
+        "correct": 3,
+        "explain": "TM = development of processes and tools that increase efficiency and productivity."
+      },
+      {
+        "id": "SSPT13020",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Time management is also defined as the ability to:",
+        "options": [
+          "Work on the tasks that you personally enjoy the most each day",
+          "Get things done when they should be done",
+          "Memorize the entire college timetable by heart",
+          "Avoid deadlines by carefully renegotiating them each time"
+        ],
+        "correct": 1,
+        "explain": "Get things done when they should be done: right task, right time."
+      },
+      {
+        "id": "SSPT13021",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "How does time management develop?",
+        "options": [
+          "It is a skill requiring steady work, a lifelong challenge for most",
+          "It simply happens on its own as a person grows older",
+          "It can be learned once early on and then forgotten forever",
+          "It stays permanently and totally fixed at exactly the same level for every single person"
+        ],
+        "correct": 0,
+        "explain": "It is a skill that must be worked on, a life-long challenge for most people."
+      },
+      {
+        "id": "SSPT13022",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "In the matrix, 'urgent' activities are those requiring:",
+        "options": [
+          "Careful long-term planning",
+          "Permission from a supervisor",
+          "Immediate attention (NOW)",
+          "A written budget first"
+        ],
+        "correct": 2,
+        "explain": "Urgent = immediate attention (NOW)."
+      },
+      {
+        "id": "SSPT13023",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "In the matrix, 'important' activities are those that:",
+        "options": [
+          "Tend to be the loudest and the most visible of all the daily tasks",
+          "Always appear right at the very top of your crowded and busy inbox",
+          "Can safely be handed off and delegated to just about anyone around",
+          "Contribute to your mission, your values, and your priorities"
+        ],
+        "correct": 3,
+        "explain": "Important = contributes to your mission, values, and priorities."
+      },
+      {
+        "id": "SSPT13024",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "If an activity is urgent, does that automatically mean it is important?",
+        "options": [
+          "Yes, because a task being urgent proves that it is equally important",
+          "It does, provided a teacher personally assigned that particular task",
+          "No, an urgent activity can still contribute nothing to your mission",
+          "It does, during the busy weeks when formal examinations are being held"
+        ],
+        "correct": 2,
+        "explain": "No, urgency is a timing claim; importance is a mission claim."
+      },
+      {
+        "id": "SSPT13025",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which items belong to Quadrant I (Urgent & Important)?",
+        "options": [
+          "Trivia, busy work, distractions, and time wasters such as chatting and pointless idle daily games",
+          "Crisis, pressing problems, and deadline-driven projects critical to your strategic priorities",
+          "Interruptions, some calls, some mails, some reports, some meetings, and many popular activities",
+          "Chatting, games, excessive TV, and other not-urgent not-important time-wasting daily pastimes"
+        ],
+        "correct": 1,
+        "explain": "QI: crisis, pressing problems, deadline-driven projects critical to strategic priorities."
+      },
+      {
+        "id": "SSPT13026",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which items belong to Quadrant II (Not urgent & Important)?",
+        "options": [
+          "Preventing problems, strategy planning, relationship building, and recognizing new opportunities",
+          "Reacting to sudden crises, working long deadline-driven all-nighters, and constant daily firefighting",
+          "Fielding nonstop interruptions, taking some calls, and dealing with every single pressing matter",
+          "Indulging in trivia, busy work, distractions, and pointless chatting and games daily time wasters"
+        ],
+        "correct": 0,
+        "explain": "QII: prevention, anticipation, strategy planning, relationship building, new opportunities."
+      },
+      {
+        "id": "SSPT13027",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which items belong to Quadrant III (Urgent & Not important)?",
+        "options": [
+          "Interruptions, some calls, some mails, some reports, some meetings, and pressing matters",
+          "Preventing problems, strategy planning, relationship building, and recognizing opportunities",
+          "Crisis, pressing problems, and deadline-driven projects critical to your strategic priorities",
+          "Trivia, busy work, distractions, and time wasters such as chatting and games and excessive TV"
+        ],
+        "correct": 0,
+        "explain": "QIII: interruptions, some calls/mails/reports/meetings, pressing matters."
+      },
+      {
+        "id": "SSPT13028",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which items belong to Quadrant IV (Not urgent & Not important)?",
+        "options": [
+          "Confronting sudden crises and other pressing important problems head-on",
+          "Investing steady time in careful relationship-building activities",
+          "Trivia, busy work, distractions, and wasters like chat and games",
+          "Putting real effort into preventing your future important problems"
+        ],
+        "correct": 2,
+        "explain": "QIV: trivia, busy work, distractions, time wasters (chatting and games)."
+      },
+      {
+        "id": "SSPT13029",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which quadrant is called 'the heart of the personal quality management'?",
+        "options": [
+          "Quadrant I: Urgent & Important",
+          "Quadrant II: Not urgent & Important",
+          "Quadrant III: Urgent & Not important",
+          "Quadrant IV: Not urgent & Not important"
+        ],
+        "correct": 1,
+        "explain": "Quadrant II is 'the heart of the personal quality management'."
+      },
+      {
+        "id": "SSPT13030",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "To lead effectively, you need to spend more time in:",
+        "options": [
+          "Quadrant I: personally handling every crisis",
+          "Quadrant II: important but not urgent work",
+          "Quadrant III: answering every interruption",
+          "Quadrant IV: recovering from the week"
+        ],
+        "correct": 1,
+        "explain": "Spend more time in Quadrant II, the Important but not Urgent quadrant."
+      },
+      {
+        "id": "SSPT13031",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What happens when you do not spend enough time in Quadrant II?",
+        "options": [
+          "Your personal mission and your core values change all by themselves automatically",
+          "Many items move over into Quadrant I, and you are constantly handling crises",
+          "All of the Quadrant IV distraction items simply disappear forever on their own",
+          "Each and every one of your daily work tasks suddenly becomes thoroughly enjoyable"
+        ],
+        "correct": 1,
+        "explain": "Items move into Quadrant I and you are constantly handling crises."
+      },
+      {
+        "id": "SSPT13032",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which is a real benefit of good time management?",
+        "options": [
+          "It promises you top grades in every course without any effort",
+          "It wipes out absolutely every single source of stress in life",
+          "It readies you for life's demands, which in turn lowers anxiety",
+          "It magically shortens the length of the academic semester for you"
+        ],
+        "correct": 2,
+        "explain": "Better prepared for life's demands → decreases anxiety."
+      },
+      {
+        "id": "SSPT13033",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Good time management helps you assign time to tasks:",
+        "options": [
+          "Equally across all tasks, regardless of their size (Equalizing)",
+          "In the order in which the tasks arrive, one after another (Sequencing)",
+          "In proportion to each task's true importance (Prioritizing)",
+          "According to how enjoyable or fun each task is (Favoring)"
+        ],
+        "correct": 2,
+        "explain": "Assign time in proportion to each task's true importance (Prioritizing)."
+      },
+      {
+        "id": "SSPT13034",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which of the following is listed as an early warning sign of time management problems?",
+        "options": [
+          "Finishing every single assigned task well before its deadline",
+          "Keeping a tidy weekly schedule",
+          "Asking teachers for extensions regularly",
+          "Sleeping eight hours a night"
+        ],
+        "correct": 2,
+        "explain": "Asking teachers for extensions regularly is on the warning-sign list."
+      },
+      {
+        "id": "SSPT13035",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "'Your grades don't reflect your ability' is an example of:",
+        "options": [
+          "Listed as an early warning sign of time management problems",
+          "Offered as proof that the recent examinations were simply unfair",
+          "Framed as a clear reason to change your major immediately",
+          "Stated as a fixed rule about the nature of intelligence"
+        ],
+        "correct": 0,
+        "explain": "It is an early warning sign: the remedy starts with completing the Time Management Matrix."
+      },
+      {
+        "id": "SSPT13036",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Procrastination may give immediate satisfaction, but it brings:",
+        "options": [
+          "Anxiety, reduced sleep, illness, lower grades, poorer work, rushed learning, and disappointment",
+          "Sharper and much deeper learning that comes from intense last-minute focused cramming sessions",
+          "Considerably more free relaxation time paired with markedly higher-quality finished academic work",
+          "Markedly stronger and far warmer personal relationships with all of your course instructors"
+        ],
+        "correct": 0,
+        "explain": "The full bill: anxiety, reduced sleep, illness, lower grades, poorer work, less learning, disappointment."
+      },
+      {
+        "id": "SSPT13037",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Setting priorities means making a value judgment on each task based on:",
+        "options": [
+          "Judged mainly by its overall length and its level of difficulty",
+          "Decided by whatever particular mood you happen to be in that day",
+          "Sorted strictly according to the alphabetical order of the task name",
+          "Weighed by its true worth and by when it must be completed"
+        ],
+        "correct": 3,
+        "explain": "Worth and when it must be completed."
+      },
+      {
+        "id": "SSPT13038",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which tasks should be your #1 priority?",
+        "options": [
+          "The handful of tasks that you personally enjoy doing the most",
+          "The very easiest tasks, chosen mainly to build early momentum",
+          "The tasks that are worth the most and that are due soonest",
+          "The same tasks that most of your friends happen to be doing"
+        ],
+        "correct": 2,
+        "explain": "Worth the most + due the soonest = #1 priority."
+      },
+      {
+        "id": "SSPT13039",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which of the following are the three key steps to good time management?",
+        "options": [
+          "Depending entirely on last-minute cramming, brief napping, and plain repetition",
+          "Making a weekly schedule, a daily to-do list, and a long-term plan",
+          "Forcing yourself to work harder, sleep much less, and skip meals",
+          "Repeating nothing but memorizing, thick highlighting, and endless rereading"
+        ],
+        "correct": 1,
+        "explain": "Weekly schedule, daily to-do list, long-term plan."
+      },
+      {
+        "id": "SSPT13040",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What is the purpose of developing a weekly schedule?",
+        "options": [
+          "To give a clear overview of your free and your committed time",
+          "To keep a careful record of the grades from every single quiz",
+          "To maintain a tidy list of the phone numbers of classmates",
+          "To track exactly how much of your pocket money is being spent"
+        ],
+        "correct": 0,
+        "explain": "An overview of free and committed time."
+      },
+      {
+        "id": "SSPT13041",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "A call demands attention now but serves no mission or value. Which quadrant?",
+        "options": [
+          "Quadrant I",
+          "Quadrant II",
+          "Quadrant III",
+          "Quadrant IV"
+        ],
+        "correct": 2,
+        "explain": "Some calls and interruptions = urgent but not important = QIII."
+      },
+      {
+        "id": "SSPT13042",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "You plan next term's strategy and build a study partnership; nothing is due. Which quadrant?",
+        "options": [
+          "Quadrant I",
+          "Quadrant II",
+          "Quadrant III",
+          "Quadrant IV"
+        ],
+        "correct": 1,
+        "explain": "Strategy planning + relationship building, no deadline = QII."
+      },
+      {
+        "id": "SSPT13043",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Two hours disappear into trivia, busy work, and chatting-and-games time wasters. Which quadrant absorbed the time?",
+        "options": [
+          "Quadrant I",
+          "Quadrant II",
+          "Quadrant III",
+          "Quadrant IV"
+        ],
+        "correct": 3,
+        "explain": "Trivia, busy work, chatting and games = QIV."
+      },
+      {
+        "id": "SSPT13044",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "A 42-hour week includes 21 hours of urgent and important work. What share is that?",
+        "options": [
+          "25%",
+          "33%",
+          "50%",
+          "75%"
+        ],
+        "correct": 2,
+        "explain": "21 of 42 hours = 50% in Quadrant I."
+      },
+      {
+        "id": "SSPT13045",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "After listing your weekly tasks in the Urgent & Important matrix, what should you do next?",
+        "options": [
+          "Keep the completed matrix hidden away from all of your close and trusted colleagues",
+          "Put the first things first, then share and discuss with the colleague beside you",
+          "Cross out and delete every single task that you previously placed in the Quadrant I",
+          "Rewrite the whole filled-in matrix later on as a formal and structured written essay"
+        ],
+        "correct": 1,
+        "explain": "Put first things first, then share and discuss with the colleague beside you."
+      },
+      {
+        "id": "SSPT13046",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What is the purpose of writing a daily to-do list?",
+        "options": [
+          "To provide daily reminders to assure that key tasks are not forgotten",
+          "To sort and rank all of your classmates carefully by their latest exam grades",
+          "To take over and completely replace the need for a careful weekly schedule",
+          "To keep a private daily record of all your dreams and your shifting moods"
+        ],
+        "correct": 0,
+        "explain": "Daily reminders so key tasks are not forgotten."
+      },
+      {
+        "id": "SSPT13047",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What is the purpose of preparing a long-term plan?",
+        "options": [
+          "Commit to memory all the key dates needed for a single history exam",
+          "Step in to fully replace the daily to-do list for every given day",
+          "Allow you to dodge and avoid ever stopping to plan out the week",
+          "To promote your overall organization and careful future planning"
+        ],
+        "correct": 3,
+        "explain": "Promotes overall organization and future planning."
+      },
+      {
+        "id": "SSPT13048",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Time management is best described as a skill that:",
+        "options": [
+          "a motivated person can pick up quickly and then set aside",
+          "improves on its own as a person gains more years of experience",
+          "everyone must keep working on it in every area of their life",
+          "depends on a person's natural talent rather than on steady practice"
+        ],
+        "correct": 2,
+        "explain": "Everyone must work on it in all areas: personal, academic, and work. It is a lifelong skill, not picked up once, not automatic with age, and not based on natural talent."
+      },
+      {
+        "id": "SSPT13049",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Successful time management requires:",
+        "options": [
+          "Expensive specialist software and a quiet private office of your own",
+          "Permission from the dean",
+          "Self-evaluation and the desire to improve",
+          "A lighter course load"
+        ],
+        "correct": 2,
+        "explain": "Self-evaluation and the desire to improve."
+      },
+      {
+        "id": "SSPT13050",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Effective time management will ultimately require a person to:",
+        "options": [
+          "Make yourself do unwanted tasks at times you would rather not",
+          "Just wait for inner motivation to arrive on its own",
+          "Confine your effort to studying the subjects you already like best",
+          "Steer clear of and politely avoid every one of your unpleasant daily tasks"
+        ],
+        "correct": 0,
+        "explain": "Do things you don't want to do when you don't want to do them, and push yourself; the pay-off is always worth the effort."
+      },
+      {
+        "id": "SSPT13051",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which early warning sign of TM problems involves the quality of submitted work?",
+        "options": [
+          "Turning in submitted work that falls below your own usual standard",
+          "Making a point of attending each and every lecture right on time",
+          "Wrapping up and finishing all of your assigned tasks well early",
+          "Recording and keeping every single commitment neatly inside a calendar"
+        ],
+        "correct": 0,
+        "explain": "Submitting work below your usual standard is a listed warning sign."
+      },
+      {
+        "id": "SSPT13052",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which warning sign involves sacrificing things you like?",
+        "options": [
+          "Setting aside quiet hours each weekend purely for reading for pleasure and light fiction",
+          "Choosing to join and regularly attend a weekly peer study group with others together",
+          "Deciding to settle down and go to sleep early the night before exams well in advance",
+          "Having to let go of activities you enjoy because of a lack of time or low grades"
+        ],
+        "correct": 3,
+        "explain": "Letting go of activities you enjoy due to lack of time or low grades is a warning sign."
+      },
+      {
+        "id": "SSPT13053",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Urgent activities can take us away from:",
+        "options": [
+          "The very activities that let us carry out our mission or our vision",
+          "Our nightly sleep and our three daily meals, and little else",
+          "Our leisure time spent scrolling social media feeds and playing casual video games",
+          "Nothing, as urgency itself is seldom a true problem"
+        ],
+        "correct": 0,
+        "explain": "Urgent activities steal time from mission- and vision-carrying activities."
+      },
+      {
+        "id": "SSPT13054",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "By definition, procrastination is:",
+        "options": [
+          "It is best understood as a completely harmless and innocent little habit",
+          "It is viewed as a clever and modern evidence-based study technique",
+          "It is described plainly as the true enemy of good time management",
+          "It is celebrated wrongly as the essential secret key to real creativity"
+        ],
+        "correct": 2,
+        "explain": "'Procrastination: Enemy of Time Management.'"
+      },
+      {
+        "id": "SSPT13055",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Good time management ultimately makes a person:",
+        "options": [
+          "A far more productive and successful person who enjoys a balanced life",
+          "A person left isolated and cut off from all friends and family",
+          "Someone wholly dependent on your instructor for every single decision made",
+          "An individual rendered completely immune to and unaffected by any deadline"
+        ],
+        "correct": 0,
+        "explain": "A more productive, successful person with a more balanced life."
+      },
+      {
+        "id": "SSPT13056",
+        "type": "matching",
+        "cat": "Time Management",
+        "q": "Match each quadrant to the activities the matrix places in it.",
+        "leftItems": [
+          { "id": "1", "text": "Quadrant I" },
+          { "id": "2", "text": "Quadrant II" },
+          { "id": "3", "text": "Quadrant III" },
+          { "id": "4", "text": "Quadrant IV" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Crisis, pressing problems, deadline projects, and meetings" },
+          { "id": "B", "text": "Prevention, planning, relationship building, and personal development" },
+          { "id": "C", "text": "Interruptions, some calls, some mails, and popular activities" },
+          { "id": "D", "text": "Trivia, some phone calls, excessive TV, and games" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D" },
+        "explain": "Quadrant I holds crises, pressing problems, deadline projects and meetings; Quadrant II holds prevention, planning, relationships and personal development; Quadrant III holds interruptions, some calls and mails and popular activities; Quadrant IV holds trivia, some phone calls, excessive TV and games."
+      },
+      {
+        "id": "SSPT13057",
+        "type": "matching",
+        "cat": "Time Management",
+        "q": "Match each quadrant to the result of living in it.",
+        "leftItems": [
+          { "id": "1", "text": "Quadrant I" },
+          { "id": "2", "text": "Quadrant II" },
+          { "id": "3", "text": "Quadrant III" },
+          { "id": "4", "text": "Quadrant IV" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Stress, burnout, and always putting out fires" },
+          { "id": "B", "text": "Vision, perspective, balance, control, and few crises" },
+          { "id": "C", "text": "Short-term focus and feeling victimized and out of control" },
+          { "id": "D", "text": "Irresponsibility, work not completed, and loss of your job" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D" },
+        "explain": "Living in Quadrant I brings stress and burnout; Quadrant II brings vision, balance and control; Quadrant III brings short-term focus and feeling victimized; Quadrant IV brings irresponsibility and loss of your job."
+      },
+      {
+        "id": "SSPT13058",
+        "type": "matching",
+        "cat": "Time Management",
+        "q": "Match each key step to its purpose.",
+        "leftItems": [
+          { "id": "1", "text": "Weekly schedule" },
+          { "id": "2", "text": "Daily to-do list" },
+          { "id": "3", "text": "Long-term plan" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Gives an overview of free and committed time" },
+          { "id": "B", "text": "Provides reminders so key tasks are not forgotten" },
+          { "id": "C", "text": "Promotes overall organization and future foresight" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C" },
+        "explain": "The weekly schedule gives an overview of free and committed time; the daily to-do list provides reminders so key tasks are not forgotten; the long-term plan promotes overall organization and future foresight."
+      },
+      {
+        "id": "SSPT13059",
+        "type": "stepped",
+        "cat": "Time Management",
+        "q": "A student wants to define and develop this study skill.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "It is the development of processes and what else?",
+            "options": ["tools", "rules", "budgets", "uniforms"],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "These processes and tools mainly increase efficiency and what?",
+            "options": ["productivity", "popularity", "proximity", "parity"],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Because efficiency and productivity need steady work, time management is a what?",
+            "options": ["a lifelong challenge", "a one-time quick fix", "an inborn natural talent", "a fixed permanent trait"],
+            "correct": 0
+          }
+        ],
+        "explain": "Step 1: time management develops processes and tools. Step 2: these raise efficiency and productivity. Step 3: it is a skill worked on continuously, a lifelong challenge for most, not a one-time fix, inborn talent, or fixed trait."
+      },
+      {
+        "id": "SSPT13060",
+        "type": "stepped",
+        "cat": "Time Management",
+        "q": "The matrix sorts every task along two axes.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "The axis that demands attention NOW is called what?",
+            "options": ["urgency", "importance", "priority", "vision"],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Urgency is a timing claim; the other axis, importance, is a claim about what?",
+            "options": ["your mission and values", "your inbox order", "your mood today", "your budget"],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Since importance is a mission claim, can an urgent task fail to be important?",
+            "options": ["yes, because urgency does not prove importance", "no, because the two labels mean the same thing", "it depends on who assigned the task", "it depends on the exam calendar"],
+            "correct": 0
+          }
+        ],
+        "explain": "Step 1: the NOW axis is urgency. Step 2: importance is a mission and values claim, not inbox, mood, or budget. Step 3: because importance is a mission claim, an urgent task can be unimportant; the two labels are not identical and do not depend on who assigned it or the calendar."
+      },
+      {
+        "id": "SSPT13061",
+        "type": "multi",
+        "cat": "Time Management",
+        "q": "Which of the following are among the seven key practices of Quadrant II?",
+        "options": [
+          "Improving communication with others",
+          "Better planning and organization",
+          "Watching excessive TV and games",
+          "Constantly putting out fires"
+        ],
+        "correct": [0, 1],
+        "explain": "Improving communication and better planning are Quadrant II practices. Watching excessive TV is a Quadrant IV time waster, and constantly putting out fires is a Quadrant I result, not a practice."
+      },
+      {
+        "id": "SSPT13062",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which is named as the key practice of Quadrant II?",
+        "options": [
+          "Knowing what is important",
+          "Doing better preparation each term",
+          "Looking after and caring for yourself",
+          "Pursuing ongoing personal development"
+        ],
+        "correct": 0,
+        "explain": "Knowing what is important is the key practice. Better preparation, caring for yourself, and personal development are also Quadrant II practices, but the slide names knowing what is important as the key one."
+      },
+      {
+        "id": "SSPT13063",
+        "type": "multi",
+        "cat": "Time Management",
+        "q": "Which are listed as Quadrant II practices?",
+        "options": [
+          "Taking advantage of new opportunities",
+          "Caring for yourself",
+          "Fielding some mails and calls",
+          "Reacting to pressing problems"
+        ],
+        "correct": [0, 1],
+        "explain": "Taking advantage of new opportunities and caring for yourself are Quadrant II practices. Fielding some mails and calls is Quadrant III, and reacting to pressing problems is Quadrant I."
+      },
+      {
+        "id": "SSPT13064",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Living in Quadrant IV most likely leads to what?",
+        "options": [
+          "Irresponsibility and loss of your job",
+          "Vision, balance, and control",
+          "Stress and burnout",
+          "Feeling victimized and out of control"
+        ],
+        "correct": 0,
+        "explain": "Living in Quadrant IV brings irresponsibility, work not completed, and loss of your job. Vision and balance come from Quadrant II, stress and burnout from Quadrant I, and feeling victimized from Quadrant III."
+      },
+      {
+        "id": "SSPT13065",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which is NOT one of the seven Quadrant II practices?",
+        "options": [
+          "Improving communication with others",
+          "Better preparation",
+          "Handling every crisis personally",
+          "Personal development"
+        ],
+        "correct": 2,
+        "explain": "Handling every crisis personally is not a Quadrant II practice; it reflects living in Quadrant I. Improving communication, better preparation, and personal development are all listed practices."
+      },
+      {
+        "id": "SSPT13066",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Good time management helps a student do what?",
+        "options": [
+          "Get the most out of their education",
+          "Avoid every single academic responsibility they hold",
+          "Skip long-term planning entirely",
+          "Rely fully on the instructor"
+        ],
+        "correct": 0,
+        "explain": "Time management helps you get the most out of your education. It does not let you avoid responsibilities, skip planning, or rely fully on an instructor."
+      },
+      {
+        "id": "SSPT13067",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Which early warning sign means work is turned in after its due time?",
+        "options": [
+          "Handing work in late",
+          "Forgetting commitments",
+          "Making excuses for undone work",
+          "Submitting below-standard work"
+        ],
+        "correct": 0,
+        "explain": "Handing work in late is a warning sign about timing. Forgetting commitments, making excuses, and submitting below-standard work are also warning signs, but the timing one is handing work in late."
+      },
+      {
+        "id": "SSPT13068",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Forgetting what you promised to do is an early warning sign of what?",
+        "options": [
+          "time management problems",
+          "practicing effective leadership skills",
+          "Quadrant II planning",
+          "procrastination relief"
+        ],
+        "correct": 0,
+        "explain": "Forgetting commitments is an early warning sign of time management problems. It is not a mark of effective leadership, Quadrant II planning, or relief from procrastination."
+      },
+      {
+        "id": "SSPT13069",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Often lacking enough time to finish a task signals what?",
+        "options": [
+          "a time management problem",
+          "a deeply balanced and calm life",
+          "strong future planning",
+          "low anxiety levels"
+        ],
+        "correct": 0,
+        "explain": "Often not having enough time to complete a task signals a time management problem, not a balanced life, strong planning, or low anxiety."
+      },
+      {
+        "id": "SSPT13070",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "Offering reasons for why work was not done is a warning sign of what?",
+        "options": [
+          "time management problems",
+          "good prioritizing habits",
+          "effective weekly schedules",
+          "clear personal values"
+        ],
+        "correct": 0,
+        "explain": "Making excuses for why work is not done is a warning sign of time management problems, not a sign of good prioritizing, effective schedules, or clear values."
+      },
+      {
+        "id": "SSPT13071",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "What should you complete to gauge how much you need this skill?",
+        "options": [
+          "the Time Management Matrix",
+          "a single daily to-do list",
+          "the college timetable",
+          "a long-term budget plan"
+        ],
+        "correct": 0,
+        "explain": "You should take time to complete the Time Management Matrix to see how much you need to work on this skill. A daily list, the timetable, or a budget plan does not measure it."
+      },
+      {
+        "id": "SSPT13072",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "In the end, procrastination does what relative to helping you?",
+        "options": [
+          "hurts you more than it helps",
+          "helps you more than it hurts",
+          "neither truly helps nor really hurts you at all",
+          "its help outweighs any harm"
+        ],
+        "correct": 0,
+        "explain": "In the end procrastination hurts you more than it helps you. It does not help more than hurt, is not neutral, and its help does not outweigh the harm."
+      },
+      {
+        "id": "SSPT13073",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "At any one time you may ideally have how many tasks to do?",
+        "options": [
+          "10",
+          "2",
+          "1",
+          "100"
+        ],
+        "correct": 0,
+        "explain": "You may have about 10 tasks you ideally should work on, and it is impossible to do them all. One, two, or a hundred are not the number described."
+      },
+      {
+        "id": "SSPT13074",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "The pay-off of good time management is said to be what?",
+        "options": [
+          "always worth the effort",
+          "rarely worth the effort",
+          "a reward reserved for managers",
+          "a reward reserved for students"
+        ],
+        "correct": 0,
+        "explain": "The pay-off of good time management is always worth the effort. It is not rarely worth it, nor a reward reserved for managers or for students alone."
+      },
+      {
+        "id": "SSPT13075",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "After sharing your matrix, the next step is to do what?",
+        "options": [
+          "discuss what each could do differently",
+          "carefully hide the matrix from all colleagues",
+          "delete every Quadrant I task",
+          "rewrite the matrix as an essay"
+        ],
+        "correct": 0,
+        "explain": "The third step is to discuss together what each person could do differently to do more important activities. Hiding the matrix, deleting Quadrant I tasks, or rewriting it as an essay are not part of it."
+      },
+      {
+        "id": "SSPT13076",
+        "type": "mcq",
+        "cat": "Time Management",
+        "q": "In the simple banner matrix, which item is listed under Quadrant I?",
+        "options": [
+          "Meetings",
+          "Preparation",
+          "Interruptions",
+          "Trivia"
+        ],
+        "correct": 0,
+        "explain": "The banner matrix lists meetings under Quadrant I with crises and deadlines. Preparation is Quadrant II, interruptions Quadrant III, and trivia Quadrant IV."
+      },
+      {
+        "id": "SSPT13077",
+        "type": "matching",
+        "cat": "Time Management",
+        "q": "Match each quadrant to the Urgent and Important combination that defines it.",
+        "leftItems": [
+          { "id": "1", "text": "Quadrant I" },
+          { "id": "2", "text": "Quadrant II" },
+          { "id": "3", "text": "Quadrant III" },
+          { "id": "4", "text": "Quadrant IV" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Urgent and Important" },
+          { "id": "B", "text": "Not urgent and Important" },
+          { "id": "C", "text": "Urgent and Not important" },
+          { "id": "D", "text": "Not urgent and Not important" }
+        ],
+        "correct_pairs": { "1": "A", "2": "B", "3": "C", "4": "D" },
+        "explain": "Quadrant I pairs with Urgent and Important; Quadrant II with Not urgent and Important; Quadrant III with Urgent and Not important; Quadrant IV with Not urgent and Not important."
+      }
+    ]
+  }
+}
