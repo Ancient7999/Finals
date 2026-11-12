@@ -76,10 +76,117 @@
         {
           "id": "studyskills-finals",
           "title": "Study Skills",
-          "subtitle": "Question banks not ready yet",
+          "subtitle": "Lectures 1-14",
           "locked": false,
           "draft": false,
-          "finalsEmpty": true,
+          "comingSoon": false,
+          "lectures": [
+            {
+              "id": "lec1",
+              "title": "Lecture 1 – Learning Styles",
+              "bank": "banks/studyskills/lecture-1-learning-styles.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec2",
+              "title": "Lecture 2 – Goals",
+              "bank": "banks/studyskills/lecture-2-goals-remake.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec3",
+              "title": "Lecture 3 – Time Management",
+              "bank": "banks/studyskills/lecture-3-time-management.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec4",
+              "title": "Lecture 4 – Writing and Presentation",
+              "bank": "banks/studyskills/lecture-4-writing-presentation-remake.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec5",
+              "title": "Lecture 5 – Teamwork and Small Group Learning",
+              "bank": "banks/studyskills/lecture-5-teamwork-and-small-group-learning.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec6",
+              "title": "Lecture 6 – Adult and Independent Learning",
+              "bank": "banks/studyskills/lecture-6-adult-independent-learning.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec7",
+              "title": "Lecture 7 – Tips for Good Study Habits",
+              "bank": "banks/studyskills/lecture-7-tips-for-studying.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec8",
+              "title": "Lecture 8 – Effective Note-Taking Strategies",
+              "bank": "banks/studyskills/lecture-8-note-taking-strategies.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec9",
+              "title": "Lecture 9 – Boosting Memory and Increasing Concentration",
+              "bank": "banks/studyskills/lecture-9-memory-concentration.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec10",
+              "title": "Lecture 10 – Strengthening Comprehension",
+              "bank": "banks/studyskills/lecture-10-comprehension.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec11",
+              "title": "Lecture 11 – Test Preparation and Taking Skills",
+              "bank": "banks/studyskills/lecture-11-test-prep.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec12",
+              "title": "Lecture 12 – Using Technology in Health Professions Education",
+              "bank": "banks/studyskills/lecture-12-tech-health.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec13",
+              "title": "Lecture 13 – Medical Student Assessment",
+              "bank": "banks/studyskills/lecture-13-medical-student-assessment.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "lec14",
+              "title": "Lecture 14 – Critical Thinking",
+              "bank": "banks/studyskills/lecture-14-critical-thinking.json",
+              "status": "ready",
+              "draft": false
+            },
+            {
+              "id": "mixed-studyskills-lec5-10",
+              "title": "Mixed Study Skills – Lectures 5 to 10",
+              "bank": "banks/studyskills/mixed-5-10.json",
+              "status": "ready",
+              "draft": false
+            }
+          ],
           "week": "Week 16-18"
         }
       ]

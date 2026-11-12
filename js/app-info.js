@@ -6,6 +6,13 @@
 var APP_INFO = {
   releases: [
     {
+      version: '0.2',
+      date: '12/11/2026',
+      changes: [
+        'Study Skills is live: Lectures 1 to 14 and the Mixed Lectures 5 to 10 set.'
+      ]
+    },
+    {
       version: '0.1',
       date: '11/11/2026',
       changes: [
