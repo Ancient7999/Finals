@@ -1,0 +1,803 @@
+{
+  "id": "lecture-1-learning-styles",
+  "subject": "Study Skills",
+  "subjectId": "study_skills",
+  "title": "Lecture 1 – Learning Styles",
+  "formSize": 46,
+  "forms": [
+    "A"
+  ],
+  "bank": {
+    "A": [
+      {
+        "id": "SSPT11000",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "People with which of the following learning styles learn better when information is presented in a picture format?",
+        "options": [
+          "Auditory",
+          "Kinesthetic",
+          "Non-Verbal – Visual",
+          "Verbal – Visual"
+        ],
+        "correct": 2,
+        "explain": "Non-verbal visual learners learn from picture format — videos, maps, charts, diagrams. Verbal-visual learners prefer written words."
+      },
+      {
+        "id": "SSPT11001",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which learning style primarily uses finger spelling?",
+        "options": [
+          "Auditory",
+          "Kinesthetic",
+          "Non-Verbal – Visual",
+          "Verbal – Visual"
+        ],
+        "correct": 1,
+        "explain": "Finger spelling (tracing words with your finger to learn spelling) is listed among the KINESTHETIC study tools."
+      },
+      {
+        "id": "SSPT11002",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which learning style learns best by attending discussions and tutorials?",
+        "options": [
+          "Visual",
+          "Auditory",
+          "Kinesthetic",
+          "Non-verbal visual"
+        ],
+        "correct": 1,
+        "explain": "Auditory learners learn best by listening — discussions and tutorials deliver information as speech."
+      },
+      {
+        "id": "SSPT11003",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "A student who prefers to see information presented in the form of pictures, diagrams, cartoons, or demonstrations is best described as having which type of learning style?",
+        "options": [
+          "Visual",
+          "Auditory",
+          "Kinesthetic",
+          "Verbal visual"
+        ],
+        "correct": 0,
+        "explain": "Preferring pictures, diagrams, cartoons, or demonstrations defines a visual learner."
+      },
+      {
+        "id": "SSPT11004",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which statement best defines learning styles?",
+        "options": [
+          "The subjects students choose to study",
+          "The grades students receive in examinations",
+          "The length of time required to complete a course",
+          "The processes and techniques people use to learn"
+        ],
+        "correct": 3,
+        "explain": "Learning styles are the processes and techniques people use to learn things (facts, skills, attitudes)."
+      },
+      {
+        "id": "SSPT11005",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which factors are included in a learner's learning style?",
+        "options": [
+          "Financial, social, and occupational factors",
+          "Physical, chemical, and environmental factors",
+          "Cognitive, affective, and physiological factors",
+          "Academic, athletic, and artistic factors only"
+        ],
+        "correct": 2,
+        "explain": "A learning style encompasses cognitive, affective, and physiological factors — how a learner perceives, interacts with, and responds to the learning environment."
+      },
+      {
+        "id": "SSPT11006",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Why is it important for learners to know their own learning style?",
+        "options": [
+          "It determines their final examination grade",
+          "It eliminates the need to attend classes",
+          "It guarantees that they will use only one learning method",
+          "It helps them seek learning situations that suit them"
+        ],
+        "correct": 3,
+        "explain": "Knowing your style lets you seek situations and experiences that meet that style."
+      },
+      {
+        "id": "SSPT11007",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Why is it useful for teachers to understand the learning styles of others?",
+        "options": [
+          "It allows them to replace all classroom activities",
+          "It allows them to avoid using teaching aids",
+          "It helps them teach and work in groups more effectively",
+          "It proves that all learners learn identically"
+        ],
+        "correct": 2,
+        "explain": "Knowing how others learn helps you teach them and work in groups more effectively."
+      },
+      {
+        "id": "SSPT11008",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which learning style generally prefers pictures, diagrams, maps, and demonstrations?",
+        "options": [
+          "Kinesthetic",
+          "Auditory",
+          "Olfactory",
+          "Visual"
+        ],
+        "correct": 3,
+        "explain": "Visual learners prefer to see information: pictures, diagrams, cartoons, maps, and demonstrations."
+      },
+      {
+        "id": "SSPT11009",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which behavior is characteristic of a visual learner?",
+        "options": [
+          "Avoiding all pictures, diagrams, cartoons, and demonstrations",
+          "Absorbing a long spoken lecture with very little effort",
+          "Preferring intense visuals combined with a long lecture",
+          "Being easily distracted when a lecture lacks visual aids"
+        ],
+        "correct": 3,
+        "explain": "Visual learners are easily distracted without visual aids. They want pictures and diagrams, not avoid them; absorbing a talk effortlessly is auditory; intense visuals plus a lecture overwhelm them rather than please them."
+      },
+      {
+        "id": "SSPT11010",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "What is the main difference between verbal and non-verbal visual learners?",
+        "options": [
+          "Verbal visual learners prefer physical motion, whereas non-verbal visual learners prefer spoken sound",
+          "Verbal visual learners avoid printed pages, whereas non-verbal visual learners avoid drawn images",
+          "Verbal visual learners prefer tactile objects, whereas non-verbal visual learners prefer audible tones",
+          "Verbal visual learners prefer written words, whereas non-verbal visual learners prefer clear pictures"
+        ],
+        "correct": 3,
+        "explain": "Both use the visual channel. Verbal visual = written words; non-verbal visual = pictures."
+      },
+      {
+        "id": "SSPT11011",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which study strategy is especially appropriate for a visual learner?",
+        "options": [
+          "Listen to lectures without looking at any materials",
+          "Use charts, maps, notes, and flashcards",
+          "Study only by walking around",
+          "Avoid writing down key ideas"
+        ],
+        "correct": 1,
+        "explain": "Charts, maps, notes, and flashcards are core visual study tools; also sit near the front and use highlighters."
+      },
+      {
+        "id": "SSPT11012",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which characteristic is most typical of an auditory learner?",
+        "options": [
+          "Preferring diagrams over all spoken explanations",
+          "Preferring to hear information spoken",
+          "Remembering information only as written words",
+          "Learning primarily through touching objects"
+        ],
+        "correct": 1,
+        "explain": "Auditory learners prefer to hear information spoken and can often absorb a lecture with little effort."
+      },
+      {
+        "id": "SSPT11013",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which study strategy is recommended for an auditory learner?",
+        "options": [
+          "Study only by drawing maps",
+          "Read study material aloud",
+          "Avoid discussions and tutorials",
+          "Use pictures without verbal explanation"
+        ],
+        "correct": 1,
+        "explain": "Read assignments, directions, and new material out loud; record and replay; have test questions read aloud."
+      },
+      {
+        "id": "SSPT11014",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which activity is particularly suitable for supporting an auditory learner?",
+        "options": [
+          "Studying without any discussion",
+          "Joining a study group",
+          "Replacing all spoken material with diagrams",
+          "Avoiding tutorials"
+        ],
+        "correct": 1,
+        "explain": "Join a study group, work with a study buddy, and attend discussions and tutorials — spoken, social channels."
+      },
+      {
+        "id": "SSPT11015",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which learning style prefers touch and motion as primary ways of taking in information?",
+        "options": [
+          "Visual",
+          "Verbal visual",
+          "Auditory",
+          "Kinesthetic"
+        ],
+        "correct": 3,
+        "explain": "Kinesthetic learners prefer touch and motion as the primary mode for taking in information."
+      },
+      {
+        "id": "SSPT11016",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which activity best supports a kinesthetic learner?",
+        "options": [
+          "Memorizing diagrams without interaction",
+          "Avoiding movement while studying",
+          "Completing hands-on activities",
+          "Listening to a lecture without taking action"
+        ],
+        "correct": 2,
+        "explain": "Hands-on work — touching, building, moving, acting out — supports kinesthetic learning."
+      },
+      {
+        "id": "SSPT11017",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "What should a kinesthetic learner do during a traditional lecture?",
+        "options": [
+          "Avoid recording any information",
+          "Write out important facts",
+          "Use only unrelated background music",
+          "Listen without participating in any way"
+        ],
+        "correct": 1,
+        "explain": "During a traditional lecture, the kinesthetic learner should write out important facts."
+      },
+      {
+        "id": "SSPT11018",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which strategy is recommended for kinesthetic learners when studying for extended periods?",
+        "options": [
+          "Take frequent, short breaks",
+          "Remain completely still throughout study",
+          "Study continuously without moving",
+          "Avoid using flashcards"
+        ],
+        "correct": 0,
+        "explain": "Take frequent but not long breaks; arrange flashcards in groups."
+      },
+      {
+        "id": "SSPT11019",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which statement best reflects the conclusion about learning styles?",
+        "options": [
+          "Be flexible in learning and adapt to different styles as you can",
+          "Each learner is purely one style and must never adapt to others",
+          "Styles cannot overlap, so only one method should ever be used",
+          "Use only your preferred style and ignore every other approach entirely"
+        ],
+        "correct": 0,
+        "explain": "Be flexible and adapt to different styles as much as you can."
+      },
+      {
+        "id": "SSPT11020",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which statement about learners and learning styles is accurate?",
+        "options": [
+          "Every learner has only one permanent style that lasts for life",
+          "Learners cannot benefit at all from using different approaches",
+          "Most learners are mixed rather than purely one single style",
+          "Learning style is unrelated to any of a learner's preferences"
+        ],
+        "correct": 2,
+        "explain": "No one is purely one style — learners are mixed."
+      },
+      {
+        "id": "SSPT11021",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "A student remembers information as clear pictures and benefits from videos, maps, and diagrams. Which type of learner is most likely?",
+        "options": [
+          "Verbal visual learner",
+          "Non-verbal visual learner",
+          "Kinesthetic learner",
+          "Auditory learner"
+        ],
+        "correct": 1,
+        "explain": "Picture format + remembering clear pictures = non-verbal visual learner."
+      },
+      {
+        "id": "SSPT11022",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "A student prefers textbooks and written outlines and remembers written information mentally. Which type of learner is most likely?",
+        "options": [
+          "Verbal visual learner",
+          "Auditory learner",
+          "Non-verbal visual learner",
+          "Kinesthetic learner"
+        ],
+        "correct": 0,
+        "explain": "Written format + remembering written words in the mind's eye = verbal visual learner."
+      },
+      {
+        "id": "SSPT11023",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which tool is recommended for discovering one's learning style?",
+        "options": [
+          "Physical fitness assessment",
+          "Handwriting speed test",
+          "Personality-free examination",
+          "Learning Styles Inventory"
+        ],
+        "correct": 3,
+        "explain": "Discover your style by completing the Learning Styles Inventory."
+      },
+      {
+        "id": "SSPT11024",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which group includes most people?",
+        "options": [
+          "Most people are auditory learners",
+          "Most people are visual learners",
+          "Most people are purely kinesthetic learners",
+          "Most people have no identifiable style"
+        ],
+        "correct": 1,
+        "explain": "Most people are visual learners."
+      },
+      {
+        "id": "SSPT11025",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "A visual learner who hears a new concept typically does which of the following?",
+        "options": [
+          "They store the words they hear only as spoken sounds",
+          "They turn the words they hear into mental pictures",
+          "They stand up and move before encoding any new idea",
+          "They ignore the words they hear and watch the board"
+        ],
+        "correct": 1,
+        "explain": "Visual learners picture the words and concepts they hear as images."
+      },
+      {
+        "id": "SSPT11026",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which classroom placement tip is given specifically to visual learners?",
+        "options": [
+          "Sit at the back so the whole board is visible at once",
+          "Sit near the front of the classroom",
+          "Sit wherever the loudspeakers are strongest",
+          "Stand for the entire lecture"
+        ],
+        "correct": 1,
+        "explain": "Visual tips begin with: sit near the front of the classroom."
+      },
+      {
+        "id": "SSPT11027",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which of the following is a listed study tip for visual learners?",
+        "options": [
+          "Color things and use highlighter pens",
+          "Avoid all written notes",
+          "Study only with loud background speech",
+          "Never draw a concept"
+        ],
+        "correct": 0,
+        "explain": "Coloring, highlighters, drawing concepts, and writing key words are visual tips."
+      },
+      {
+        "id": "SSPT11028",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which auditory characteristic is easy to confuse with inattention?",
+        "options": [
+          "Preferring maps over speech",
+          "Often avoiding eye contact in order to concentrate",
+          "Needing intense visual slides in every minute of class",
+          "Refusing to join any spoken activity"
+        ],
+        "correct": 1,
+        "explain": "Auditory learners often avoid eye contact to concentrate — easily mistaken for rudeness or inattention."
+      },
+      {
+        "id": "SSPT11029",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which statement about notes is most true of many auditory learners?",
+        "options": [
+          "They must copy every slide word for word or they learn nothing",
+          "They may not need careful notes to learn from a spoken lecture",
+          "They cannot learn unless the page is full of diagrams",
+          "They should never listen to a recording of the class"
+        ],
+        "correct": 1,
+        "explain": "Auditory learners can absorb a lecture with little effort and may not need careful notes."
+      },
+      {
+        "id": "SSPT11030",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which extra check is recommended for auditory learners?",
+        "options": [
+          "Have your hearing checked on a regular basis",
+          "Have your colour vision checked every single week",
+          "Avoid sitting anywhere that lets you hear the speaker",
+          "Refuse all background music while you are studying"
+        ],
+        "correct": 0,
+        "explain": "Sit where you can hear, and have your hearing checked regularly."
+      },
+      {
+        "id": "SSPT11031",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which set of motions is associated with kinesthetic learning?",
+        "options": [
+          "Hearing, jittering, walking, coloring, chewing, typing, and writing",
+          "Yo-yoing, jittering, walking, coloring, chewing, typing, and writing",
+          "Yo-yoing, jittering, walking, highlighting, chewing, typing, and writing",
+          "Yo-yoing, jittering, walking, coloring, chewing, typing, and outlining"
+        ],
+        "correct": 1,
+        "explain": "Kinesthetic learners learn better while jittering, walking, yo-yoing, chewing, coloring, typing, or writing."
+      },
+      {
+        "id": "SSPT11032",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Is chewing gum or rocking in a chair treated as acceptable for a kinesthetic learner?",
+        "options": [
+          "No — both are forbidden because they look informal",
+          "Yes — it is acceptable while reading or studying",
+          "Only chewing is allowed; rocking is not",
+          "Only if the instructor has left the room"
+        ],
+        "correct": 1,
+        "explain": "Chewing gum, walking around, or rocking in a chair is acceptable while reading or studying."
+      },
+      {
+        "id": "SSPT11033",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "How should a kinesthetic learner use flashcards?",
+        "options": [
+          "They avoid flashcards and rely on spoken repetition",
+          "They read each flashcard once and then discard it",
+          "They group flashcards to show idea relationships",
+          "They view flashcards from afar and never handle them"
+        ],
+        "correct": 2,
+        "explain": "Arrange flashcards in groups to show relationships between ideas — motion plus spatial structure."
+      },
+      {
+        "id": "SSPT11034",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "What is 'finger spelling' in the kinesthetic study tips?",
+        "options": [
+          "Signing an entire language instead of studying the written word",
+          "Tracing each word with your finger in order to learn spelling",
+          "Typing the word quickly without ever looking at the keys",
+          "Asking a study partner to write the word out for you"
+        ],
+        "correct": 1,
+        "explain": "Trace words with your finger to learn spelling — a kinesthetic tool."
+      },
+      {
+        "id": "SSPT11035",
+        "type": "mcq",
+        "cat": "Learning Styles",
+        "q": "Which tool is recommended for discovering your own learning style?",
+        "options": [
+          "The Cognitive, Affective, Physiological Factors (CAPF) inventory",
+          "The Visual, Aural, Read/Write, Kinesthetic (VARK) questionnaire",
+          "The Processes, Techniques, Facts, Attitudes (PTFA) inventory",
+          "The Perceive, Interact, Respond, Learn (PIRL) questionnaire"
+        ],
+        "correct": 1,
+        "explain": "The source names only the VARK questionnaire as the discovery tool (vark-learn.com). The cognitive, affective, physiological factors describe a style, not an inventory; processes, techniques, facts, attitudes define learning; perceive, interact, respond, learn describe engagement — none is the named tool."
+      },
+      {
+        "id": "SSPT11036",
+        "type": "matching",
+        "cat": "Learning Styles",
+        "q": "Match each learning style to how its learner learns best.",
+        "leftItems": [
+          { "id": "1", "text": "Visual" },
+          { "id": "2", "text": "Auditory" },
+          { "id": "3", "text": "Kinesthetic" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Learns best by seeing" },
+          { "id": "B", "text": "Learns best by hearing" },
+          { "id": "C", "text": "Learns best by feeling or experiencing" }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C"
+        },
+        "explain": "Visual learns by seeing, auditory by hearing, kinesthetic by feeling or experiencing — the three-style overview."
+      },
+      {
+        "id": "SSPT11037",
+        "type": "matching",
+        "cat": "Learning Styles",
+        "q": "Match each overlap of two or three learning styles to the preference label it carries.",
+        "leftItems": [
+          { "id": "1", "text": "Visual and Auditory overlap" },
+          { "id": "2", "text": "Visual and Kinesthetic overlap" },
+          { "id": "3", "text": "Auditory and Kinesthetic overlap" },
+          { "id": "4", "text": "All three styles overlap" }
+        ],
+        "rightItems": [
+          { "id": "A", "text": "Loves YouTube" },
+          { "id": "B", "text": "Loves Instructors" },
+          { "id": "C", "text": "Loves Books (Needs Experienced Instructors)" },
+          { "id": "D", "text": "Legends" }
+        ],
+        "correct_pairs": {
+          "1": "A",
+          "2": "B",
+          "3": "C",
+          "4": "D"
+        },
+        "explain": "Where visual and auditory overlap, learners love YouTube; visual and kinesthetic love instructors; auditory and kinesthetic love books and need experienced instructors; the centre of all three are legends."
+      },
+      {
+        "id": "SSPT11038",
+        "type": "stepped",
+        "cat": "Learning Styles",
+        "q": "Visual learners split into two sub-types.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Which visual sub-type learns better when information is presented in a written format?",
+            "options": [
+              "Verbal visual",
+              "Non-verbal visual",
+              "Auditory",
+              "Kinesthetic"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Verbal visual learners benefit most from which set of visual aids?",
+            "options": [
+              "Projectors, outlines, textbooks, and class notes",
+              "Videos, maps, charts, diagrams, and illustrations",
+              "Discussions, tutorials, lectures, and recordings",
+              "Building, drawing, walking, and acting out stories"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Verbal visual learners prefer to work in quiet rooms how?",
+            "options": [
+              "Alone or with others",
+              "Alone only",
+              "With loud background music",
+              "While walking and chewing"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Verbal visual learners take written input (step 1), profit from projectors, outlines, textbooks, and class notes (step 2), and work in quiet rooms alone or with others (step 3) — unlike non-verbal visual learners, who prefer pictures and work alone."
+      },
+      {
+        "id": "SSPT11039",
+        "type": "stepped",
+        "cat": "Learning Styles",
+        "q": "The other visual sub-type works differently.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Which visual sub-type learns better when information is presented in a picture format?",
+            "options": [
+              "Non-verbal visual",
+              "Verbal visual",
+              "Auditory",
+              "Kinesthetic"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "Non-verbal visual learners benefit most from which set of visual aids?",
+            "options": [
+              "Videos, maps, charts, and diagrams",
+              "Projectors, outlines, textbooks, and class notes",
+              "Recording and replaying speech",
+              "Role-playing and manipulatives"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Non-verbal visual learners prefer to work in quiet rooms how?",
+            "options": [
+              "Alone only",
+              "Alone or with others",
+              "With a study buddy",
+              "While attending tutorials"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "When remembering, what do non-verbal visual learners see?",
+            "options": [
+              "The pictures clearly",
+              "The written words by mind eyes",
+              "Spoken phrases replayed",
+              "Touched objects recalled"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Non-verbal visual learners take picture input (step 1), profit from videos, maps, charts, and diagrams (step 2), prefer quiet rooms alone (step 3), and recall by seeing the pictures clearly (step 4)."
+      },
+      {
+        "id": "SSPT11040",
+        "type": "multi",
+        "cat": "Learning Styles",
+        "q": "Which of the following are characteristics of visual learners?",
+        "options": [
+          "Prefer to see pictures, diagrams, cartoons, or demonstrations",
+          "Picture the words and concepts they hear as images",
+          "Are easily distracted when a talk offers no pictures or charts",
+          "Feel overwhelmed when dense imagery accompanies a spoken talk",
+          "Can absorb a spoken lecture with very little effort",
+          "Like to have background music while they study",
+          "Prefer touch and motion as their primary input mode",
+          "Often avoid eye contact in order to concentrate"
+        ],
+        "correct": [0, 1, 2, 3],
+        "explain": "Visual learners prefer pictures and diagrams, turn heard words into images, lose focus without visual support, and feel swamped by dense imagery plus speech; absorbing talks effortlessly, liking background music, avoiding eye contact, and preferring touch belong to auditory or kinesthetic learners."
+      },
+      {
+        "id": "SSPT11041",
+        "type": "multi",
+        "cat": "Learning Styles",
+        "q": "Which of the following are characteristics of auditory learners?",
+        "options": [
+          "Prefer to hear information spoken rather than read it",
+          "Can absorb a lecture with very little effort",
+          "May read the material aloud to themselves",
+          "Like to have background music while they study",
+          "Prefer to see pictures, diagrams, or demonstrations",
+          "Are overwhelmed by intense imagery with a talk",
+          "Prefer touch and motion as primary input",
+          "Should write out important facts during a lecture"
+        ],
+        "correct": [0, 1, 2, 3],
+        "explain": "Auditory learners favour spoken input, absorb lectures easily, may read aloud, and enjoy background music; preferring pictures, being swamped by imagery, and relying on touch or note-writing are visual or kinesthetic traits."
+      },
+      {
+        "id": "SSPT11042",
+        "type": "multi",
+        "cat": "Learning Styles",
+        "q": "Which of the following are characteristics of kinesthetic learners?",
+        "options": [
+          "Prefer touch and motion as their primary input mode",
+          "Should write out important facts in a traditional lecture",
+          "Create study sheets linked to vivid examples",
+          "Find that role-playing helps them remember important ideas",
+          "May benefit by using manipulatives while learning",
+          "Prefer to hear information spoken rather than read it",
+          "Are easily distracted when a talk has no pictures",
+          "Like background music while they study"
+        ],
+        "correct": [0, 1, 2, 3, 4],
+        "explain": "Kinesthetic learners rely on touch and motion, write facts during lectures, link study sheets to vivid examples, use role-play, and gain from manipulatives; preferring spoken input, needing pictures, or liking background music are auditory or visual traits."
+      },
+      {
+        "id": "SSPT11043",
+        "type": "stepped",
+        "cat": "Learning Styles",
+        "q": "Auditory learners have several study tips.",
+        "steps": [
+          {
+            "id": "1",
+            "prompt": "Where should an auditory learner sit in class?",
+            "options": [
+              "Where they can hear clearly",
+              "At the very back of the room",
+              "Near the window away from sound",
+              "Anywhere, as long as it is quiet"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "2",
+            "prompt": "After sitting where they can hear, what should an auditory learner do to learn spelling words?",
+            "options": [
+              "Record yourself spelling the words, then listen back",
+              "Trace each spelling word carefully with your finger",
+              "Draw a detailed picture of the word and then label it",
+              "Colour the entire word and use a fluorescent highlighter"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "3",
+            "prompt": "Besides recording spelling words to replay, how should an auditory learner deal with test questions?",
+            "options": [
+              "Have the test questions read out loud to them",
+              "Rewrite every test question in their own words",
+              "Convert each test question into a coloured diagram",
+              "Act out each test question as a short role-play"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "4",
+            "prompt": "Besides having test questions read aloud, whom should an auditory learner work with ongoing?",
+            "options": [
+              "A study buddy to review key information",
+              "A silent partner who never speaks",
+              "The instructor standing at the front",
+              "A computer reinforcing learning by touch"
+            ],
+            "correct": 0
+          }
+        ],
+        "explain": "Auditory learners sit where they can hear (step 1), record spelling words and replay them (step 2), have test questions read aloud (step 3), and work ongoing with a study buddy to review key information (step 4)."
+      },
+      {
+        "id": "SSPT11044",
+        "type": "multi",
+        "cat": "Learning Styles",
+        "q": "Which of the following are study tips for visual learners?",
+        "options": [
+          "Write down key words, ideas, or instructions",
+          "Draw pictures to explain a concept, then explain them",
+          "Colour things and use highlighter pens",
+          "Avoid distractors during study times",
+          "Record yourself spelling words and listen to it",
+          "Rock in a chair or chew gum while studying",
+          "Attend discussions and tutorials regularly",
+          "Use a computer to learn through the sense of touch"
+        ],
+        "correct": [0, 1, 2, 3],
+        "explain": "Visual tips include writing key words, drawing and explaining pictures, colouring with highlighters, and avoiding distractors; recording speech, rocking or chewing, attending tutorials, and touch-based computer use belong to auditory or kinesthetic learners."
+      },
+      {
+        "id": "SSPT11045",
+        "type": "multi",
+        "cat": "Learning Styles",
+        "q": "Which of the following are study tips for kinesthetic learners?",
+        "options": [
+          "Take part in activities involving touching, building, moving, or drawing",
+          "Do hands-on work like art projects, walks, or acting out stories",
+          "Tap a pencil, shake a foot, or hold something while learning",
+          "Use a computer to reinforce learning through the sense of touch",
+          "Sit near the front of the classroom and watch the board",
+          "Read the assignments and the directions out loud to yourself",
+          "Colour your notes and use highlighter pens while studying",
+          "Have your hearing checked on a regular basis each term"
+        ],
+        "correct": [0, 1, 2, 3],
+        "explain": "Kinesthetic tips centre on touching, building, moving, drawing, hands-on projects, fidgeting such as tapping or shaking, and touch-based computer use; sitting at the front, reading aloud, colouring notes, and hearing checks are visual or auditory tips."
+      }
+    ]
+  }
+}
