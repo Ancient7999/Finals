@@ -1,5 +1,5 @@
-/* Finals offline layer: serves the bundled JSON and Markdown to fetch(), so the site opens from a
-   double-clicked file as well as from a web server. Also the Finals timer-box settings. */
+/* Finals page layer: service-worker / cache cleanup (banks are always fetched fresh) and the Finals
+   timer-box settings. */
 (function (global) {
   'use strict';
   /* Background grid level (Settings → Theme): off | low | mod, saved as finals_grid_level.
@@ -153,30 +153,15 @@
   global.addEventListener('hashchange', function () { setTimeout(alignSettings, 60); });
   /* Finals has no Mastery system: drop any saved mastery or hidden-question data */
   try { ['study_portal_mastery_v1', 'study_portal_dnsa_v1'].forEach(function (k) { global.localStorage.removeItem(k); }); } catch (e) {}
-  var B = global.__FINALS_BUNDLE || {};
-  var realFetch = global.fetch ? global.fetch.bind(global) : null;
-  function keyOf(u) {
-    var s = String(u && u.url ? u.url : u);
-    try { s = decodeURIComponent(s); } catch (e) {}
-    s = s.split('#')[0].split('?')[0];
-    var i = s.indexOf('/banks/'), j = s.indexOf('/data/'), k = s.indexOf('/content/');
-    var cut = [i, j, k].filter(function (x) { return x >= 0; });
-    if (cut.length) s = s.slice(Math.min.apply(null, cut) + 1);
-    return s.replace(/^\.\//, '').replace(/^\//, '');
-  }
-  global.fetch = function (u, o) {
-    var k = keyOf(u);
-    if (Object.prototype.hasOwnProperty.call(B, k)) {
-      var v = B[k], body = typeof v === 'string' ? v : JSON.stringify(v);
-      // answer after the page has loaded, like a real request would, so every script is ready
-      return new Promise(function (res) {
-        var go = function () { res(new Response(body, { status: 200, headers: { 'Content-Type': typeof v === 'string' ? 'text/plain' : 'application/json' } })); };
-        if (document.readyState === 'complete') setTimeout(go, 0); else global.addEventListener('load', function () { setTimeout(go, 0); }, { once: true });
-      });
+  /* No offline bundle: every bank is fetched on demand with cache: 'no-store', so an edited JSON shows on a
+     normal refresh. Finals never registers a service worker; remove any old one and its caches so nothing
+     can serve a stale bank. */
+  try {
+    if (global.navigator && navigator.serviceWorker && navigator.serviceWorker.getRegistrations) {
+      navigator.serviceWorker.getRegistrations().then(function (rs) { rs.forEach(function (r) { r.unregister(); }); }, function () {});
     }
-    if (!realFetch) return Promise.reject(new Error('offline: ' + k));
-    return realFetch(u, o);
-  };
+    if (global.caches && caches.keys) caches.keys().then(function (ks) { ks.forEach(function (k) { caches.delete(k); }); }, function () {});
+  } catch (e) {}
 
   /* —— timer box settings (saved on this device) —— */
   var PREFS = [

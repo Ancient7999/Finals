@@ -10,6 +10,7 @@ This is a skeleton: most subjects do not have question banks yet. Study Skills i
 
 - `index.html` — main menu (Quiz / Info)
 - `quiz.html` — question banks
-- `data/bundle.js` — question banks bundled, so the site also works from a local folder
+- `data/catalog.json` — the list of materials and the bank file of each set
+- `banks/…/*.json` — one file per question bank, fetched only when its material is opened (always fresh, `cache: 'no-store'`), so an edited bank shows on a normal refresh
 
 Progress is saved only in your browser, under keys that do not overlap with the Periodic Test 2 site.

@@ -10,7 +10,6 @@
 <link rel="icon" type="image/x-icon" href="icons/neutral.ico">
 <link rel="apple-touch-icon" href="icons/neutral.ico">
 
-<script src="data/bundle.js?v=37"></script>
 <script src="js/app-info.js"></script>
 <script src="js/finals-offline.js?v=11"></script>
 <script src="js/finals-look.js?v=4"></script>
@@ -3363,7 +3362,7 @@ if(!document.getElementById('globalTimerMode').dataset.q) refreshTimerQuote(true
   const backBtn = document.getElementById('portalBackBtn');
   if(backBtn) backBtn.addEventListener('click', ()=>{ if(typeof unlockAudio==='function') unlockAudio(); goPortal(); });
 
-  fetch('data/catalog.json', { cache: 'no-cache' })
+  fetch('data/catalog.json', { cache: 'no-store' })
     .then(r=>{ if(!r.ok) throw new Error('catalog ' + r.status); return r.json(); })
     .then(data=>{
       catalog = data;

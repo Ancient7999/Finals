@@ -1064,6 +1064,7 @@ function ingestBank(data, path){
   BANK=data;
   BANK_PATH=path||BANK_PATH;
   BANK_KEY=bankKeyOfPath(BANK_PATH||data.id||data.title||'anon');
+  try{ if(window.FinalsUnlocks && FinalsUnlocks.registerBank) FinalsUnlocks.registerBank(BANK_KEY, data); }catch(err){}
   ALLQ=buildAllQuestions(data);
   CARDS=buildCards(ALLQ);
   // Bank replaced by a newer one: move saved progress from old ids to new ids.
@@ -1107,6 +1108,7 @@ function ingestLectureSet(material, entries, datas){
     normalizeBankMatching(data);
     const bk=bankKeyOfPath(e.bank);
     BANK=data; BANK_KEY=bk; BANK_PATH=e.bank;
+    try{ if(window.FinalsUnlocks && FinalsUnlocks.registerBank) FinalsUnlocks.registerBank(bk, data); }catch(err){}
     const qs=buildAllQuestions(data);
     missing+=ID_REPORT.missing; ID_REPORT.duplicates.forEach(d=>dups.push(d+' (inside '+bk+')'));
     qs.forEach(q=>{ if(seen[q.__id]) dups.push(q.__id+' ('+seen[q.__id]+' and '+bk+')'); else seen[q.__id]=bk; q.__bankKey=bk; });
@@ -1144,7 +1146,7 @@ async function loadLectureSet(material){
   }
   const entries=material.lectures||[];
   const datas=await Promise.all(entries.map(e=>(e.bank && (e.status||'ready')==='ready')
-    ? fetch(e.bank,{cache:'no-cache'}).then(r=>{ if(!r.ok) throw new Error(e.bank+' HTTP '+r.status); return r.json(); })
+    ? fetch(e.bank,{cache:'no-store'}).then(r=>{ if(!r.ok) throw new Error(e.bank+' HTTP '+r.status); return r.json(); })
     : Promise.resolve(null)));
   ingestLectureSet(material, entries, datas);
   return datas;
@@ -1153,7 +1155,7 @@ async function loadBank(path){
   if(window.StudyMigrate && typeof StudyMigrate.runAll==='function'){
     try{ await StudyMigrate.runAll(); }catch(e){ console.warn('[quiz] migration skipped', e); }
   }
-  const res=await fetch(path,{cache:'no-cache'});
+  const res=await fetch(path,{cache:'no-store'});
   if(!res.ok) throw new Error('bank HTTP '+res.status);
   const data=await res.json();
   ingestBank(data, path);
@@ -1164,12 +1166,12 @@ async function loadBankWithExtras(mainPath, extraPaths){
   if(window.StudyMigrate && typeof StudyMigrate.runAll==='function'){
     try{ await StudyMigrate.runAll(); }catch(e){ console.warn('[quiz] migration skipped', e); }
   }
-  const res=await fetch(mainPath,{cache:'no-cache'});
+  const res=await fetch(mainPath,{cache:'no-store'});
   if(!res.ok) throw new Error('bank HTTP '+res.status);
   const data=await res.json();
 
   const extras=await Promise.all((extraPaths||[]).map(async p=>{
-    const r=await fetch(p,{cache:'no-cache'});
+    const r=await fetch(p,{cache:'no-store'});
     if(!r.ok) throw new Error('extra bank HTTP '+r.status+' '+p);
     return r.json();
   }));
@@ -3788,9 +3790,7 @@ function lessonExcerpt(md, heading){
 }
 const LESSON_SRC={};
 function lessonSource(src){
-  const sb=(typeof window!=='undefined' && window.studyBundle) || null;
-  if(sb && typeof sb[src]==='string') return sb[src];
-  if(!LESSON_SRC[src]) LESSON_SRC[src]=fetch(src).then(r=>r.ok?r.text():'').catch(()=>'');
+  if(!LESSON_SRC[src]) LESSON_SRC[src]=fetch(src,{cache:'no-store'}).then(r=>r.ok?r.text():'').catch(()=>'');
   return LESSON_SRC[src];
 }
 const HAS_DIAGRAM=/class="optics-diagram"|<svg[\s>]|<img[\s>]/;
@@ -3824,8 +3824,7 @@ function lawPanelHTML(p){
     +'<div class="law-diagram"></div>'
     +list('Symbols', p.symbols)+list('Uses', p.uses);
 }
-/* the diagram is the one in the study notes, found by its exact aria-label; the bundled copy of the
-   notes (data/bundle.js) is read first, so it does not need the network */
+/* the diagram is the one in the study notes, found by its exact aria-label (fetched fresh, no-store) */
 function lawDiagramFrom(md, label){
   const i=md.indexOf('<div class="optics-diagram" role="img" aria-label="'+label+'"'); if(i<0) return '';
   const j=md.indexOf('</div>', i); return j<0?'':md.slice(i, j+6);
@@ -3833,10 +3832,7 @@ function lawDiagramFrom(md, label){
 function lawDiagram(src, label){
   const k=src+'|'+label;
   if(!LAW_DIAGRAMS[k]){
-    const sb=(typeof window!=='undefined' && window.studyBundle) || null;
-    const local=sb && typeof sb[src]==='string' ? lawDiagramFrom(sb[src], label) : '';
-    LAW_DIAGRAMS[k]=local ? Promise.resolve(local)
-      : fetch(src).then(r=>r.ok?r.text():'').then(md=>lawDiagramFrom(md, label)).catch(()=>'');
+    LAW_DIAGRAMS[k]=fetch(src,{cache:'no-store'}).then(r=>r.ok?r.text():'').then(md=>lawDiagramFrom(md, label)).catch(()=>'');
   }
   return LAW_DIAGRAMS[k];
 }

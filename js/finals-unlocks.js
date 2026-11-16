@@ -6,8 +6,7 @@
   'use strict';
   var GOT = 'finals_emoji_unlocked_v1', PREFIX = 'sp_bank_v1:';
   var Q = global.__FINALS_QIDS || { banks: {}, weeks: {} };
-  /* The bank and week lists are read from data/catalog.json and the bank files when the page loads (through the offline
-     bundle when it is there), so they always match the banks in use. A list the bundle provides is only a head start. */
+  /* The week lists are read fresh (no-store) from data/catalog.json only; bank question ids come from registerBank. */
   var PICS = [], PICLAB = {}, PIC_STORE = 'sp_study_images_v1';
   var WEEKS = [
     { week: 'week16_18', pictures: false, history: true, done: 'Every Week 16-18 question solved', unlocks: [
@@ -133,13 +132,23 @@
     });
     return out;
   }
+  /* Question ids per bank are learned when the quiz opens a bank (registerBank) and kept on this device, so
+     the unlock tally never downloads every bank; a bank's list is refreshed each time it is opened. */
+  var QIDS = 'finals_qids_v1';
+  function registerBank(bk, data) {
+    if (!bk || !data || !data.bank) return;
+    var ids = qidsOf(data), all = readJSON(QIDS, {}); all[bk] = ids; lsSet(QIDS, JSON.stringify(all));
+    var banks = {}; Object.keys(Q.banks || {}).forEach(function (k) { banks[k] = Q.banks[k]; }); banks[bk] = ids;
+    setQ({ banks: banks, weeks: Q.weeks || {} });
+    if (READY) check(false);
+  }
   function bkOf(path) { var m = String(path || '').match(/banks\/(.+)\.json$/); return m ? m[1] : null; }
-  function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
+  function getJSON(u) { return fetch(u, { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
   /* Week 11 = the materials tagged Week 11 (English, Medical Terminology, Anatomy); Week 12 = those tagged Week 12.
      Anatomy always counts, whatever week it is filed under. Picture studies: every material with study.images. */
   function loadLists() {
     return getJSON('data/catalog.json').then(function (cat) {
-      var weeks = { week16_18: [] }, jobs = [], banks = {}, pics = [];
+      var weeks = { week16_18: [] }, jobs = [], banks = readJSON(QIDS, {}), pics = [];
       (cat.subjects || []).forEach(function (sub) { (sub.materials || []).forEach(function (m) {
         var tag = String(m.week || ''), wk = /16\s*[-–—]\s*18|\b16\b|\b17\b|\b18\b/.test(tag) ? 'week16_18' : null;
         if (m.study && m.study.images) pics.push({ set: m.studyKey || ('medterm/' + m.id), src: m.study.images });
@@ -147,7 +156,6 @@
         var paths = (m.lectures || []).map(function (l) { return l.bank; }).concat(m.bank ? [m.bank] : []);
         paths.forEach(function (p) { var bk = bkOf(p); if (!bk || weeks.week16_18.indexOf(bk) !== -1) return;
           weeks[wk].push(bk);
-          jobs.push(getJSON(p).then(function (d) { banks[bk] = qidsOf(d); }, function () {}));
         });
       }); });
       pics.forEach(function (pc) {
@@ -164,7 +172,7 @@
       });
       PICS = pics;
       return Promise.all(jobs).then(function () {
-        ['week16_18'].forEach(function (wk) { weeks[wk] = weeks[wk].filter(function (bk) { return banks[bk]; }); });
+        Object.keys(Q.banks || {}).forEach(function (bk) { banks[bk] = Q.banks[bk]; }); // banks opened meanwhile
         setQ({ banks: banks, weeks: weeks });
         READY = true;
         baseline();
@@ -487,7 +495,11 @@
     });
   }
   function init() {
-    addMoods(); wrapStore(); check(false);
+    addMoods(); wrapStore(); check(false); ensureLists();
+  }
+  var listsStarted = false;
+  function ensureLists() {
+    if (listsStarted) return; listsStarted = true;
     try { loadLists().then(function () { check(false); }, function () {}); } catch (e) {}
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
@@ -506,5 +518,5 @@
   function labelSolved(set, pic, id, how, fresh) {
     check(false);
   }
-  global.FinalsUnlocks = { has: function (k) { return !!unlocked()[k]; }, tally: tally, check: check, pictureSolved: pictureSolved, labelSolved: labelSolved, labelFresh: labelFresh, questionSolved: questionSolved, formulaSolved: formulaSolved, medphysBump: medphysBump, medphysCount: medphysCount, focusQuotes: focusQuotes, restQuotes: restQuotes, celebrateMedphys: celebrateMedphys, paginate: paginate, count: function (wk) { var w = weekOf(wk || 'week16_18'); return w ? weekCount(w, sync(w)) : 0; }, weekDone: function (wk) { var w = weekOf(wk || 'week16_18'); return !!w && allDone(w, sync(w)); }, list: UNLOCKS, features: FEATURES, isLocked: isLocked };
+  global.FinalsUnlocks = { ensureLists: ensureLists, registerBank: registerBank, has: function (k) { return !!unlocked()[k]; }, tally: tally, check: check, pictureSolved: pictureSolved, labelSolved: labelSolved, labelFresh: labelFresh, questionSolved: questionSolved, formulaSolved: formulaSolved, medphysBump: medphysBump, medphysCount: medphysCount, focusQuotes: focusQuotes, restQuotes: restQuotes, celebrateMedphys: celebrateMedphys, paginate: paginate, count: function (wk) { var w = weekOf(wk || 'week16_18'); return w ? weekCount(w, sync(w)) : 0; }, weekDone: function (wk) { var w = weekOf(wk || 'week16_18'); return !!w && allDone(w, sync(w)); }, list: UNLOCKS, features: FEATURES, isLocked: isLocked };
 })(window);

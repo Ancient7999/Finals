@@ -6,6 +6,14 @@
 var APP_INFO = {
   releases: [
     {
+      version: '0.3',
+      date: '17/11/2026',
+      changes: [
+        'Question banks now load only when you open a subject, and always fresh: edits show on a normal refresh.',
+        'Removed the bundled copy of all banks.'
+      ]
+    },
+    {
       version: '0.2',
       date: '12/11/2026',
       changes: [

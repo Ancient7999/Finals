@@ -241,7 +241,7 @@
   var bankCache = {};
   function fetchBank(bankKey) {
     if (!bankCache[bankKey]) {
-      bankCache[bankKey] = fetch('banks/' + bankKey + '.json', { cache: 'no-cache' })
+      bankCache[bankKey] = fetch('banks/' + bankKey + '.json', { cache: 'no-store' })
         .then(function (r) { if (!r.ok) throw new Error('bank ' + r.status); return r.json(); })
         .catch(function (e) { delete bankCache[bankKey]; throw e; });
     }
@@ -265,7 +265,7 @@
     if (!posCache[bankKey]) {
       posCache[bankKey] = fetchBank(bankKey).then(function (b) {
         if (!b || !b.legacy || !b.legacy.bank) return b;
-        return fetch(b.legacy.bank, { cache: 'no-cache' })
+        return fetch(b.legacy.bank, { cache: 'no-store' })
           .then(function (r) { if (!r.ok) throw new Error('legacy bank ' + r.status); return r.json(); })
           .then(function (old) { old.__idMap = b.legacy.idMap || {}; return old; });
       }).catch(function (e) { delete posCache[bankKey]; throw e; });
